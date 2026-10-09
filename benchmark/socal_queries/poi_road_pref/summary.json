@@ -1,0 +1,8 @@
+{
+  "total_queries": 200,
+  "templates": 20,
+  "queries_per_template": 10,
+  "dataset": "socal",
+  "set": "poi_road_pref",
+  "note": "Unordered plain POI stops (pharmacy/bank/supermarket/library, no either/or groups) + an always-on 'avoid highways' road-type preference clause, asking for the fastest route. Deliberately isolates the road-preference (edge-level constraint) axis from the either/or-group feature used in poi_or_pref.json, since the parser does not reliably support either/or groups (verified: it flattens them into required sequential stops) whereas road_preference is verified working end-to-end. Not wired into set1 or any system code yet."
+}

@@ -1,0 +1,802 @@
+[
+ {
+  "query_id": "unordered_poi_r001",
+  "nl_query": "I'm at (33.758983, -117.814993) and need to get to (33.774867, -117.902949). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 9 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r002",
+  "nl_query": "I need to get from (34.142176, -117.892757) to (34.046038, -117.865869). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 11 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r003",
+  "nl_query": "From (34.118533, -117.874915), I need to reach (34.08054, -117.920158) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 3 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r004",
+  "nl_query": "I'm heading from (33.684102, -117.853688) to (33.737805, -117.835873). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 7 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r005",
+  "nl_query": "Can you plan a route from (34.05665, -117.909537) to (34.098282, -117.922736)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 4 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r006",
+  "nl_query": "I need to go from (34.121049, -117.879398) to (34.147105, -117.942833). Please include a supermarket and a library along the way, in any order. Each stop should be within 4 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r007",
+  "nl_query": "Starting from (34.109682, -117.80711), I need to get to (34.140211, -117.854955). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 5 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r008",
+  "nl_query": "I need a route from (33.906803, -118.303123) to (33.882383, -118.19551) with two unordered stops: a library and a bank. Each stop should be reachable within 11 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r009",
+  "nl_query": "I'm going from (34.181909, -118.313022) to (34.174303, -118.351306). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 4 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r010",
+  "nl_query": "I'm at (34.173258, -118.157306) and need to get to (34.084077, -118.182872). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 7 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r011",
+  "nl_query": "I need to get from (33.932713, -118.281013) to (33.967289, -118.303525). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 6 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r012",
+  "nl_query": "From (34.232357, -118.255447), I need to reach (34.177274, -118.309585) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 11 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r013",
+  "nl_query": "I'm heading from (34.113286, -118.325567) to (34.20102, -118.3425). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 5 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r014",
+  "nl_query": "Can you plan a route from (33.695161, -117.791403) to (33.636073, -117.827921)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 4 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r015",
+  "nl_query": "I need to go from (33.984487, -118.216547) to (34.025457, -118.120029). Please include a supermarket and a library along the way, in any order. Each stop should be within 11 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r016",
+  "nl_query": "Starting from (34.176669, -118.437794), I need to get to (34.219341, -118.43647). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 8 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r017",
+  "nl_query": "I need a route from (33.943924, -118.152485) to (33.867872, -118.135756) with two unordered stops: a library and a bank. Each stop should be reachable within 6 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r018",
+  "nl_query": "I'm going from (34.292363, -118.575021) to (34.366598, -118.552634). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 16 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r019",
+  "nl_query": "I'm at (33.949299, -118.053676) and need to get to (33.917125, -118.121058). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 8 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r020",
+  "nl_query": "I need to get from (33.716642, -117.808062) to (33.765108, -117.940843). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 7 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r021",
+  "nl_query": "From (33.934536, -118.034443), I need to reach (33.979308, -118.054984) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 3 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r022",
+  "nl_query": "I'm heading from (34.062834, -118.040376) to (34.004706, -117.991368). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 15 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r023",
+  "nl_query": "Can you plan a route from (33.863188, -117.922084) to (33.820319, -117.88283)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 8 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r024",
+  "nl_query": "I need to go from (34.084954, -117.746135) to (34.055292, -117.742422). Please include a supermarket and a library along the way, in any order. Each stop should be within 4 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r025",
+  "nl_query": "Starting from (34.167678, -118.070145), I need to get to (34.171467, -118.132147). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r026",
+  "nl_query": "I need a route from (34.762716, -118.086003) to (34.676858, -118.193782) with two unordered stops: a library and a bank. Each stop should be reachable within 10 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r027",
+  "nl_query": "I'm going from (33.793173, -117.816916) to (33.720694, -117.883626). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 5 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r028",
+  "nl_query": "I'm at (33.91704, -118.091689) and need to get to (33.954938, -118.086151). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 6 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r029",
+  "nl_query": "I need to get from (33.896014, -118.207414) to (33.859825, -118.236872). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 8 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r030",
+  "nl_query": "From (33.745401, -118.117926), I need to reach (33.825444, -118.254937) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 13 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r031",
+  "nl_query": "I'm heading from (33.847232, -118.104129) to (33.938522, -118.072623). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 7 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r032",
+  "nl_query": "Can you plan a route from (34.125964, -118.182717) to (34.172685, -118.216933)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 5 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r033",
+  "nl_query": "I need to go from (34.204473, -118.225507) to (34.144748, -118.27513). Please include a supermarket and a library along the way, in any order. Each stop should be within 7 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r034",
+  "nl_query": "Starting from (33.986176, -117.963625), I need to get to (33.998056, -117.996161). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 4 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r035",
+  "nl_query": "I need a route from (34.185304, -118.23229) to (34.100812, -118.266546) with two unordered stops: a library and a bank. Each stop should be reachable within 5 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r036",
+  "nl_query": "I'm going from (34.202993, -118.498958) to (34.143918, -118.44744). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 10 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r037",
+  "nl_query": "I'm at (33.842736, -117.989704) and need to get to (33.862896, -117.951052). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 8 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r038",
+  "nl_query": "I need to get from (34.05342, -117.871682) to (34.034744, -117.976314). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 6 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r039",
+  "nl_query": "From (34.185304, -118.23229), I need to reach (34.171531, -118.302961) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 5 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r040",
+  "nl_query": "I'm heading from (34.158538, -118.403125) to (34.207653, -118.495682). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 8 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r041",
+  "nl_query": "Can you plan a route from (33.935449, -118.321088) to (34.017035, -118.407151)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 6 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r042",
+  "nl_query": "I need to go from (34.136802, -117.695391) to (34.058744, -117.747976). Please include a supermarket and a library along the way, in any order. Each stop should be within 6 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r043",
+  "nl_query": "Starting from (34.101338, -118.152145), I need to get to (34.127759, -118.189286). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r044",
+  "nl_query": "I need a route from (33.728777, -118.28359) to (33.804453, -118.199152) with two unordered stops: a library and a bank. Each stop should be reachable within 15 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r045",
+  "nl_query": "I'm going from (34.198079, -118.121521) to (34.198402, -118.155041). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 6 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r046",
+  "nl_query": "I'm at (34.125845, -117.718565) and need to get to (34.07589, -117.718233). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 4 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r047",
+  "nl_query": "I need to get from (34.059405, -118.473038) to (34.044402, -118.536633). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 4 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r048",
+  "nl_query": "From (33.871381, -118.322158), I need to reach (33.872773, -118.374837) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 3 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r049",
+  "nl_query": "I'm heading from (34.048472, -117.723629) to (34.121597, -117.694879). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 4 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r050",
+  "nl_query": "Can you plan a route from (33.935808, -118.369979) to (33.89544, -118.3196)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 5 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r051",
+  "nl_query": "I need to go from (33.757125, -117.918562) to (33.732969, -117.902546). Please include a supermarket and a library along the way, in any order. Each stop should be within 5 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r052",
+  "nl_query": "Starting from (33.887696, -118.082371), I need to get to (33.835579, -118.019712). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 4 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r053",
+  "nl_query": "I need a route from (34.192816, -118.478205) to (34.193952, -118.386628) with two unordered stops: a library and a bank. Each stop should be reachable within 5 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r054",
+  "nl_query": "I'm going from (33.651124, -117.780708) to (33.712095, -117.897245). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 8 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r055",
+  "nl_query": "I'm at (34.628432, -118.186991) and need to get to (34.519521, -118.154093). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 12 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r056",
+  "nl_query": "I need to get from (33.708614, -117.850232) to (33.712347, -117.751978). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 5 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r057",
+  "nl_query": "From (34.165852, -118.35828), I need to reach (34.193952, -118.386628) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 7 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r058",
+  "nl_query": "I'm heading from (34.10819, -117.914236) to (34.084256, -117.981907). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 6 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r059",
+  "nl_query": "Can you plan a route from (34.007076, -117.957065) to (33.909783, -118.02918)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 11 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r060",
+  "nl_query": "I need to go from (34.544335, -118.061027) to (34.594265, -118.166974). Please include a supermarket and a library along the way, in any order. Each stop should be within 6 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r061",
+  "nl_query": "Starting from (33.998056, -117.996161), I need to get to (33.953314, -117.962311). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r062",
+  "nl_query": "I need a route from (34.09448, -117.724826) to (34.125845, -117.718565) with two unordered stops: a library and a bank. Each stop should be reachable within 2 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r063",
+  "nl_query": "I'm going from (34.071184, -117.941388) to (34.079075, -117.907831). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 2 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r064",
+  "nl_query": "I'm at (33.747601, -117.944522) and need to get to (33.821843, -117.987674). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 10 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r065",
+  "nl_query": "I need to get from (34.182409, -118.360494) to (34.199435, -118.241328). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 11 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r066",
+  "nl_query": "From (33.913336, -118.168869), I need to reach (33.853403, -118.250005) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 8 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r067",
+  "nl_query": "I'm heading from (33.887976, -118.002872) to (33.847, -117.874528). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 8 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r068",
+  "nl_query": "Can you plan a route from (33.776172, -117.919172) to (33.747601, -117.944522)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 5 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r069",
+  "nl_query": "I need to go from (34.141936, -117.851991) to (34.097359, -117.773397). Please include a supermarket and a library along the way, in any order. Each stop should be within 4 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r070",
+  "nl_query": "Starting from (33.73182, -117.954572), I need to get to (33.832432, -117.943956). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r071",
+  "nl_query": "I need a route from (33.923614, -118.404857) to (33.964615, -118.330635) with two unordered stops: a library and a bank. Each stop should be reachable within 11 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r072",
+  "nl_query": "I'm going from (34.01072, -118.085966) to (33.971292, -118.098483). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 7 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r073",
+  "nl_query": "I'm at (33.81049, -117.959859) and need to get to (33.793143, -117.903559). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 6 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r074",
+  "nl_query": "I need to get from (34.024565, -117.74056) to (34.070879, -117.724369). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 11 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r075",
+  "nl_query": "From (33.934015, -118.208463), I need to reach (33.913336, -118.168869) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 7 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r076",
+  "nl_query": "I'm heading from (33.744553, -118.008344) to (33.832527, -117.934844). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 6 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r077",
+  "nl_query": "Can you plan a route from (34.021472, -117.770489) to (34.055292, -117.742422)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 5 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r078",
+  "nl_query": "I need to go from (34.024578, -117.731538) to (34.07589, -117.718233). Please include a supermarket and a library along the way, in any order. Each stop should be within 9 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r079",
+  "nl_query": "Starting from (33.894649, -118.304783), I need to get to (33.935449, -118.321088). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 11 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r080",
+  "nl_query": "I need a route from (33.958287, -118.211692) to (33.927186, -118.150484) with two unordered stops: a library and a bank. Each stop should be reachable within 4 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r081",
+  "nl_query": "I'm going from (33.81049, -117.959859) to (33.707513, -117.921779). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 8 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r082",
+  "nl_query": "I'm at (33.974503, -118.060352) and need to get to (33.983267, -118.029112). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 3 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r083",
+  "nl_query": "I need to get from (34.184074, -118.279062) to (34.139342, -118.19649). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 4 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r084",
+  "nl_query": "From (34.421508, -118.442695), I need to reach (34.366696, -118.508361) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 6 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r085",
+  "nl_query": "I'm heading from (34.106019, -117.77813) to (34.085658, -117.838273). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 8 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r086",
+  "nl_query": "Can you plan a route from (34.035132, -117.956816) to (34.075522, -117.990598)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 9 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r087",
+  "nl_query": "I need to go from (33.825735, -118.215163) to (33.758742, -118.238506). Please include a supermarket and a library along the way, in any order. Each stop should be within 6 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r088",
+  "nl_query": "Starting from (34.123443, -117.771557), I need to get to (34.066942, -117.795422). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r089",
+  "nl_query": "I need a route from (33.847875, -117.854615) to (33.807682, -117.954079) with two unordered stops: a library and a bank. Each stop should be reachable within 6 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r090",
+  "nl_query": "I'm going from (33.840294, -118.326326) to (33.780582, -118.365974). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 3 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r091",
+  "nl_query": "I'm at (34.017155, -118.443856) and need to get to (33.988697, -118.464314). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 4 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r092",
+  "nl_query": "I need to get from (33.732622, -117.953626) to (33.832067, -117.918932). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 8 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r093",
+  "nl_query": "From (33.661639, -117.799381), I need to reach (33.6902, -117.784835) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 4 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r094",
+  "nl_query": "I'm heading from (34.16767, -118.754219) to (34.121774, -118.85494). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 9 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r095",
+  "nl_query": "Can you plan a route from (34.085671, -117.751545) to (34.021188, -117.771429)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 12 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r096",
+  "nl_query": "I need to go from (34.102878, -118.38396) to (34.015422, -118.262902). Please include a supermarket and a library along the way, in any order. Each stop should be within 8 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r097",
+  "nl_query": "Starting from (34.141908, -117.772497), I need to get to (34.073002, -117.785653). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 5 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r098",
+  "nl_query": "I need a route from (34.142038, -117.91736) to (34.117866, -117.896401) with two unordered stops: a library and a bank. Each stop should be reachable within 2 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r099",
+  "nl_query": "I'm going from (34.015194, -117.994527) to (34.09622, -117.967075). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 13 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r100",
+  "nl_query": "I'm at (34.100639, -117.720247) and need to get to (34.097359, -117.773397). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 6 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r101",
+  "nl_query": "I need to get from (33.761747, -117.829239) to (33.811934, -117.850208). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 4 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r102",
+  "nl_query": "From (33.829614, -117.954454), I need to reach (33.872493, -117.907015) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 4 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r103",
+  "nl_query": "I'm heading from (33.829454, -118.222236) to (33.835465, -118.182797). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 4 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r104",
+  "nl_query": "Can you plan a route from (33.781878, -117.824108) to (33.733167, -117.790058)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 4 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r105",
+  "nl_query": "I need to go from (34.121049, -117.879398) to (34.140211, -117.854955). Please include a supermarket and a library along the way, in any order. Each stop should be within 2 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r106",
+  "nl_query": "Starting from (33.929629, -118.216584), I need to get to (33.887696, -118.082371). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 12 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r107",
+  "nl_query": "I need a route from (34.089208, -118.818432) to (34.153871, -118.757087) with two unordered stops: a library and a bank. Each stop should be reachable within 12 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r108",
+  "nl_query": "I'm going from (33.864106, -118.14245) to (33.875114, -118.075935). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 4 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r109",
+  "nl_query": "I'm at (34.161339, -118.282143) and need to get to (34.071124, -118.32364). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 9 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r110",
+  "nl_query": "I need to get from (33.971292, -118.098483) to (33.939417, -118.115767). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 5 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r111",
+  "nl_query": "From (34.197305, -118.128415), I need to reach (34.195396, -118.178911) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 5 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r112",
+  "nl_query": "I'm heading from (33.81885, -117.937105) to (33.834027, -117.988698). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 2 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r113",
+  "nl_query": "Can you plan a route from (34.112286, -118.063302) to (34.067246, -118.070504)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 5 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r114",
+  "nl_query": "I need to go from (34.113844, -117.708203) to (34.033817, -117.765986). Please include a supermarket and a library along the way, in any order. Each stop should be within 11 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r115",
+  "nl_query": "Starting from (34.011698, -118.106531), I need to get to (34.078044, -118.218051). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r116",
+  "nl_query": "I need a route from (33.899045, -118.32538) to (33.808064, -118.273079) with two unordered stops: a library and a bank. Each stop should be reachable within 9 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r117",
+  "nl_query": "I'm going from (33.697494, -117.880023) to (33.728358, -117.928563). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 5 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r118",
+  "nl_query": "I'm at (33.931743, -118.163686) and need to get to (33.999745, -118.179674). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 4 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r119",
+  "nl_query": "I need to get from (34.218748, -118.473332) to (34.197563, -118.443281). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 2 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r120",
+  "nl_query": "From (34.024943, -117.746459), I need to reach (34.072493, -117.722764) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 14 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r121",
+  "nl_query": "I'm heading from (34.122557, -117.77786) to (34.147014, -117.837951). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 11 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r122",
+  "nl_query": "Can you plan a route from (34.013285, -118.078911) to (34.106743, -117.964949)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 8 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r123",
+  "nl_query": "I need to go from (33.922949, -117.878987) to (33.859041, -117.880849). Please include a supermarket and a library along the way, in any order. Each stop should be within 5 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r124",
+  "nl_query": "Starting from (33.938519, -117.984339), I need to get to (33.968098, -118.018556). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 5 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r125",
+  "nl_query": "I need a route from (34.677461, -118.124368) to (34.675827, -118.076243) with two unordered stops: a library and a bank. Each stop should be reachable within 4 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r126",
+  "nl_query": "I'm going from (34.131324, -118.193546) to (34.196357, -118.301815). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 6 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r127",
+  "nl_query": "I'm at (34.069095, -117.716326) and need to get to (34.122561, -117.768142). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 11 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r128",
+  "nl_query": "I need to get from (33.708754, -117.914075) to (33.732685, -117.878655). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 6 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r129",
+  "nl_query": "From (34.060005, -117.787666), I need to reach (34.029782, -117.744763) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 8 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r130",
+  "nl_query": "I'm heading from (33.79186, -118.295956) to (33.887575, -118.346811). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 10 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r131",
+  "nl_query": "Can you plan a route from (33.873814, -118.357626) to (33.932822, -118.29193)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 5 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r132",
+  "nl_query": "I need to go from (33.780582, -118.365974) to (33.801483, -118.387069). Please include a supermarket and a library along the way, in any order. Each stop should be within 3 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r133",
+  "nl_query": "Starting from (34.107763, -118.760742), I need to get to (34.153346, -118.751924). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 6 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r134",
+  "nl_query": "I need a route from (33.920537, -118.216964) to (33.869595, -118.143624) with two unordered stops: a library and a bank. Each stop should be reachable within 7 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r135",
+  "nl_query": "I'm going from (33.669289, -117.764219) to (33.632943, -117.799317). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 7 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r136",
+  "nl_query": "I'm at (34.084077, -118.182872) and need to get to (34.121746, -118.065281). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 6 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r137",
+  "nl_query": "I need to get from (33.98062, -118.315851) to (33.941292, -118.203414). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 9 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r138",
+  "nl_query": "From (33.732969, -117.902546), I need to reach (33.810211, -117.987365) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 9 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r139",
+  "nl_query": "I'm heading from (33.993112, -118.094658) to (33.959626, -118.078402). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 4 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r140",
+  "nl_query": "Can you plan a route from (34.202457, -118.473273) to (34.144077, -118.418811)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 4 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r141",
+  "nl_query": "I need to go from (33.800395, -117.899639) to (33.831066, -117.895593). Please include a supermarket and a library along the way, in any order. Each stop should be within 6 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r142",
+  "nl_query": "Starting from (34.018721, -118.316601), I need to get to (33.901956, -118.396265). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 13 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r143",
+  "nl_query": "I need a route from (34.09157, -118.035184) to (34.046192, -118.003388) with two unordered stops: a library and a bank. Each stop should be reachable within 5 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r144",
+  "nl_query": "I'm going from (34.012854, -118.45993) to (34.06388, -118.490329). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 5 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r145",
+  "nl_query": "I'm at (33.919343, -118.366082) and need to get to (33.950546, -118.325409). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 4 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r146",
+  "nl_query": "I need to get from (34.676313, -118.087532) to (34.791742, -118.148798). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 11 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r147",
+  "nl_query": "From (33.682371, -117.885547), I need to reach (33.716716, -117.807932) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 5 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r148",
+  "nl_query": "I'm heading from (33.887632, -118.095527) to (33.88931, -118.132438). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 5 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r149",
+  "nl_query": "Can you plan a route from (34.084205, -117.905032) to (34.012424, -117.908747)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 9 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r150",
+  "nl_query": "I need to go from (34.609253, -118.116533) to (34.683147, -118.200795). Please include a supermarket and a library along the way, in any order. Each stop should be within 10 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r151",
+  "nl_query": "Starting from (33.974304, -118.105871), I need to get to (33.977423, -118.181372). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r152",
+  "nl_query": "I need a route from (33.949299, -118.053676) to (33.98604, -117.965598) with two unordered stops: a library and a bank. Each stop should be reachable within 8 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r153",
+  "nl_query": "I'm going from (33.748035, -117.854862) to (33.741713, -117.905851). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 3 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r154",
+  "nl_query": "I'm at (34.078421, -117.834016) and need to get to (34.116417, -117.850278). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 5 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r155",
+  "nl_query": "I need to get from (33.85778, -118.07232) to (33.92523, -118.010588). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 10 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r156",
+  "nl_query": "From (34.006597, -118.484084), I need to reach (34.029109, -118.516671) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 3 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r157",
+  "nl_query": "I'm heading from (33.879107, -118.305909) to (33.926383, -118.37439). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 5 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r158",
+  "nl_query": "Can you plan a route from (33.684134, -117.853502) to (33.732048, -117.863053)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 8 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r159",
+  "nl_query": "I need to go from (34.142212, -117.896107) to (34.089588, -117.912309). Please include a supermarket and a library along the way, in any order. Each stop should be within 5 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r160",
+  "nl_query": "Starting from (34.54572, -118.121465), I need to get to (34.520417, -118.13979). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r161",
+  "nl_query": "I need a route from (34.07894, -117.883492) to (34.139027, -117.906186) with two unordered stops: a library and a bank. Each stop should be reachable within 5 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r162",
+  "nl_query": "I'm going from (33.963438, -118.413604) to (33.930962, -118.346334). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 5 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r163",
+  "nl_query": "I'm at (34.091456, -118.810925) and need to get to (34.140993, -118.742918). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 18 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r164",
+  "nl_query": "I need to get from (34.686613, -118.075407) to (34.676669, -118.172034). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 6 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r165",
+  "nl_query": "From (34.084954, -117.746135), I need to reach (34.018872, -117.736771) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 12 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r166",
+  "nl_query": "I'm heading from (34.139342, -118.19649) to (34.08871, -118.248452). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 6 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r167",
+  "nl_query": "Can you plan a route from (33.876881, -118.405109) to (33.819087, -118.269702)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 6 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r168",
+  "nl_query": "I need to go from (34.072996, -117.92405) to (34.046038, -117.865869). Please include a supermarket and a library along the way, in any order. Each stop should be within 6 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r169",
+  "nl_query": "Starting from (34.161958, -118.495741), I need to get to (34.193952, -118.386628). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 10 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r170",
+  "nl_query": "I need a route from (34.713961, -118.168317) to (34.704623, -118.014484) with two unordered stops: a library and a bank. Each stop should be reachable within 13 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r171",
+  "nl_query": "I'm going from (33.915391, -118.323805) to (33.998349, -118.401253). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 7 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r172",
+  "nl_query": "I'm at (34.090594, -117.884119) and need to get to (34.142212, -117.896107). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 5 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r173",
+  "nl_query": "I need to get from (34.106233, -117.725447) to (34.121601, -117.694717). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 7 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r174",
+  "nl_query": "From (33.887916, -117.890794), I need to reach (33.81885, -117.937105) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 5 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r175",
+  "nl_query": "I'm heading from (33.741816, -117.992691) to (33.73182, -117.954572). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 5 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r176",
+  "nl_query": "Can you plan a route from (34.149147, -117.867418) to (34.091024, -117.89292)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 7 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r177",
+  "nl_query": "I need to go from (34.075522, -117.990598) to (34.048553, -118.093764). Please include a supermarket and a library along the way, in any order. Each stop should be within 8 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r178",
+  "nl_query": "Starting from (34.145526, -117.915217), I need to get to (34.091497, -117.893403). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 8 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r179",
+  "nl_query": "I need a route from (34.159276, -118.336948) to (34.092765, -118.234048) with two unordered stops: a library and a bank. Each stop should be reachable within 9 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r180",
+  "nl_query": "I'm going from (34.11621, -117.76094) to (34.099466, -117.813353). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 5 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r181",
+  "nl_query": "I'm at (33.983267, -118.029112) and need to get to (34.043712, -118.049672). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 8 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r182",
+  "nl_query": "I need to get from (34.037998, -117.882127) to (34.102617, -118.008886). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 6 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r183",
+  "nl_query": "From (33.929629, -118.216584), I need to reach (33.964822, -118.145591) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 7 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r184",
+  "nl_query": "I'm heading from (34.141013, -117.957295) to (34.12305, -117.910198). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 7 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r185",
+  "nl_query": "Can you plan a route from (34.394798, -118.425011) to (34.390958, -118.488305)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 6 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r186",
+  "nl_query": "I need to go from (33.651217, -117.895306) to (33.72182, -117.818089). Please include a supermarket and a library along the way, in any order. Each stop should be within 10 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r187",
+  "nl_query": "Starting from (33.88928, -118.140548), I need to get to (33.964272, -118.222273). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 7 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r188",
+  "nl_query": "I need a route from (34.022044, -118.416564) to (34.075413, -118.464478) with two unordered stops: a library and a bank. Each stop should be reachable within 5 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r189",
+  "nl_query": "I'm going from (34.748084, -118.121999) to (34.628388, -118.220878). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 6 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r190",
+  "nl_query": "I'm at (34.776528, -118.216063) and need to get to (34.747831, -118.166601). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 23 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r191",
+  "nl_query": "I need to get from (33.8717, -118.295097) to (33.896435, -118.34612). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 6 miles. Which route will take the least time?"
+ },
+ {
+  "query_id": "unordered_poi_r192",
+  "nl_query": "From (34.123443, -117.771557), I need to reach (34.089219, -117.845685) and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within 6 miles of the previous point. Get me there as quickly as possible."
+ },
+ {
+  "query_id": "unordered_poi_r193",
+  "nl_query": "I'm heading from (34.167717, -118.761359) to (34.137301, -118.833949). I need to stop at a supermarket and a library, in any order, and each POI leg should stay within 5 miles. Find the quickest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r194",
+  "nl_query": "Can you plan a route from (33.757125, -117.918562) to (33.695625, -117.916729)? I need to visit a pharmacy and a bank, order flexible, with each stop no more than 5 miles from the previous point. I need the route with the shortest travel time."
+ },
+ {
+  "query_id": "unordered_poi_r195",
+  "nl_query": "I need to go from (33.921432, -118.093061) to (33.968584, -118.056511). Please include a supermarket and a library along the way, in any order. Each stop should be within 3 miles of the previous stop. What's the quickest way to get there?"
+ },
+ {
+  "query_id": "unordered_poi_r196",
+  "nl_query": "Starting from (33.624141, -117.809966), I need to get to (33.712095, -117.897245). I want to visit a bank and a library, but you can choose the order. Keep each POI leg within 6 miles. Can you get me there as fast as possible?"
+ },
+ {
+  "query_id": "unordered_poi_r197",
+  "nl_query": "I need a route from (34.011779, -118.048262) to (33.954938, -118.086151) with two unordered stops: a library and a bank. Each stop should be reachable within 9 miles of the previous point. Which route has the lowest travel time?"
+ },
+ {
+  "query_id": "unordered_poi_r198",
+  "nl_query": "I'm going from (34.084954, -117.746135) to (34.121287, -117.733368). I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within 5 miles. Please give me the fastest route that works."
+ },
+ {
+  "query_id": "unordered_poi_r199",
+  "nl_query": "I'm at (34.158777, -118.295918) and need to get to (34.164558, -118.215433). Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within 6 miles of the previous stop. What's the fastest route?"
+ },
+ {
+  "query_id": "unordered_poi_r200",
+  "nl_query": "I need to get from (33.954598, -118.35255) to (33.876504, -118.323202). I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within 4 miles. Which route will take the least time?"
+ }
+]

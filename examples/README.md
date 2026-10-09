@@ -1,0 +1,88 @@
+# Try it out
+
+This runs ONE query through the full pipeline — parse → generate → execute — and
+shows you what comes out. No benchmark, no batch runs, just one query so you can
+see how the system works before using it at scale.
+
+## 1. Setup
+
+**Python env.** Needs `geopandas`, `networkx`, `shapely`, `pandas`, `numpy`. If you
+have conda:
+```
+conda activate myenv   # or whatever env has these installed
+```
+
+**API keys.** Create a `.env` file at the `CRAFT/` root (same folder this
+`examples/` dir lives in) with at least one LLM provider:
+```
+GEMINI_API_KEY=...
+GEMINI_BASE_URL=...
+```
+(or `OPENAI_API_KEY` / `OPENAI_BASE_URL` for `--model gpt-4.1`-style runs). Both
+the parser and the generator call the same model.
+
+**Dataset.** You need a road network GPKG with `nodes`, `edges`, and `pois` layers.
+Place it at:
+```
+CRAFT/data/socal/road_network.gpkg
+CRAFT/data/socal/schema.json
+```
+This repo's own SoCal dataset (~460MB) isn't checked into git — download it from
+**[Drive link — ask for access]** and drop both files in `data/socal/`.
+
+Using your own dataset instead? Point `--gpkg` at it (see the main `craft/README`
+for the expected GPKG schema) and build its `schema.json` with
+`python craft/build_schema.py --gpkg <your.gpkg>` first.
+
+## 2. Run it
+
+```
+cd CRAFT
+conda run -n myenv python examples/run_example.py
+```
+
+This uses the bundled `example_query.json` by default. To try your own query:
+```
+conda run -n myenv python examples/run_example.py --query "I'm at (33.83, -117.95) and need to get to (33.85, -117.86). Stop at a pharmacy, then a library, in that order."
+```
+or point it at your own query file:
+```
+conda run -n myenv python examples/run_example.py --query-file my_query.json --query-id my_query
+```
+(`my_query.json` should look like `example_query.json`: `{"query_id": ..., "nl_query": ...}`.)
+
+Other useful flags: `--model gpt-4.1`, `--timeout-generate 300` (slower/local
+models need more time), `--timeout-execute 300` (large or hard searches).
+
+## 3. What you'll see
+
+Console output walks through the three pipeline steps (parse → generate →
+execute) and ends with a summary: whether a route was found, how many stops it
+hit, and the route's total cost. Everything it produced along the way gets
+copied to `examples/output/<query_id>/`:
+
+| File | What it is |
+|---|---|
+| `input.json` | The structured query the parser produced from your NL text |
+| `generated.py` | The actual Dijkstra solver the LLM wrote for this query |
+| `raw_response.json` | The LLM's raw response before validation |
+| `llm_meta.json` | Model/latency/token-usage info for the generation call |
+| `output.json` | The route, its cost, which POIs it stopped at |
+| `output.gpkg` | The route + stops, viewable in QGIS or similar |
+
+## 4. Writing your own query
+
+A query is just natural language — no special syntax. The parser understands:
+- **Source/destination** as coordinates: `"from (lat, lon) to (lat, lon)"`
+- **EV battery**: current charge (% or range) + max range
+- **Ordered POI stops**: `"stop at a pharmacy, then a library, in that order"`,
+  optionally with a per-leg distance limit (`"within 7 miles"`)
+- **Unordered POI collection**: `"visit as many pharmacies and banks as possible"`,
+  optionally with a time budget and per-category caps (`"up to 2 banks"`)
+- **POI attribute filters**: `"a restaurant that serves Italian food"`,
+  `"a wheelchair-accessible pharmacy"`
+- **Road preference**: `"avoid highways"` / `"prefer highways"`
+
+See `benchmark/templates/*.txt` for the exact phrasings this project's benchmark
+uses, and `benchmark/socal_queries/set1/*.json` for hundreds of real example
+queries across all of the above.

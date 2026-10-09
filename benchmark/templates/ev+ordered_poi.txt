@@ -1,0 +1,39 @@
+# Complex: EV Routing + Ordered POI (LLMAP-compatible)
+# Constraints: battery level + must visit POI types in fixed sequence.
+# LLMAP-compatible POI types: pharmacy, bank, library, supermarket
+# The algorithm handles charging stops automatically if needed.
+# Placeholders:
+#   {SRC_NODE}            — origin expressed as (lat, lon) coordinates
+#   {DST_NODE}            — destination expressed as (lat, lon) coordinates
+#   {CURRENT_BATTERY_PCT}, {CURRENT_BATTERY_MI}, {MAX_BATTERY_MI}
+#   {DISTANCE_LIMIT_MI}, {DISTANCE_LIMIT_1_MI}, {DISTANCE_LIMIT_2_MI}
+# ================================================================================
+0: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?
+
+1: I'm at {SRC_NODE} and need to get to {DST_NODE} in my EV car. I have {CURRENT_BATTERY_MI} miles of range left out of {MAX_BATTERY_MI}. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route.
+
+2: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within {DISTANCE_LIMIT_MI} miles. What's the shortest-distance route?
+
+3: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. The battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?
+
+4: I'm driving my EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?
+
+5: I'm at {SRC_NODE} and need to get to {DST_NODE} in my EV car. I have {CURRENT_BATTERY_MI} miles remaining out of {MAX_BATTERY_MI}. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within {DISTANCE_LIMIT_MI} miles. What's the shortest way to get there?
+
+6: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?
+
+7: My EV car is at {CURRENT_BATTERY_PCT} charge with a maximum range of {MAX_BATTERY_MI} miles, and I need to get from {SRC_NODE} to {DST_NODE}. I need to stop at a bank within {DISTANCE_LIMIT_1_MI} miles, then at a pharmacy within {DISTANCE_LIMIT_2_MI} miles after that, in that order. What's the shortest-distance route?
+
+8: I'm driving my EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?
+
+9: I'm taking an EV car trip from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?
+
+10: I'm leaving {SRC_NODE} in my EV car and heading to {DST_NODE}. The battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance.
+
+11: I'm driving my EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?
+
+12: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. I have {CURRENT_BATTERY_MI} miles of range left, and the full range is {MAX_BATTERY_MI} miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?
+
+13: I need to get from {SRC_NODE} to {DST_NODE} in my EV car. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within {DISTANCE_LIMIT_MI} miles. What's the shortest-distance route?
+
+14: My EV car is at {CURRENT_BATTERY_PCT} charge, and the max range is {MAX_BATTERY_MI} miles. I need to drive from {SRC_NODE} to {DST_NODE}, stopping at a bank and then a library, in that order. Each leg has to stay within {DISTANCE_LIMIT_MI} miles. What's the shortest-distance route?

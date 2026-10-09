@@ -1,0 +1,802 @@
+[
+  {
+    "query_id": "ordered_poi_0_v01",
+    "nl_query": "I'm at (33.829614, -117.954454) and need to get to (33.850874, -117.864057). On the way, I want to stop at a pharmacy within 7 miles of me, then a library about 2 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_0_v02",
+    "nl_query": "I'm at (33.845903, -118.376621) and need to get to (33.859035, -118.272833). On the way, I want to stop at a pharmacy within 1 miles of me, then a library about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_0_v03",
+    "nl_query": "I'm at (34.474891, -118.092563) and need to get to (34.541706, -118.124264). On the way, I want to stop at a pharmacy within 10 miles of me, then a library about 4 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_0_v04",
+    "nl_query": "I'm at (34.149147, -117.867418) and need to get to (34.142038, -117.91736). On the way, I want to stop at a pharmacy within 2 miles of me, then a library about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_0_v05",
+    "nl_query": "I'm at (33.901956, -118.396265) and need to get to (33.927322, -118.343905). On the way, I want to stop at a pharmacy within 1 miles of me, then a library about 2 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_0_v06",
+    "nl_query": "I'm at (34.056489, -117.956163) and need to get to (34.084728, -117.879028). On the way, I want to stop at a pharmacy within 2 miles of me, then a library about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_0_v07",
+    "nl_query": "I'm at (34.109417, -118.792876) and need to get to (34.088613, -118.876422). On the way, I want to stop at a pharmacy within 7 miles of me, then a library about 2 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_1_v01",
+    "nl_query": "I'm at (34.161873, -118.418155) and need to get to (34.145947, -118.48527). I want to stop at a library first, no more than 3 miles away, and then a pharmacy about 3 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_1_v02",
+    "nl_query": "I'm at (33.859404, -117.977564) and need to get to (33.800395, -117.899639). I want to stop at a library first, no more than 2 miles away, and then a pharmacy about 1 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_1_v03",
+    "nl_query": "I'm at (33.994974, -118.343688) and need to get to (34.046012, -118.345367). I want to stop at a library first, no more than 1 miles away, and then a pharmacy about 3 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_1_v04",
+    "nl_query": "I'm at (33.706993, -117.889657) and need to get to (33.735962, -117.932513). I want to stop at a library first, no more than 4 miles away, and then a pharmacy about 1 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_1_v05",
+    "nl_query": "I'm at (34.097773, -117.95771) and need to get to (34.004414, -118.044378). I want to stop at a library first, no more than 3 miles away, and then a pharmacy about 1 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_1_v06",
+    "nl_query": "I'm at (33.974287, -118.163931) and need to get to (34.010368, -118.119015). I want to stop at a library first, no more than 2 miles away, and then a pharmacy about 4 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_1_v07",
+    "nl_query": "I'm at (34.06665, -117.82021) and need to get to (34.147014, -117.837951). I want to stop at a library first, no more than 6 miles away, and then a pharmacy about 1 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_2_v01",
+    "nl_query": "I need to get from (33.859405, -118.016483) to (33.883327, -118.068811) with two stops: first a bank within 2 miles, then a pharmacy about 1 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_2_v02",
+    "nl_query": "I need to get from (34.023907, -117.74863) to (34.072493, -117.722764) with two stops: first a bank within 1 miles, then a pharmacy about 6 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_2_v03",
+    "nl_query": "I need to get from (34.131154, -118.183807) to (34.151334, -118.128019) with two stops: first a bank within 1 miles, then a pharmacy about 1 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_2_v04",
+    "nl_query": "I need to get from (33.765316, -117.924694) to (33.803246, -117.917552) with two stops: first a bank within 1 miles, then a pharmacy about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_2_v05",
+    "nl_query": "I need to get from (34.070181, -117.913716) to (34.141098, -117.897956) with two stops: first a bank within 2 miles, then a pharmacy about 2 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_2_v06",
+    "nl_query": "I need to get from (34.722308, -118.259019) to (34.776952, -118.169177) with two stops: first a bank within 9 miles, then a pharmacy about 4 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_3_v01",
+    "nl_query": "I'm at (33.773977, -118.163717) heading to (33.825467, -118.228544). I need a supermarket first within 1 miles, then a pharmacy about 2 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_3_v02",
+    "nl_query": "I'm at (33.932713, -118.281013) heading to (34.027609, -118.339469). I need a supermarket first within 1 miles, then a pharmacy about 7 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_3_v03",
+    "nl_query": "I'm at (34.019412, -118.502375) heading to (34.017742, -118.422088). I need a supermarket first within 1 miles, then a pharmacy about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_3_v04",
+    "nl_query": "I'm at (34.364593, -118.548861) heading to (34.296133, -118.506865). I need a supermarket first within 2 miles, then a pharmacy about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_3_v06",
+    "nl_query": "I'm at (33.836949, -117.897325) heading to (33.914102, -117.894075). I need a supermarket first within 1 miles, then a pharmacy about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_3_v07",
+    "nl_query": "I'm at (33.774243, -118.383624) heading to (33.791456, -118.335164). I need a supermarket first within 1 miles, then a pharmacy about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_4_v01",
+    "nl_query": "Can you plan a route from (33.91792, -117.998933) to (33.83959, -118.086801)? I need to stop at a pharmacy first within 3 miles, then a bank within another 1 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_4_v02",
+    "nl_query": "Can you plan a route from (33.869595, -118.143624) to (33.894215, -118.201503)? I need to stop at a pharmacy first within 1 miles, then a bank within another 4 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_4_v03",
+    "nl_query": "Can you plan a route from (33.624502, -117.828855) to (33.67575, -117.831577)? I need to stop at a pharmacy first within 3 miles, then a bank within another 1 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_4_v05",
+    "nl_query": "Can you plan a route from (34.138044, -118.218849) to (34.159276, -118.336948)? I need to stop at a pharmacy first within 1 miles, then a bank within another 1 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_4_v06",
+    "nl_query": "Can you plan a route from (34.150378, -118.404161) to (34.193552, -118.498801)? I need to stop at a pharmacy first within 2 miles, then a bank within another 1 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_4_v07",
+    "nl_query": "Can you plan a route from (33.803246, -117.917552) to (33.783686, -117.861825)? I need to stop at a pharmacy first within 1 miles, then a bank within another 1 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_5_v01",
+    "nl_query": "I need to go from (34.520668, -118.151174) to (34.570228, -118.00499). I need a supermarket within 14 miles first, then a library about 2 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_5_v02",
+    "nl_query": "I need to go from (34.137701, -117.913823) to (34.141013, -117.957295). I need a supermarket within 1 miles first, then a library about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_5_v03",
+    "nl_query": "I need to go from (33.930845, -118.364837) to (33.870661, -118.357803). I need a supermarket within 1 miles first, then a library about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_5_v04",
+    "nl_query": "I need to go from (34.061862, -117.970809) to (34.01689, -117.947291). I need a supermarket within 1 miles first, then a library about 2 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_5_v05",
+    "nl_query": "I need to go from (34.167717, -118.761075) to (34.144728, -118.79522). I need a supermarket within 3 miles first, then a library about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_5_v06",
+    "nl_query": "I need to go from (33.823103, -118.079012) to (33.855311, -118.003417). I need a supermarket within 1 miles first, then a library about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_5_v07",
+    "nl_query": "I need to go from (34.009595, -117.807896) to (34.041601, -117.765892). I need a supermarket within 1 miles first, then a library about 8 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_6_v01",
+    "nl_query": "I need to get from (34.062414, -118.171443) to (33.966857, -118.198866), stopping first at a bank within 7 miles and then at a library about 2 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_6_v02",
+    "nl_query": "I need to get from (33.765316, -117.924694) to (33.742492, -117.862229), stopping first at a bank within 1 miles and then at a library about 2 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_6_v03",
+    "nl_query": "I need to get from (34.123719, -118.022656) to (34.046156, -117.966486), stopping first at a bank within 1 miles and then at a library about 1 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_6_v04",
+    "nl_query": "I need to get from (33.963555, -118.14693) to (33.904615, -118.187403), stopping first at a bank within 1 miles and then at a library about 1 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_6_v05",
+    "nl_query": "I need to get from (34.073002, -117.785653) to (34.139261, -117.76442), stopping first at a bank within 6 miles and then at a library about 2 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_6_v06",
+    "nl_query": "I need to get from (33.73713, -118.098007) to (33.768301, -118.209367), stopping first at a bank within 1 miles and then at a library about 1 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_6_v07",
+    "nl_query": "I need to get from (33.98062, -118.315851) to (33.998349, -118.401253), stopping first at a bank within 2 miles and then at a library about 1 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_7_v01",
+    "nl_query": "I need to get from (34.139342, -118.19649) to (34.204493, -118.183451). I want two stops in order: first a library within 4 miles of me, then a bank within 1 miles of the library. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_7_v02",
+    "nl_query": "I need to get from (33.81885, -117.937105) to (33.741268, -117.960683). I want two stops in order: first a library within 1 miles of me, then a bank within 1 miles of the library. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_7_v03",
+    "nl_query": "I need to get from (34.083831, -117.911634) to (34.126637, -117.933675). I want two stops in order: first a library within 2 miles of me, then a bank within 1 miles of the library. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_7_v04",
+    "nl_query": "I need to get from (34.696927, -118.181212) to (34.675054, -118.112401). I want two stops in order: first a library within 5 miles of me, then a bank within 1 miles of the library. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_7_v05",
+    "nl_query": "I need to get from (33.983267, -118.029112) to (33.945703, -117.977994). I want two stops in order: first a library within 2 miles of me, then a bank within 1 miles of the library. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_7_v06",
+    "nl_query": "I need to get from (33.88931, -118.132438) to (33.889032, -118.003965). I want two stops in order: first a library within 1 miles of me, then a bank within 1 miles of the library. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_7_v07",
+    "nl_query": "I need to get from (33.931743, -118.163686) to (33.856745, -118.239539). I want two stops in order: first a library within 2 miles of me, then a bank within 2 miles of the library. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_8_v01",
+    "nl_query": "Starting from (34.013685, -118.429718), heading to (34.045861, -118.566974). I need to stop at a pharmacy first within 2 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_8_v02",
+    "nl_query": "Starting from (34.438648, -118.449383), heading to (34.461098, -118.491866). I need to stop at a pharmacy first within 4 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_8_v03",
+    "nl_query": "Starting from (34.164198, -118.290157), heading to (34.199047, -118.329499). I need to stop at a pharmacy first within 1 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_8_v04",
+    "nl_query": "Starting from (33.921887, -117.868767), heading to (33.839985, -117.890454). I need to stop at a pharmacy first within 3 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_8_v05",
+    "nl_query": "Starting from (33.879107, -118.305909), heading to (33.811025, -118.268388). I need to stop at a pharmacy first within 2 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_8_v06",
+    "nl_query": "Starting from (34.582562, -118.200386), heading to (34.617877, -118.209422). I need to stop at a pharmacy first within 6 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_8_v07",
+    "nl_query": "Starting from (34.091024, -117.89292), heading to (34.111777, -117.851725). I need to stop at a pharmacy first within 2 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_9_v02",
+    "nl_query": "I need to get from (34.078895, -117.741315) to (34.132633, -117.717078) with ordered stops: first a bank within 3 miles, then a supermarket within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_9_v03",
+    "nl_query": "I need to get from (34.17644, -118.260242) to (34.113226, -118.279895) with ordered stops: first a bank within 1 miles, then a supermarket within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_9_v04",
+    "nl_query": "I need to get from (34.15469, -118.481845) to (34.190319, -118.384528) with ordered stops: first a bank within 2 miles, then a supermarket within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_9_v05",
+    "nl_query": "I need to get from (33.847, -117.874528) to (33.801784, -117.958207) with ordered stops: first a bank within 2 miles, then a supermarket within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_9_v06",
+    "nl_query": "I need to get from (34.052632, -118.200547) to (34.117989, -118.132764) with ordered stops: first a bank within 1 miles, then a supermarket within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_9_v07",
+    "nl_query": "I need to get from (33.741713, -117.905851) to (33.771622, -117.805473) with ordered stops: first a bank within 2 miles, then a supermarket within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_10_v01",
+    "nl_query": "From (33.945591, -118.390199), I need to get to (33.906803, -118.303123) with two stops in that order: a supermarket within 2 miles, then a bank about 1 miles later. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_10_v02",
+    "nl_query": "From (34.08617, -117.862009), I need to get to (34.08054, -117.920158) with two stops in that order: a supermarket within 1 miles, then a bank about 1 miles later. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_10_v03",
+    "nl_query": "From (34.143525, -118.760043), I need to get to (34.092675, -118.834787) with two stops in that order: a supermarket within 1 miles, then a bank about 1 miles later. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_10_v04",
+    "nl_query": "From (33.813835, -118.065054), I need to get to (33.869262, -118.114333) with two stops in that order: a supermarket within 1 miles, then a bank about 2 miles later. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_10_v05",
+    "nl_query": "From (34.023838, -117.766112), I need to get to (34.106958, -117.773497) with two stops in that order: a supermarket within 1 miles, then a bank about 1 miles later. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_10_v06",
+    "nl_query": "From (34.091287, -118.157292), I need to get to (34.198284, -118.144111) with two stops in that order: a supermarket within 1 miles, then a bank about 1 miles later. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_10_v07",
+    "nl_query": "From (33.82222, -117.984272), I need to get to (33.774867, -117.902949) with two stops in that order: a supermarket within 1 miles, then a bank about 4 miles later. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_11_v01",
+    "nl_query": "Starting from (34.094538, -118.01516), I need to get to (34.051456, -117.959916). Along the way, I want to visit a library no more than 1 miles from me, then a bank about 2 miles after that, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_11_v02",
+    "nl_query": "Starting from (33.959626, -118.078402), I need to get to (33.887492, -118.096671). Along the way, I want to visit a library no more than 1 miles from me, then a bank about 3 miles after that, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_11_v03",
+    "nl_query": "Starting from (34.106615, -117.794128), I need to get to (34.069378, -117.77958). Along the way, I want to visit a library no more than 1 miles from me, then a bank about 1 miles after that, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_11_v04",
+    "nl_query": "Starting from (33.825467, -118.228544), I need to get to (33.835677, -118.159706). Along the way, I want to visit a library no more than 4 miles from me, then a bank about 4 miles after that, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_11_v05",
+    "nl_query": "Starting from (33.920089, -118.400491), I need to get to (33.943783, -118.323722). Along the way, I want to visit a library no more than 4 miles from me, then a bank about 1 miles after that, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_11_v06",
+    "nl_query": "Starting from (34.028052, -118.452928), I need to get to (34.022545, -118.506074). Along the way, I want to visit a library no more than 2 miles from me, then a bank about 1 miles after that, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_11_v07",
+    "nl_query": "Starting from (34.440471, -118.556918), I need to get to (34.337714, -118.514494). Along the way, I want to visit a library no more than 4 miles from me, then a bank about 1 miles after that, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_12_v01",
+    "nl_query": "I need to get from (34.117866, -117.896401) to (34.078916, -117.878654). I want to stop at a pharmacy within 3 miles, then a bank within 1 miles of that stop, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_12_v02",
+    "nl_query": "I need to get from (34.70056, -118.132936) to (34.632285, -118.202823). I want to stop at a pharmacy within 2 miles, then a bank within 1 miles of that stop, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_12_v03",
+    "nl_query": "I need to get from (33.951593, -117.988829) to (33.934536, -118.034443). I want to stop at a pharmacy within 2 miles, then a bank within 1 miles of that stop, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_12_v04",
+    "nl_query": "I need to get from (33.885353, -118.071334) to (33.91091, -118.020332). I want to stop at a pharmacy within 2 miles, then a bank within 1 miles of that stop, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_12_v05",
+    "nl_query": "I need to get from (33.856745, -118.239539) to (33.870308, -118.164934). I want to stop at a pharmacy within 9 miles, then a bank within 4 miles of that stop, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_12_v06",
+    "nl_query": "I need to get from (33.716716, -117.807932) to (33.712095, -117.897245). I want to stop at a pharmacy within 1 miles, then a bank within 1 miles of that stop, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_12_v07",
+    "nl_query": "I need to get from (34.09072, -117.711823) to (34.049588, -117.752055). I want to stop at a pharmacy within 1 miles, then a bank within 1 miles of that stop, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_13_v01",
+    "nl_query": "I'm leaving (34.230622, -118.371343) and heading to (34.111872, -118.313441). I need to stop at a library within 3 miles of the start, then a pharmacy about 9 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_13_v02",
+    "nl_query": "I'm leaving (33.940126, -117.930891) and heading to (33.922949, -117.878987). I need to stop at a library within 2 miles of the start, then a pharmacy about 3 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_13_v03",
+    "nl_query": "I'm leaving (33.845903, -118.376621) and heading to (33.874453, -118.406557). I need to stop at a library within 1 miles of the start, then a pharmacy about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_13_v04",
+    "nl_query": "I'm leaving (34.480939, -118.149548) and heading to (34.523997, -118.180776). I need to stop at a library within 7 miles of the start, then a pharmacy about 19 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_13_v05",
+    "nl_query": "I'm leaving (34.126642, -117.933781) and heading to (34.121049, -117.879398). I need to stop at a library within 4 miles of the start, then a pharmacy about 4 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_13_v06",
+    "nl_query": "I'm leaving (33.899999, -118.407209) and heading to (33.961259, -118.37183). I need to stop at a library within 2 miles of the start, then a pharmacy about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_13_v07",
+    "nl_query": "I'm leaving (34.040186, -117.859034) and heading to (34.035722, -117.930582). I need to stop at a library within 7 miles of the start, then a pharmacy about 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_14_v01",
+    "nl_query": "I need to get from (34.178206, -118.307988) to (34.117124, -118.280491) with two ordered stops: first a bank within 1 miles, then a pharmacy within 1 miles after that. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_14_v02",
+    "nl_query": "I need to get from (34.153192, -118.406334) to (34.219341, -118.43647) with two ordered stops: first a bank within 1 miles, then a pharmacy within 2 miles after that. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_14_v03",
+    "nl_query": "I need to get from (33.845527, -117.915896) to (33.789293, -117.886458) with two ordered stops: first a bank within 1 miles, then a pharmacy within 1 miles after that. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_14_v04",
+    "nl_query": "I need to get from (33.942663, -118.191489) to (34.053017, -118.405003) with two ordered stops: first a bank within 1 miles, then a pharmacy within 2 miles after that. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_14_v05",
+    "nl_query": "I need to get from (33.728358, -117.928563) to (33.799657, -117.915289) with two ordered stops: first a bank within 2 miles, then a pharmacy within 1 miles after that. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_14_v06",
+    "nl_query": "I need to get from (34.089174, -117.95774) to (34.062706, -118.066846) with two ordered stops: first a bank within 1 miles, then a pharmacy within 1 miles after that. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_14_v07",
+    "nl_query": "I need to get from (33.963555, -118.14693) to (33.938569, -118.093689) with two ordered stops: first a bank within 1 miles, then a pharmacy within 5 miles after that. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_15_v01",
+    "nl_query": "I'm leaving (34.167721, -118.759252) for (34.117333, -118.776218). On the way, I need a supermarket within 2 miles of the start, then a pharmacy about 1 miles later, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_15_v02",
+    "nl_query": "I'm leaving (33.858426, -118.099675) for (33.870598, -118.047838). On the way, I need a supermarket within 1 miles of the start, then a pharmacy about 1 miles later, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_15_v03",
+    "nl_query": "I'm leaving (34.106108, -117.760045) for (34.039402, -117.808002). On the way, I need a supermarket within 1 miles of the start, then a pharmacy about 1 miles later, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_15_v04",
+    "nl_query": "I'm leaving (34.079335, -118.151906) for (34.196067, -118.201714). On the way, I need a supermarket within 1 miles of the start, then a pharmacy about 1 miles later, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_15_v05",
+    "nl_query": "I'm leaving (33.768775, -118.016656) for (33.834027, -117.988698). On the way, I need a supermarket within 2 miles of the start, then a pharmacy about 4 miles later, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_15_v07",
+    "nl_query": "I'm leaving (34.667914, -118.058942) for (34.64227, -118.244836). On the way, I need a supermarket within 6 miles of the start, then a pharmacy about 1 miles later, in that order. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_16_v01",
+    "nl_query": "I need to go from (34.060005, -117.787666) to (34.146209, -117.838082), stopping first at a library within 12 miles and then at a supermarket within 1 miles of the library, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_16_v02",
+    "nl_query": "I need to go from (33.746619, -118.260165) to (33.760745, -118.144912), stopping first at a library within 4 miles and then at a supermarket within 1 miles of the library, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_16_v03",
+    "nl_query": "I need to go from (33.920089, -118.400491) to (33.924174, -118.339525), stopping first at a library within 2 miles and then at a supermarket within 1 miles of the library, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_16_v04",
+    "nl_query": "I need to go from (34.03911, -118.466612) to (33.991216, -118.470908), stopping first at a library within 2 miles and then at a supermarket within 1 miles of the library, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_16_v05",
+    "nl_query": "I need to go from (34.396878, -118.422318) to (34.393612, -118.601016), stopping first at a library within 7 miles and then at a supermarket within 1 miles of the library, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_16_v06",
+    "nl_query": "I need to go from (34.148073, -118.365277) to (34.201195, -118.38125), stopping first at a library within 2 miles and then at a supermarket within 1 miles of the library, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_16_v07",
+    "nl_query": "I need to go from (33.914102, -117.894075) to (33.831491, -117.987565), stopping first at a library within 1 miles and then at a supermarket within 1 miles of the library, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ordered_poi_17_v01",
+    "nl_query": "I'm planning a trip from (33.965438, -118.038773) to (33.998873, -118.084879). I need to visit a bank first within 2 miles, then a library about 3 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_17_v02",
+    "nl_query": "I'm planning a trip from (33.91704, -118.091689) to (33.854898, -118.136424). I need to visit a bank first within 4 miles, then a library about 2 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_17_v03",
+    "nl_query": "I'm planning a trip from (33.941292, -118.203414) to (33.93828, -118.278372). I need to visit a bank first within 1 miles, then a library about 1 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_17_v04",
+    "nl_query": "I'm planning a trip from (33.624502, -117.828855) to (33.658664, -117.755721). I need to visit a bank first within 4 miles, then a library about 1 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_17_v05",
+    "nl_query": "I'm planning a trip from (34.024565, -117.74056) to (34.128754, -117.695276). I need to visit a bank first within 16 miles, then a library about 1 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_17_v06",
+    "nl_query": "I'm planning a trip from (34.198188, -118.304362) to (34.174176, -118.269586). I need to visit a bank first within 2 miles, then a library about 1 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_17_v07",
+    "nl_query": "I'm planning a trip from (34.197578, -118.417033) to (34.2121, -118.499503). I need to visit a bank first within 1 miles, then a library about 2 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_18_v01",
+    "nl_query": "I'm going from (33.845903, -118.376621) to (33.896435, -118.34612). I want to stop at a supermarket within 2 miles of the start, then at a library about 2 miles later, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_18_v02",
+    "nl_query": "I'm going from (34.645452, -118.093325) to (34.605435, -118.163237). I want to stop at a supermarket within 4 miles of the start, then at a library about 11 miles later, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_18_v04",
+    "nl_query": "I'm going from (33.910028, -118.294657) to (33.871381, -118.322158). I want to stop at a supermarket within 1 miles of the start, then at a library about 4 miles later, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_18_v05",
+    "nl_query": "I'm going from (34.020102, -117.951415) to (34.080267, -117.986821). I want to stop at a supermarket within 1 miles of the start, then at a library about 2 miles later, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_18_v06",
+    "nl_query": "I'm going from (34.092675, -118.834787) to (34.126527, -118.855996). I want to stop at a supermarket within 7 miles of the start, then at a library about 1 miles later, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_18_v07",
+    "nl_query": "I'm going from (33.869262, -118.114333) to (33.883043, -118.066327). I want to stop at a supermarket within 1 miles of the start, then at a library about 1 miles later, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_19_v01",
+    "nl_query": "I need to get from (33.856534, -117.987869) to (33.826222, -117.960682), stopping first at a library within 6 miles of the start and then at a bank within 4 miles of the library, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_19_v02",
+    "nl_query": "I need to get from (34.093595, -118.255241) to (33.946501, -118.267322), stopping first at a library within 1 miles of the start and then at a bank within 1 miles of the library, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_19_v03",
+    "nl_query": "I need to get from (33.783686, -117.861825) to (33.80283, -117.818411), stopping first at a library within 1 miles of the start and then at a bank within 1 miles of the library, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_19_v04",
+    "nl_query": "I need to get from (34.042929, -117.990432) to (34.069868, -118.103814), stopping first at a library within 2 miles of the start and then at a bank within 3 miles of the library, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_19_v05",
+    "nl_query": "I need to get from (33.995517, -118.113994) to (33.944916, -118.178131), stopping first at a library within 1 miles of the start and then at a bank within 4 miles of the library, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_19_v07",
+    "nl_query": "I need to get from (33.721682, -118.283747) to (33.777971, -118.27275), stopping first at a library within 3 miles of the start and then at a bank within 1 miles of the library, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ordered_poi_20_v01",
+    "nl_query": "I'm driving from (34.07589, -117.718233) to (34.018872, -117.736771). I need to stop at a bank first within 4 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_20_v02",
+    "nl_query": "I'm driving from (34.170385, -118.063733) to (34.173258, -118.157306). I need to stop at a bank first within 2 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_20_v03",
+    "nl_query": "I'm driving from (33.832067, -117.918932) to (33.810211, -117.987365). I need to stop at a bank first within 1 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_20_v04",
+    "nl_query": "I'm driving from (34.072996, -117.92405) to (34.052943, -117.881118). I need to stop at a bank first within 1 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_20_v05",
+    "nl_query": "I'm driving from (34.631309, -118.233622) to (34.693475, -118.125101). I need to stop at a bank first within 4 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_20_v06",
+    "nl_query": "I'm driving from (33.913823, -118.033003) to (34.038128, -118.000467). I need to stop at a bank first within 1 miles, then at a supermarket about 1 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_21_v01",
+    "nl_query": "I'm going from (33.9782, -118.344803) to (33.89102, -118.346107) and need to stop at a supermarket within 2 miles, then a pharmacy within 2 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_21_v02",
+    "nl_query": "I'm going from (33.988062, -118.471254) to (34.03566, -118.501083) and need to stop at a supermarket within 1 miles, then a pharmacy within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_21_v03",
+    "nl_query": "I'm going from (34.286873, -118.548326) to (34.43608, -118.558798) and need to stop at a supermarket within 9 miles, then a pharmacy within 9 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_21_v04",
+    "nl_query": "I'm going from (34.137159, -118.24178) to (34.194473, -118.361094) and need to stop at a supermarket within 1 miles, then a pharmacy within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_21_v05",
+    "nl_query": "I'm going from (33.882566, -117.892218) to (33.896769, -117.933224) and need to stop at a supermarket within 2 miles, then a pharmacy within 1 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_21_v06",
+    "nl_query": "I'm going from (33.787938, -118.398541) to (33.815294, -118.289629) and need to stop at a supermarket within 1 miles, then a pharmacy within 2 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_21_v07",
+    "nl_query": "I'm going from (34.631396, -118.040849) to (34.628388, -118.220878) and need to stop at a supermarket within 8 miles, then a pharmacy within 4 miles after that. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ordered_poi_22_v02",
+    "nl_query": "Help me plan a route from (33.740634, -117.839321) to (33.705056, -117.863728) that visits a pharmacy and then a library, in that order. Each leg needs to stay within 1 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_22_v03",
+    "nl_query": "Help me plan a route from (34.081237, -117.746401) to (34.133851, -117.710595) that visits a pharmacy and then a library, in that order. Each leg needs to stay within 2 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_22_v04",
+    "nl_query": "Help me plan a route from (34.143987, -118.226061) to (34.196067, -118.201714) that visits a pharmacy and then a library, in that order. Each leg needs to stay within 1 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_22_v05",
+    "nl_query": "Help me plan a route from (34.187667, -118.508846) to (34.166686, -118.447544) that visits a pharmacy and then a library, in that order. Each leg needs to stay within 4 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_22_v06",
+    "nl_query": "Help me plan a route from (33.891468, -117.876285) to (33.775046, -117.945227) that visits a pharmacy and then a library, in that order. Each leg needs to stay within 2 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_22_v07",
+    "nl_query": "Help me plan a route from (33.963555, -118.14693) to (34.091287, -118.157292) that visits a pharmacy and then a library, in that order. Each leg needs to stay within 5 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_23_v01",
+    "nl_query": "I'm going from (34.090594, -117.884119) to (34.145526, -117.915217). I need to stop at a library first within 1 miles, then a supermarket within 1 miles of the library. Both stops are mandatory and in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_23_v02",
+    "nl_query": "I'm going from (33.922844, -118.367468) to (33.875171, -118.316086). I need to stop at a library first within 2 miles, then a supermarket within 1 miles of the library. Both stops are mandatory and in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_23_v03",
+    "nl_query": "I'm going from (34.079857, -117.869614) to (34.032713, -117.879604). I need to stop at a library first within 2 miles, then a supermarket within 1 miles of the library. Both stops are mandatory and in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_23_v04",
+    "nl_query": "I'm going from (34.121774, -118.85494) to (34.141466, -118.818373). I need to stop at a library first within 9 miles, then a supermarket within 1 miles of the library. Both stops are mandatory and in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_23_v05",
+    "nl_query": "I'm going from (33.854459, -118.024338) to (33.836851, -118.063294). I need to stop at a library first within 3 miles, then a supermarket within 1 miles of the library. Both stops are mandatory and in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_23_v06",
+    "nl_query": "I'm going from (34.099667, -117.712641) to (34.045238, -117.767177). I need to stop at a library first within 1 miles, then a supermarket within 1 miles of the library. Both stops are mandatory and in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_23_v07",
+    "nl_query": "I'm going from (34.171467, -118.132147) to (34.105689, -118.131763). I need to stop at a library first within 1 miles, then a supermarket within 1 miles of the library. Both stops are mandatory and in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_24_v01",
+    "nl_query": "I need to get from (33.723363, -117.910984) to (33.771434, -117.942113) with three stops in order: first a supermarket within 1 miles, then a bank within 2 miles after that, and then a pharmacy within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_24_v02",
+    "nl_query": "I need to get from (34.123719, -118.022656) to (34.049673, -118.04791) with three stops in order: first a supermarket within 1 miles, then a bank within 1 miles after that, and then a pharmacy within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_24_v03",
+    "nl_query": "I need to get from (33.949168, -118.188472) to (33.993883, -118.183343) with three stops in order: first a supermarket within 1 miles, then a bank within 1 miles after that, and then a pharmacy within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_24_v04",
+    "nl_query": "I need to get from (34.121814, -117.820379) to (34.085658, -117.838273) with three stops in order: first a supermarket within 1 miles, then a bank within 1 miles after that, and then a pharmacy within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_24_v05",
+    "nl_query": "I need to get from (33.79866, -118.106225) to (33.745401, -118.117926) with three stops in order: first a supermarket within 1 miles, then a bank within 3 miles after that, and then a pharmacy within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_24_v06",
+    "nl_query": "I need to get from (33.965874, -118.352335) to (34.018721, -118.39819) with three stops in order: first a supermarket within 1 miles, then a bank within 1 miles after that, and then a pharmacy within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_24_v07",
+    "nl_query": "I need to get from (34.048315, -118.491857) to (34.05918, -118.421676) with three stops in order: first a supermarket within 1 miles, then a bank within 1 miles after that, and then a pharmacy within 2 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_25_v01",
+    "nl_query": "I need to get from (33.791106, -117.910132) to (33.713571, -117.960561) with three mandatory stops in order: first a bank, then a library, then a pharmacy. Each leg has to stay within 1 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_25_v02",
+    "nl_query": "I need to get from (34.089219, -117.845685) to (34.121049, -117.879398) with three mandatory stops in order: first a bank, then a library, then a pharmacy. Each leg has to stay within 2 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_25_v03",
+    "nl_query": "I need to get from (34.689336, -118.245386) to (34.71914, -118.046688) with three mandatory stops in order: first a bank, then a library, then a pharmacy. Each leg has to stay within 6 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_25_v04",
+    "nl_query": "I need to get from (33.945703, -117.977994) to (33.967969, -118.021164) with three mandatory stops in order: first a bank, then a library, then a pharmacy. Each leg has to stay within 1 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_25_v05",
+    "nl_query": "I need to get from (33.887696, -118.082371) to (33.846835, -118.111352) with three mandatory stops in order: first a bank, then a library, then a pharmacy. Each leg has to stay within 3 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_25_v06",
+    "nl_query": "I need to get from (33.870549, -118.216634) to (33.946501, -118.267322) with three mandatory stops in order: first a bank, then a library, then a pharmacy. Each leg has to stay within 1 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_25_v07",
+    "nl_query": "I need to get from (33.697908, -117.898248) to (33.62941, -117.862718) with three mandatory stops in order: first a bank, then a library, then a pharmacy. Each leg has to stay within 2 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ordered_poi_26_v01",
+    "nl_query": "I'm leaving (34.36842, -118.505902) for (34.321885, -118.458057) and need three stops in order: a pharmacy within 2 miles of the start, then a library within 2 miles after that, then a bank within 5 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_26_v02",
+    "nl_query": "I'm leaving (34.120708, -118.350247) for (34.166468, -118.315447) and need three stops in order: a pharmacy within 4 miles of the start, then a library within 4 miles after that, then a bank within 2 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_26_v03",
+    "nl_query": "I'm leaving (33.910979, -117.974514) for (33.900377, -117.863628) and need three stops in order: a pharmacy within 1 miles of the start, then a library within 3 miles after that, then a bank within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_26_v04",
+    "nl_query": "I'm leaving (33.791777, -118.336889) for (33.807268, -118.268425) and need three stops in order: a pharmacy within 3 miles of the start, then a library within 1 miles after that, then a bank within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_26_v05",
+    "nl_query": "I'm leaving (34.485027, -118.17005) for (34.612073, -118.201601) and need three stops in order: a pharmacy within 19 miles of the start, then a library within 6 miles after that, then a bank within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_26_v06",
+    "nl_query": "I'm leaving (34.141098, -117.897956) for (34.08616, -117.933989) and need three stops in order: a pharmacy within 1 miles of the start, then a library within 1 miles after that, then a bank within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_26_v07",
+    "nl_query": "I'm leaving (33.869046, -118.362198) for (33.89518, -118.401311) and need three stops in order: a pharmacy within 1 miles of the start, then a library within 2 miles after that, then a bank within 1 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_27_v01",
+    "nl_query": "I'm planning a three-stop trip from (34.136802, -117.695391) to (34.055292, -117.742422). I need to stop at a library first, then a bank, then a pharmacy in that exact order. The leg limits are 9, 2, and 4 miles respectively. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_27_v02",
+    "nl_query": "I'm planning a three-stop trip from (34.123453, -118.337135) to (34.100119, -118.259233). I need to stop at a library first, then a bank, then a pharmacy in that exact order. The leg limits are 4, 1, and 1 miles respectively. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_27_v03",
+    "nl_query": "I'm planning a three-stop trip from (34.15469, -118.481845) to (34.192816, -118.478205). I need to stop at a library first, then a bank, then a pharmacy in that exact order. The leg limits are 4, 1, and 1 miles respectively. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_27_v04",
+    "nl_query": "I'm planning a three-stop trip from (33.832527, -117.934844) to (33.774324, -117.875009). I need to stop at a library first, then a bank, then a pharmacy in that exact order. The leg limits are 2, 1, and 1 miles respectively. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_27_v05",
+    "nl_query": "I'm planning a three-stop trip from (34.119315, -118.32315) to (34.152475, -118.150455). I need to stop at a library first, then a bank, then a pharmacy in that exact order. The leg limits are 4, 2, and 1 miles respectively. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_27_v06",
+    "nl_query": "I'm planning a three-stop trip from (33.732969, -117.902546) to (33.708614, -117.850232). I need to stop at a library first, then a bank, then a pharmacy in that exact order. The leg limits are 1, 1, and 1 miles respectively. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_27_v07",
+    "nl_query": "I'm planning a three-stop trip from (34.067246, -118.070504) to (34.13684, -118.005161). I need to stop at a library first, then a bank, then a pharmacy in that exact order. The leg limits are 2, 1, and 1 miles respectively. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ordered_poi_28_v01",
+    "nl_query": "I need to get from (34.109035, -118.005587) to (34.033191, -117.926865), stopping at a pharmacy first, then a supermarket, then a bank — in that exact order. Each leg needs to stay within 8 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_28_v02",
+    "nl_query": "I need to get from (34.140094, -118.832388) to (34.089208, -118.818432), stopping at a pharmacy first, then a supermarket, then a bank — in that exact order. Each leg needs to stay within 9 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_28_v03",
+    "nl_query": "I need to get from (33.841948, -118.046526) to (33.885353, -118.071334), stopping at a pharmacy first, then a supermarket, then a bank — in that exact order. Each leg needs to stay within 1 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_28_v04",
+    "nl_query": "I need to get from (34.099667, -117.712641) to (34.024943, -117.746459), stopping at a pharmacy first, then a supermarket, then a bank — in that exact order. Each leg needs to stay within 2 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_28_v05",
+    "nl_query": "I need to get from (34.13098, -118.216445) to (34.116053, -118.120807), stopping at a pharmacy first, then a supermarket, then a bank — in that exact order. Each leg needs to stay within 2 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_28_v06",
+    "nl_query": "I need to get from (33.796869, -117.866553) to (33.741268, -117.960683), stopping at a pharmacy first, then a supermarket, then a bank — in that exact order. Each leg needs to stay within 2 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_28_v07",
+    "nl_query": "I need to get from (34.057619, -117.855775) to (34.091024, -117.89292), stopping at a pharmacy first, then a supermarket, then a bank — in that exact order. Each leg needs to stay within 4 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_29_v01",
+    "nl_query": "I need to get from (33.976469, -118.113654) to (33.907994, -118.130606), stopping at a supermarket first, then a pharmacy, then a library in that order. Leg 1 within 2 miles, leg 2 within 5 miles, leg 3 within 2 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_29_v02",
+    "nl_query": "I need to get from (34.076485, -117.813985) to (34.142118, -117.83918), stopping at a supermarket first, then a pharmacy, then a library in that order. Leg 1 within 2 miles, leg 2 within 5 miles, leg 3 within 1 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_29_v03",
+    "nl_query": "I need to get from (33.770797, -118.130683) to (33.835465, -118.182797), stopping at a supermarket first, then a pharmacy, then a library in that order. Leg 1 within 1 miles, leg 2 within 1 miles, leg 3 within 1 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_29_v04",
+    "nl_query": "I need to get from (33.91844, -118.37436) to (33.998008, -118.308927), stopping at a supermarket first, then a pharmacy, then a library in that order. Leg 1 within 1 miles, leg 2 within 2 miles, leg 3 within 2 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_29_v05",
+    "nl_query": "I need to get from (33.742492, -117.862229) to (33.651908, -117.775506), stopping at a supermarket first, then a pharmacy, then a library in that order. Leg 1 within 2 miles, leg 2 within 1 miles, leg 3 within 11 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ordered_poi_29_v06",
+    "nl_query": "I need to get from (34.09448, -117.724826) to (34.052105, -117.723722), stopping at a supermarket first, then a pharmacy, then a library in that order. Leg 1 within 1 miles, leg 2 within 1 miles, leg 3 within 1 miles. What's the shortest-distance route?"
+  }
+]

@@ -1,0 +1,3602 @@
+[
+  {
+    "query_id": "set2_ev_routing_001",
+    "group": "moderate",
+    "src_latlon": [
+      38.21616449999999,
+      -122.46882950000001
+    ],
+    "dst_latlon": [
+      37.3682825,
+      -121.87044459999998
+    ],
+    "trip_dist_mi": 67.08,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 83
+  },
+  {
+    "query_id": "set2_ev_routing_002",
+    "group": "moderate",
+    "src_latlon": [
+      36.997571999999984,
+      -120.764146
+    ],
+    "dst_latlon": [
+      37.50261800000001,
+      -120.8700978
+    ],
+    "trip_dist_mi": 35.38,
+    "current_battery_mi": 24,
+    "max_battery_mi": 300,
+    "battery_pct": 8,
+    "needs_charger": true,
+    "chargers_in_corridor": 5
+  },
+  {
+    "query_id": "set2_ev_routing_003",
+    "group": "long",
+    "src_latlon": [
+      38.33798399999999,
+      -120.516065
+    ],
+    "dst_latlon": [
+      34.76380929999998,
+      -118.2723906
+    ],
+    "trip_dist_mi": 276.55,
+    "current_battery_mi": 256,
+    "max_battery_mi": 350,
+    "battery_pct": 73,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_004",
+    "group": "long",
+    "src_latlon": [
+      38.62774009999999,
+      -121.39953660000002
+    ],
+    "dst_latlon": [
+      37.640933,
+      -120.7684711
+    ],
+    "trip_dist_mi": 76.32,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_005",
+    "group": "long",
+    "src_latlon": [
+      37.79622259999999,
+      -122.228416
+    ],
+    "dst_latlon": [
+      35.352248799999984,
+      -119.09297580000002
+    ],
+    "trip_dist_mi": 242.42,
+    "current_battery_mi": 108,
+    "max_battery_mi": 150,
+    "battery_pct": 72,
+    "needs_charger": true,
+    "chargers_in_corridor": 82
+  },
+  {
+    "query_id": "set2_ev_routing_006",
+    "group": "long",
+    "src_latlon": [
+      36.357916999999986,
+      -119.3143385
+    ],
+    "dst_latlon": [
+      34.687134099999994,
+      -118.18548410000001
+    ],
+    "trip_dist_mi": 131.74,
+    "current_battery_mi": 60,
+    "max_battery_mi": 350,
+    "battery_pct": 17,
+    "needs_charger": true,
+    "chargers_in_corridor": 7
+  },
+  {
+    "query_id": "set2_ev_routing_007",
+    "group": "long",
+    "src_latlon": [
+      37.90294659999999,
+      -121.85526720000001
+    ],
+    "dst_latlon": [
+      36.850369699999995,
+      -121.40011179999999
+    ],
+    "trip_dist_mi": 76.9,
+    "current_battery_mi": 93,
+    "max_battery_mi": 150,
+    "battery_pct": 62,
+    "needs_charger": true,
+    "chargers_in_corridor": 12
+  },
+  {
+    "query_id": "set2_ev_routing_008",
+    "group": "long",
+    "src_latlon": [
+      35.35151230000002,
+      -119.0583886
+    ],
+    "dst_latlon": [
+      35.74059740000001,
+      -120.8799547
+    ],
+    "trip_dist_mi": 105.87,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 6
+  },
+  {
+    "query_id": "set2_ev_routing_009",
+    "group": "long",
+    "src_latlon": [
+      37.3845539,
+      -122.22050080000001
+    ],
+    "dst_latlon": [
+      37.32011819999999,
+      -120.4682575
+    ],
+    "trip_dist_mi": 96.34,
+    "current_battery_mi": 117,
+    "max_battery_mi": 300,
+    "battery_pct": 39,
+    "needs_charger": true,
+    "chargers_in_corridor": 23
+  },
+  {
+    "query_id": "set2_ev_routing_010",
+    "group": "moderate",
+    "src_latlon": [
+      37.9043249,
+      -122.19552739999999
+    ],
+    "dst_latlon": [
+      37.775306,
+      -122.4429584
+    ],
+    "trip_dist_mi": 16.18,
+    "current_battery_mi": 7,
+    "max_battery_mi": 350,
+    "battery_pct": 2,
+    "needs_charger": true,
+    "chargers_in_corridor": 57
+  },
+  {
+    "query_id": "set2_ev_routing_011",
+    "group": "moderate",
+    "src_latlon": [
+      34.11310789999999,
+      -117.83980859999998
+    ],
+    "dst_latlon": [
+      34.07150779999999,
+      -118.10798299999999
+    ],
+    "trip_dist_mi": 15.61,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_012",
+    "group": "moderate",
+    "src_latlon": [
+      33.43160359999999,
+      -117.62123010000002
+    ],
+    "dst_latlon": [
+      33.91300149999999,
+      -118.03658
+    ],
+    "trip_dist_mi": 40.95,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_013",
+    "group": "moderate",
+    "src_latlon": [
+      37.67498299999997,
+      -120.963043
+    ],
+    "dst_latlon": [
+      38.66754480000001,
+      -121.51001470000001
+    ],
+    "trip_dist_mi": 74.74,
+    "current_battery_mi": 88,
+    "max_battery_mi": 350,
+    "battery_pct": 25,
+    "needs_charger": true,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_014",
+    "group": "moderate",
+    "src_latlon": [
+      38.2446,
+      -121.990131
+    ],
+    "dst_latlon": [
+      37.729915999999996,
+      -121.45076400000002
+    ],
+    "trip_dist_mi": 46.12,
+    "current_battery_mi": 35,
+    "max_battery_mi": 250,
+    "battery_pct": 14,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_015",
+    "group": "moderate",
+    "src_latlon": [
+      38.0246026,
+      -121.9462547
+    ],
+    "dst_latlon": [
+      37.75587399999999,
+      -122.4819824
+    ],
+    "trip_dist_mi": 34.61,
+    "current_battery_mi": 26,
+    "max_battery_mi": 200,
+    "battery_pct": 13,
+    "needs_charger": true,
+    "chargers_in_corridor": 68
+  },
+  {
+    "query_id": "set2_ev_routing_016",
+    "group": "long",
+    "src_latlon": [
+      36.31495689999997,
+      -119.27404330000002
+    ],
+    "dst_latlon": [
+      37.231687799999996,
+      -121.81617920000001
+    ],
+    "trip_dist_mi": 154.29,
+    "current_battery_mi": 164,
+    "max_battery_mi": 350,
+    "battery_pct": 47,
+    "needs_charger": true,
+    "chargers_in_corridor": 4
+  },
+  {
+    "query_id": "set2_ev_routing_017",
+    "group": "moderate",
+    "src_latlon": [
+      32.9534701,
+      -117.2646543
+    ],
+    "dst_latlon": [
+      33.63887779999995,
+      -117.66515589999999
+    ],
+    "trip_dist_mi": 52.7,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_018",
+    "group": "moderate",
+    "src_latlon": [
+      37.75239529999998,
+      -120.867744
+    ],
+    "dst_latlon": [
+      37.926864899999984,
+      -121.68235260000002
+    ],
+    "trip_dist_mi": 46.05,
+    "current_battery_mi": 123,
+    "max_battery_mi": 150,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 6
+  },
+  {
+    "query_id": "set2_ev_routing_019",
+    "group": "long",
+    "src_latlon": [
+      32.783046399999996,
+      -116.9472116
+    ],
+    "dst_latlon": [
+      34.565028,
+      -118.05141000000002
+    ],
+    "trip_dist_mi": 138.53,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_020",
+    "group": "moderate",
+    "src_latlon": [
+      37.994986499999996,
+      -121.79357160000002
+    ],
+    "dst_latlon": [
+      38.052062999999954,
+      -122.22713230000001
+    ],
+    "trip_dist_mi": 23.93,
+    "current_battery_mi": 18,
+    "max_battery_mi": 200,
+    "battery_pct": 9,
+    "needs_charger": true,
+    "chargers_in_corridor": 23
+  },
+  {
+    "query_id": "set2_ev_routing_021",
+    "group": "long",
+    "src_latlon": [
+      37.34017589999998,
+      -122.08194440000001
+    ],
+    "dst_latlon": [
+      38.64302570000001,
+      -121.5180423
+    ],
+    "trip_dist_mi": 95.11,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 77
+  },
+  {
+    "query_id": "set2_ev_routing_022",
+    "group": "moderate",
+    "src_latlon": [
+      37.79582119999998,
+      -121.2754504
+    ],
+    "dst_latlon": [
+      37.989712499999975,
+      -120.3186926
+    ],
+    "trip_dist_mi": 53.86,
+    "current_battery_mi": 46,
+    "max_battery_mi": 150,
+    "battery_pct": 31,
+    "needs_charger": true,
+    "chargers_in_corridor": 7
+  },
+  {
+    "query_id": "set2_ev_routing_023",
+    "group": "moderate",
+    "src_latlon": [
+      38.8767226,
+      -121.289564
+    ],
+    "dst_latlon": [
+      38.020978499999984,
+      -121.9697447
+    ],
+    "trip_dist_mi": 69.65,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_024",
+    "group": "moderate",
+    "src_latlon": [
+      38.050396499999984,
+      -122.2236968
+    ],
+    "dst_latlon": [
+      38.582180899999976,
+      -122.59051799999999
+    ],
+    "trip_dist_mi": 41.78,
+    "current_battery_mi": 15,
+    "max_battery_mi": 250,
+    "battery_pct": 6,
+    "needs_charger": true,
+    "chargers_in_corridor": 11
+  },
+  {
+    "query_id": "set2_ev_routing_025",
+    "group": "moderate",
+    "src_latlon": [
+      33.4863456,
+      -117.1406473
+    ],
+    "dst_latlon": [
+      33.746829799999986,
+      -118.2619254
+    ],
+    "trip_dist_mi": 66.98,
+    "current_battery_mi": 123,
+    "max_battery_mi": 150,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_026",
+    "group": "long",
+    "src_latlon": [
+      33.817312999999984,
+      -116.38625020000002
+    ],
+    "dst_latlon": [
+      34.8343873,
+      -114.603322
+    ],
+    "trip_dist_mi": 123.64,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_027",
+    "group": "moderate",
+    "src_latlon": [
+      33.89524780000001,
+      -117.88782800000003
+    ],
+    "dst_latlon": [
+      34.18051499999999,
+      -118.960687
+    ],
+    "trip_dist_mi": 64.51,
+    "current_battery_mi": 123,
+    "max_battery_mi": 150,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_028",
+    "group": "long",
+    "src_latlon": [
+      38.75910940000001,
+      -120.66816599999997
+    ],
+    "dst_latlon": [
+      37.3509574,
+      -121.85039760000001
+    ],
+    "trip_dist_mi": 116.63,
+    "current_battery_mi": 122,
+    "max_battery_mi": 150,
+    "battery_pct": 81,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_029",
+    "group": "moderate",
+    "src_latlon": [
+      37.940467299999995,
+      -122.05534930000002
+    ],
+    "dst_latlon": [
+      38.63123730000001,
+      -122.4485726
+    ],
+    "trip_dist_mi": 52.28,
+    "current_battery_mi": 123,
+    "max_battery_mi": 150,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 18
+  },
+  {
+    "query_id": "set2_ev_routing_030",
+    "group": "long",
+    "src_latlon": [
+      32.9786767,
+      -117.1314408
+    ],
+    "dst_latlon": [
+      36.52191284809598,
+      -119.54383320448818
+    ],
+    "trip_dist_mi": 280.49,
+    "current_battery_mi": 195,
+    "max_battery_mi": 300,
+    "battery_pct": 65,
+    "needs_charger": true,
+    "chargers_in_corridor": 13
+  },
+  {
+    "query_id": "set2_ev_routing_031",
+    "group": "long",
+    "src_latlon": [
+      32.653790699999995,
+      -116.9421097
+    ],
+    "dst_latlon": [
+      35.293024299999985,
+      -118.9920088
+    ],
+    "trip_dist_mi": 216.89,
+    "current_battery_mi": 126,
+    "max_battery_mi": 150,
+    "battery_pct": 84,
+    "needs_charger": true,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_032",
+    "group": "long",
+    "src_latlon": [
+      34.2384466,
+      -117.2662645
+    ],
+    "dst_latlon": [
+      33.082044,
+      -115.34811100000002
+    ],
+    "trip_dist_mi": 136.2,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_033",
+    "group": "moderate",
+    "src_latlon": [
+      35.378319,
+      -118.975593
+    ],
+    "dst_latlon": [
+      36.328760299999985,
+      -119.2563387
+    ],
+    "trip_dist_mi": 67.52,
+    "current_battery_mi": 38,
+    "max_battery_mi": 250,
+    "battery_pct": 15,
+    "needs_charger": true,
+    "chargers_in_corridor": 7
+  },
+  {
+    "query_id": "set2_ev_routing_034",
+    "group": "moderate",
+    "src_latlon": [
+      37.985820600000004,
+      -121.7323261
+    ],
+    "dst_latlon": [
+      38.73799419999999,
+      -121.30613870000002
+    ],
+    "trip_dist_mi": 56.87,
+    "current_battery_mi": 70,
+    "max_battery_mi": 250,
+    "battery_pct": 28,
+    "needs_charger": true,
+    "chargers_in_corridor": 7
+  },
+  {
+    "query_id": "set2_ev_routing_035",
+    "group": "moderate",
+    "src_latlon": [
+      38.15974400000002,
+      -120.381289
+    ],
+    "dst_latlon": [
+      38.01741269999999,
+      -121.34716739999999
+    ],
+    "trip_dist_mi": 53.44,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_036",
+    "group": "long",
+    "src_latlon": [
+      38.662641199999996,
+      -121.74989659999999
+    ],
+    "dst_latlon": [
+      36.90518300000001,
+      -121.662023
+    ],
+    "trip_dist_mi": 121.52,
+    "current_battery_mi": 144,
+    "max_battery_mi": 300,
+    "battery_pct": 48,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_037",
+    "group": "long",
+    "src_latlon": [
+      39.159186700000014,
+      -120.9578479
+    ],
+    "dst_latlon": [
+      40.160922,
+      -123.88598700000001
+    ],
+    "trip_dist_mi": 170.43,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 5
+  },
+  {
+    "query_id": "set2_ev_routing_038",
+    "group": "long",
+    "src_latlon": [
+      37.273751699999984,
+      -121.89061529999998
+    ],
+    "dst_latlon": [
+      38.526321699999976,
+      -122.78764
+    ],
+    "trip_dist_mi": 99.41,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 87
+  },
+  {
+    "query_id": "set2_ev_routing_039",
+    "group": "long",
+    "src_latlon": [
+      36.53249443377349,
+      -119.58868049011018
+    ],
+    "dst_latlon": [
+      34.139670100000004,
+      -117.5813443
+    ],
+    "trip_dist_mi": 200.32,
+    "current_battery_mi": 168,
+    "max_battery_mi": 200,
+    "battery_pct": 84,
+    "needs_charger": true,
+    "chargers_in_corridor": 12
+  },
+  {
+    "query_id": "set2_ev_routing_040",
+    "group": "long",
+    "src_latlon": [
+      35.63631899999999,
+      -118.24580399999999
+    ],
+    "dst_latlon": [
+      39.225955699999986,
+      -121.06143580000001
+    ],
+    "trip_dist_mi": 292.16,
+    "current_battery_mi": 186,
+    "max_battery_mi": 350,
+    "battery_pct": 53,
+    "needs_charger": true,
+    "chargers_in_corridor": 10
+  },
+  {
+    "query_id": "set2_ev_routing_041",
+    "group": "long",
+    "src_latlon": [
+      37.73166659999996,
+      -122.1708319
+    ],
+    "dst_latlon": [
+      39.18461500000002,
+      -122.88557799999998
+    ],
+    "trip_dist_mi": 107.58,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 48
+  },
+  {
+    "query_id": "set2_ev_routing_042",
+    "group": "long",
+    "src_latlon": [
+      37.71248330000002,
+      -120.43576750000001
+    ],
+    "dst_latlon": [
+      39.75615289999999,
+      -121.86078769999999
+    ],
+    "trip_dist_mi": 160.73,
+    "current_battery_mi": 186,
+    "max_battery_mi": 300,
+    "battery_pct": 62,
+    "needs_charger": true,
+    "chargers_in_corridor": 29
+  },
+  {
+    "query_id": "set2_ev_routing_043",
+    "group": "moderate",
+    "src_latlon": [
+      34.11126950000001,
+      -117.6735109
+    ],
+    "dst_latlon": [
+      34.2271613,
+      -118.87567899999999
+    ],
+    "trip_dist_mi": 69.19,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_044",
+    "group": "long",
+    "src_latlon": [
+      36.691817500000006,
+      -119.56200449999999
+    ],
+    "dst_latlon": [
+      33.95943179999999,
+      -118.12429509999998
+    ],
+    "trip_dist_mi": 205.44,
+    "current_battery_mi": 312,
+    "max_battery_mi": 350,
+    "battery_pct": 89,
+    "needs_charger": false,
+    "chargers_in_corridor": 13
+  },
+  {
+    "query_id": "set2_ev_routing_045",
+    "group": "long",
+    "src_latlon": [
+      36.154094,
+      -120.3508799
+    ],
+    "dst_latlon": [
+      35.33005300000001,
+      -119.04507699999999
+    ],
+    "trip_dist_mi": 92.76,
+    "current_battery_mi": 56,
+    "max_battery_mi": 350,
+    "battery_pct": 16,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_046",
+    "group": "moderate",
+    "src_latlon": [
+      38.19473,
+      -120.65227500000002
+    ],
+    "dst_latlon": [
+      37.37214909999997,
+      -120.46737500000002
+    ],
+    "trip_dist_mi": 57.72,
+    "current_battery_mi": 52,
+    "max_battery_mi": 350,
+    "battery_pct": 15,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_047",
+    "group": "moderate",
+    "src_latlon": [
+      37.6558712,
+      -121.77342710000002
+    ],
+    "dst_latlon": [
+      37.9977038,
+      -122.3169182
+    ],
+    "trip_dist_mi": 37.92,
+    "current_battery_mi": 22,
+    "max_battery_mi": 250,
+    "battery_pct": 9,
+    "needs_charger": true,
+    "chargers_in_corridor": 62
+  },
+  {
+    "query_id": "set2_ev_routing_048",
+    "group": "moderate",
+    "src_latlon": [
+      37.71784829999998,
+      -122.07566039999999
+    ],
+    "dst_latlon": [
+      37.54242549999998,
+      -122.2938293
+    ],
+    "trip_dist_mi": 17.01,
+    "current_battery_mi": 12,
+    "max_battery_mi": 250,
+    "battery_pct": 5,
+    "needs_charger": true,
+    "chargers_in_corridor": 51
+  },
+  {
+    "query_id": "set2_ev_routing_049",
+    "group": "moderate",
+    "src_latlon": [
+      33.684217499999995,
+      -117.90605540000001
+    ],
+    "dst_latlon": [
+      34.27204109999999,
+      -117.1902794
+    ],
+    "trip_dist_mi": 57.72,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_050",
+    "group": "long",
+    "src_latlon": [
+      40.28567699999999,
+      -123.73241200000001
+    ],
+    "dst_latlon": [
+      36.973175300000015,
+      -122.02087800000001
+    ],
+    "trip_dist_mi": 246.8,
+    "current_battery_mi": 248,
+    "max_battery_mi": 350,
+    "battery_pct": 71,
+    "needs_charger": true,
+    "chargers_in_corridor": 93
+  },
+  {
+    "query_id": "set2_ev_routing_051",
+    "group": "moderate",
+    "src_latlon": [
+      37.957265199999995,
+      -121.9507355
+    ],
+    "dst_latlon": [
+      38.3187569,
+      -121.57890330000001
+    ],
+    "trip_dist_mi": 32.13,
+    "current_battery_mi": 36,
+    "max_battery_mi": 300,
+    "battery_pct": 12,
+    "needs_charger": true,
+    "chargers_in_corridor": 7
+  },
+  {
+    "query_id": "set2_ev_routing_052",
+    "group": "long",
+    "src_latlon": [
+      33.88563640000001,
+      -118.40208770000001
+    ],
+    "dst_latlon": [
+      36.7233865,
+      -119.6731003
+    ],
+    "trip_dist_mi": 208.75,
+    "current_battery_mi": 130,
+    "max_battery_mi": 200,
+    "battery_pct": 65,
+    "needs_charger": true,
+    "chargers_in_corridor": 20
+  },
+  {
+    "query_id": "set2_ev_routing_053",
+    "group": "moderate",
+    "src_latlon": [
+      37.873623999999985,
+      -122.46191700000001
+    ],
+    "dst_latlon": [
+      37.775708,
+      -121.215746
+    ],
+    "trip_dist_mi": 68.35,
+    "current_battery_mi": 27,
+    "max_battery_mi": 300,
+    "battery_pct": 9,
+    "needs_charger": true,
+    "chargers_in_corridor": 62
+  },
+  {
+    "query_id": "set2_ev_routing_054",
+    "group": "long",
+    "src_latlon": [
+      38.61465549999998,
+      -121.0588125
+    ],
+    "dst_latlon": [
+      38.4105155,
+      -122.7075346
+    ],
+    "trip_dist_mi": 90.24,
+    "current_battery_mi": 102,
+    "max_battery_mi": 350,
+    "battery_pct": 29,
+    "needs_charger": true,
+    "chargers_in_corridor": 13
+  },
+  {
+    "query_id": "set2_ev_routing_055",
+    "group": "long",
+    "src_latlon": [
+      36.68887840000001,
+      -121.6647626
+    ],
+    "dst_latlon": [
+      38.361748099999986,
+      -122.7039325
+    ],
+    "trip_dist_mi": 128.85,
+    "current_battery_mi": 120,
+    "max_battery_mi": 250,
+    "battery_pct": 48,
+    "needs_charger": true,
+    "chargers_in_corridor": 97
+  },
+  {
+    "query_id": "set2_ev_routing_056",
+    "group": "long",
+    "src_latlon": [
+      37.44674000000003,
+      -120.830865
+    ],
+    "dst_latlon": [
+      34.29292920000001,
+      -117.1690453
+    ],
+    "trip_dist_mi": 299.14,
+    "current_battery_mi": 170,
+    "max_battery_mi": 250,
+    "battery_pct": 68,
+    "needs_charger": true,
+    "chargers_in_corridor": 17
+  },
+  {
+    "query_id": "set2_ev_routing_057",
+    "group": "long",
+    "src_latlon": [
+      37.73615829999998,
+      -122.42015629999999
+    ],
+    "dst_latlon": [
+      38.74345769999999,
+      -121.22609769999998
+    ],
+    "trip_dist_mi": 95.09,
+    "current_battery_mi": 63,
+    "max_battery_mi": 300,
+    "battery_pct": 21,
+    "needs_charger": true,
+    "chargers_in_corridor": 75
+  },
+  {
+    "query_id": "set2_ev_routing_058",
+    "group": "moderate",
+    "src_latlon": [
+      37.71187969999998,
+      -121.44069559999998
+    ],
+    "dst_latlon": [
+      38.0642784,
+      -122.1749861
+    ],
+    "trip_dist_mi": 46.86,
+    "current_battery_mi": 54,
+    "max_battery_mi": 300,
+    "battery_pct": 18,
+    "needs_charger": true,
+    "chargers_in_corridor": 23
+  },
+  {
+    "query_id": "set2_ev_routing_059",
+    "group": "long",
+    "src_latlon": [
+      33.75558959999999,
+      -117.0278342
+    ],
+    "dst_latlon": [
+      36.8581557,
+      -120.457527
+    ],
+    "trip_dist_mi": 288.66,
+    "current_battery_mi": 270,
+    "max_battery_mi": 350,
+    "battery_pct": 77,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_060",
+    "group": "long",
+    "src_latlon": [
+      35.37084100000001,
+      -119.13352900000001
+    ],
+    "dst_latlon": [
+      33.8080127,
+      -118.21109110000002
+    ],
+    "trip_dist_mi": 120.05,
+    "current_battery_mi": 77,
+    "max_battery_mi": 350,
+    "battery_pct": 22,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_061",
+    "group": "moderate",
+    "src_latlon": [
+      33.07775799999999,
+      -117.26748030000002
+    ],
+    "dst_latlon": [
+      32.73256299999997,
+      -117.010033
+    ],
+    "trip_dist_mi": 28.14,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_062",
+    "group": "moderate",
+    "src_latlon": [
+      38.07663529999999,
+      -122.22135190000002
+    ],
+    "dst_latlon": [
+      37.38484280000001,
+      -121.87259099999999
+    ],
+    "trip_dist_mi": 51.46,
+    "current_battery_mi": 44,
+    "max_battery_mi": 200,
+    "battery_pct": 22,
+    "needs_charger": true,
+    "chargers_in_corridor": 89
+  },
+  {
+    "query_id": "set2_ev_routing_063",
+    "group": "moderate",
+    "src_latlon": [
+      38.6507941,
+      -121.271207
+    ],
+    "dst_latlon": [
+      38.145673599999974,
+      -121.2748022
+    ],
+    "trip_dist_mi": 34.9,
+    "current_battery_mi": 25,
+    "max_battery_mi": 250,
+    "battery_pct": 10,
+    "needs_charger": true,
+    "chargers_in_corridor": 5
+  },
+  {
+    "query_id": "set2_ev_routing_064",
+    "group": "long",
+    "src_latlon": [
+      37.0374533,
+      -119.51430740000002
+    ],
+    "dst_latlon": [
+      33.69655989999999,
+      -117.9564414
+    ],
+    "trip_dist_mi": 246.95,
+    "current_battery_mi": 126,
+    "max_battery_mi": 200,
+    "battery_pct": 63,
+    "needs_charger": true,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_065",
+    "group": "moderate",
+    "src_latlon": [
+      37.91359320000001,
+      -122.3033981
+    ],
+    "dst_latlon": [
+      38.35773199999999,
+      -121.205376
+    ],
+    "trip_dist_mi": 67.1,
+    "current_battery_mi": 42,
+    "max_battery_mi": 300,
+    "battery_pct": 14,
+    "needs_charger": true,
+    "chargers_in_corridor": 32
+  },
+  {
+    "query_id": "set2_ev_routing_066",
+    "group": "moderate",
+    "src_latlon": [
+      38.046834899999986,
+      -122.53881320000002
+    ],
+    "dst_latlon": [
+      37.404726299999986,
+      -122.08895120000001
+    ],
+    "trip_dist_mi": 50.72,
+    "current_battery_mi": 46,
+    "max_battery_mi": 150,
+    "battery_pct": 31,
+    "needs_charger": true,
+    "chargers_in_corridor": 91
+  },
+  {
+    "query_id": "set2_ev_routing_067",
+    "group": "moderate",
+    "src_latlon": [
+      37.820548900000006,
+      -122.2689438
+    ],
+    "dst_latlon": [
+      38.33584149999999,
+      -121.95033240000001
+    ],
+    "trip_dist_mi": 39.6,
+    "current_battery_mi": 21,
+    "max_battery_mi": 350,
+    "battery_pct": 6,
+    "needs_charger": true,
+    "chargers_in_corridor": 42
+  },
+  {
+    "query_id": "set2_ev_routing_068",
+    "group": "long",
+    "src_latlon": [
+      34.994003799999994,
+      -114.6502735
+    ],
+    "dst_latlon": [
+      32.756336000000005,
+      -117.0081193
+    ],
+    "trip_dist_mi": 205.41,
+    "current_battery_mi": 312,
+    "max_battery_mi": 350,
+    "battery_pct": 89,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_069",
+    "group": "long",
+    "src_latlon": [
+      35.4925282,
+      -119.2605826
+    ],
+    "dst_latlon": [
+      36.538174074360946,
+      -121.90495242855538
+    ],
+    "trip_dist_mi": 164.49,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_070",
+    "group": "long",
+    "src_latlon": [
+      37.29049470000002,
+      -122.0162926
+    ],
+    "dst_latlon": [
+      38.795591699999996,
+      -121.7240546
+    ],
+    "trip_dist_mi": 105.2,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 70
+  },
+  {
+    "query_id": "set2_ev_routing_071",
+    "group": "moderate",
+    "src_latlon": [
+      37.97605829999999,
+      -122.1063122
+    ],
+    "dst_latlon": [
+      37.6372469,
+      -120.9845444
+    ],
+    "trip_dist_mi": 65.56,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 20
+  },
+  {
+    "query_id": "set2_ev_routing_072",
+    "group": "long",
+    "src_latlon": [
+      35.508106800000014,
+      -120.6853679
+    ],
+    "dst_latlon": [
+      35.396995399999994,
+      -118.9297693
+    ],
+    "trip_dist_mi": 99.11,
+    "current_battery_mi": 112,
+    "max_battery_mi": 350,
+    "battery_pct": 32,
+    "needs_charger": true,
+    "chargers_in_corridor": 6
+  },
+  {
+    "query_id": "set2_ev_routing_073",
+    "group": "long",
+    "src_latlon": [
+      33.644349899999995,
+      -117.1471081
+    ],
+    "dst_latlon": [
+      35.36442799999999,
+      -119.181006
+    ],
+    "trip_dist_mi": 165.93,
+    "current_battery_mi": 249,
+    "max_battery_mi": 300,
+    "battery_pct": 83,
+    "needs_charger": false,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_074",
+    "group": "moderate",
+    "src_latlon": [
+      38.41699299999997,
+      -121.470162
+    ],
+    "dst_latlon": [
+      37.784389199999985,
+      -122.1837926
+    ],
+    "trip_dist_mi": 58.45,
+    "current_battery_mi": 69,
+    "max_battery_mi": 300,
+    "battery_pct": 23,
+    "needs_charger": true,
+    "chargers_in_corridor": 33
+  },
+  {
+    "query_id": "set2_ev_routing_075",
+    "group": "moderate",
+    "src_latlon": [
+      36.843587999999976,
+      -121.402337
+    ],
+    "dst_latlon": [
+      36.15242799999999,
+      -121.17538300000001
+    ],
+    "trip_dist_mi": 49.39,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_076",
+    "group": "long",
+    "src_latlon": [
+      37.80157969999999,
+      -122.2913856
+    ],
+    "dst_latlon": [
+      38.84664669999996,
+      -121.2435423
+    ],
+    "trip_dist_mi": 91.87,
+    "current_battery_mi": 114,
+    "max_battery_mi": 200,
+    "battery_pct": 57,
+    "needs_charger": true,
+    "chargers_in_corridor": 44
+  },
+  {
+    "query_id": "set2_ev_routing_077",
+    "group": "moderate",
+    "src_latlon": [
+      37.29978119999998,
+      -121.9480844
+    ],
+    "dst_latlon": [
+      37.75506219999999,
+      -121.9031333
+    ],
+    "trip_dist_mi": 31.55,
+    "current_battery_mi": 21,
+    "max_battery_mi": 300,
+    "battery_pct": 7,
+    "needs_charger": true,
+    "chargers_in_corridor": 63
+  },
+  {
+    "query_id": "set2_ev_routing_078",
+    "group": "long",
+    "src_latlon": [
+      36.728762599999996,
+      -119.8130864
+    ],
+    "dst_latlon": [
+      38.67411279999999,
+      -121.50185229999998
+    ],
+    "trip_dist_mi": 163.05,
+    "current_battery_mi": 134,
+    "max_battery_mi": 150,
+    "battery_pct": 89,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_079",
+    "group": "long",
+    "src_latlon": [
+      32.65809029999997,
+      -115.44945090000004
+    ],
+    "dst_latlon": [
+      33.78257979999998,
+      -118.138294
+    ],
+    "trip_dist_mi": 173.75,
+    "current_battery_mi": 261,
+    "max_battery_mi": 300,
+    "battery_pct": 87,
+    "needs_charger": false,
+    "chargers_in_corridor": 3
+  },
+  {
+    "query_id": "set2_ev_routing_080",
+    "group": "long",
+    "src_latlon": [
+      37.6702961,
+      -121.0077048
+    ],
+    "dst_latlon": [
+      40.73899999999998,
+      -121.96872300000001
+    ],
+    "trip_dist_mi": 218.18,
+    "current_battery_mi": 243,
+    "max_battery_mi": 300,
+    "battery_pct": 81,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_081",
+    "group": "moderate",
+    "src_latlon": [
+      33.01488100000001,
+      -117.037773
+    ],
+    "dst_latlon": [
+      33.5377034,
+      -116.9698773
+    ],
+    "trip_dist_mi": 36.34,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_082",
+    "group": "long",
+    "src_latlon": [
+      35.216804,
+      -117.82015300000002
+    ],
+    "dst_latlon": [
+      33.8606848,
+      -117.74055350000002
+    ],
+    "trip_dist_mi": 93.81,
+    "current_battery_mi": 141,
+    "max_battery_mi": 150,
+    "battery_pct": 94,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_083",
+    "group": "long",
+    "src_latlon": [
+      32.6391374,
+      -115.5184576
+    ],
+    "dst_latlon": [
+      34.1559039,
+      -117.39909150000001
+    ],
+    "trip_dist_mi": 150.83,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 3
+  },
+  {
+    "query_id": "set2_ev_routing_084",
+    "group": "moderate",
+    "src_latlon": [
+      37.74256189999999,
+      -121.9175305
+    ],
+    "dst_latlon": [
+      37.75400749999998,
+      -121.46097359999999
+    ],
+    "trip_dist_mi": 24.96,
+    "current_battery_mi": 26,
+    "max_battery_mi": 200,
+    "battery_pct": 13,
+    "needs_charger": true,
+    "chargers_in_corridor": 40
+  },
+  {
+    "query_id": "set2_ev_routing_085",
+    "group": "moderate",
+    "src_latlon": [
+      38.2202994,
+      -122.6402343
+    ],
+    "dst_latlon": [
+      37.37885849999999,
+      -122.1157002
+    ],
+    "trip_dist_mi": 64.81,
+    "current_battery_mi": 40,
+    "max_battery_mi": 150,
+    "battery_pct": 27,
+    "needs_charger": true,
+    "chargers_in_corridor": 100
+  },
+  {
+    "query_id": "set2_ev_routing_086",
+    "group": "moderate",
+    "src_latlon": [
+      37.39855740000001,
+      -122.13526290000001
+    ],
+    "dst_latlon": [
+      37.975483200000006,
+      -121.99331690000001
+    ],
+    "trip_dist_mi": 40.61,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 66
+  },
+  {
+    "query_id": "set2_ev_routing_087",
+    "group": "moderate",
+    "src_latlon": [
+      37.438266699999986,
+      -122.17352299999999
+    ],
+    "dst_latlon": [
+      37.73587529999998,
+      -121.46792960000002
+    ],
+    "trip_dist_mi": 43.76,
+    "current_battery_mi": 39,
+    "max_battery_mi": 300,
+    "battery_pct": 13,
+    "needs_charger": true,
+    "chargers_in_corridor": 54
+  },
+  {
+    "query_id": "set2_ev_routing_088",
+    "group": "long",
+    "src_latlon": [
+      35.75335979999998,
+      -119.2429532
+    ],
+    "dst_latlon": [
+      36.42465030000001,
+      -121.313395
+    ],
+    "trip_dist_mi": 124.56,
+    "current_battery_mi": 188,
+    "max_battery_mi": 200,
+    "battery_pct": 94,
+    "needs_charger": false,
+    "chargers_in_corridor": 4
+  },
+  {
+    "query_id": "set2_ev_routing_089",
+    "group": "moderate",
+    "src_latlon": [
+      38.15631530000001,
+      -122.2515967
+    ],
+    "dst_latlon": [
+      38.01192049999999,
+      -121.80611180000001
+    ],
+    "trip_dist_mi": 26.2,
+    "current_battery_mi": 16,
+    "max_battery_mi": 200,
+    "battery_pct": 8,
+    "needs_charger": true,
+    "chargers_in_corridor": 12
+  },
+  {
+    "query_id": "set2_ev_routing_090",
+    "group": "moderate",
+    "src_latlon": [
+      37.74875,
+      -121.4290245
+    ],
+    "dst_latlon": [
+      38.661621199999985,
+      -121.15778060000001
+    ],
+    "trip_dist_mi": 64.77,
+    "current_battery_mi": 32,
+    "max_battery_mi": 250,
+    "battery_pct": 13,
+    "needs_charger": true,
+    "chargers_in_corridor": 14
+  },
+  {
+    "query_id": "set2_ev_routing_091",
+    "group": "long",
+    "src_latlon": [
+      36.29823280000001,
+      -119.3550227
+    ],
+    "dst_latlon": [
+      33.868046099999994,
+      -118.39395810000002
+    ],
+    "trip_dist_mi": 176.48,
+    "current_battery_mi": 267,
+    "max_battery_mi": 300,
+    "battery_pct": 89,
+    "needs_charger": false,
+    "chargers_in_corridor": 18
+  },
+  {
+    "query_id": "set2_ev_routing_092",
+    "group": "long",
+    "src_latlon": [
+      37.05423489999999,
+      -121.54883810000001
+    ],
+    "dst_latlon": [
+      38.70534159999997,
+      -121.1038904
+    ],
+    "trip_dist_mi": 116.63,
+    "current_battery_mi": 78,
+    "max_battery_mi": 300,
+    "battery_pct": 26,
+    "needs_charger": true,
+    "chargers_in_corridor": 15
+  },
+  {
+    "query_id": "set2_ev_routing_093",
+    "group": "long",
+    "src_latlon": [
+      37.1815724,
+      -119.79383010000001
+    ],
+    "dst_latlon": [
+      40.449665200000005,
+      -122.39549369999999
+    ],
+    "trip_dist_mi": 265.68,
+    "current_battery_mi": 130,
+    "max_battery_mi": 200,
+    "battery_pct": 65,
+    "needs_charger": true,
+    "chargers_in_corridor": 30
+  },
+  {
+    "query_id": "set2_ev_routing_094",
+    "group": "moderate",
+    "src_latlon": [
+      35.12278099999998,
+      -117.986907
+    ],
+    "dst_latlon": [
+      35.357009800000014,
+      -119.0921704
+    ],
+    "trip_dist_mi": 64.44,
+    "current_battery_mi": 78,
+    "max_battery_mi": 200,
+    "battery_pct": 39,
+    "needs_charger": true,
+    "chargers_in_corridor": 5
+  },
+  {
+    "query_id": "set2_ev_routing_095",
+    "group": "moderate",
+    "src_latlon": [
+      37.91002899999998,
+      -122.5593327
+    ],
+    "dst_latlon": [
+      37.532098899999966,
+      -122.0190097
+    ],
+    "trip_dist_mi": 39.42,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 80
+  },
+  {
+    "query_id": "set2_ev_routing_096",
+    "group": "moderate",
+    "src_latlon": [
+      38.32617259999998,
+      -122.48240150000001
+    ],
+    "dst_latlon": [
+      37.985869899999976,
+      -122.51844039999999
+    ],
+    "trip_dist_mi": 23.59,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_097",
+    "group": "moderate",
+    "src_latlon": [
+      33.766538199999985,
+      -117.8120387
+    ],
+    "dst_latlon": [
+      34.148706699999984,
+      -117.6597884
+    ],
+    "trip_dist_mi": 27.81,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_098",
+    "group": "moderate",
+    "src_latlon": [
+      34.175599000000005,
+      -118.78697
+    ],
+    "dst_latlon": [
+      34.059099799999984,
+      -117.5582628
+    ],
+    "trip_dist_mi": 70.74,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_099",
+    "group": "long",
+    "src_latlon": [
+      35.5432965,
+      -120.73122620000001
+    ],
+    "dst_latlon": [
+      39.13161409999999,
+      -121.55986320000001
+    ],
+    "trip_dist_mi": 252.07,
+    "current_battery_mi": 150,
+    "max_battery_mi": 300,
+    "battery_pct": 50,
+    "needs_charger": true,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_100",
+    "group": "long",
+    "src_latlon": [
+      36.77049059999998,
+      -119.7499349
+    ],
+    "dst_latlon": [
+      33.730508599999986,
+      -116.94551150000001
+    ],
+    "trip_dist_mi": 262.95,
+    "current_battery_mi": 231,
+    "max_battery_mi": 300,
+    "battery_pct": 77,
+    "needs_charger": true,
+    "chargers_in_corridor": 19
+  },
+  {
+    "query_id": "set2_ev_routing_101",
+    "group": "moderate",
+    "src_latlon": [
+      37.99786719999999,
+      -121.7189209
+    ],
+    "dst_latlon": [
+      38.605517100000014,
+      -121.26978120000001
+    ],
+    "trip_dist_mi": 48.54,
+    "current_battery_mi": 38,
+    "max_battery_mi": 350,
+    "battery_pct": 11,
+    "needs_charger": true,
+    "chargers_in_corridor": 7
+  },
+  {
+    "query_id": "set2_ev_routing_102",
+    "group": "moderate",
+    "src_latlon": [
+      37.74196270000002,
+      -122.38831169999999
+    ],
+    "dst_latlon": [
+      37.88494539999999,
+      -122.04002869999998
+    ],
+    "trip_dist_mi": 21.42,
+    "current_battery_mi": 18,
+    "max_battery_mi": 200,
+    "battery_pct": 9,
+    "needs_charger": true,
+    "chargers_in_corridor": 72
+  },
+  {
+    "query_id": "set2_ev_routing_103",
+    "group": "long",
+    "src_latlon": [
+      32.534238000000016,
+      -117.03521140000001
+    ],
+    "dst_latlon": [
+      33.89628359999996,
+      -118.0290938
+    ],
+    "trip_dist_mi": 110.26,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_104",
+    "group": "long",
+    "src_latlon": [
+      37.69931540000002,
+      -122.1186403
+    ],
+    "dst_latlon": [
+      40.692898,
+      -122.40419
+    ],
+    "trip_dist_mi": 207.4,
+    "current_battery_mi": 132,
+    "max_battery_mi": 200,
+    "battery_pct": 66,
+    "needs_charger": true,
+    "chargers_in_corridor": 49
+  },
+  {
+    "query_id": "set2_ev_routing_105",
+    "group": "long",
+    "src_latlon": [
+      38.324116299999986,
+      -122.3259776
+    ],
+    "dst_latlon": [
+      37.00071169999999,
+      -121.95759419999999
+    ],
+    "trip_dist_mi": 93.63,
+    "current_battery_mi": 99,
+    "max_battery_mi": 300,
+    "battery_pct": 33,
+    "needs_charger": true,
+    "chargers_in_corridor": 85
+  },
+  {
+    "query_id": "set2_ev_routing_106",
+    "group": "moderate",
+    "src_latlon": [
+      38.09315680000001,
+      -122.27345389999999
+    ],
+    "dst_latlon": [
+      37.5158587,
+      -121.99461800000002
+    ],
+    "trip_dist_mi": 42.69,
+    "current_battery_mi": 42,
+    "max_battery_mi": 200,
+    "battery_pct": 21,
+    "needs_charger": true,
+    "chargers_in_corridor": 69
+  },
+  {
+    "query_id": "set2_ev_routing_107",
+    "group": "moderate",
+    "src_latlon": [
+      34.21828139999999,
+      -118.85711790000002
+    ],
+    "dst_latlon": [
+      33.658885099999985,
+      -117.8243854
+    ],
+    "trip_dist_mi": 70.7,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_108",
+    "group": "long",
+    "src_latlon": [
+      38.246978999999996,
+      -121.297765
+    ],
+    "dst_latlon": [
+      36.722639900000004,
+      -120.06162169999999
+    ],
+    "trip_dist_mi": 125.24,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_109",
+    "group": "moderate",
+    "src_latlon": [
+      38.48234459999999,
+      -121.43186559999998
+    ],
+    "dst_latlon": [
+      37.928198699999996,
+      -122.39053639999999
+    ],
+    "trip_dist_mi": 64.61,
+    "current_battery_mi": 40,
+    "max_battery_mi": 200,
+    "battery_pct": 20,
+    "needs_charger": true,
+    "chargers_in_corridor": 20
+  },
+  {
+    "query_id": "set2_ev_routing_110",
+    "group": "long",
+    "src_latlon": [
+      36.907019999999996,
+      -121.63103400000001
+    ],
+    "dst_latlon": [
+      37.41661199999999,
+      -119.87789599999999
+    ],
+    "trip_dist_mi": 102.75,
+    "current_battery_mi": 49,
+    "max_battery_mi": 350,
+    "battery_pct": 14,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_111",
+    "group": "long",
+    "src_latlon": [
+      38.000326799999975,
+      -122.5746715
+    ],
+    "dst_latlon": [
+      38.76224919999999,
+      -121.2282163
+    ],
+    "trip_dist_mi": 89.94,
+    "current_battery_mi": 135,
+    "max_battery_mi": 150,
+    "battery_pct": 90,
+    "needs_charger": false,
+    "chargers_in_corridor": 3
+  },
+  {
+    "query_id": "set2_ev_routing_112",
+    "group": "moderate",
+    "src_latlon": [
+      38.658173200000014,
+      -121.128335
+    ],
+    "dst_latlon": [
+      37.62158359999997,
+      -121.03134120000001
+    ],
+    "trip_dist_mi": 71.82,
+    "current_battery_mi": 75,
+    "max_battery_mi": 250,
+    "battery_pct": 30,
+    "needs_charger": true,
+    "chargers_in_corridor": 13
+  },
+  {
+    "query_id": "set2_ev_routing_113",
+    "group": "moderate",
+    "src_latlon": [
+      38.69897369999999,
+      -121.79781320000001
+    ],
+    "dst_latlon": [
+      38.646201999999974,
+      -121.11108500000002
+    ],
+    "trip_dist_mi": 37.22,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 12
+  },
+  {
+    "query_id": "set2_ev_routing_114",
+    "group": "long",
+    "src_latlon": [
+      32.93250609999999,
+      -117.1560011
+    ],
+    "dst_latlon": [
+      36.71187139999998,
+      -119.6902149
+    ],
+    "trip_dist_mi": 298.04,
+    "current_battery_mi": 186,
+    "max_battery_mi": 300,
+    "battery_pct": 62,
+    "needs_charger": true,
+    "chargers_in_corridor": 14
+  },
+  {
+    "query_id": "set2_ev_routing_115",
+    "group": "moderate",
+    "src_latlon": [
+      38.88918819999999,
+      -121.3196074
+    ],
+    "dst_latlon": [
+      38.86640659999999,
+      -120.994998
+    ],
+    "trip_dist_mi": 17.53,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 4
+  },
+  {
+    "query_id": "set2_ev_routing_116",
+    "group": "long",
+    "src_latlon": [
+      36.7911031,
+      -119.87071229999998
+    ],
+    "dst_latlon": [
+      37.95429690000001,
+      -121.31221540000001
+    ],
+    "trip_dist_mi": 112.8,
+    "current_battery_mi": 140,
+    "max_battery_mi": 350,
+    "battery_pct": 40,
+    "needs_charger": true,
+    "chargers_in_corridor": 16
+  },
+  {
+    "query_id": "set2_ev_routing_117",
+    "group": "long",
+    "src_latlon": [
+      39.68722899999998,
+      -120.989299
+    ],
+    "dst_latlon": [
+      38.1556173,
+      -122.1827018
+    ],
+    "trip_dist_mi": 123.75,
+    "current_battery_mi": 78,
+    "max_battery_mi": 200,
+    "battery_pct": 39,
+    "needs_charger": true,
+    "chargers_in_corridor": 5
+  },
+  {
+    "query_id": "set2_ev_routing_118",
+    "group": "moderate",
+    "src_latlon": [
+      38.66839409999997,
+      -121.74229930000001
+    ],
+    "dst_latlon": [
+      37.92914330000001,
+      -121.9783875
+    ],
+    "trip_dist_mi": 52.66,
+    "current_battery_mi": 32,
+    "max_battery_mi": 250,
+    "battery_pct": 13,
+    "needs_charger": true,
+    "chargers_in_corridor": 10
+  },
+  {
+    "query_id": "set2_ev_routing_119",
+    "group": "long",
+    "src_latlon": [
+      33.79069599999998,
+      -117.98031750000001
+    ],
+    "dst_latlon": [
+      36.093234499999994,
+      -119.0455694
+    ],
+    "trip_dist_mi": 170.14,
+    "current_battery_mi": 258,
+    "max_battery_mi": 300,
+    "battery_pct": 86,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_120",
+    "group": "long",
+    "src_latlon": [
+      35.38876839999999,
+      -120.85164250000001
+    ],
+    "dst_latlon": [
+      37.56528199999999,
+      -121.9895049
+    ],
+    "trip_dist_mi": 163.13,
+    "current_battery_mi": 245,
+    "max_battery_mi": 250,
+    "battery_pct": 98,
+    "needs_charger": false,
+    "chargers_in_corridor": 29
+  },
+  {
+    "query_id": "set2_ev_routing_121",
+    "group": "moderate",
+    "src_latlon": [
+      36.590434251856166,
+      -121.95513127966773
+    ],
+    "dst_latlon": [
+      37.46270869999999,
+      -122.44048240000001
+    ],
+    "trip_dist_mi": 65.95,
+    "current_battery_mi": 48,
+    "max_battery_mi": 300,
+    "battery_pct": 16,
+    "needs_charger": true,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_122",
+    "group": "long",
+    "src_latlon": [
+      32.676139699999986,
+      -117.0017419
+    ],
+    "dst_latlon": [
+      35.321027999999984,
+      -119.108592
+    ],
+    "trip_dist_mi": 218.98,
+    "current_battery_mi": 329,
+    "max_battery_mi": 350,
+    "battery_pct": 94,
+    "needs_charger": false,
+    "chargers_in_corridor": 5
+  },
+  {
+    "query_id": "set2_ev_routing_123",
+    "group": "long",
+    "src_latlon": [
+      38.232616999999976,
+      -122.68049800000001
+    ],
+    "dst_latlon": [
+      37.32688399999999,
+      -121.85428760000002
+    ],
+    "trip_dist_mi": 77.15,
+    "current_battery_mi": 74,
+    "max_battery_mi": 350,
+    "battery_pct": 21,
+    "needs_charger": true,
+    "chargers_in_corridor": 84
+  },
+  {
+    "query_id": "set2_ev_routing_124",
+    "group": "moderate",
+    "src_latlon": [
+      32.862749,
+      -116.9237782
+    ],
+    "dst_latlon": [
+      33.23991800000001,
+      -117.29821
+    ],
+    "trip_dist_mi": 33.9,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_125",
+    "group": "long",
+    "src_latlon": [
+      37.653951,
+      -120.09637200000002
+    ],
+    "dst_latlon": [
+      39.15570249999999,
+      -121.5759146
+    ],
+    "trip_dist_mi": 131.08,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 21
+  },
+  {
+    "query_id": "set2_ev_routing_126",
+    "group": "moderate",
+    "src_latlon": [
+      37.30490819999999,
+      -121.9788664
+    ],
+    "dst_latlon": [
+      37.7100749,
+      -121.4407839
+    ],
+    "trip_dist_mi": 40.66,
+    "current_battery_mi": 42,
+    "max_battery_mi": 350,
+    "battery_pct": 12,
+    "needs_charger": true,
+    "chargers_in_corridor": 5
+  },
+  {
+    "query_id": "set2_ev_routing_127",
+    "group": "moderate",
+    "src_latlon": [
+      34.1586459,
+      -118.7539301
+    ],
+    "dst_latlon": [
+      33.96036400000003,
+      -118.020332
+    ],
+    "trip_dist_mi": 44.17,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_128",
+    "group": "long",
+    "src_latlon": [
+      37.62971590000001,
+      -122.4053325
+    ],
+    "dst_latlon": [
+      35.35327099999999,
+      -118.93198430000001
+    ],
+    "trip_dist_mi": 248.89,
+    "current_battery_mi": 128,
+    "max_battery_mi": 250,
+    "battery_pct": 51,
+    "needs_charger": true,
+    "chargers_in_corridor": 79
+  },
+  {
+    "query_id": "set2_ev_routing_129",
+    "group": "moderate",
+    "src_latlon": [
+      37.137835299999985,
+      -121.6533683
+    ],
+    "dst_latlon": [
+      37.523690699999975,
+      -122.04649929999998
+    ],
+    "trip_dist_mi": 34.31,
+    "current_battery_mi": 34,
+    "max_battery_mi": 150,
+    "battery_pct": 23,
+    "needs_charger": true,
+    "chargers_in_corridor": 29
+  },
+  {
+    "query_id": "set2_ev_routing_130",
+    "group": "moderate",
+    "src_latlon": [
+      37.66829829999998,
+      -122.1312627
+    ],
+    "dst_latlon": [
+      38.2341349,
+      -122.5999464
+    ],
+    "trip_dist_mi": 46.7,
+    "current_battery_mi": 32,
+    "max_battery_mi": 250,
+    "battery_pct": 13,
+    "needs_charger": true,
+    "chargers_in_corridor": 55
+  },
+  {
+    "query_id": "set2_ev_routing_131",
+    "group": "long",
+    "src_latlon": [
+      33.736842299999985,
+      -118.01291640000001
+    ],
+    "dst_latlon": [
+      33.042861999999985,
+      -116.862457
+    ],
+    "trip_dist_mi": 81.88,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_132",
+    "group": "moderate",
+    "src_latlon": [
+      37.51641299999998,
+      -119.887094
+    ],
+    "dst_latlon": [
+      37.333376000000015,
+      -120.45850600000001
+    ],
+    "trip_dist_mi": 33.81,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_133",
+    "group": "long",
+    "src_latlon": [
+      33.564437999999996,
+      -116.95240310000001
+    ],
+    "dst_latlon": [
+      33.87068739999998,
+      -118.39946750000001
+    ],
+    "trip_dist_mi": 85.81,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_134",
+    "group": "moderate",
+    "src_latlon": [
+      37.73343169999996,
+      -122.4331925
+    ],
+    "dst_latlon": [
+      37.336863999999984,
+      -121.95854400000002
+    ],
+    "trip_dist_mi": 37.78,
+    "current_battery_mi": 28,
+    "max_battery_mi": 250,
+    "battery_pct": 11,
+    "needs_charger": true,
+    "chargers_in_corridor": 89
+  },
+  {
+    "query_id": "set2_ev_routing_135",
+    "group": "moderate",
+    "src_latlon": [
+      37.92539010000001,
+      -122.5223109
+    ],
+    "dst_latlon": [
+      37.76595669999998,
+      -122.21903219999999
+    ],
+    "trip_dist_mi": 19.88,
+    "current_battery_mi": 22,
+    "max_battery_mi": 250,
+    "battery_pct": 9,
+    "needs_charger": true,
+    "chargers_in_corridor": 58
+  },
+  {
+    "query_id": "set2_ev_routing_136",
+    "group": "long",
+    "src_latlon": [
+      38.837602199999985,
+      -121.5437437
+    ],
+    "dst_latlon": [
+      40.568873899999986,
+      -124.1266784
+    ],
+    "trip_dist_mi": 182.09,
+    "current_battery_mi": 145,
+    "max_battery_mi": 250,
+    "battery_pct": 58,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_137",
+    "group": "long",
+    "src_latlon": [
+      37.92384719999999,
+      -121.7287312
+    ],
+    "dst_latlon": [
+      37.04935210000001,
+      -120.87466459999999
+    ],
+    "trip_dist_mi": 76.44,
+    "current_battery_mi": 75,
+    "max_battery_mi": 300,
+    "battery_pct": 25,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_138",
+    "group": "moderate",
+    "src_latlon": [
+      38.02521460000001,
+      -122.1109788
+    ],
+    "dst_latlon": [
+      37.390628299999996,
+      -122.1134876
+    ],
+    "trip_dist_mi": 43.85,
+    "current_battery_mi": 42,
+    "max_battery_mi": 300,
+    "battery_pct": 14,
+    "needs_charger": true,
+    "chargers_in_corridor": 62
+  },
+  {
+    "query_id": "set2_ev_routing_139",
+    "group": "moderate",
+    "src_latlon": [
+      34.87258880000001,
+      -117.10238980000001
+    ],
+    "dst_latlon": [
+      34.591999799999996,
+      -118.1652939
+    ],
+    "trip_dist_mi": 63.39,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_140",
+    "group": "long",
+    "src_latlon": [
+      38.1399659,
+      -120.45911090000001
+    ],
+    "dst_latlon": [
+      36.829435800000006,
+      -119.8879272
+    ],
+    "trip_dist_mi": 95.81,
+    "current_battery_mi": 114,
+    "max_battery_mi": 200,
+    "battery_pct": 57,
+    "needs_charger": true,
+    "chargers_in_corridor": 12
+  },
+  {
+    "query_id": "set2_ev_routing_141",
+    "group": "moderate",
+    "src_latlon": [
+      33.70077149999998,
+      -117.825664
+    ],
+    "dst_latlon": [
+      34.238439099999994,
+      -116.80759269999999
+    ],
+    "trip_dist_mi": 69.16,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_142",
+    "group": "moderate",
+    "src_latlon": [
+      39.905415,
+      -122.14063
+    ],
+    "dst_latlon": [
+      39.33849039999998,
+      -121.0315536
+    ],
+    "trip_dist_mi": 70.84,
+    "current_battery_mi": 27,
+    "max_battery_mi": 300,
+    "battery_pct": 9,
+    "needs_charger": true,
+    "chargers_in_corridor": 12
+  },
+  {
+    "query_id": "set2_ev_routing_143",
+    "group": "moderate",
+    "src_latlon": [
+      34.265174499999986,
+      -116.8400338
+    ],
+    "dst_latlon": [
+      35.07672809999998,
+      -117.56179150000001
+    ],
+    "trip_dist_mi": 69.47,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_144",
+    "group": "moderate",
+    "src_latlon": [
+      33.76014069999997,
+      -118.1894959
+    ],
+    "dst_latlon": [
+      33.4970303,
+      -117.1203657
+    ],
+    "trip_dist_mi": 64.14,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_145",
+    "group": "moderate",
+    "src_latlon": [
+      38.639819,
+      -121.513019
+    ],
+    "dst_latlon": [
+      37.66557340000001,
+      -121.91740829999999
+    ],
+    "trip_dist_mi": 70.81,
+    "current_battery_mi": 84,
+    "max_battery_mi": 350,
+    "battery_pct": 24,
+    "needs_charger": true,
+    "chargers_in_corridor": 43
+  },
+  {
+    "query_id": "set2_ev_routing_146",
+    "group": "long",
+    "src_latlon": [
+      33.957448999999976,
+      -118.30025870000001
+    ],
+    "dst_latlon": [
+      36.8156825,
+      -119.7937641
+    ],
+    "trip_dist_mi": 214.65,
+    "current_battery_mi": 322,
+    "max_battery_mi": 350,
+    "battery_pct": 92,
+    "needs_charger": false,
+    "chargers_in_corridor": 19
+  },
+  {
+    "query_id": "set2_ev_routing_147",
+    "group": "moderate",
+    "src_latlon": [
+      38.69200489999998,
+      -122.0219094
+    ],
+    "dst_latlon": [
+      39.639148199999994,
+      -121.79964680000002
+    ],
+    "trip_dist_mi": 66.52,
+    "current_battery_mi": 72,
+    "max_battery_mi": 200,
+    "battery_pct": 36,
+    "needs_charger": true,
+    "chargers_in_corridor": 6
+  },
+  {
+    "query_id": "set2_ev_routing_148",
+    "group": "long",
+    "src_latlon": [
+      37.791092699999986,
+      -122.40899650000001
+    ],
+    "dst_latlon": [
+      37.07122900000001,
+      -120.847848
+    ],
+    "trip_dist_mi": 99.05,
+    "current_battery_mi": 46,
+    "max_battery_mi": 200,
+    "battery_pct": 23,
+    "needs_charger": true,
+    "chargers_in_corridor": 91
+  },
+  {
+    "query_id": "set2_ev_routing_149",
+    "group": "long",
+    "src_latlon": [
+      38.663795799999995,
+      -121.2962519
+    ],
+    "dst_latlon": [
+      36.999102900000004,
+      -121.5799017
+    ],
+    "trip_dist_mi": 116.06,
+    "current_battery_mi": 120,
+    "max_battery_mi": 150,
+    "battery_pct": 80,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_150",
+    "group": "moderate",
+    "src_latlon": [
+      38.64564549999999,
+      -121.0767765
+    ],
+    "dst_latlon": [
+      38.805232799999985,
+      -121.3919101
+    ],
+    "trip_dist_mi": 20.25,
+    "current_battery_mi": 18,
+    "max_battery_mi": 150,
+    "battery_pct": 12,
+    "needs_charger": true,
+    "chargers_in_corridor": 13
+  },
+  {
+    "query_id": "set2_ev_routing_151",
+    "group": "long",
+    "src_latlon": [
+      34.1298901,
+      -117.47537480000001
+    ],
+    "dst_latlon": [
+      36.0542253,
+      -119.03835740000001
+    ],
+    "trip_dist_mi": 159.64,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_152",
+    "group": "long",
+    "src_latlon": [
+      41.191180999999986,
+      -122.248358
+    ],
+    "dst_latlon": [
+      38.690617299999985,
+      -121.25533
+    ],
+    "trip_dist_mi": 180.6,
+    "current_battery_mi": 66,
+    "max_battery_mi": 350,
+    "battery_pct": 19,
+    "needs_charger": true,
+    "chargers_in_corridor": 6
+  },
+  {
+    "query_id": "set2_ev_routing_153",
+    "group": "moderate",
+    "src_latlon": [
+      36.079615,
+      -119.949887
+    ],
+    "dst_latlon": [
+      36.59908254325409,
+      -118.93579760281824
+    ],
+    "trip_dist_mi": 66.89,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 3
+  },
+  {
+    "query_id": "set2_ev_routing_154",
+    "group": "moderate",
+    "src_latlon": [
+      37.57882829999999,
+      -122.3230713
+    ],
+    "dst_latlon": [
+      38.0066021,
+      -122.31361790000001
+    ],
+    "trip_dist_mi": 29.56,
+    "current_battery_mi": 20,
+    "max_battery_mi": 150,
+    "battery_pct": 13,
+    "needs_charger": true,
+    "chargers_in_corridor": 95
+  },
+  {
+    "query_id": "set2_ev_routing_155",
+    "group": "moderate",
+    "src_latlon": [
+      33.89464760000002,
+      -117.507567
+    ],
+    "dst_latlon": [
+      33.76633239999999,
+      -117.0273641
+    ],
+    "trip_dist_mi": 28.95,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_156",
+    "group": "long",
+    "src_latlon": [
+      38.26585789999998,
+      -122.02497180000002
+    ],
+    "dst_latlon": [
+      37.1128877,
+      -122.11560260000002
+    ],
+    "trip_dist_mi": 79.82,
+    "current_battery_mi": 80,
+    "max_battery_mi": 250,
+    "battery_pct": 32,
+    "needs_charger": true,
+    "chargers_in_corridor": 71
+  },
+  {
+    "query_id": "set2_ev_routing_157",
+    "group": "moderate",
+    "src_latlon": [
+      38.616500399999985,
+      -121.3931679
+    ],
+    "dst_latlon": [
+      37.91720429999999,
+      -122.0768606
+    ],
+    "trip_dist_mi": 60.91,
+    "current_battery_mi": 48,
+    "max_battery_mi": 150,
+    "battery_pct": 32,
+    "needs_charger": true,
+    "chargers_in_corridor": 11
+  },
+  {
+    "query_id": "set2_ev_routing_158",
+    "group": "long",
+    "src_latlon": [
+      34.017917600000004,
+      -117.66412500000001
+    ],
+    "dst_latlon": [
+      35.2895859,
+      -119.12133090000002
+    ],
+    "trip_dist_mi": 120.74,
+    "current_battery_mi": 92,
+    "max_battery_mi": 250,
+    "battery_pct": 37,
+    "needs_charger": true,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_159",
+    "group": "long",
+    "src_latlon": [
+      32.80024519999999,
+      -117.22925430000001
+    ],
+    "dst_latlon": [
+      35.36881919999998,
+      -117.6380365
+    ],
+    "trip_dist_mi": 179.01,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_160",
+    "group": "long",
+    "src_latlon": [
+      34.1490528,
+      -119.19776370000001
+    ],
+    "dst_latlon": [
+      32.64804100000001,
+      -115.4822162
+    ],
+    "trip_dist_mi": 238.08,
+    "current_battery_mi": 168,
+    "max_battery_mi": 350,
+    "battery_pct": 48,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_161",
+    "group": "moderate",
+    "src_latlon": [
+      39.738852,
+      -121.570279
+    ],
+    "dst_latlon": [
+      39.74012620000003,
+      -122.1888588
+    ],
+    "trip_dist_mi": 32.87,
+    "current_battery_mi": 28,
+    "max_battery_mi": 150,
+    "battery_pct": 19,
+    "needs_charger": true,
+    "chargers_in_corridor": 14
+  },
+  {
+    "query_id": "set2_ev_routing_162",
+    "group": "moderate",
+    "src_latlon": [
+      34.0588372,
+      -118.3431207
+    ],
+    "dst_latlon": [
+      33.879144099999976,
+      -117.5297409
+    ],
+    "trip_dist_mi": 48.23,
+    "current_battery_mi": 123,
+    "max_battery_mi": 150,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_163",
+    "group": "moderate",
+    "src_latlon": [
+      37.9573547,
+      -122.02409279999999
+    ],
+    "dst_latlon": [
+      37.13521389999997,
+      -121.6532922
+    ],
+    "trip_dist_mi": 60.33,
+    "current_battery_mi": 60,
+    "max_battery_mi": 350,
+    "battery_pct": 17,
+    "needs_charger": true,
+    "chargers_in_corridor": 53
+  },
+  {
+    "query_id": "set2_ev_routing_164",
+    "group": "moderate",
+    "src_latlon": [
+      33.887163799999996,
+      -117.3799705
+    ],
+    "dst_latlon": [
+      34.142207199999994,
+      -118.08554179999999
+    ],
+    "trip_dist_mi": 44.08,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_165",
+    "group": "long",
+    "src_latlon": [
+      37.45775049999999,
+      -121.91473570000001
+    ],
+    "dst_latlon": [
+      38.580128999999985,
+      -121.54870939999999
+    ],
+    "trip_dist_mi": 80.07,
+    "current_battery_mi": 65,
+    "max_battery_mi": 250,
+    "battery_pct": 26,
+    "needs_charger": true,
+    "chargers_in_corridor": 61
+  },
+  {
+    "query_id": "set2_ev_routing_166",
+    "group": "long",
+    "src_latlon": [
+      32.52799419980043,
+      -117.09314154337227
+    ],
+    "dst_latlon": [
+      32.9792019,
+      -115.5356767
+    ],
+    "trip_dist_mi": 95.72,
+    "current_battery_mi": 164,
+    "max_battery_mi": 200,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_167",
+    "group": "long",
+    "src_latlon": [
+      34.81525750000002,
+      -118.92070070000001
+    ],
+    "dst_latlon": [
+      37.73209229999997,
+      -122.4067891
+    ],
+    "trip_dist_mi": 279.82,
+    "current_battery_mi": 200,
+    "max_battery_mi": 350,
+    "battery_pct": 57,
+    "needs_charger": true,
+    "chargers_in_corridor": 92
+  },
+  {
+    "query_id": "set2_ev_routing_168",
+    "group": "long",
+    "src_latlon": [
+      36.85464049999999,
+      -119.6603622
+    ],
+    "dst_latlon": [
+      33.267433999999994,
+      -117.2902857
+    ],
+    "trip_dist_mi": 281.75,
+    "current_battery_mi": 196,
+    "max_battery_mi": 350,
+    "battery_pct": 56,
+    "needs_charger": true,
+    "chargers_in_corridor": 13
+  },
+  {
+    "query_id": "set2_ev_routing_169",
+    "group": "long",
+    "src_latlon": [
+      34.56806509999997,
+      -118.0070881
+    ],
+    "dst_latlon": [
+      33.7847194,
+      -116.4340369
+    ],
+    "trip_dist_mi": 104.95,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_170",
+    "group": "moderate",
+    "src_latlon": [
+      38.01441899999999,
+      -121.31449299999998
+    ],
+    "dst_latlon": [
+      37.76971469999999,
+      -121.9646481
+    ],
+    "trip_dist_mi": 39.28,
+    "current_battery_mi": 39,
+    "max_battery_mi": 300,
+    "battery_pct": 13,
+    "needs_charger": true,
+    "chargers_in_corridor": 31
+  },
+  {
+    "query_id": "set2_ev_routing_171",
+    "group": "long",
+    "src_latlon": [
+      35.290879099999984,
+      -120.66827059999999
+    ],
+    "dst_latlon": [
+      34.05957440000002,
+      -118.4829484
+    ],
+    "trip_dist_mi": 150.52,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_172",
+    "group": "moderate",
+    "src_latlon": [
+      37.951362099999976,
+      -121.9409066
+    ],
+    "dst_latlon": [
+      37.7494595,
+      -122.18103910000002
+    ],
+    "trip_dist_mi": 19.14,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 32
+  },
+  {
+    "query_id": "set2_ev_routing_173",
+    "group": "moderate",
+    "src_latlon": [
+      38.410213999999975,
+      -121.40840830000002
+    ],
+    "dst_latlon": [
+      37.68722349999997,
+      -121.2512474
+    ],
+    "trip_dist_mi": 50.68,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_174",
+    "group": "long",
+    "src_latlon": [
+      32.5311517,
+      -117.0093817
+    ],
+    "dst_latlon": [
+      34.242193499999956,
+      -118.26173830000002
+    ],
+    "trip_dist_mi": 138.55,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_175",
+    "group": "moderate",
+    "src_latlon": [
+      34.471959299999995,
+      -118.5357321
+    ],
+    "dst_latlon": [
+      33.8710916,
+      -118.34374990000002
+    ],
+    "trip_dist_mi": 42.94,
+    "current_battery_mi": 246,
+    "max_battery_mi": 300,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_176",
+    "group": "long",
+    "src_latlon": [
+      35.2103586,
+      -120.5703358
+    ],
+    "dst_latlon": [
+      34.488514099999996,
+      -117.5322641
+    ],
+    "trip_dist_mi": 179.33,
+    "current_battery_mi": 164,
+    "max_battery_mi": 350,
+    "battery_pct": 47,
+    "needs_charger": true,
+    "chargers_in_corridor": 3
+  },
+  {
+    "query_id": "set2_ev_routing_177",
+    "group": "long",
+    "src_latlon": [
+      33.72787859999997,
+      -118.2879573
+    ],
+    "dst_latlon": [
+      33.64585629999999,
+      -116.95585399999999
+    ],
+    "trip_dist_mi": 76.79,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_178",
+    "group": "moderate",
+    "src_latlon": [
+      34.1348485,
+      -118.72470580000001
+    ],
+    "dst_latlon": [
+      34.114208,
+      -117.902595
+    ],
+    "trip_dist_mi": 47.04,
+    "current_battery_mi": 123,
+    "max_battery_mi": 150,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_179",
+    "group": "long",
+    "src_latlon": [
+      37.424271199999986,
+      -121.9087056
+    ],
+    "dst_latlon": [
+      35.336286,
+      -119.11111299999999
+    ],
+    "trip_dist_mi": 212.18,
+    "current_battery_mi": 170,
+    "max_battery_mi": 250,
+    "battery_pct": 68,
+    "needs_charger": true,
+    "chargers_in_corridor": 17
+  },
+  {
+    "query_id": "set2_ev_routing_180",
+    "group": "moderate",
+    "src_latlon": [
+      37.67853609999998,
+      -121.4595966
+    ],
+    "dst_latlon": [
+      37.90778709999999,
+      -121.3185287
+    ],
+    "trip_dist_mi": 17.61,
+    "current_battery_mi": 12,
+    "max_battery_mi": 200,
+    "battery_pct": 6,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_181",
+    "group": "moderate",
+    "src_latlon": [
+      37.985319199999985,
+      -122.56976200000001
+    ],
+    "dst_latlon": [
+      37.9179922,
+      -122.0456404
+    ],
+    "trip_dist_mi": 28.93,
+    "current_battery_mi": 36,
+    "max_battery_mi": 200,
+    "battery_pct": 18,
+    "needs_charger": true,
+    "chargers_in_corridor": 28
+  },
+  {
+    "query_id": "set2_ev_routing_182",
+    "group": "moderate",
+    "src_latlon": [
+      37.74912640000001,
+      -122.4053526
+    ],
+    "dst_latlon": [
+      37.29417309999997,
+      -121.9482252
+    ],
+    "trip_dist_mi": 40.19,
+    "current_battery_mi": 42,
+    "max_battery_mi": 300,
+    "battery_pct": 14,
+    "needs_charger": true,
+    "chargers_in_corridor": 89
+  },
+  {
+    "query_id": "set2_ev_routing_183",
+    "group": "moderate",
+    "src_latlon": [
+      37.6881573,
+      -122.4059148
+    ],
+    "dst_latlon": [
+      38.47557170000001,
+      -121.50736750000002
+    ],
+    "trip_dist_mi": 73.13,
+    "current_battery_mi": 82,
+    "max_battery_mi": 150,
+    "battery_pct": 55,
+    "needs_charger": true,
+    "chargers_in_corridor": 76
+  },
+  {
+    "query_id": "set2_ev_routing_184",
+    "group": "moderate",
+    "src_latlon": [
+      37.5386833,
+      -122.4996856
+    ],
+    "dst_latlon": [
+      36.95741339999998,
+      -121.73282240000002
+    ],
+    "trip_dist_mi": 58.24,
+    "current_battery_mi": 48,
+    "max_battery_mi": 300,
+    "battery_pct": 16,
+    "needs_charger": true,
+    "chargers_in_corridor": 7
+  },
+  {
+    "query_id": "set2_ev_routing_185",
+    "group": "long",
+    "src_latlon": [
+      36.60013911592756,
+      -121.87421308409282
+    ],
+    "dst_latlon": [
+      34.06490999999999,
+      -117.77699099999998
+    ],
+    "trip_dist_mi": 289.81,
+    "current_battery_mi": 105,
+    "max_battery_mi": 150,
+    "battery_pct": 70,
+    "needs_charger": true,
+    "chargers_in_corridor": 4
+  },
+  {
+    "query_id": "set2_ev_routing_186",
+    "group": "long",
+    "src_latlon": [
+      35.45073429999998,
+      -120.69688530000002
+    ],
+    "dst_latlon": [
+      37.356154099999976,
+      -121.8665663
+    ],
+    "trip_dist_mi": 146.84,
+    "current_battery_mi": 222,
+    "max_battery_mi": 250,
+    "battery_pct": 89,
+    "needs_charger": false,
+    "chargers_in_corridor": 4
+  },
+  {
+    "query_id": "set2_ev_routing_187",
+    "group": "long",
+    "src_latlon": [
+      34.091652199999984,
+      -118.0995867
+    ],
+    "dst_latlon": [
+      38.06113509999999,
+      -120.19689529999998
+    ],
+    "trip_dist_mi": 298.2,
+    "current_battery_mi": 294,
+    "max_battery_mi": 350,
+    "battery_pct": 84,
+    "needs_charger": true,
+    "chargers_in_corridor": 9
+  },
+  {
+    "query_id": "set2_ev_routing_188",
+    "group": "long",
+    "src_latlon": [
+      34.462001600000015,
+      -118.5073586
+    ],
+    "dst_latlon": [
+      36.02227889999998,
+      -118.9952761
+    ],
+    "trip_dist_mi": 111.26,
+    "current_battery_mi": 82,
+    "max_battery_mi": 250,
+    "battery_pct": 33,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_189",
+    "group": "moderate",
+    "src_latlon": [
+      38.02739799999999,
+      -121.9374483
+    ],
+    "dst_latlon": [
+      38.158221499999996,
+      -121.1384463
+    ],
+    "trip_dist_mi": 44.38,
+    "current_battery_mi": 18,
+    "max_battery_mi": 200,
+    "battery_pct": 9,
+    "needs_charger": true,
+    "chargers_in_corridor": 1
+  },
+  {
+    "query_id": "set2_ev_routing_190",
+    "group": "long",
+    "src_latlon": [
+      34.1057797,
+      -117.8649025
+    ],
+    "dst_latlon": [
+      35.3865888,
+      -120.8516038
+    ],
+    "trip_dist_mi": 191.25,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_191",
+    "group": "moderate",
+    "src_latlon": [
+      37.95764480000001,
+      -122.1111528
+    ],
+    "dst_latlon": [
+      38.75309260000001,
+      -121.34245430000001
+    ],
+    "trip_dist_mi": 68.96,
+    "current_battery_mi": 33,
+    "max_battery_mi": 300,
+    "battery_pct": 11,
+    "needs_charger": true,
+    "chargers_in_corridor": 13
+  },
+  {
+    "query_id": "set2_ev_routing_192",
+    "group": "long",
+    "src_latlon": [
+      35.12810900000001,
+      -120.573621
+    ],
+    "dst_latlon": [
+      37.34141480000001,
+      -122.0133203
+    ],
+    "trip_dist_mi": 172.69,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_193",
+    "group": "moderate",
+    "src_latlon": [
+      34.30912399999999,
+      -119.28901120000002
+    ],
+    "dst_latlon": [
+      34.2114922,
+      -118.22755950000001
+    ],
+    "trip_dist_mi": 60.99,
+    "current_battery_mi": 287,
+    "max_battery_mi": 350,
+    "battery_pct": 82,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_194",
+    "group": "long",
+    "src_latlon": [
+      35.44720569999997,
+      -119.11032600000001
+    ],
+    "dst_latlon": [
+      36.0456737,
+      -117.94798599999999
+    ],
+    "trip_dist_mi": 77.19,
+    "current_battery_mi": 38,
+    "max_battery_mi": 200,
+    "battery_pct": 19,
+    "needs_charger": true,
+    "chargers_in_corridor": 5
+  },
+  {
+    "query_id": "set2_ev_routing_195",
+    "group": "moderate",
+    "src_latlon": [
+      38.8106997,
+      -121.15481459999998
+    ],
+    "dst_latlon": [
+      38.10332609999998,
+      -121.2613906
+    ],
+    "trip_dist_mi": 49.21,
+    "current_battery_mi": 56,
+    "max_battery_mi": 200,
+    "battery_pct": 28,
+    "needs_charger": true,
+    "chargers_in_corridor": 12
+  },
+  {
+    "query_id": "set2_ev_routing_196",
+    "group": "long",
+    "src_latlon": [
+      33.92035219999998,
+      -118.37822280000002
+    ],
+    "dst_latlon": [
+      33.80703260000001,
+      -116.4520216
+    ],
+    "trip_dist_mi": 110.79,
+    "current_battery_mi": 168,
+    "max_battery_mi": 200,
+    "battery_pct": 84,
+    "needs_charger": false,
+    "chargers_in_corridor": 0
+  },
+  {
+    "query_id": "set2_ev_routing_197",
+    "group": "long",
+    "src_latlon": [
+      36.7212878,
+      -121.65461210000001
+    ],
+    "dst_latlon": [
+      38.410137699999986,
+      -121.70596939999999
+    ],
+    "trip_dist_mi": 116.72,
+    "current_battery_mi": 110,
+    "max_battery_mi": 200,
+    "battery_pct": 55,
+    "needs_charger": true,
+    "chargers_in_corridor": 8
+  },
+  {
+    "query_id": "set2_ev_routing_198",
+    "group": "moderate",
+    "src_latlon": [
+      37.688789999999976,
+      -120.266789
+    ],
+    "dst_latlon": [
+      36.73151070000001,
+      -120.0728199
+    ],
+    "trip_dist_mi": 67.0,
+    "current_battery_mi": 63,
+    "max_battery_mi": 350,
+    "battery_pct": 18,
+    "needs_charger": true,
+    "chargers_in_corridor": 2
+  },
+  {
+    "query_id": "set2_ev_routing_199",
+    "group": "long",
+    "src_latlon": [
+      32.63128379999999,
+      -117.0646832
+    ],
+    "dst_latlon": [
+      35.92802809999999,
+      -119.2726094
+    ],
+    "trip_dist_mi": 260.31,
+    "current_battery_mi": 126,
+    "max_battery_mi": 150,
+    "battery_pct": 84,
+    "needs_charger": true,
+    "chargers_in_corridor": 3
+  },
+  {
+    "query_id": "set2_ev_routing_200",
+    "group": "long",
+    "src_latlon": [
+      33.81583789999998,
+      -118.372323
+    ],
+    "dst_latlon": [
+      36.42910330000001,
+      -120.22068650000001
+    ],
+    "trip_dist_mi": 208.59,
+    "current_battery_mi": 205,
+    "max_battery_mi": 250,
+    "battery_pct": 82,
+    "needs_charger": true,
+    "chargers_in_corridor": 8
+  }
+]

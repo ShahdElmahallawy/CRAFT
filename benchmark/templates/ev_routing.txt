@@ -1,0 +1,54 @@
+# Algorithm 1 — EV Routing Templates
+# Find the shortest-distance route given current battery level.
+# Placeholders:
+#   {SRC_NODE}            — origin expressed as (lat, lon) coordinates
+#   {DST_NODE}        — destination expressed as (lat, lon) coordinates
+#   {CURRENT_BATTERY_PCT} — current battery as percentage (e.g. "40%")
+#   {CURRENT_BATTERY_MI}  — current battery range in miles
+#   {MAX_BATTERY_MI}      — maximum battery range in miles
+# ================================================================================
+0: I'm driving an EV car and need to get from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and a full charge gives me {MAX_BATTERY_MI} miles. What's the shortest-distance route?
+
+1: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. I have {CURRENT_BATTERY_MI} miles of range left out of {MAX_BATTERY_MI}. Please give me the shortest route.
+
+2: My EV car is at {CURRENT_BATTERY_PCT} charge, with a maximum range of {MAX_BATTERY_MI} miles. I need to get from {SRC_NODE} to {DST_NODE}. What's the shortest-distance route?
+
+3: Can you help me plan a route from {SRC_NODE} to {DST_NODE}? My EV car has {CURRENT_BATTERY_MI} miles remaining out of a {MAX_BATTERY_MI}-mile full range. What's the shortest way to get there?
+
+4: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. The battery is at {CURRENT_BATTERY_PCT}, and a full charge gives me {MAX_BATTERY_MI} miles. What's the shortest-distance route?
+
+5: I need to get from {SRC_NODE} to {DST_NODE} in my EV car. I have {CURRENT_BATTERY_MI} miles of range left, and the full range is {MAX_BATTERY_MI} miles. Which route is shortest overall?
+
+6: Help me plan a route for my EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the car's maximum range is {MAX_BATTERY_MI} miles. Can you keep the route as short as possible?
+
+7: I'm heading from {SRC_NODE} to {DST_NODE} in my EV car. It's at {CURRENT_BATTERY_PCT} charge out of a maximum range of {MAX_BATTERY_MI} miles. Find me the route with the shortest total distance.
+
+8: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. The battery is at {CURRENT_BATTERY_PCT}, and the full range is {MAX_BATTERY_MI} miles. What's the shortest-distance route?
+
+9: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. I have {CURRENT_BATTERY_MI} miles of range left out of a maximum of {MAX_BATTERY_MI} miles. Please give me the shortest route.
+
+10: I need a route for my EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the maximum range is {MAX_BATTERY_MI} miles. What's the shortest way to get there?
+
+11: I need to reach {DST_NODE} from {SRC_NODE} in my EV car. The battery is at {CURRENT_BATTERY_PCT}, and a full charge gives me {MAX_BATTERY_MI} miles. Which route is shortest overall?
+
+12: From {SRC_NODE}, help me plan a route to {DST_NODE}. My EV car has {CURRENT_BATTERY_MI} miles left, and the full range is {MAX_BATTERY_MI} miles. Can you keep the route as short as possible?
+
+13: I'm leaving {SRC_NODE} in my EV car with the battery at {CURRENT_BATTERY_PCT} and a maximum range of {MAX_BATTERY_MI} miles. I need to get to {DST_NODE}. Find me the route with the shortest total distance.
+
+14: Help me plan a route for my EV car from {SRC_NODE} to {DST_NODE}. My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. What's the shortest-distance route?
+
+15: I'm driving an EV car from {SRC_NODE} to {DST_NODE}. I currently have {CURRENT_BATTERY_MI} miles of range left out of {MAX_BATTERY_MI}. Please give me the shortest route.
+
+16: I need to drive from {SRC_NODE} to {DST_NODE} in my EV car. The battery is at {CURRENT_BATTERY_PCT}, and a full charge gives {MAX_BATTERY_MI} miles. What's the shortest way to get there?
+
+17: I'm leaving {SRC_NODE} in my EV car. The battery is at {CURRENT_BATTERY_PCT}, the max range is {MAX_BATTERY_MI} miles, and I'm heading to {DST_NODE}. Which route is shortest overall?
+
+18: I'm driving my EV car from {SRC_NODE} to {DST_NODE}. The battery is at {CURRENT_BATTERY_PCT}, and the maximum range is {MAX_BATTERY_MI} miles. Can you keep the route as short as possible?
+
+19: Find me the route with the shortest total distance for my EV car from {SRC_NODE} to {DST_NODE}. I currently have {CURRENT_BATTERY_MI} miles of range, and the full range is {MAX_BATTERY_MI} miles.
+
+20: Can you help me plan a route for my EV car from {SRC_NODE} to {DST_NODE}? My battery is at {CURRENT_BATTERY_PCT}, and the max range is {MAX_BATTERY_MI} miles. What's the shortest-distance route?
+
+21: I need to get from {SRC_NODE} to {DST_NODE} in my EV car. My battery is at {CURRENT_BATTERY_PCT} and my maximum range is {MAX_BATTERY_MI} miles, and I need a route that works with my available range. Please give me the shortest route.
+
+22: I need directions from {SRC_NODE} to {DST_NODE} in my EV car. My current range is {CURRENT_BATTERY_MI} miles out of a maximum of {MAX_BATTERY_MI} miles. What's the shortest way to get there?

@@ -1,0 +1,74 @@
+# Algorithm 2 — Ordered POI Routing Templates (LLMAP-compatible)
+# Problem: Route from START to END visiting POI types in a fixed sequence,
+# each leg has a maximum distance limit.
+# LLMAP-compatible POI types: pharmacy, bank, library, supermarket
+# Placeholders:
+#   {SRC_NODE}             — origin expressed as (lat, lon) coordinates
+#   {DST_NODE}             — destination expressed as (lat, lon) coordinates
+#   {DISTANCE_LIMIT_1_MI}  — max miles for leg 1 (start → poi1)
+#   {DISTANCE_LIMIT_2_MI}  — max miles for leg 2 (poi1 → poi2)
+#   {DISTANCE_LIMIT_3_MI}  — max miles for leg 3 (poi2 → poi3 or poi2 → end)
+#   {DISTANCE_LIMIT_MI}    — shared limit in miles when all legs are equal
+# Legs: mostly 2 stops, some 3-stop routes at end.
+# ================================================================================
+0: I'm at {SRC_NODE} and need to get to {DST_NODE}. On the way, I want to stop at a pharmacy within {DISTANCE_LIMIT_1_MI} miles of me, then a library about {DISTANCE_LIMIT_2_MI} miles after that, in that order. What's the shortest-distance route?
+
+1: I'm at {SRC_NODE} and need to get to {DST_NODE}. I want to stop at a library first, no more than {DISTANCE_LIMIT_1_MI} miles away, and then a pharmacy about {DISTANCE_LIMIT_2_MI} miles after that, in that order. Please give me the shortest route.
+
+2: I need to get from {SRC_NODE} to {DST_NODE} with two stops: first a bank within {DISTANCE_LIMIT_1_MI} miles, then a pharmacy about {DISTANCE_LIMIT_2_MI} miles later, in that order. What's the shortest way to get there?
+
+3: I'm at {SRC_NODE} heading to {DST_NODE}. I need a supermarket first within {DISTANCE_LIMIT_1_MI} miles, then a pharmacy about {DISTANCE_LIMIT_2_MI} miles after that, in that order. What's the shortest-distance route?
+
+4: Can you plan a route from {SRC_NODE} to {DST_NODE}? I need to stop at a pharmacy first within {DISTANCE_LIMIT_1_MI} miles, then a bank within another {DISTANCE_LIMIT_2_MI} miles, in that order. Please give me the shortest route.
+
+5: I need to go from {SRC_NODE} to {DST_NODE}. I need a supermarket within {DISTANCE_LIMIT_1_MI} miles first, then a library about {DISTANCE_LIMIT_2_MI} miles after that, in that order. What's the shortest-distance route?
+
+6: I need to get from {SRC_NODE} to {DST_NODE}, stopping first at a bank within {DISTANCE_LIMIT_1_MI} miles and then at a library about {DISTANCE_LIMIT_2_MI} miles later, in that order. What's the shortest way to get there?
+
+7: I need to get from {SRC_NODE} to {DST_NODE}. I want two stops in order: first a library within {DISTANCE_LIMIT_1_MI} miles of me, then a bank within {DISTANCE_LIMIT_2_MI} miles of the library. What's the shortest-distance route?
+
+8: Starting from {SRC_NODE}, heading to {DST_NODE}. I need to stop at a pharmacy first within {DISTANCE_LIMIT_1_MI} miles, then at a supermarket about {DISTANCE_LIMIT_2_MI} miles later, in that order. What's the shortest-distance route?
+
+9: I need to get from {SRC_NODE} to {DST_NODE} with ordered stops: first a bank within {DISTANCE_LIMIT_1_MI} miles, then a supermarket within {DISTANCE_LIMIT_2_MI} miles after that. Which route is shortest overall?
+
+10: From {SRC_NODE}, I need to get to {DST_NODE} with two stops in that order: a supermarket within {DISTANCE_LIMIT_1_MI} miles, then a bank about {DISTANCE_LIMIT_2_MI} miles later. What's the shortest-distance route?
+
+11: Starting from {SRC_NODE}, I need to get to {DST_NODE}. Along the way, I want to visit a library no more than {DISTANCE_LIMIT_1_MI} miles from me, then a bank about {DISTANCE_LIMIT_2_MI} miles after that, in that order. Can you keep the route as short as possible?
+
+12: I need to get from {SRC_NODE} to {DST_NODE}. I want to stop at a pharmacy within {DISTANCE_LIMIT_1_MI} miles, then a bank within {DISTANCE_LIMIT_2_MI} miles of that stop, in that order. What's the shortest-distance route?
+
+13: I'm leaving {SRC_NODE} and heading to {DST_NODE}. I need to stop at a library within {DISTANCE_LIMIT_1_MI} miles of the start, then a pharmacy about {DISTANCE_LIMIT_2_MI} miles after that, in that order. What's the shortest-distance route?
+
+14: I need to get from {SRC_NODE} to {DST_NODE} with two ordered stops: first a bank within {DISTANCE_LIMIT_1_MI} miles, then a pharmacy within {DISTANCE_LIMIT_2_MI} miles after that. Find me the route with the shortest total distance.
+
+15: I'm leaving {SRC_NODE} for {DST_NODE}. On the way, I need a supermarket within {DISTANCE_LIMIT_1_MI} miles of the start, then a pharmacy about {DISTANCE_LIMIT_2_MI} miles later, in that order. Can you keep the route as short as possible?
+
+16: I need to go from {SRC_NODE} to {DST_NODE}, stopping first at a library within {DISTANCE_LIMIT_1_MI} miles and then at a supermarket within {DISTANCE_LIMIT_2_MI} miles of the library, in that order. Please give me the shortest route.
+
+17: I'm planning a trip from {SRC_NODE} to {DST_NODE}. I need to visit a bank first within {DISTANCE_LIMIT_1_MI} miles, then a library about {DISTANCE_LIMIT_2_MI} miles later. Both stops are required and have to be in order. What's the shortest-distance route?
+
+18: I'm going from {SRC_NODE} to {DST_NODE}. I want to stop at a supermarket within {DISTANCE_LIMIT_1_MI} miles of the start, then at a library about {DISTANCE_LIMIT_2_MI} miles later, in that order. Which route is shortest overall?
+
+19: I need to get from {SRC_NODE} to {DST_NODE}, stopping first at a library within {DISTANCE_LIMIT_1_MI} miles of the start and then at a bank within {DISTANCE_LIMIT_2_MI} miles of the library, in that order. What's the shortest way to get there?
+
+20: I'm driving from {SRC_NODE} to {DST_NODE}. I need to stop at a bank first within {DISTANCE_LIMIT_1_MI} miles, then at a supermarket about {DISTANCE_LIMIT_2_MI} miles later, in that order. What's the shortest-distance route?
+
+21: I'm going from {SRC_NODE} to {DST_NODE} and need to stop at a supermarket within {DISTANCE_LIMIT_1_MI} miles, then a pharmacy within {DISTANCE_LIMIT_2_MI} miles after that. Which route is shortest overall?
+
+22: Help me plan a route from {SRC_NODE} to {DST_NODE} that visits a pharmacy and then a library, in that order. Each leg needs to stay within {DISTANCE_LIMIT_MI} miles. Find me the route with the shortest total distance.
+
+23: I'm going from {SRC_NODE} to {DST_NODE}. I need to stop at a library first within {DISTANCE_LIMIT_1_MI} miles, then a supermarket within {DISTANCE_LIMIT_2_MI} miles of the library. Both stops are mandatory and in order. What's the shortest-distance route?
+
+## THREE-STOP ROUTES
+
+24: I need to get from {SRC_NODE} to {DST_NODE} with three stops in order: first a supermarket within {DISTANCE_LIMIT_1_MI} miles, then a bank within {DISTANCE_LIMIT_2_MI} miles after that, and then a pharmacy within {DISTANCE_LIMIT_3_MI} miles after that. What's the shortest-distance route?
+
+25: I need to get from {SRC_NODE} to {DST_NODE} with three mandatory stops in order: first a bank, then a library, then a pharmacy. Each leg has to stay within {DISTANCE_LIMIT_MI} miles. Find me the route with the shortest total distance.
+
+26: I'm leaving {SRC_NODE} for {DST_NODE} and need three stops in order: a pharmacy within {DISTANCE_LIMIT_1_MI} miles of the start, then a library within {DISTANCE_LIMIT_2_MI} miles after that, then a bank within {DISTANCE_LIMIT_3_MI} miles after that. What's the shortest-distance route?
+
+27: I'm planning a three-stop trip from {SRC_NODE} to {DST_NODE}. I need to stop at a library first, then a bank, then a pharmacy in that exact order. The leg limits are {DISTANCE_LIMIT_1_MI}, {DISTANCE_LIMIT_2_MI}, and {DISTANCE_LIMIT_3_MI} miles respectively. Can you keep the route as short as possible?
+
+28: I need to get from {SRC_NODE} to {DST_NODE}, stopping at a pharmacy first, then a supermarket, then a bank — in that exact order. Each leg needs to stay within {DISTANCE_LIMIT_MI} miles. What's the shortest-distance route?
+
+29: I need to get from {SRC_NODE} to {DST_NODE}, stopping at a supermarket first, then a pharmacy, then a library in that order. Leg 1 within {DISTANCE_LIMIT_1_MI} miles, leg 2 within {DISTANCE_LIMIT_2_MI} miles, leg 3 within {DISTANCE_LIMIT_3_MI} miles. What's the shortest-distance route?

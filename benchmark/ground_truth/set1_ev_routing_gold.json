@@ -1,0 +1,7949 @@
+[
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 4.0,
+    "dst_latlon": [
+      34.128754,
+      -117.695276
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_0_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.07589,
+      -117.718233
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      33.876528,
+      -118.404261
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_0_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.838864,
+      -118.287651
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.732048,
+      -117.863053
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_0_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.747659,
+      -117.788875
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.192816,
+      -118.478205
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_0_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.150378,
+      -118.404161
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.424435,
+      -118.465873
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_0_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.486165,
+      -118.558523
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.150605,
+      -117.849016
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_0_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.147114,
+      -117.943324
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.899776,
+      -118.186863
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_0_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.846344,
+      -118.172659
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.927186,
+      -118.150484
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_1_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.954938,
+      -118.086151
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.080861,
+      -117.843286
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_1_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.140055,
+      -117.832819
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.919059,
+      -118.416579
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_1_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.98342,
+      -118.356352
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 5.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.240668,
+      -118.294714
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_1_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.158749,
+      -118.285693
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.097773,
+      -117.95771
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_1_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.059099,
+      -118.057139
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 6.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.765945,
+      -117.812456
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_1_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.771434,
+      -117.942113
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.106671,
+      -117.810119
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_2_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.085671,
+      -117.751545
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.174252,
+      -118.197152
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_2_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.08004,
+      -118.377743
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.085658,
+      -117.838273
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_2_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.075583,
+      -117.916543
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      33.982071,
+      -117.990641
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_2_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.91091,
+      -118.020332
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.887696,
+      -118.082371
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_2_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.927186,
+      -118.150484
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.598694,
+      -118.163124
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_2_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.510268,
+      -118.161429
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.159261,
+      -118.32981
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_2_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.169167,
+      -118.276068
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.811934,
+      -117.850208
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_3_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.771434,
+      -117.942113
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.763466,
+      -118.140481
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_3_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.844119,
+      -118.155563
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.140402,
+      -118.136849
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_3_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.082797,
+      -118.121967
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.645452,
+      -118.093325
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_3_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.711036,
+      -118.166064
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.840651,
+      -118.088796
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_3_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.885353,
+      -118.071334
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.028343,
+      -117.744301
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_3_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.09448,
+      -117.724826
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.863978,
+      -118.392876
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_3_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.834503,
+      -118.303863
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 7.0,
+    "dst_latlon": [
+      34.083147,
+      -118.45547
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_4_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.960181,
+      -118.441452
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      33.920089,
+      -118.400491
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_4_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.930962,
+      -118.346334
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.062019,
+      -117.9418
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_4_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.102617,
+      -118.008886
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.167679,
+      -118.755173
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_4_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.113098,
+      -118.774538
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.899409,
+      -117.961845
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_4_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.857853,
+      -117.870392
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      33.831066,
+      -117.895593
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_4_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.712095,
+      -117.897245
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 6.0,
+    "dst_latlon": [
+      33.957485,
+      -118.071406
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_4_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.901047,
+      -118.151404
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 8.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.692912,
+      -117.754112
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_5_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.637994,
+      -117.884012
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.207653,
+      -118.495682
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_5_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.202579,
+      -118.424716
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.150605,
+      -117.849016
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_5_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.141013,
+      -117.957295
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.929629,
+      -118.216584
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_5_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.930093,
+      -118.170525
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.113844,
+      -117.708203
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_5_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.029429,
+      -117.812639
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.105689,
+      -118.131763
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_5_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.04916,
+      -118.232424
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      33.960594,
+      -118.437906
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_6_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.926383,
+      -118.37439
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.213312,
+      -118.306877
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_6_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.120639,
+      -118.347244
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.067246,
+      -118.070504
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_6_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.099781,
+      -118.034017
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.718926,
+      -117.843939
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_6_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.761201,
+      -117.789881
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      33.808368,
+      -117.992191
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_6_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.865612,
+      -117.976282
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 29.0,
+    "dst_latlon": [
+      33.776571,
+      -118.199383
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_6_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.740534,
+      -118.102988
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 4.0,
+    "dst_latlon": [
+      34.137701,
+      -117.913823
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_7_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.045547,
+      -117.912034
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.007952,
+      -117.999635
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_7_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.041455,
+      -118.039455
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.927186,
+      -118.150484
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_7_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.878178,
+      -118.092576
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.623618,
+      -118.005302
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_7_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.492182,
+      -118.16482
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.122406,
+      -118.230767
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_7_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.189151,
+      -118.317232
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.036884,
+      -118.414778
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_7_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.073775,
+      -118.505579
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.875171,
+      -118.316086
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_7_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.945591,
+      -118.390199
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.751788,
+      -118.083775
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_8_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.681109,
+      -118.173164
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 8.0,
+    "dst_latlon": [
+      33.833727,
+      -118.007052
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_8_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.847091,
+      -118.11747
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.073166,
+      -117.755078
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_8_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.11208,
+      -117.738059
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.852457,
+      -118.397388
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_8_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.774243,
+      -118.383624
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      33.712095,
+      -117.897245
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_8_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.676345,
+      -117.783274
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.221331,
+      -118.485248
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_8_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.170322,
+      -118.427984
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.09232,
+      -117.881376
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_9_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.126637,
+      -117.933675
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.113098,
+      -118.774538
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_9_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.13122,
+      -118.820975
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.872493,
+      -117.907015
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_9_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.92736,
+      -117.963791
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.803246,
+      -117.917552
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_9_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.757125,
+      -117.918562
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 5.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.990284,
+      -118.138843
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_9_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.90891,
+      -118.120509
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.0615,
+      -117.788389
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_9_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.106108,
+      -117.760045
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 6.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.924174,
+      -118.339525
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_9_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.027609,
+      -118.339469
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.329469,
+      -118.505519
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_10_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.37511,
+      -118.496766
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.089588,
+      -117.912309
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_10_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.137554,
+      -117.956159
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.88928,
+      -118.140548
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_10_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.905185,
+      -118.196127
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.066942,
+      -117.795422
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_10_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.99335,
+      -117.793457
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.983192,
+      -118.186205
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_10_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.929629,
+      -118.216584
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.121609,
+      -117.933852
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_10_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.091497,
+      -117.893403
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.041414,
+      -118.038184
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_10_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.988954,
+      -118.099215
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 11.0,
+    "dst_latlon": [
+      34.117124,
+      -118.280491
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_11_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.244363,
+      -118.292115
+    ],
+    "template": "ev_routing",
+    "template_variant": 11,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.049673,
+      -118.04791
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_11_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.011779,
+      -118.048262
+    ],
+    "template": "ev_routing",
+    "template_variant": 11,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.789657,
+      -117.844418
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_11_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.761552,
+      -117.802507
+    ],
+    "template": "ev_routing",
+    "template_variant": 11,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      33.812595,
+      -117.906367
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_11_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.857853,
+      -117.870392
+    ],
+    "template": "ev_routing",
+    "template_variant": 11,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.093799,
+      -118.149503
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_11_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.143268,
+      -118.113148
+    ],
+    "template": "ev_routing",
+    "template_variant": 11,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 5.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.967737,
+      -118.095356
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_12_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.887696,
+      -118.082371
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.643619,
+      -118.103179
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_12_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.631042,
+      -118.005296
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 6.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.102761,
+      -118.31582
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_12_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.189151,
+      -118.317232
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.019736,
+      -118.500879
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_12_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.022044,
+      -118.416564
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 5.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.884716,
+      -118.404349
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_12_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.937723,
+      -118.343909
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.080698,
+      -117.872569
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_12_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.015194,
+      -117.994527
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 8.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.096745,
+      -118.81219
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_12_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.137158,
+      -118.829681
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 9.0,
+    "dst_latlon": [
+      33.906198,
+      -118.067761
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_13_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.841948,
+      -118.046526
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.087119,
+      -117.720884
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_13_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.029782,
+      -117.744763
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.834503,
+      -118.303863
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_13_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.901878,
+      -118.309109
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      33.637999,
+      -117.80566
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_13_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.702554,
+      -117.801044
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.136461,
+      -118.466992
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_13_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.200168,
+      -118.454222
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.288331,
+      -118.522282
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_13_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.292968,
+      -118.58606
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.116417,
+      -117.850278
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_13_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.141098,
+      -117.897956
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 6.0,
+    "dst_latlon": [
+      33.940126,
+      -117.930891
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_14_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.847026,
+      -117.951771
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      33.793143,
+      -117.903559
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_14_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.806795,
+      -118.012556
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 4.0,
+    "dst_latlon": [
+      33.949299,
+      -118.053676
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_14_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.931204,
+      -118.190326
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.109551,
+      -117.74859
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_14_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.106671,
+      -117.810119
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 1.0,
+    "dst_latlon": [
+      33.97182,
+      -118.328656
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_14_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.963503,
+      -118.384707
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.211214,
+      -118.386134
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_14_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.23636,
+      -118.335074
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 5.0,
+    "dst_latlon": [
+      34.015194,
+      -117.994527
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_14_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.122035,
+      -118.006559
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.929629,
+      -118.216584
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_15_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.886769,
+      -118.225904
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.076485,
+      -117.813985
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_15_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.078895,
+      -117.741315
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 9.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.938169,
+      -118.291912
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_15_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.083165,
+      -118.229284
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.078804,
+      -117.829133
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_15_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.053009,
+      -117.909989
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.934656,
+      -118.001738
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_15_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.973868,
+      -118.071398
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.943316,
+      -118.051464
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_15_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.869595,
+      -118.143624
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 7.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.668992,
+      -118.105681
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_15_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.564826,
+      -118.175341
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 4.0,
+    "dst_latlon": [
+      33.757878,
+      -117.877394
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_16_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.78777,
+      -117.811607
+    ],
+    "template": "ev_routing",
+    "template_variant": 16,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      33.873839,
+      -117.942016
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_16_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.765316,
+      -117.924694
+    ],
+    "template": "ev_routing",
+    "template_variant": 16,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      33.748782,
+      -118.120986
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_16_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.777788,
+      -118.181309
+    ],
+    "template": "ev_routing",
+    "template_variant": 16,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.164934,
+      -118.097224
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_16_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.10777,
+      -118.115978
+    ],
+    "template": "ev_routing",
+    "template_variant": 16,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 1.0,
+    "dst_latlon": [
+      34.697154,
+      -118.180006
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_16_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.65993,
+      -118.151914
+    ],
+    "template": "ev_routing",
+    "template_variant": 16,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      33.896862,
+      -118.09303
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_16_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.846189,
+      -118.067758
+    ],
+    "template": "ev_routing",
+    "template_variant": 16,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.098254,
+      -117.744085
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_16_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.024578,
+      -117.731538
+    ],
+    "template": "ev_routing",
+    "template_variant": 16,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 8.0,
+    "dst_latlon": [
+      34.162249,
+      -118.314748
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_17_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.076271,
+      -118.231898
+    ],
+    "template": "ev_routing",
+    "template_variant": 17,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      33.99109,
+      -118.421497
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_17_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.012854,
+      -118.45993
+    ],
+    "template": "ev_routing",
+    "template_variant": 17,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.91799,
+      -118.287105
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_17_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.888941,
+      -118.358411
+    ],
+    "template": "ev_routing",
+    "template_variant": 17,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.115415,
+      -117.978206
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_17_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.026574,
+      -117.900635
+    ],
+    "template": "ev_routing",
+    "template_variant": 17,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.131372,
+      -118.821305
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_17_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.107763,
+      -118.760742
+    ],
+    "template": "ev_routing",
+    "template_variant": 17,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      33.91954,
+      -117.862462
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_17_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.827973,
+      -117.966387
+    ],
+    "template": "ev_routing",
+    "template_variant": 17,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.759479,
+      -117.957665
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_17_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.731783,
+      -117.986752
+    ],
+    "template": "ev_routing",
+    "template_variant": 17,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.801483,
+      -118.387069
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_18_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.887575,
+      -118.346811
+    ],
+    "template": "ev_routing",
+    "template_variant": 18,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      33.623764,
+      -117.812695
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_18_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.704532,
+      -117.806375
+    ],
+    "template": "ev_routing",
+    "template_variant": 18,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.224712,
+      -118.459521
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_18_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.156422,
+      -118.443251
+    ],
+    "template": "ev_routing",
+    "template_variant": 18,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      34.449577,
+      -118.626245
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_18_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.411632,
+      -118.478961
+    ],
+    "template": "ev_routing",
+    "template_variant": 18,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.141936,
+      -117.851991
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_18_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.12305,
+      -117.910198
+    ],
+    "template": "ev_routing",
+    "template_variant": 18,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      33.927186,
+      -118.150484
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_18_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.859825,
+      -118.236872
+    ],
+    "template": "ev_routing",
+    "template_variant": 18,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.024943,
+      -117.746459
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_18_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.008812,
+      -117.804911
+    ],
+    "template": "ev_routing",
+    "template_variant": 18,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 6.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.983192,
+      -118.186205
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_19_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.88931,
+      -118.132438
+    ],
+    "template": "ev_routing",
+    "template_variant": 19,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.078804,
+      -117.829133
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_19_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.060005,
+      -117.787666
+    ],
+    "template": "ev_routing",
+    "template_variant": 19,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.954189,
+      -118.282693
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_19_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.917883,
+      -118.419492
+    ],
+    "template": "ev_routing",
+    "template_variant": 19,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.158631,
+      -118.383389
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_19_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.133101,
+      -118.277109
+    ],
+    "template": "ev_routing",
+    "template_variant": 19,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.112826,
+      -118.015815
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_19_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.059683,
+      -117.96118
+    ],
+    "template": "ev_routing",
+    "template_variant": 19,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.759881,
+      -117.89363
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_19_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.735962,
+      -117.932513
+    ],
+    "template": "ev_routing",
+    "template_variant": 19,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.83817,
+      -117.894509
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_19_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.791106,
+      -117.910132
+    ],
+    "template": "ev_routing",
+    "template_variant": 19,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 9.0,
+    "dst_latlon": [
+      34.025457,
+      -118.120029
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_20_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.965976,
+      -118.280309
+    ],
+    "template": "ev_routing",
+    "template_variant": 20,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.070577,
+      -117.839215
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_20_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.113522,
+      -117.903372
+    ],
+    "template": "ev_routing",
+    "template_variant": 20,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.961077,
+      -118.029161
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_20_v03",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.01333,
+      -118.067438
+    ],
+    "template": "ev_routing",
+    "template_variant": 20,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      33.927186,
+      -118.150484
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_20_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.896862,
+      -118.09303
+    ],
+    "template": "ev_routing",
+    "template_variant": 20,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 5.0,
+    "dst_latlon": [
+      34.588796,
+      -118.214374
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_20_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.671418,
+      -118.104049
+    ],
+    "template": "ev_routing",
+    "template_variant": 20,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.158777,
+      -118.295918
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_20_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.108703,
+      -118.299198
+    ],
+    "template": "ev_routing",
+    "template_variant": 20,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 5.0,
+    "dst_latlon": [
+      34.049853,
+      -118.422915
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_20_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.040968,
+      -118.56238
+    ],
+    "template": "ev_routing",
+    "template_variant": 20,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.927322,
+      -118.343905
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_22_v01",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.931019,
+      -118.296964
+    ],
+    "template": "ev_routing",
+    "template_variant": 22,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.04017,
+      -117.999035
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_22_v02",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.086597,
+      -118.000822
+    ],
+    "template": "ev_routing",
+    "template_variant": 22,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.857853,
+      -117.870392
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_22_v04",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.894266,
+      -117.952819
+    ],
+    "template": "ev_routing",
+    "template_variant": 22,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.937022,
+      -118.230202
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_22_v05",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.881089,
+      -118.242236
+    ],
+    "template": "ev_routing",
+    "template_variant": 22,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.208466,
+      -118.380143
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_22_v06",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.137159,
+      -118.24178
+    ],
+    "template": "ev_routing",
+    "template_variant": 22,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex",
+        "query_id"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 8.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.046038,
+      -117.865869
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_22_v07",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.13901,
+      -117.902369
+    ],
+    "template": "ev_routing",
+    "template_variant": 22,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 10.0,
+    "dst_latlon": [
+      34.484691,
+      -118.164717
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_000",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.590108,
+      -118.202931
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 62.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.90891,
+      -118.120509
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_001",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.891229,
+      -118.180345
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.183059,
+      -118.409439
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_002",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.161958,
+      -118.495741
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 112.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.901189,
+      -118.060493
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_003",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.937583,
+      -118.042601
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.038773,
+      -118.005773
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_004",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.99018,
+      -117.966934
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 99.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.830065,
+      -118.25159
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_005",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.949168,
+      -118.188472
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 4.0,
+    "dst_latlon": [
+      33.708308,
+      -117.902692
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_006",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.620062,
+      -117.826691
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 80.0,
+    "dst_latlon": [
+      34.097208,
+      -117.889126
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 140.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_007",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.057619,
+      -117.855775
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.069868,
+      -118.103814
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 171.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_008",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.042929,
+      -117.990432
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 61.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.15588,
+      -118.2458
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 202.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_009",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.095765,
+      -118.313599
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 5.0,
+    "dst_latlon": [
+      33.878065,
+      -117.882815
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_010",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.794721,
+      -117.964358
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 100.0,
+    "dst_latlon": [
+      34.678366,
+      -118.078136
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_011",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.775908,
+      -118.14898
+    ],
+    "template": "ev_routing",
+    "template_variant": 11,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.169,
+      -118.261071
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_012",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.223953,
+      -118.367762
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.488006,
+      -118.55857
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_013",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.455487,
+      -118.484939
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 1.0,
+    "dst_latlon": [
+      33.870661,
+      -118.357803
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_014",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.89544,
+      -118.3196
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 149.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.121601,
+      -117.694717
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_015",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.072493,
+      -117.722764
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 14.0,
+    "dst_latlon": [
+      33.871792,
+      -118.092524
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_016",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.816347,
+      -118.066984
+    ],
+    "template": "ev_routing",
+    "template_variant": 16,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 70.0,
+    "dst_latlon": [
+      34.125964,
+      -118.182717
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 140.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_017",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.093799,
+      -118.149503
+    ],
+    "template": "ev_routing",
+    "template_variant": 17,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.031676,
+      -117.924908
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 171.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_018",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.134231,
+      -117.96996
+    ],
+    "template": "ev_routing",
+    "template_variant": 18,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 40.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.806795,
+      -118.012556
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 202.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_019",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.820852,
+      -117.926051
+    ],
+    "template": "ev_routing",
+    "template_variant": 19,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      33.765108,
+      -117.940843
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_020",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.725237,
+      -117.87483
+    ],
+    "template": "ev_routing",
+    "template_variant": 20,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 5.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.93828,
+      -118.278372
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_022",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.982634,
+      -118.423222
+    ],
+    "template": "ev_routing",
+    "template_variant": 22,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 40.0,
+    "dst_latlon": [
+      34.088785,
+      -118.221168
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_023",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.159276,
+      -118.336948
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.024578,
+      -117.731538
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_024",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.028119,
+      -117.775797
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 80.0,
+    "dst_latlon": [
+      33.773545,
+      -118.158937
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_025",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.739771,
+      -118.100296
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 7.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.117565,
+      -117.844441
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_026",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.14359,
+      -117.769776
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 60.0,
+    "dst_latlon": [
+      33.820702,
+      -117.879085
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 140.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_027",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.881976,
+      -117.862982
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.042762,
+      -118.562539
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 171.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_028",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.009024,
+      -118.493717
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 70.0,
+    "dst_latlon": [
+      34.121049,
+      -117.879398
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 202.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_029",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.145526,
+      -117.915217
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.136904,
+      -118.834335
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_030",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.153346,
+      -118.751924
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 50.0,
+    "dst_latlon": [
+      34.674849,
+      -118.147858
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 124.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_031",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.515124,
+      -118.190589
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.90522,
+      -118.077407
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 155.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_032",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.949168,
+      -118.188472
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 30.0,
+    "dst_latlon": [
+      34.193552,
+      -118.498801
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 186.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_033",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.179409,
+      -118.437704
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 1.0,
+    "dst_latlon": [
+      33.937583,
+      -118.042601
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 217.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_034",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.85778,
+      -118.07232
+    ],
+    "template": "ev_routing",
+    "template_variant": 11,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 249.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.004302,
+      -117.970507
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 249.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_035",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.91792,
+      -117.998933
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 6.0,
+    "dst_latlon": [
+      33.932713,
+      -118.281013
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 109.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_036",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.846344,
+      -118.172659
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 20.0,
+    "dst_latlon": [
+      33.67728,
+      -117.901068
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 140.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_037",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.69145,
+      -117.827517
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 3.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.113522,
+      -117.903372
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 171.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_add_038",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.07894,
+      -117.883492
+    ],
+    "template": "ev_routing",
+    "template_variant": 15,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 3.0,
+    "dst_latlon": [
+      34.049673,
+      -118.04791
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re001",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.982071,
+      -117.990641
+    ],
+    "template": "ev_routing",
+    "template_variant": 0,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 1.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.137158,
+      -118.829681
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re002",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.143525,
+      -118.760043
+    ],
+    "template": "ev_routing",
+    "template_variant": 1,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 1.0,
+    "dst_latlon": [
+      33.793143,
+      -117.903559
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re003",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.716716,
+      -117.807932
+    ],
+    "template": "ev_routing",
+    "template_variant": 2,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 4.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      34.007076,
+      -117.957065
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re004",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.099878,
+      -117.971164
+    ],
+    "template": "ev_routing",
+    "template_variant": 3,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 4.0,
+    "dst_latlon": [
+      34.193952,
+      -118.386628
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re005",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.143918,
+      -118.44744
+    ],
+    "template": "ev_routing",
+    "template_variant": 4,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 7.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.801483,
+      -118.387069
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re006",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.8717,
+      -118.295097
+    ],
+    "template": "ev_routing",
+    "template_variant": 5,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 7.0,
+    "dst_latlon": [
+      33.96847,
+      -118.116792
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re007",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.929629,
+      -118.216584
+    ],
+    "template": "ev_routing",
+    "template_variant": 6,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 2.0,
+    "dst_latlon": [
+      34.098282,
+      -117.922736
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re008",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.079075,
+      -117.907831
+    ],
+    "template": "ev_routing",
+    "template_variant": 7,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 6.0,
+    "dst_latlon": [
+      33.996731,
+      -118.044704
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re009",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.049673,
+      -118.04791
+    ],
+    "template": "ev_routing",
+    "template_variant": 8,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 8.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.929388,
+      -118.090568
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re010",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.898917,
+      -118.034102
+    ],
+    "template": "ev_routing",
+    "template_variant": 9,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 7.0,
+    "dst_latlon": [
+      33.679648,
+      -117.82418
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re011",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.6886,
+      -117.769816
+    ],
+    "template": "ev_routing",
+    "template_variant": 10,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 5.0,
+    "dst_latlon": [
+      34.139047,
+      -117.910067
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re012",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.10819,
+      -117.914236
+    ],
+    "template": "ev_routing",
+    "template_variant": 11,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "as short as possible",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": 13.0,
+    "current_battery_pct": null,
+    "dst_latlon": [
+      33.90697,
+      -117.889066
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re013",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.820702,
+      -117.879085
+    ],
+    "template": "ev_routing",
+    "template_variant": 12,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 13.0,
+    "dst_latlon": [
+      33.766488,
+      -118.198124
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re014",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      33.818812,
+      -118.139268
+    ],
+    "template": "ev_routing",
+    "template_variant": 13,
+    "time_budget_min": null,
+    "visit_min": null
+  },
+  {
+    "_provenance": {
+      "cat_limits_checker": null,
+      "cat_limits_generator": null,
+      "cat_limits_postfix": null,
+      "matched_by": [
+        "regex"
+      ],
+      "objective_evidence": "shortest",
+      "roundtrip": "exact",
+      "template_source": "current",
+      "types_checker": [],
+      "types_generator": []
+    },
+    "category_limits": null,
+    "current_battery_mi": null,
+    "current_battery_pct": 7.0,
+    "dst_latlon": [
+      34.174176,
+      -118.269586
+    ],
+    "leg_distance_limits_mi": null,
+    "max_battery_mi": 93.0,
+    "objective": "minimize_distance",
+    "ordered": null,
+    "poi_filters": null,
+    "poi_types": null,
+    "query_id": "ev_routing_re015",
+    "road_preference": null,
+    "shared_leg_limit": null,
+    "src_latlon": [
+      34.13601,
+      -118.24992
+    ],
+    "template": "ev_routing",
+    "template_variant": 14,
+    "time_budget_min": null,
+    "visit_min": null
+  }
+]

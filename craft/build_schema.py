@@ -1,5 +1,8 @@
 """
-Scans the socal GPKG pois layer and writes data/socal/schema.json.
+Scans a GPKG's pois layer and writes a schema.json describing which attribute
+columns are usable as filters. Works on any OSM-style road network GPKG, not
+just ours — point --gpkg at your own file (see the commented line below for
+how this project's own SoCal dataset is wired in).
 
 Each attribute column gets classified as:
   static_filter   - known before search, matched by substring (cuisine, wheelchair, ...)
@@ -12,16 +15,23 @@ and the POI type columns themselves (those go in poi_type_columns, not poi_attri
 
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
 ROOT = Path(__file__).resolve().parents[1]
-GPKG_PATH = ROOT / "data" / "socal" / "road_network.gpkg"
-SCHEMA_OUT = ROOT / "data" / "socal" / "schema.json"
 
-SAMPLE_CAP = 25  
+# --- Dataset location -------------------------------------------------------
+# Enter the GPKG you want to build a schema for, or pass --gpkg on the CLI.
+GPKG_PATH = None  # <-- enter your dataset's road_network.gpkg path here
+# GPKG_PATH = ROOT / "data" / "socal" / "road_network.gpkg"  # uncomment to use this project's own SoCal dataset directly
+
+DEFAULT_LAYER = "pois"
+DEFAULT_MIN_NON_NULL = 200  
+
+SAMPLE_CAP = 25
 
 STATIC_FILTER_COLS = [
     "name",
@@ -64,8 +74,12 @@ def _sample_values(series, cap: int = SAMPLE_CAP) -> Optional[List[str]]:
     return vals
 
 
-def build_poi_attributes(pois_gdf) -> Dict[str, Any]:
-    """Build the poi_attributes section from real GPKG columns."""
+def build_poi_attributes(pois_gdf, min_non_null: int = DEFAULT_MIN_NON_NULL) -> Dict[str, Any]:
+    """Build the poi_attributes section from real GPKG columns.
+
+    min_non_null is an absolute row count, not a percentage, to keep this
+    identical to the original SoCal build by default — raising it on a much
+    smaller dataset would silently drop every column."""
     attrs: Dict[str, Any] = {}
 
     for col in STATIC_FILTER_COLS:
@@ -73,7 +87,7 @@ def build_poi_attributes(pois_gdf) -> Dict[str, Any]:
             continue
         non_null = int(pois_gdf[col].notna().sum())
         total = len(pois_gdf)
-        if non_null < 200:
+        if non_null < min_non_null:
             continue
         entry: Dict[str, Any] = {
             "kind": "static_filter",
@@ -124,22 +138,34 @@ def build_poi_attributes(pois_gdf) -> Dict[str, Any]:
     return attrs
 
 
-def build_schema(gpkg_path: Path, out_path: Path) -> None:
+def build_schema(
+    gpkg_path: Path,
+    out_path: Path,
+    *,
+    layer: str = DEFAULT_LAYER,
+    dataset_name: Optional[str] = None,
+    min_non_null: int = DEFAULT_MIN_NON_NULL,
+) -> None:
     try:
         import geopandas as gpd
     except ImportError:
         sys.exit("geopandas not available — activate the conda env: conda run -n myenv python craft/build_schema.py")
 
-    print(f"Reading {gpkg_path} ...")
-    pois_gdf = gpd.read_file(str(gpkg_path), layer="pois")
+    print(f"Reading {gpkg_path} (layer={layer}) ...")
+    pois_gdf = gpd.read_file(str(gpkg_path), layer=layer)
     print(f"  {len(pois_gdf):,} POI rows, {len(pois_gdf.columns)} columns")
 
-    poi_attributes = build_poi_attributes(pois_gdf)
+    poi_attributes = build_poi_attributes(pois_gdf, min_non_null=min_non_null)
+
+    try:
+        source = str(gpkg_path.relative_to(ROOT))
+    except ValueError:
+        source = str(gpkg_path)
 
     schema: Dict[str, Any] = {
-        "dataset": "socal",
+        "dataset": dataset_name or gpkg_path.parent.name,
         "schema_version": "3",
-        "source": str(gpkg_path.relative_to(ROOT)),
+        "source": source,
         "total_pois": len(pois_gdf),
         "poi_type_columns": POI_TYPE_COLS,
         "poi_attributes": poi_attributes,
@@ -157,4 +183,27 @@ def build_schema(gpkg_path: Path, out_path: Path) -> None:
 
 
 if __name__ == "__main__":
-    build_schema(GPKG_PATH, SCHEMA_OUT)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--gpkg", type=Path, default=GPKG_PATH,
+                        help="Path to road_network.gpkg (or uncomment GPKG_PATH above)")
+    parser.add_argument("--layer", default=DEFAULT_LAYER,
+                        help=f"GPKG layer containing POIs (default: {DEFAULT_LAYER})")
+    parser.add_argument("--out", type=Path, default=None,
+                        help="Output schema.json path (default: <gpkg's folder>/schema.json)")
+    parser.add_argument("--dataset-name", default=None,
+                        help="Name stored in schema.json's 'dataset' field (default: gpkg's folder name)")
+    parser.add_argument("--min-non-null", type=int, default=DEFAULT_MIN_NON_NULL,
+                        help=f"Minimum non-null POIs to keep a column (default: {DEFAULT_MIN_NON_NULL}, "
+                             "matches the original SoCal build — raise/lower for a smaller/larger dataset)")
+    args = parser.parse_args()
+
+    if args.gpkg is None:
+        sys.exit("No GPKG given — pass --gpkg, or uncomment GPKG_PATH near the top of this file.")
+
+    build_schema(
+        args.gpkg,
+        args.out or (args.gpkg.parent / "schema.json"),
+        layer=args.layer,
+        dataset_name=args.dataset_name,
+        min_non_null=args.min_non_null,
+    )

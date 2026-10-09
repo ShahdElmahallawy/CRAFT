@@ -1,0 +1,25 @@
+{
+  "dataset": "california",
+  "set": 2,
+  "template": "ev_routing",
+  "total": 200,
+  "group_counts": {
+    "moderate": 100,
+    "long": 100
+  },
+  "group_ranges_mi": {
+    "moderate": [
+      15,
+      75
+    ],
+    "long": [
+      75,
+      300
+    ]
+  },
+  "needs_charger_true": 120,
+  "needs_charger_true_frac": 0.6,
+  "trip_dist_min_mi": 15.61,
+  "trip_dist_max_mi": 299.14,
+  "seed": 42
+}

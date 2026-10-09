@@ -1,0 +1,26 @@
+{
+  "total": 200,
+  "by_template": {
+    "ordered_poi": 200
+  },
+  "three_stop_queries": 14,
+  "two_stop_queries": 186,
+  "stop_filter_kind_counts": {
+    "structured": 290,
+    "none": 95,
+    "description": 29
+  },
+  "stop_poi_type_counts": {
+    "restaurant": 194,
+    "cafe": 177,
+    "museum": 23,
+    "park": 14,
+    "attraction": 6
+  },
+  "record_shape": [
+    "query_id",
+    "nl_query"
+  ],
+  "output_file": "ordered+desc.json",
+  "meta_file": "set3_meta.json"
+}

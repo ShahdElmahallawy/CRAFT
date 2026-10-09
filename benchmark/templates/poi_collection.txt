@@ -1,0 +1,74 @@
+# Algorithm 3 — POI Collection Templates (LLMAP-compatible)
+# Problem: Route from START to END within a time budget, collecting as many POIs
+# as possible subject to category caps.
+# Objective: maximize the number of POIs collected within the time budget,
+# subject to per-category caps. Caps are upper limits, not requirements.
+# LLMAP-compatible POI types: pharmacy, bank, library, supermarket
+# Placeholders:
+#   {SRC_NODE}           — origin expressed as (lat, lon) coordinates
+#   {DST_NODE}           — destination expressed as (lat, lon) coordinates
+#   {TIME_BUDGET_HOURS}  — total time available in hours
+#   {TIME_BUDGET_MIN}    — total time available in minutes
+# Balance time budgets: short (1-2h), medium (3-4h), long (5-6h).
+# ================================================================================
+0: I'm at {SRC_NODE} and need to get to {DST_NODE}. I have {TIME_BUDGET_HOURS} hours total, and along the way I want to visit as many places as possible: up to 2 pharmacies, 1 library, and 1 bank.
+
+1: I need to get from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_MIN} minutes. Can you plan a route that fits in as many stops as possible: up to 1 bank, 2 pharmacies, and 1 library?
+
+2: I'm heading from {SRC_NODE} to {DST_NODE} and I have {TIME_BUDGET_HOURS} hours. I want to fit in as many stops as possible: libraries (max 2) and pharmacies (max 2).
+
+3: From {SRC_NODE}, I need to get to {DST_NODE} within {TIME_BUDGET_HOURS} hours. Along the way, I'd like to visit up to 2 pharmacies and 1 bank. Please maximize the total number of visits.
+
+4: I need to get from {SRC_NODE} to {DST_NODE} with a time budget of {TIME_BUDGET_MIN} minutes. I can stop at up to 2 libraries and 1 supermarket. Maximize total stops.
+
+5: From {SRC_NODE}, I need to reach {DST_NODE} within {TIME_BUDGET_HOURS} hours. Along the way, I want to visit banks (max 1) and libraries (max 2).
+
+6: Help me plan a route from {SRC_NODE} to {DST_NODE} within {TIME_BUDGET_HOURS} hours. I want to visit as many places as possible: pharmacies (max 2), banks (max 1), and libraries (max 2).
+
+7: I need to get from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_MIN} minutes. I want to stop at up to 2 supermarkets and 2 libraries. Maximize visits.
+
+8: From {SRC_NODE}, heading to {DST_NODE}. I have {TIME_BUDGET_HOURS} hours total, and I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library.
+
+9: I need to get from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_MIN} minutes. Can you fit in as many stops as possible, with pharmacies (max 2) and libraries (max 2)?
+
+10: I need to get from {SRC_NODE} to {DST_NODE} within {TIME_BUDGET_HOURS} hours. I'd like to fit in up to 1 bank and 2 supermarkets. Maximize what I can visit.
+
+11: From {SRC_NODE}, I need to reach {DST_NODE} within {TIME_BUDGET_HOURS} hours. Along the way, I want to visit up to 2 libraries and 2 pharmacies.
+
+12: I need to get from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_HOURS} hours. The stop limits are 1 bank, 2 pharmacies, and 1 library. Maximize coverage.
+
+13: I'm leaving {SRC_NODE} and heading to {DST_NODE}, and I have {TIME_BUDGET_HOURS} hours total. I want to visit as many places as I can: pharmacies (max 2), libraries (max 1), and banks (max 1).
+
+14: I need to get from {SRC_NODE} to {DST_NODE} with a time budget of {TIME_BUDGET_MIN} minutes. I want to fit in as many stops as possible, up to 1 bank and 2 supermarkets.
+
+15: I'm leaving {SRC_NODE} for {DST_NODE} and I have {TIME_BUDGET_HOURS} hours. I want to maximize visits to libraries (max 2) and pharmacies (max 2).
+
+16: I'm planning a trip from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_HOURS} hours. I can stop at up to 1 bank, 1 library, and 2 supermarkets.
+
+17: I need to get from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_MIN} minutes. I want to stop at up to 2 pharmacies and 1 library. Maximize coverage.
+
+18: Help me plan a route from {SRC_NODE} to {DST_NODE} within {TIME_BUDGET_HOURS} hours. I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library.
+
+19: I need to get from {SRC_NODE} to {DST_NODE} with a time budget of {TIME_BUDGET_MIN} minutes. Please maximize the number of POI visits: supermarkets (max 2) and libraries (max 2).
+
+20: I'm planning a day trip from {SRC_NODE} to {DST_NODE} and I have {TIME_BUDGET_HOURS} hours. I'd like to fit in a bank (1 max), a pharmacy stop (1 max), and a library (1 max).
+
+21: I'm going from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_HOURS} hours. Along the way, I want to visit up to 1 bank, 2 pharmacies, and 1 library. Maximize total visits.
+
+22: I need to get from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_HOURS} hours. I want to stop at up to 2 supermarkets and 1 bank. Maximize visits while staying within the time budget.
+
+23: I need an itinerary from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_MIN} minutes. The visit limits are 1 bank, 1 library, and 2 pharmacies.
+
+## SPECIALIZED SCENARIOS
+
+24: I'm going from {SRC_NODE} to {DST_NODE} and have {TIME_BUDGET_HOURS} hours total. I want to visit libraries, up to 2, and still leave room for up to 1 supermarket stop.
+
+25: From {SRC_NODE}, I need to get to {DST_NODE} within {TIME_BUDGET_MIN} minutes. Along the way, I want to visit up to 2 banks. I also want to fit in up to 1 pharmacy stop.
+
+26: I need to get from {SRC_NODE} to {DST_NODE} in {TIME_BUDGET_HOURS} hours. On the way, I'd like to stop at up to 2 pharmacies and 1 library. Maximize total visits.
+
+27: From {SRC_NODE}, we're heading to {DST_NODE} and have {TIME_BUDGET_HOURS} hours. We'd like to fit in some library stops, up to 2, and a pharmacy stop, up to 1.
+
+28: I need to get from {SRC_NODE} to {DST_NODE} within {TIME_BUDGET_HOURS} hours. Along the way, I'd like to visit up to 1 bank and 2 pharmacies.
+
+29: I'm at {SRC_NODE} and need to get to {DST_NODE} within {TIME_BUDGET_HOURS} hours, and I'd like to fit in as many supermarket stops as possible, up to 3.

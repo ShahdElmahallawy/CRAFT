@@ -1,0 +1,802 @@
+[
+  {
+    "query_id": "ev+ordered_poi_re001",
+    "nl_query": "I'm driving an EV car from (34.116417, -117.850278) to (34.089219, -117.845685). My battery is at 4%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re002",
+    "nl_query": "I'm at (34.096017, -117.769889) and need to get to (34.043895, -117.81554) in my EV car. I have 2 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re003",
+    "nl_query": "I'm driving an EV car from (34.032664, -117.996176) to (34.043461, -117.951311). My battery is at 6%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 9 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re004",
+    "nl_query": "I'm driving an EV car from (33.823103, -118.079012) to (33.83298, -118.045869). The battery is at 20%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re005",
+    "nl_query": "I'm driving my EV car from (34.161873, -118.418155) to (34.219341, -118.43647). My battery is at 3%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re006",
+    "nl_query": "I'm at (33.927009, -118.406829) and need to get to (33.901921, -118.333038) in my EV car. I have 5 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 4 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re007",
+    "nl_query": "I'm driving an EV car from (34.01486, -118.094921) to (34.007337, -118.041819). My battery is at 5%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re008",
+    "nl_query": "My EV car is at 3% charge with a maximum range of 93 miles, and I need to get from (34.288331, -118.522282) to (34.372593, -118.501604). I need to stop at a bank within 22 miles, then at a pharmacy within 5 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re009",
+    "nl_query": "I'm driving my EV car from (33.799657, -117.915289) to (33.863188, -117.922084). My battery is at 5%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re010",
+    "nl_query": "I'm taking an EV car trip from (34.393612, -118.601016) to (34.364593, -118.548861). My battery is at 6%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re011",
+    "nl_query": "I'm leaving (33.95858, -118.119136) in my EV car and heading to (33.906198, -118.067761). The battery is at 4%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re012",
+    "nl_query": "I'm driving my EV car from (34.052943, -117.881118) to (34.095977, -117.919833). My battery is at 3%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re013",
+    "nl_query": "I'm driving an EV car from (33.77076, -117.902034) to (33.842736, -117.989704). I have 2 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re014",
+    "nl_query": "I need to get from (33.952255, -118.104633) to (33.91714, -118.116693) in my EV car. My battery is at 6%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 5 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re015",
+    "nl_query": "My EV car is at 5% charge, and the max range is 93 miles. I need to drive from (34.125087, -117.742123) to (34.041601, -117.765892), stopping at a bank and then a library, in that order. Each leg has to stay within 10 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re016",
+    "nl_query": "I'm driving an EV car from (34.645975, -118.054348) to (34.620098, -118.174501). My battery is at 7%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re017",
+    "nl_query": "I'm at (34.08617, -117.862009) and need to get to (34.037998, -117.882127) in my EV car. I have 5 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re018",
+    "nl_query": "I'm driving an EV car from (34.106958, -117.773497) to (34.073166, -117.755078). My battery is at 4%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 5 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re019",
+    "nl_query": "I'm driving an EV car from (34.131842, -117.899295) to (34.042929, -117.990432). The battery is at 8%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re020",
+    "nl_query": "I'm driving my EV car from (34.196357, -118.301815) to (34.15133, -118.213759). My battery is at 4%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re021",
+    "nl_query": "I'm at (34.15485, -117.854569) and need to get to (34.142038, -117.91736) in my EV car. I have 5 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 3 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re022",
+    "nl_query": "I'm driving an EV car from (33.987433, -118.178816) to (34.067947, -118.177907). My battery is at 6%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re023",
+    "nl_query": "My EV car is at 4% charge with a maximum range of 93 miles, and I need to get from (33.718926, -117.843939) to (33.816586, -117.852895). I need to stop at a bank within 6 miles, then at a pharmacy within 7 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re024",
+    "nl_query": "I'm driving my EV car from (33.732418, -118.290158) to (33.772917, -118.200618). My battery is at 6%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re025",
+    "nl_query": "I'm taking an EV car trip from (34.052004, -117.983932) to (34.01944, -117.911889). My battery is at 6%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re026",
+    "nl_query": "I'm leaving (33.976749, -118.397557) in my EV car and heading to (33.960911, -118.315591). The battery is at 4%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re027",
+    "nl_query": "I'm driving my EV car from (33.78777, -117.811607) to (33.735962, -117.932513). My battery is at 6%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re028",
+    "nl_query": "I'm driving an EV car from (34.24505, -118.288771) to (34.171531, -118.302961). I have 9 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re029",
+    "nl_query": "I need to get from (33.851163, -117.862909) to (33.842736, -117.989704) in my EV car. My battery is at 7%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 13 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re030",
+    "nl_query": "My EV car is at 2% charge, and the max range is 93 miles. I need to drive from (34.160265, -118.302379) to (34.204473, -118.225507), stopping at a bank and then a library, in that order. Each leg has to stay within 19 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re031",
+    "nl_query": "I'm driving an EV car from (34.032713, -117.879604) to (34.038431, -117.946045). My battery is at 5%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re032",
+    "nl_query": "I'm at (33.957885, -117.999964) and need to get to (34.032664, -117.996176) in my EV car. I have 8 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re033",
+    "nl_query": "I'm driving an EV car from (33.888941, -118.358411) to (33.825565, -118.388636). My battery is at 4%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 4 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re034",
+    "nl_query": "I'm driving an EV car from (33.875065, -118.352697) to (33.797392, -118.405142). The battery is at 5%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re035",
+    "nl_query": "I'm driving my EV car from (33.818689, -118.330643) to (33.850172, -118.262583). My battery is at 1%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re036",
+    "nl_query": "I'm at (33.811934, -117.850208) and need to get to (33.82284, -117.877008) in my EV car. I have 3 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 9 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re037",
+    "nl_query": "I'm driving an EV car from (33.834027, -117.988698) to (33.896998, -117.982722). My battery is at 6%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re038",
+    "nl_query": "My EV car is at 3% charge with a maximum range of 93 miles, and I need to get from (34.15133, -118.213759) to (34.100119, -118.259233). I need to stop at a bank within 4 miles, then at a pharmacy within 5 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re039",
+    "nl_query": "I'm driving my EV car from (34.523997, -118.180776) to (34.602215, -118.076451). My battery is at 41%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re040",
+    "nl_query": "I'm taking an EV car trip from (34.208466, -118.380143) to (34.157643, -118.383392). My battery is at 3%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re041",
+    "nl_query": "I'm leaving (34.381697, -118.554838) in my EV car and heading to (34.479862, -118.607086). The battery is at 7%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re042",
+    "nl_query": "I'm driving my EV car from (34.371634, -118.53519) to (34.398583, -118.415711). My battery is at 5%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re043",
+    "nl_query": "I'm driving an EV car from (33.979095, -118.033891) to (33.938519, -117.984339). I have 3 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re044",
+    "nl_query": "I need to get from (33.851163, -117.862909) to (33.829614, -117.954454) in my EV car. My battery is at 3%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 6 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re045",
+    "nl_query": "My EV car is at 5% charge, and the max range is 93 miles. I need to drive from (34.113603, -117.940076) to (34.09232, -117.881376), stopping at a bank and then a library, in that order. Each leg has to stay within 6 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re046",
+    "nl_query": "I'm driving an EV car from (34.057619, -117.855775) to (34.09622, -117.967075). My battery is at 7%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re047",
+    "nl_query": "I'm at (34.137554, -117.956159) and need to get to (34.13901, -117.902369) in my EV car. I have 4 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re048",
+    "nl_query": "I'm driving an EV car from (34.106615, -117.794128) to (34.058744, -117.747976). My battery is at 5%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 6 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re049",
+    "nl_query": "I'm driving an EV car from (34.045547, -117.912034) to (34.090511, -117.957803). The battery is at 5%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re050",
+    "nl_query": "I'm driving my EV car from (33.779942, -118.327346) to (33.799977, -118.303594). My battery is at 6%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re051",
+    "nl_query": "I'm at (33.83472, -118.22174) and need to get to (33.782773, -118.278003) in my EV car. I have 5 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 9 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re052",
+    "nl_query": "I'm driving an EV car from (34.137701, -117.913823) to (34.072308, -117.871462). My battery is at 6%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re053",
+    "nl_query": "My EV car is at 6% charge with a maximum range of 93 miles, and I need to get from (34.167605, -118.763466) to (34.121717, -118.798904). I need to stop at a bank within 3 miles, then at a pharmacy within 1 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re054",
+    "nl_query": "I'm driving my EV car from (34.11621, -117.76094) to (34.07944, -117.866658). My battery is at 6%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re055",
+    "nl_query": "I'm taking an EV car trip from (33.892285, -118.40232) to (33.907905, -118.374287). My battery is at 1%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re056",
+    "nl_query": "I'm leaving (33.9782, -118.344803) in my EV car and heading to (33.979152, -118.298059). The battery is at 4%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re057",
+    "nl_query": "I'm driving my EV car from (34.449135, -118.620164) to (34.385526, -118.592715). My battery is at 11%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re058",
+    "nl_query": "I'm driving an EV car from (34.041847, -118.564837) to (33.978121, -118.464392). I have 6 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re059",
+    "nl_query": "I need to get from (33.920089, -118.400491) to (33.899045, -118.32538) in my EV car. My battery is at 3%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 5 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re060",
+    "nl_query": "My EV car is at 6% charge, and the max range is 93 miles. I need to drive from (34.122105, -118.368828) to (34.049089, -118.363996), stopping at a bank and then a library, in that order. Each leg has to stay within 7 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re061",
+    "nl_query": "I'm driving an EV car from (34.029782, -117.744763) to (34.048192, -117.806624). My battery is at 2%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re062",
+    "nl_query": "I'm at (33.915108, -118.143212) and need to get to (33.90522, -118.077407) in my EV car. I have 3 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re063",
+    "nl_query": "I'm driving an EV car from (34.252417, -118.304344) to (34.169167, -118.276068). My battery is at 12%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 16 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re064",
+    "nl_query": "I'm driving an EV car from (34.517533, -118.110554) to (34.542269, -118.140348). The battery is at 11%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re065",
+    "nl_query": "I'm driving my EV car from (34.671418, -118.104049) to (34.653397, -118.243775). My battery is at 8%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re066",
+    "nl_query": "I'm at (33.716716, -117.807932) and need to get to (33.665431, -117.829634) in my EV car. I have 5 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 7 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re067",
+    "nl_query": "I'm driving an EV car from (34.161339, -118.282143) to (34.193952, -118.386628). My battery is at 4%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re068",
+    "nl_query": "My EV car is at 9% charge with a maximum range of 93 miles, and I need to get from (34.113349, -118.77053) to (34.153077, -118.799701). I need to stop at a bank within 10 miles, then at a pharmacy within 4 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re069",
+    "nl_query": "I'm driving my EV car from (33.888941, -118.358411) to (33.876528, -118.404261). My battery is at 2%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re070",
+    "nl_query": "I'm taking an EV car trip from (33.872773, -118.374837) to (33.930962, -118.346334). My battery is at 3%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re071",
+    "nl_query": "I'm leaving (33.773173, -117.88619) in my EV car and heading to (33.811171, -117.981524). The battery is at 8%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re072",
+    "nl_query": "I'm driving my EV car from (34.196304, -118.38649) to (34.148465, -118.458027). My battery is at 5%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re073",
+    "nl_query": "I'm driving an EV car from (33.840468, -118.063012) to (33.852301, -118.027522). I have 12 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re074",
+    "nl_query": "I need to get from (34.043712, -118.049672) to (33.961077, -118.029161) in my EV car. My battery is at 6%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 8 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re075",
+    "nl_query": "My EV car is at 2% charge, and the max range is 93 miles. I need to drive from (34.079857, -117.869614) to (34.043461, -117.951311), stopping at a bank and then a library, in that order. Each leg has to stay within 6 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re076",
+    "nl_query": "I'm driving an EV car from (33.801784, -117.958207) to (33.905557, -117.911563). My battery is at 7%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re077",
+    "nl_query": "I'm at (34.05665, -117.909537) and need to get to (34.116203, -117.91367) in my EV car. I have 5 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re078",
+    "nl_query": "I'm driving an EV car from (33.862896, -117.951052) to (33.884868, -117.918688). My battery is at 3%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 6 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re079",
+    "nl_query": "I'm driving an EV car from (33.858584, -118.216806) to (33.920447, -118.254362). The battery is at 4%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re080",
+    "nl_query": "I'm driving my EV car from (33.758624, -118.139895) to (33.79866, -118.106225). My battery is at 3%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re081",
+    "nl_query": "I'm at (34.679887, -118.177245) and need to get to (34.632285, -118.202823) in my EV car. I have 6 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 10 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re082",
+    "nl_query": "I'm driving an EV car from (34.117866, -117.896401) to (34.113603, -117.940076). My battery is at 4%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re083",
+    "nl_query": "My EV car is at 2% charge with a maximum range of 93 miles, and I need to get from (33.748035, -117.854862) to (33.684134, -117.853502). I need to stop at a bank within 3 miles, then at a pharmacy within 3 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re084",
+    "nl_query": "I'm driving my EV car from (34.110965, -118.090022) to (34.057079, -117.969823). My battery is at 7%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re085",
+    "nl_query": "I'm taking an EV car trip from (33.982679, -118.335206) to (33.975394, -118.3068). My battery is at 8%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re086",
+    "nl_query": "I'm leaving (33.790977, -118.021255) in my EV car and heading to (33.727013, -117.975198). The battery is at 3%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re087",
+    "nl_query": "I'm driving my EV car from (33.715965, -117.776388) to (33.676345, -117.783274). My battery is at 2%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re088",
+    "nl_query": "I'm driving an EV car from (34.4199, -118.581731) to (34.441342, -118.545819). I have 4 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re089",
+    "nl_query": "I need to get from (34.025602, -117.910568) to (34.079116, -117.897156) in my EV car. My battery is at 7%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 8 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re090",
+    "nl_query": "My EV car is at 6% charge, and the max range is 93 miles. I need to drive from (34.038543, -117.877775) to (34.078916, -117.878654), stopping at a bank and then a library, in that order. Each leg has to stay within 8 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re091",
+    "nl_query": "I'm driving an EV car from (34.061862, -117.970809) to (34.09157, -118.035184). My battery is at 6%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re092",
+    "nl_query": "I'm at (34.111744, -117.838945) and need to get to (34.137371, -117.82847) in my EV car. I have 6 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re093",
+    "nl_query": "I'm driving an EV car from (33.80193, -118.318842) to (33.871381, -118.322158). My battery is at 4%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 10 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re094",
+    "nl_query": "I'm driving an EV car from (34.17247, -118.291706) to (34.147252, -118.279067). The battery is at 2%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re095",
+    "nl_query": "I'm driving my EV car from (33.99109, -118.421497) to (34.01088, -118.324654). My battery is at 4%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re096",
+    "nl_query": "I'm at (33.867394, -118.115277) and need to get to (33.893052, -118.091213) in my EV car. I have 3 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 5 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re097",
+    "nl_query": "I'm driving an EV car from (33.765108, -117.940843) to (33.727008, -117.834893). My battery is at 8%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re098",
+    "nl_query": "My EV car is at 5% charge with a maximum range of 93 miles, and I need to get from (33.878218, -118.181814) to (33.899428, -118.196993). I need to stop at a bank within 3 miles, then at a pharmacy within 5 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re099",
+    "nl_query": "I'm driving my EV car from (33.636869, -117.832709) to (33.710394, -117.773386). My battery is at 6%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re100",
+    "nl_query": "I'm taking an EV car trip from (33.891468, -117.876285) to (33.879449, -117.957319). My battery is at 6%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re101",
+    "nl_query": "I'm leaving (34.13971, -117.969049) in my EV car and heading to (34.141098, -117.897956). The battery is at 4%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re102",
+    "nl_query": "I'm driving my EV car from (34.10988, -118.104124) to (34.139342, -118.19649). My battery is at 3%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re103",
+    "nl_query": "I'm driving an EV car from (33.875171, -118.316086) to (33.961641, -118.359533). I have 3 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re104",
+    "nl_query": "I need to get from (33.727008, -117.834893) to (33.716922, -117.868238) in my EV car. My battery is at 8%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 8 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re105",
+    "nl_query": "My EV car is at 4% charge, and the max range is 93 miles. I need to drive from (33.897251, -118.39853) to (33.935449, -118.321088), stopping at a bank and then a library, in that order. Each leg has to stay within 4 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re106",
+    "nl_query": "I'm driving an EV car from (34.048472, -117.723629) to (34.078895, -117.741315). My battery is at 8%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re107",
+    "nl_query": "I'm at (34.092734, -117.725055) and need to get to (34.07464, -117.74597) in my EV car. I have 3 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re108",
+    "nl_query": "I'm driving an EV car from (33.862632, -118.383841) to (33.807268, -118.268425). My battery is at 5%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 7 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re109",
+    "nl_query": "I'm driving an EV car from (33.938169, -118.291912) to (33.991523, -118.370173). The battery is at 2%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re110",
+    "nl_query": "I'm driving my EV car from (34.147114, -117.943324) to (34.084205, -117.905032). My battery is at 4%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re111",
+    "nl_query": "I'm at (34.11208, -117.738059) and need to get to (34.069378, -117.77958) in my EV car. I have 5 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 6 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re112",
+    "nl_query": "I'm driving an EV car from (34.15127, -118.138452) to (34.129974, -118.188262). My battery is at 2%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re113",
+    "nl_query": "My EV car is at 3% charge with a maximum range of 93 miles, and I need to get from (33.820162, -117.941447) to (33.834027, -117.988698). I need to stop at a bank within 4 miles, then at a pharmacy within 10 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re114",
+    "nl_query": "I'm driving my EV car from (33.845116, -118.025802) to (33.837621, -118.089791). My battery is at 10%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re115",
+    "nl_query": "I'm taking an EV car trip from (34.64964, -118.058811) to (34.598982, -118.170392). My battery is at 13%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re116",
+    "nl_query": "I'm leaving (34.141563, -117.698749) in my EV car and heading to (34.106233, -117.725447). The battery is at 6%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re117",
+    "nl_query": "I'm driving my EV car from (33.835579, -118.019712) to (33.847595, -118.066416). My battery is at 7%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re118",
+    "nl_query": "I'm driving an EV car from (33.809383, -118.117518) to (33.737898, -118.100281). I have 13 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re119",
+    "nl_query": "I need to get from (34.045173, -118.002081) to (34.112286, -118.063302) in my EV car. My battery is at 4%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 5 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re120",
+    "nl_query": "My EV car is at 8% charge, and the max range is 93 miles. I need to drive from (34.711615, -118.151376) to (34.689986, -118.014513), stopping at a bank and then a library, in that order. Each leg has to stay within 8 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re121",
+    "nl_query": "I'm driving an EV car from (34.156675, -118.147826) to (34.196417, -118.121174). My battery is at 4%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re122",
+    "nl_query": "I'm at (33.781251, -117.900799) and need to get to (33.820319, -117.88283) in my EV car. I have 1 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re123",
+    "nl_query": "I'm driving an EV car from (33.94011, -118.254164) to (33.891586, -118.177131). My battery is at 5%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 5 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re124",
+    "nl_query": "I'm driving an EV car from (34.059506, -117.756747) to (34.122561, -117.768142). The battery is at 4%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re125",
+    "nl_query": "I'm driving my EV car from (33.921887, -117.868767) to (33.908111, -117.904794). My battery is at 6%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re126",
+    "nl_query": "I'm at (33.843184, -118.200225) and need to get to (33.943286, -118.254124) in my EV car. I have 16 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 6 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re127",
+    "nl_query": "I'm driving an EV car from (34.159276, -118.336948) to (34.189629, -118.319873). My battery is at 7%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re128",
+    "nl_query": "My EV car is at 17% charge with a maximum range of 93 miles, and I need to get from (33.90428, -117.856802) to (33.845527, -117.915896). I need to stop at a bank within 5 miles, then at a pharmacy within 7 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re129",
+    "nl_query": "I'm driving my EV car from (33.960985, -118.239003) to (33.852392, -118.193672). My battery is at 16%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re130",
+    "nl_query": "I'm taking an EV car trip from (34.05665, -117.909537) to (34.079116, -117.897156). My battery is at 12%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re131",
+    "nl_query": "I'm leaving (33.825467, -118.228544) in my EV car and heading to (33.88928, -118.140548). The battery is at 16%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re132",
+    "nl_query": "I'm driving my EV car from (33.767767, -118.1715) to (33.7746, -118.254168). My battery is at 12%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re133",
+    "nl_query": "I'm driving an EV car from (34.454555, -118.5302) to (34.409903, -118.599276). I have 16 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re134",
+    "nl_query": "I need to get from (34.142121, -118.222945) to (34.17109, -118.182685) in my EV car. My battery is at 30%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 12 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re135",
+    "nl_query": "My EV car is at 20% charge, and the max range is 93 miles. I need to drive from (33.904982, -118.269639) to (33.825735, -118.215163), stopping at a bank and then a library, in that order. Each leg has to stay within 11 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re136",
+    "nl_query": "I'm driving an EV car from (34.12305, -117.910198) to (34.141498, -117.881287). My battery is at 7%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re137",
+    "nl_query": "I'm at (34.420073, -118.498468) and need to get to (34.419446, -118.544339) in my EV car. I have 9 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re138",
+    "nl_query": "I'm driving an EV car from (34.085658, -117.838273) to (34.114702, -117.839809). My battery is at 12%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 7 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re139",
+    "nl_query": "I'm driving an EV car from (34.190319, -118.384528) to (34.135614, -118.46601). The battery is at 17%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re140",
+    "nl_query": "I'm driving my EV car from (33.780941, -117.899222) to (33.801784, -117.958207). My battery is at 9%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re141",
+    "nl_query": "I'm at (33.952891, -118.19341) and need to get to (33.892369, -118.257035) in my EV car. I have 17 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 13 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re142",
+    "nl_query": "I'm driving an EV car from (33.748035, -117.854862) to (33.739626, -117.801571). My battery is at 7%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re143",
+    "nl_query": "My EV car is at 16% charge with a maximum range of 93 miles, and I need to get from (34.08871, -118.248452) to (34.171531, -118.302961). I need to stop at a bank within 5 miles, then at a pharmacy within 4 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re144",
+    "nl_query": "I'm driving my EV car from (33.858584, -118.216806) to (33.913336, -118.168869). My battery is at 17%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re145",
+    "nl_query": "I'm taking an EV car trip from (33.812595, -117.906367) to (33.771434, -117.942113). My battery is at 10%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re146",
+    "nl_query": "I'm leaving (34.148244, -118.207539) in my EV car and heading to (34.133638, -118.096214). The battery is at 21%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re147",
+    "nl_query": "I'm driving my EV car from (34.135981, -117.694173) to (34.114288, -117.70139). My battery is at 11%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re148",
+    "nl_query": "I'm driving an EV car from (33.718926, -117.843939) to (33.708754, -117.914075). I have 14 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re149",
+    "nl_query": "I need to get from (34.079116, -117.897156) to (34.126637, -117.933675) in my EV car. My battery is at 19%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 7 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re150",
+    "nl_query": "My EV car is at 12% charge, and the max range is 93 miles. I need to drive from (34.107382, -117.775259) to (34.114808, -117.865194), stopping at a bank and then a library, in that order. Each leg has to stay within 5 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re151",
+    "nl_query": "I'm driving an EV car from (33.983192, -118.186205) to (33.931743, -118.163686). My battery is at 16%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re152",
+    "nl_query": "I'm at (33.891229, -118.180345) and need to get to (33.913335, -118.289381) in my EV car. I have 15 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re153",
+    "nl_query": "I'm driving an EV car from (33.98832, -118.187667) to (33.939577, -118.10745). My battery is at 18%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 5 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re154",
+    "nl_query": "I'm driving an EV car from (34.05342, -117.871682) to (34.141498, -117.881287). The battery is at 17%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re155",
+    "nl_query": "I'm driving my EV car from (34.141936, -117.851991) to (34.114808, -117.865194). My battery is at 8%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re156",
+    "nl_query": "I'm at (34.05665, -117.909537) and need to get to (34.078916, -117.878654) in my EV car. I have 10 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 7 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re157",
+    "nl_query": "I'm driving an EV car from (34.190319, -118.384528) to (34.237424, -118.33517). My battery is at 20%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re158",
+    "nl_query": "My EV car is at 12% charge with a maximum range of 93 miles, and I need to get from (34.137301, -118.833949) to (34.152363, -118.766989). I need to stop at a bank within 7 miles, then at a pharmacy within 5 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re159",
+    "nl_query": "I'm driving my EV car from (33.771434, -117.942113) to (33.835568, -117.918679). My battery is at 14%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re160",
+    "nl_query": "I'm taking an EV car trip from (33.889643, -118.29378) to (33.785137, -118.353804). My battery is at 25%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re161",
+    "nl_query": "I'm leaving (34.074676, -117.972236) in my EV car and heading to (34.109035, -118.005587). The battery is at 12%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re162",
+    "nl_query": "I'm driving my EV car from (33.860798, -118.062658) to (33.88013, -118.048646). My battery is at 4%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re163",
+    "nl_query": "I'm driving an EV car from (33.873366, -117.924592) to (33.834875, -117.869083). I have 12 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re164",
+    "nl_query": "I need to get from (34.072924, -118.020012) to (34.032664, -117.996176) in my EV car. My battery is at 27%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 8 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re165",
+    "nl_query": "My EV car is at 18% charge, and the max range is 93 miles. I need to drive from (33.738746, -118.187674) to (33.825467, -118.228544), stopping at a bank and then a library, in that order. Each leg has to stay within 9 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re166",
+    "nl_query": "I'm driving an EV car from (33.925555, -118.03327) to (34.008859, -117.992363). My battery is at 23%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re167",
+    "nl_query": "I'm at (33.832432, -117.943956) and need to get to (33.880105, -117.863471) in my EV car. I have 15 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re168",
+    "nl_query": "I'm driving an EV car from (34.136014, -117.706208) to (34.052105, -117.723722). My battery is at 16%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 4 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re169",
+    "nl_query": "I'm driving an EV car from (33.81885, -117.937105) to (33.859041, -117.880849). The battery is at 14%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re170",
+    "nl_query": "I'm driving my EV car from (34.157883, -118.081563) to (34.170661, -118.152208). My battery is at 11%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re171",
+    "nl_query": "I'm at (34.117958, -117.870351) and need to get to (34.068306, -117.792484) in my EV car. I have 22 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 10 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re172",
+    "nl_query": "I'm driving an EV car from (34.04413, -118.034108) to (33.98604, -117.965598). My battery is at 27%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re173",
+    "nl_query": "My EV car is at 13% charge with a maximum range of 93 miles, and I need to get from (34.143746, -118.154846) to (34.198107, -118.150981). I need to stop at a bank within 5 miles, then at a pharmacy within 2 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re174",
+    "nl_query": "I'm driving my EV car from (33.774983, -118.229074) to (33.841647, -118.213334). My battery is at 15%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re175",
+    "nl_query": "I'm taking an EV car trip from (33.687574, -117.890626) to (33.737805, -117.835873). My battery is at 20%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re176",
+    "nl_query": "I'm leaving (33.859035, -118.272833) in my EV car and heading to (33.838864, -118.288624). The battery is at 12%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re177",
+    "nl_query": "I'm driving my EV car from (34.217742, -118.483688) to (34.136461, -118.466992). My battery is at 17%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re178",
+    "nl_query": "I'm driving an EV car from (33.812595, -117.906367) to (33.869232, -117.848761). I have 12 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re179",
+    "nl_query": "I need to get from (33.782737, -118.207637) to (33.814419, -118.104411) in my EV car. My battery is at 20%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 5 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re180",
+    "nl_query": "My EV car is at 32% charge, and the max range is 93 miles. I need to drive from (34.740594, -118.148673) to (34.748455, -118.023373), stopping at a bank and then a library, in that order. Each leg has to stay within 9 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re181",
+    "nl_query": "I'm driving an EV car from (33.971054, -118.105062) to (33.968201, -118.06874). My battery is at 17%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re182",
+    "nl_query": "I'm at (33.937022, -118.230202) and need to get to (33.882383, -118.19551) in my EV car. I have 9 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re183",
+    "nl_query": "I'm driving an EV car from (33.965865, -118.01043) to (34.007337, -118.041819). My battery is at 12%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 12 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re184",
+    "nl_query": "I'm driving an EV car from (34.167598, -118.748097) to (34.109478, -118.758055). The battery is at 19%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re185",
+    "nl_query": "I'm driving my EV car from (34.091456, -118.810925) to (34.144184, -118.81888). My battery is at 24%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re186",
+    "nl_query": "I'm at (34.095325, -117.83708) and need to get to (34.128982, -117.831083) in my EV car. I have 16 miles remaining out of 93. I need to stop at a pharmacy and then a library, in that order, and each leg has to stay within 6 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re187",
+    "nl_query": "I'm driving an EV car from (33.852019, -117.954984) to (33.795953, -117.937464). My battery is at 11%, and the max range is 93 miles. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Which route is shortest overall?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re188",
+    "nl_query": "My EV car is at 19% charge with a maximum range of 93 miles, and I need to get from (33.913336, -118.168869) to (33.91799, -118.287105). I need to stop at a bank within 5 miles, then at a pharmacy within 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re189",
+    "nl_query": "I'm driving my EV car from (34.206204, -118.141876) to (34.124352, -118.135968). My battery is at 12%, and the max range is 93 miles. I need to stop at a library and then a bank, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re190",
+    "nl_query": "I'm taking an EV car trip from (34.198206, -118.238769) to (34.174252, -118.197152). My battery is at 12%, and the max range is 93 miles. Along the way, I want to stop at a pharmacy and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re191",
+    "nl_query": "I'm leaving (34.166795, -118.459629) in my EV car and heading to (34.197578, -118.417033). The battery is at 9%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "ev+ordered_poi_re192",
+    "nl_query": "I'm driving my EV car from (34.151798, -118.244772) to (34.165852, -118.35828). My battery is at 20%, and the max range is 93 miles. I need to make two mandatory stops in order: first a library, then a bank. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re193",
+    "nl_query": "I'm driving an EV car from (34.317904, -118.474399) to (34.414641, -118.479962). I have 26 miles of range left, and the full range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re194",
+    "nl_query": "I need to get from (34.392708, -118.453757) to (34.341592, -118.505776) in my EV car. My battery is at 24%, and the max range is 93 miles. I need three ordered stops: first a supermarket, then a library, then a pharmacy, with each leg staying within 7 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re195",
+    "nl_query": "My EV car is at 10% charge, and the max range is 93 miles. I need to drive from (34.149932, -118.241831) to (34.117124, -118.280491), stopping at a bank and then a library, in that order. Each leg has to stay within 4 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re196",
+    "nl_query": "I'm driving an EV car from (34.069378, -117.77958) to (34.09072, -117.711823). My battery is at 16%, and the max range is 93 miles. I need to stop at a pharmacy first and then a library, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re197",
+    "nl_query": "I'm at (33.810596, -117.928462) and need to get to (33.850874, -117.864057) in my EV car. I have 13 miles of range left out of 93. Along the way, I need to stop at a supermarket and then a pharmacy, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "ev+ordered_poi_re198",
+    "nl_query": "I'm driving an EV car from (34.090594, -117.884119) to (34.078804, -117.829133). My battery is at 9%, and the max range is 93 miles. I need to stop at a bank and then a pharmacy, in that order, with each leg staying within 9 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re199",
+    "nl_query": "I'm driving an EV car from (34.156217, -118.78235) to (34.121717, -118.798904). The battery is at 19%, and the max range is 93 miles. I need two stops in order: first a library, then a pharmacy. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "ev+ordered_poi_re200",
+    "nl_query": "I'm driving my EV car from (34.042762, -118.562539) to (33.988186, -118.468955). My battery is at 14%, and the max range is 93 miles. I need to stop at a supermarket and then a bank, in that order. What's the shortest-distance route?"
+  }
+]

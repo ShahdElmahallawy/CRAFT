@@ -1,0 +1,802 @@
+[
+  {
+    "query_id": "poi_collection_0_v01",
+    "nl_query": "I'm at (34.07589, -117.718233) and need to get to (34.128754, -117.695276). I have 2 hours total, and along the way I want to visit as many places as possible: up to 2 pharmacies, 1 library, and 1 bank."
+  },
+  {
+    "query_id": "poi_collection_0_v02",
+    "nl_query": "I'm at (33.845903, -118.376621) and need to get to (33.861993, -118.299558). I have 2 hours total, and along the way I want to visit as many places as possible: up to 2 pharmacies, 1 library, and 1 bank."
+  },
+  {
+    "query_id": "poi_collection_0_v03",
+    "nl_query": "I'm at (33.687974, -117.746776) and need to get to (33.740634, -117.839321). I have 3 hours total, and along the way I want to visit as many places as possible: up to 2 pharmacies, 1 library, and 1 bank."
+  },
+  {
+    "query_id": "poi_collection_0_v04",
+    "nl_query": "I'm at (34.179409, -118.437704) and need to get to (34.193552, -118.498801). I have 4 hours total, and along the way I want to visit as many places as possible: up to 2 pharmacies, 1 library, and 1 bank."
+  },
+  {
+    "query_id": "poi_collection_0_v05",
+    "nl_query": "I'm at (34.430321, -118.49942) and need to get to (34.441516, -118.575922). I have 5 hours total, and along the way I want to visit as many places as possible: up to 2 pharmacies, 1 library, and 1 bank."
+  },
+  {
+    "query_id": "poi_collection_0_v06",
+    "nl_query": "I'm at (34.142366, -117.963892) and need to get to (34.091497, -117.893403). I have 6 hours total, and along the way I want to visit as many places as possible: up to 2 pharmacies, 1 library, and 1 bank."
+  },
+  {
+    "query_id": "poi_collection_0_v07",
+    "nl_query": "I'm at (33.859035, -118.272833) and need to get to (33.841647, -118.213334). I have 2 hours total, and along the way I want to visit as many places as possible: up to 2 pharmacies, 1 library, and 1 bank."
+  },
+  {
+    "query_id": "poi_collection_1_v01",
+    "nl_query": "I need to get from (33.710704, -117.964251) to (33.762804, -117.880356) in 120 minutes. Can you plan a route that fits in as many stops as possible: up to 1 bank, 2 pharmacies, and 1 library?"
+  },
+  {
+    "query_id": "poi_collection_1_v02",
+    "nl_query": "I need to get from (33.931743, -118.163686) to (33.939417, -118.115767) in 120 minutes. Can you plan a route that fits in as many stops as possible: up to 1 bank, 2 pharmacies, and 1 library?"
+  },
+  {
+    "query_id": "poi_collection_1_v03",
+    "nl_query": "I need to get from (34.078804, -117.829133) to (34.107382, -117.775259) in 180 minutes. Can you plan a route that fits in as many stops as possible: up to 1 bank, 2 pharmacies, and 1 library?"
+  },
+  {
+    "query_id": "poi_collection_1_v04",
+    "nl_query": "I need to get from (33.926383, -118.37439) to (33.9468, -118.305733) in 240 minutes. Can you plan a route that fits in as many stops as possible: up to 1 bank, 2 pharmacies, and 1 library?"
+  },
+  {
+    "query_id": "poi_collection_1_v06",
+    "nl_query": "I need to get from (34.016607, -117.993411) to (34.059099, -118.057139) in 360 minutes. Can you plan a route that fits in as many stops as possible: up to 1 bank, 2 pharmacies, and 1 library?"
+  },
+  {
+    "query_id": "poi_collection_1_v07",
+    "nl_query": "I need to get from (33.806677, -117.835704) to (33.708614, -117.850232) in 120 minutes. Can you plan a route that fits in as many stops as possible: up to 1 bank, 2 pharmacies, and 1 library?"
+  },
+  {
+    "query_id": "poi_collection_2_v01",
+    "nl_query": "I'm heading from (34.028343, -117.744301) to (34.067017, -117.818076) and I have 2 hours. I want to fit in as many stops as possible: libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_2_v02",
+    "nl_query": "I'm heading from (34.078724, -118.39953) to (34.04687, -118.103996) and I have 2 hours. I want to fit in as many stops as possible: libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_2_v03",
+    "nl_query": "I'm heading from (34.114808, -117.865194) to (34.05342, -117.871682) and I have 3 hours. I want to fit in as many stops as possible: libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_2_v04",
+    "nl_query": "I'm heading from (33.974503, -118.060352) to (34.01486, -118.094921) and I have 4 hours. I want to fit in as many stops as possible: libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_2_v05",
+    "nl_query": "I'm heading from (33.906198, -118.067761) to (33.83959, -118.086801) and I have 5 hours. I want to fit in as many stops as possible: libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_2_v06",
+    "nl_query": "I'm heading from (34.636546, -118.22749) to (34.577248, -118.071854) and I have 6 hours. I want to fit in as many stops as possible: libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_2_v07",
+    "nl_query": "I'm heading from (34.111753, -118.296604) to (34.139946, -118.181704) and I have 1 hours. I want to fit in as many stops as possible: libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_3_v01",
+    "nl_query": "From (33.810596, -117.928462), I need to get to (33.847026, -117.951771) within 1 hours. Along the way, I'd like to visit up to 2 pharmacies and 1 bank. Please maximize the total number of visits."
+  },
+  {
+    "query_id": "poi_collection_3_v02",
+    "nl_query": "From (33.786344, -118.101126), I need to get to (33.74329, -118.28353) within 2 hours. Along the way, I'd like to visit up to 2 pharmacies and 1 bank. Please maximize the total number of visits."
+  },
+  {
+    "query_id": "poi_collection_3_v03",
+    "nl_query": "From (34.156971, -118.059776), I need to get to (34.152475, -118.150455) within 3 hours. Along the way, I'd like to visit up to 2 pharmacies and 1 bank. Please maximize the total number of visits."
+  },
+  {
+    "query_id": "poi_collection_3_v04",
+    "nl_query": "From (34.613347, -118.19579), I need to get to (34.645995, -118.058823) within 4 hours. Along the way, I'd like to visit up to 2 pharmacies and 1 bank. Please maximize the total number of visits."
+  },
+  {
+    "query_id": "poi_collection_3_v05",
+    "nl_query": "From (33.842335, -118.067681), I need to get to (33.847091, -118.11747) within 5 hours. Along the way, I'd like to visit up to 2 pharmacies and 1 bank. Please maximize the total number of visits."
+  },
+  {
+    "query_id": "poi_collection_3_v06",
+    "nl_query": "From (34.132633, -117.717078), I need to get to (34.029782, -117.744763) within 6 hours. Along the way, I'd like to visit up to 2 pharmacies and 1 bank. Please maximize the total number of visits."
+  },
+  {
+    "query_id": "poi_collection_3_v07",
+    "nl_query": "From (33.839285, -118.337442), I need to get to (33.787276, -118.338247) within 2 hours. Along the way, I'd like to visit up to 2 pharmacies and 1 bank. Please maximize the total number of visits."
+  },
+  {
+    "query_id": "poi_collection_4_v01",
+    "nl_query": "I need to get from (34.013777, -118.434963) to (34.073775, -118.505579) with a time budget of 120 minutes. I can stop at up to 2 libraries and 1 supermarket. Maximize total stops."
+  },
+  {
+    "query_id": "poi_collection_4_v02",
+    "nl_query": "I need to get from (33.881193, -118.317839) to (33.955341, -118.359449) with a time budget of 120 minutes. I can stop at up to 2 libraries and 1 supermarket. Maximize total stops."
+  },
+  {
+    "query_id": "poi_collection_4_v03",
+    "nl_query": "I need to get from (34.05336, -117.969696) to (34.079075, -117.907831) with a time budget of 180 minutes. I can stop at up to 2 libraries and 1 supermarket. Maximize total stops."
+  },
+  {
+    "query_id": "poi_collection_4_v04",
+    "nl_query": "I need to get from (34.121834, -118.85477) to (34.109494, -118.790262) with a time budget of 240 minutes. I can stop at up to 2 libraries and 1 supermarket. Maximize total stops."
+  },
+  {
+    "query_id": "poi_collection_4_v05",
+    "nl_query": "I need to get from (33.921887, -117.868767) to (33.850842, -117.919844) with a time budget of 300 minutes. I can stop at up to 2 libraries and 1 supermarket. Maximize total stops."
+  },
+  {
+    "query_id": "poi_collection_4_v06",
+    "nl_query": "I need to get from (33.832432, -117.943956) to (33.815518, -118.000276) with a time budget of 360 minutes. I can stop at up to 2 libraries and 1 supermarket. Maximize total stops."
+  },
+  {
+    "query_id": "poi_collection_4_v07",
+    "nl_query": "I need to get from (33.891229, -118.180345) to (33.930899, -118.182225) with a time budget of 120 minutes. I can stop at up to 2 libraries and 1 supermarket. Maximize total stops."
+  },
+  {
+    "query_id": "poi_collection_5_v01",
+    "nl_query": "From (33.69563, -117.829108), I need to reach (33.700055, -117.876935) within 2 hours. Along the way, I want to visit banks (max 1) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_5_v02",
+    "nl_query": "From (34.177608, -118.387789), I need to reach (34.174545, -118.467619) within 2 hours. Along the way, I want to visit banks (max 1) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_5_v03",
+    "nl_query": "From (34.377929, -118.537059), I need to reach (34.481254, -118.569404) within 3 hours. Along the way, I want to visit banks (max 1) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_5_v05",
+    "nl_query": "From (33.839009, -118.177068), I need to reach (33.916427, -118.280774) within 5 hours. Along the way, I want to visit banks (max 1) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_5_v06",
+    "nl_query": "From (34.02039, -117.769181), I need to reach (34.06665, -117.82021) within 6 hours. Along the way, I want to visit banks (max 1) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_5_v07",
+    "nl_query": "From (33.960038, -118.289949), I need to reach (33.994974, -118.343688) within 2 hours. Along the way, I want to visit banks (max 1) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_6_v01",
+    "nl_query": "Help me plan a route from (34.140055, -117.832819) to (34.123443, -117.771557) within 1 hours. I want to visit as many places as possible: pharmacies (max 2), banks (max 1), and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_6_v02",
+    "nl_query": "Help me plan a route from (33.966881, -118.282692) to (34.017521, -118.345942) within 2 hours. I want to visit as many places as possible: pharmacies (max 2), banks (max 1), and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_6_v04",
+    "nl_query": "Help me plan a route from (34.081981, -118.034843) to (34.106226, -118.098162) within 4 hours. I want to visit as many places as possible: pharmacies (max 2), banks (max 1), and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_6_v05",
+    "nl_query": "Help me plan a route from (33.793143, -117.903559) to (33.716642, -117.808062) within 5 hours. I want to visit as many places as possible: pharmacies (max 2), banks (max 1), and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_6_v06",
+    "nl_query": "Help me plan a route from (33.879449, -117.957319) to (33.793143, -117.903559) within 6 hours. I want to visit as many places as possible: pharmacies (max 2), banks (max 1), and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_6_v07",
+    "nl_query": "Help me plan a route from (33.843413, -118.156003) to (33.802101, -118.142786) within 1 hours. I want to visit as many places as possible: pharmacies (max 2), banks (max 1), and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_7_v01",
+    "nl_query": "I need to get from (34.095325, -117.83708) to (34.081684, -117.942385) in 120 minutes. I want to stop at up to 2 supermarkets and 2 libraries. Maximize visits."
+  },
+  {
+    "query_id": "poi_collection_7_v02",
+    "nl_query": "I need to get from (34.007952, -117.999635) to (34.01072, -118.085966) in 120 minutes. I want to stop at up to 2 supermarkets and 2 libraries. Maximize visits."
+  },
+  {
+    "query_id": "poi_collection_7_v03",
+    "nl_query": "I need to get from (33.907352, -118.033251) to (33.91714, -118.116693) in 180 minutes. I want to stop at up to 2 supermarkets and 2 libraries. Maximize visits."
+  },
+  {
+    "query_id": "poi_collection_7_v04",
+    "nl_query": "I need to get from (34.599675, -118.125484) to (34.677461, -118.124368) in 240 minutes. I want to stop at up to 2 supermarkets and 2 libraries. Maximize visits."
+  },
+  {
+    "query_id": "poi_collection_7_v05",
+    "nl_query": "I need to get from (34.098035, -118.320542) to (34.134528, -118.260753) in 300 minutes. I want to stop at up to 2 supermarkets and 2 libraries. Maximize visits."
+  },
+  {
+    "query_id": "poi_collection_7_v06",
+    "nl_query": "I need to get from (34.077272, -118.497142) to (33.960482, -118.443018) in 360 minutes. I want to stop at up to 2 supermarkets and 2 libraries. Maximize visits."
+  },
+  {
+    "query_id": "poi_collection_7_v07",
+    "nl_query": "I need to get from (33.881193, -118.317839) to (33.964615, -118.330635) in 120 minutes. I want to stop at up to 2 supermarkets and 2 libraries. Maximize visits."
+  },
+  {
+    "query_id": "poi_collection_8_v01",
+    "nl_query": "From (34.11062, -118.104146), heading to (34.172806, -118.206509). I have 2 hours total, and I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_8_v02",
+    "nl_query": "From (34.700871, -118.04124), heading to (34.631396, -118.040849). I have 2 hours total, and I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_8_v03",
+    "nl_query": "From (33.887492, -118.096671), heading to (33.855311, -118.003417). I have 3 hours total, and I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_8_v04",
+    "nl_query": "From (34.135969, -117.695386), heading to (34.11208, -117.738059). I have 4 hours total, and I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_8_v05",
+    "nl_query": "From (33.800169, -118.312905), heading to (33.787938, -118.398541). I have 5 hours total, and I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_8_v07",
+    "nl_query": "From (34.210299, -118.448727), heading to (34.173691, -118.413318). I have 2 hours total, and I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_9_v01",
+    "nl_query": "I need to get from (34.094538, -118.01516) to (34.007076, -117.957065) in 120 minutes. Can you fit in as many stops as possible, with pharmacies (max 2) and libraries (max 2)?"
+  },
+  {
+    "query_id": "poi_collection_9_v02",
+    "nl_query": "I need to get from (34.143207, -118.811126) to (34.167679, -118.755173) in 120 minutes. Can you fit in as many stops as possible, with pharmacies (max 2) and libraries (max 2)?"
+  },
+  {
+    "query_id": "poi_collection_9_v04",
+    "nl_query": "I need to get from (33.759881, -117.89363) to (33.714064, -117.944099) in 240 minutes. Can you fit in as many stops as possible, with pharmacies (max 2) and libraries (max 2)?"
+  },
+  {
+    "query_id": "poi_collection_9_v05",
+    "nl_query": "I need to get from (33.929388, -118.090568) to (33.968201, -118.06874) in 300 minutes. Can you fit in as many stops as possible, with pharmacies (max 2) and libraries (max 2)?"
+  },
+  {
+    "query_id": "poi_collection_9_v06",
+    "nl_query": "I need to get from (34.056852, -117.805989) to (34.123269, -117.843536) in 360 minutes. Can you fit in as many stops as possible, with pharmacies (max 2) and libraries (max 2)?"
+  },
+  {
+    "query_id": "poi_collection_9_v07",
+    "nl_query": "I need to get from (34.017035, -118.407151) to (33.960911, -118.315591) in 60 minutes. Can you fit in as many stops as possible, with pharmacies (max 2) and libraries (max 2)?"
+  },
+  {
+    "query_id": "poi_collection_10_v01",
+    "nl_query": "I need to get from (34.430813, -118.589282) to (34.339236, -118.506749) within 2 hours. I'd like to fit in up to 1 bank and 2 supermarkets. Maximize what I can visit."
+  },
+  {
+    "query_id": "poi_collection_10_v03",
+    "nl_query": "I need to get from (33.852392, -118.193672) to (33.942663, -118.191489) within 3 hours. I'd like to fit in up to 1 bank and 2 supermarkets. Maximize what I can visit."
+  },
+  {
+    "query_id": "poi_collection_10_v04",
+    "nl_query": "I need to get from (34.084954, -117.746135) to (34.042947, -117.741922) within 4 hours. I'd like to fit in up to 1 bank and 2 supermarkets. Maximize what I can visit."
+  },
+  {
+    "query_id": "poi_collection_10_v05",
+    "nl_query": "I need to get from (34.059008, -118.338167) to (34.045415, -118.294724) within 5 hours. I'd like to fit in up to 1 bank and 2 supermarkets. Maximize what I can visit."
+  },
+  {
+    "query_id": "poi_collection_10_v06",
+    "nl_query": "I need to get from (34.116203, -117.91367) to (34.071184, -117.941388) within 6 hours. I'd like to fit in up to 1 bank and 2 supermarkets. Maximize what I can visit."
+  },
+  {
+    "query_id": "poi_collection_10_v07",
+    "nl_query": "I need to get from (33.979064, -118.029472) to (33.966841, -118.092379) within 3 hours. I'd like to fit in up to 1 bank and 2 supermarkets. Maximize what I can visit."
+  },
+  {
+    "query_id": "poi_collection_11_v01",
+    "nl_query": "From (34.252417, -118.304344), I need to reach (34.211214, -118.386134) within 2 hours. Along the way, I want to visit up to 2 libraries and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_11_v02",
+    "nl_query": "From (34.121605, -118.066632), I need to reach (34.099492, -117.967061) within 2 hours. Along the way, I want to visit up to 2 libraries and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_11_v03",
+    "nl_query": "From (33.713339, -117.819303), I need to reach (33.728358, -117.928563) within 3 hours. Along the way, I want to visit up to 2 libraries and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_11_v04",
+    "nl_query": "From (33.811934, -117.850208), I need to reach (33.778353, -117.930936) within 4 hours. Along the way, I want to visit up to 2 libraries and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_11_v05",
+    "nl_query": "From (33.740032, -118.269578), I need to reach (33.7746, -118.254168) within 5 hours. Along the way, I want to visit up to 2 libraries and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_11_v06",
+    "nl_query": "From (34.091287, -118.157292), I need to reach (34.152475, -118.150455) within 6 hours. Along the way, I want to visit up to 2 libraries and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_11_v07",
+    "nl_query": "From (34.683147, -118.200795), I need to reach (34.672686, -118.108456) within 2 hours. Along the way, I want to visit up to 2 libraries and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_12_v01",
+    "nl_query": "I need to get from (33.906923, -118.024389) to (33.863548, -118.089192) in 2 hours. The stop limits are 1 bank, 2 pharmacies, and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_12_v02",
+    "nl_query": "I need to get from (34.673321, -118.110609) to (34.53861, -118.111516) in 2 hours. The stop limits are 1 bank, 2 pharmacies, and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_12_v03",
+    "nl_query": "I need to get from (34.124803, -118.198368) to (34.074369, -118.251642) in 3 hours. The stop limits are 1 bank, 2 pharmacies, and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_12_v04",
+    "nl_query": "I need to get from (34.048768, -118.440652) to (34.020395, -118.479562) in 4 hours. The stop limits are 1 bank, 2 pharmacies, and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_12_v05",
+    "nl_query": "I need to get from (33.931019, -118.296964) to (33.912067, -118.364195) in 5 hours. The stop limits are 1 bank, 2 pharmacies, and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_12_v06",
+    "nl_query": "I need to get from (34.137701, -117.913823) to (34.08616, -117.933989) in 6 hours. The stop limits are 1 bank, 2 pharmacies, and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_12_v07",
+    "nl_query": "I need to get from (34.091572, -118.819) to (34.128734, -118.753232) in 2 hours. The stop limits are 1 bank, 2 pharmacies, and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_13_v01",
+    "nl_query": "I'm leaving (33.839918, -118.032355) and heading to (33.901189, -118.060493), and I have 2 hours total. I want to visit as many places as I can: pharmacies (max 2), libraries (max 1), and banks (max 1)."
+  },
+  {
+    "query_id": "poi_collection_13_v02",
+    "nl_query": "I'm leaving (34.024578, -117.731538) and heading to (34.080745, -117.752699), and I have 2 hours total. I want to visit as many places as I can: pharmacies (max 2), libraries (max 1), and banks (max 1)."
+  },
+  {
+    "query_id": "poi_collection_13_v03",
+    "nl_query": "I'm leaving (33.852187, -118.379504) and heading to (33.787989, -118.405365), and I have 3 hours total. I want to visit as many places as I can: pharmacies (max 2), libraries (max 1), and banks (max 1)."
+  },
+  {
+    "query_id": "poi_collection_13_v04",
+    "nl_query": "I'm leaving (33.695161, -117.791403) and heading to (33.623764, -117.812695), and I have 4 hours total. I want to visit as many places as I can: pharmacies (max 2), libraries (max 1), and banks (max 1)."
+  },
+  {
+    "query_id": "poi_collection_13_v05",
+    "nl_query": "I'm leaving (34.176669, -118.437794) and heading to (34.207653, -118.495682), and I have 5 hours total. I want to visit as many places as I can: pharmacies (max 2), libraries (max 1), and banks (max 1)."
+  },
+  {
+    "query_id": "poi_collection_13_v06",
+    "nl_query": "I'm leaving (34.318532, -118.477472) and heading to (34.472475, -118.625178), and I have 6 hours total. I want to visit as many places as I can: pharmacies (max 2), libraries (max 1), and banks (max 1)."
+  },
+  {
+    "query_id": "poi_collection_13_v07",
+    "nl_query": "I'm leaving (34.133592, -117.919462) and heading to (34.08616, -117.933989), and I have 2 hours total. I want to visit as many places as I can: pharmacies (max 2), libraries (max 1), and banks (max 1)."
+  },
+  {
+    "query_id": "poi_collection_14_v02",
+    "nl_query": "I need to get from (33.831491, -117.987565) to (33.707686, -117.956767) with a time budget of 120 minutes. I want to fit in as many stops as possible, up to 1 bank and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_14_v03",
+    "nl_query": "I need to get from (33.959163, -118.133449) to (33.915181, -118.163929) with a time budget of 180 minutes. I want to fit in as many stops as possible, up to 1 bank and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_14_v04",
+    "nl_query": "I need to get from (34.120222, -117.807041) to (34.14359, -117.769776) with a time budget of 240 minutes. I want to fit in as many stops as possible, up to 1 bank and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_14_v05",
+    "nl_query": "I need to get from (33.974919, -118.424412) to (34.001588, -118.357117) with a time budget of 300 minutes. I want to fit in as many stops as possible, up to 1 bank and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_14_v06",
+    "nl_query": "I need to get from (34.117124, -118.280491) to (34.189821, -118.339308) with a time budget of 360 minutes. I want to fit in as many stops as possible, up to 1 bank and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_14_v07",
+    "nl_query": "I need to get from (34.124672, -118.079366) to (34.014179, -118.073813) with a time budget of 120 minutes. I want to fit in as many stops as possible, up to 1 bank and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_15_v01",
+    "nl_query": "I'm leaving (33.835465, -118.182797) for (33.850172, -118.262583) and I have 2 hours. I want to maximize visits to libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_15_v02",
+    "nl_query": "I'm leaving (34.106615, -117.794128) for (34.023838, -117.766112) and I have 2 hours. I want to maximize visits to libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_15_v03",
+    "nl_query": "I'm leaving (34.044464, -118.118952) for (34.055132, -118.25091) and I have 3 hours. I want to maximize visits to libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_15_v04",
+    "nl_query": "I'm leaving (34.117565, -117.844441) for (34.141098, -117.897956) and I have 4 hours. I want to maximize visits to libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_15_v05",
+    "nl_query": "I'm leaving (34.006683, -117.960885) for (33.993112, -118.094658) and I have 5 hours. I want to maximize visits to libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_15_v06",
+    "nl_query": "I'm leaving (33.929213, -118.0232) for (33.907994, -118.130606) and I have 6 hours. I want to maximize visits to libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_15_v07",
+    "nl_query": "I'm leaving (34.573025, -118.063423) for (34.620592, -118.23112) and I have 2 hours. I want to maximize visits to libraries (max 2) and pharmacies (max 2)."
+  },
+  {
+    "query_id": "poi_collection_16_v01",
+    "nl_query": "I'm planning a trip from (33.758546, -117.944274) to (33.682371, -117.885547) in 3 hours. I can stop at up to 1 bank, 1 library, and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_16_v02",
+    "nl_query": "I'm planning a trip from (33.896948, -117.868011) to (33.812781, -117.956566) in 3 hours. I can stop at up to 1 bank, 1 library, and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_16_v03",
+    "nl_query": "I'm planning a trip from (33.728777, -118.28359) to (33.803142, -118.09914) in 4 hours. I can stop at up to 1 bank, 1 library, and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_16_v04",
+    "nl_query": "I'm planning a trip from (34.126457, -118.096783) to (34.197622, -118.124353) in 4 hours. I can stop at up to 1 bank, 1 library, and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_16_v05",
+    "nl_query": "I'm planning a trip from (34.722274, -118.219556) to (34.676313, -118.087532) in 5 hours. I can stop at up to 1 bank, 1 library, and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_16_v06",
+    "nl_query": "I'm planning a trip from (33.86554, -118.121282) to (33.898917, -118.034102) in 6 hours. I can stop at up to 1 bank, 1 library, and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_16_v07",
+    "nl_query": "I'm planning a trip from (34.114288, -117.70139) to (34.073166, -117.755078) in 3 hours. I can stop at up to 1 bank, 1 library, and 2 supermarkets."
+  },
+  {
+    "query_id": "poi_collection_17_v01",
+    "nl_query": "I need to get from (34.125302, -118.216659) to (34.169, -118.261071) in 60 minutes. I want to stop at up to 2 pharmacies and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_17_v02",
+    "nl_query": "I need to get from (33.991336, -118.436288) to (34.06041, -118.548463) in 120 minutes. I want to stop at up to 2 pharmacies and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_17_v03",
+    "nl_query": "I need to get from (33.89102, -118.346107) to (33.923614, -118.404857) in 180 minutes. I want to stop at up to 2 pharmacies and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_17_v04",
+    "nl_query": "I need to get from (34.079857, -117.869614) to (34.089174, -117.95774) in 240 minutes. I want to stop at up to 2 pharmacies and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_17_v05",
+    "nl_query": "I need to get from (34.123601, -118.794498) to (34.104407, -118.858425) in 300 minutes. I want to stop at up to 2 pharmacies and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_17_v06",
+    "nl_query": "I need to get from (33.847026, -117.951771) to (33.940126, -117.930891) in 360 minutes. I want to stop at up to 2 pharmacies and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_17_v07",
+    "nl_query": "I need to get from (33.710704, -117.964251) to (33.815518, -118.000276) in 120 minutes. I want to stop at up to 2 pharmacies and 1 library. Maximize coverage."
+  },
+  {
+    "query_id": "poi_collection_18_v02",
+    "nl_query": "Help me plan a route from (33.697908, -117.898248) to (33.624502, -117.828855) within 2 hours. I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_18_v03",
+    "nl_query": "Help me plan a route from (34.220524, -118.461844) to (34.21149, -118.403388) within 3 hours. I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_18_v04",
+    "nl_query": "Help me plan a route from (34.385723, -118.413481) to (34.496202, -118.539162) within 4 hours. I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_18_v05",
+    "nl_query": "Help me plan a route from (34.14093, -117.962892) to (34.091497, -117.893403) within 5 hours. I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_18_v06",
+    "nl_query": "Help me plan a route from (33.89762, -118.233933) to (33.941292, -118.203414) within 6 hours. I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_18_v07",
+    "nl_query": "Help me plan a route from (34.049588, -117.752055) to (34.122557, -117.77786) within 2 hours. I want to visit as many places as possible: up to 1 bank, 2 pharmacies, and 1 library."
+  },
+  {
+    "query_id": "poi_collection_19_v01",
+    "nl_query": "I need to get from (33.983192, -118.186205) to (33.912044, -118.11225) with a time budget of 120 minutes. Please maximize the number of POI visits: supermarkets (max 2) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_19_v02",
+    "nl_query": "I need to get from (34.086432, -117.841952) to (34.122557, -117.77786) with a time budget of 120 minutes. Please maximize the number of POI visits: supermarkets (max 2) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_19_v03",
+    "nl_query": "I need to get from (33.983277, -118.287054) to (33.940026, -118.367645) with a time budget of 180 minutes. Please maximize the number of POI visits: supermarkets (max 2) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_19_v04",
+    "nl_query": "I need to get from (34.169167, -118.276068) to (34.189821, -118.339308) with a time budget of 240 minutes. Please maximize the number of POI visits: supermarkets (max 2) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_19_v05",
+    "nl_query": "I need to get from (34.058078, -118.105534) to (34.01333, -118.067438) with a time budget of 300 minutes. Please maximize the number of POI visits: supermarkets (max 2) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_19_v06",
+    "nl_query": "I need to get from (33.771434, -117.942113) to (33.796869, -117.866553) with a time budget of 360 minutes. Please maximize the number of POI visits: supermarkets (max 2) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_19_v07",
+    "nl_query": "I need to get from (33.821843, -117.987674) to (33.891468, -117.876285) with a time budget of 120 minutes. Please maximize the number of POI visits: supermarkets (max 2) and libraries (max 2)."
+  },
+  {
+    "query_id": "poi_collection_20_v01",
+    "nl_query": "I'm planning a day trip from (34.025132, -118.139891) to (34.065617, -118.278061) and I have 2 hours. I'd like to fit in a bank (1 max), a pharmacy stop (1 max), and a library (1 max)."
+  },
+  {
+    "query_id": "poi_collection_20_v02",
+    "nl_query": "I'm planning a day trip from (34.046038, -117.865869) to (34.121609, -117.933852) and I have 2 hours. I'd like to fit in a bank (1 max), a pharmacy stop (1 max), and a library (1 max)."
+  },
+  {
+    "query_id": "poi_collection_20_v03",
+    "nl_query": "I'm planning a day trip from (34.004302, -117.970507) to (34.049126, -118.050908) and I have 3 hours. I'd like to fit in a bank (1 max), a pharmacy stop (1 max), and a library (1 max)."
+  },
+  {
+    "query_id": "poi_collection_20_v04",
+    "nl_query": "I'm planning a day trip from (33.854898, -118.136424) to (33.943316, -118.051464) and I have 4 hours. I'd like to fit in a bank (1 max), a pharmacy stop (1 max), and a library (1 max)."
+  },
+  {
+    "query_id": "poi_collection_20_v05",
+    "nl_query": "I'm planning a day trip from (34.567448, -118.108433) to (34.672686, -118.108456) and I have 5 hours. I'd like to fit in a bank (1 max), a pharmacy stop (1 max), and a library (1 max)."
+  },
+  {
+    "query_id": "poi_collection_20_v06",
+    "nl_query": "I'm planning a day trip from (34.091219, -118.211113) to (34.093423, -118.297399) and I have 6 hours. I'd like to fit in a bank (1 max), a pharmacy stop (1 max), and a library (1 max)."
+  },
+  {
+    "query_id": "poi_collection_20_v07",
+    "nl_query": "I'm planning a day trip from (34.064077, -118.427309) to (34.023391, -118.499634) and I have 2 hours. I'd like to fit in a bank (1 max), a pharmacy stop (1 max), and a library (1 max)."
+  },
+  {
+    "query_id": "poi_collection_21_v01",
+    "nl_query": "I'm going from (33.767767, -118.1715) to (33.789901, -118.224519) in 2 hours. Along the way, I want to visit up to 1 bank, 2 pharmacies, and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_21_v02",
+    "nl_query": "I'm going from (34.164558, -118.215433) to (34.114338, -118.202138) in 2 hours. Along the way, I want to visit up to 1 bank, 2 pharmacies, and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_21_v03",
+    "nl_query": "I'm going from (34.676669, -118.172034) to (34.667588, -118.218836) in 3 hours. Along the way, I want to visit up to 1 bank, 2 pharmacies, and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_21_v04",
+    "nl_query": "I'm going from (33.847091, -118.11747) to (33.824003, -118.076002) in 4 hours. Along the way, I want to visit up to 1 bank, 2 pharmacies, and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_21_v05",
+    "nl_query": "I'm going from (34.114288, -117.70139) to (34.07464, -117.74597) in 5 hours. Along the way, I want to visit up to 1 bank, 2 pharmacies, and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_21_v06",
+    "nl_query": "I'm going from (33.794598, -118.34768) to (33.808064, -118.273079) in 6 hours. Along the way, I want to visit up to 1 bank, 2 pharmacies, and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_21_v07",
+    "nl_query": "I'm going from (33.654586, -117.781286) to (33.704532, -117.806375) in 2 hours. Along the way, I want to visit up to 1 bank, 2 pharmacies, and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_22_v01",
+    "nl_query": "I need to get from (33.888941, -118.358411) to (33.91799, -118.287105) in 3 hours. I want to stop at up to 2 supermarkets and 1 bank. Maximize visits while staying within the time budget."
+  },
+  {
+    "query_id": "poi_collection_22_v02",
+    "nl_query": "I need to get from (34.012424, -117.908747) to (34.068072, -117.892808) in 3 hours. I want to stop at up to 2 supermarkets and 1 bank. Maximize visits while staying within the time budget."
+  },
+  {
+    "query_id": "poi_collection_22_v03",
+    "nl_query": "I need to get from (34.135842, -118.811533) to (34.092675, -118.834787) in 3 hours. I want to stop at up to 2 supermarkets and 1 bank. Maximize visits while staying within the time budget."
+  },
+  {
+    "query_id": "poi_collection_22_v04",
+    "nl_query": "I need to get from (33.905557, -117.911563) to (33.894266, -117.952819) in 4 hours. I want to stop at up to 2 supermarkets and 1 bank. Maximize visits while staying within the time budget."
+  },
+  {
+    "query_id": "poi_collection_22_v05",
+    "nl_query": "I need to get from (33.794476, -118.012153) to (33.796869, -117.866553) in 5 hours. I want to stop at up to 2 supermarkets and 1 bank. Maximize visits while staying within the time budget."
+  },
+  {
+    "query_id": "poi_collection_22_v06",
+    "nl_query": "I need to get from (33.929629, -118.216584) to (33.990284, -118.138843) in 6 hours. I want to stop at up to 2 supermarkets and 1 bank. Maximize visits while staying within the time budget."
+  },
+  {
+    "query_id": "poi_collection_22_v07",
+    "nl_query": "I need to get from (34.07944, -117.866658) to (34.12225, -117.807766) in 3 hours. I want to stop at up to 2 supermarkets and 1 bank. Maximize visits while staying within the time budget."
+  },
+  {
+    "query_id": "poi_collection_23_v01",
+    "nl_query": "I need an itinerary from (34.208459, -118.452002) to (34.161958, -118.495741) in 120 minutes. The visit limits are 1 bank, 1 library, and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_23_v02",
+    "nl_query": "I need an itinerary from (34.470027, -118.517921) to (34.313032, -118.4632) in 120 minutes. The visit limits are 1 bank, 1 library, and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_23_v03",
+    "nl_query": "I need an itinerary from (34.149147, -117.867418) to (34.145526, -117.915217) in 180 minutes. The visit limits are 1 bank, 1 library, and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_23_v05",
+    "nl_query": "I need an itinerary from (34.096017, -117.769889) to (34.055292, -117.742422) in 300 minutes. The visit limits are 1 bank, 1 library, and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_23_v06",
+    "nl_query": "I need an itinerary from (34.185304, -118.23229) to (34.103901, -118.257728) in 360 minutes. The visit limits are 1 bank, 1 library, and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_23_v07",
+    "nl_query": "I need an itinerary from (34.095811, -117.856761) to (34.079116, -117.897156) in 120 minutes. The visit limits are 1 bank, 1 library, and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_24_v01",
+    "nl_query": "I'm going from (33.896435, -118.34612) to (33.969812, -118.396614) and have 2 hours total. I want to visit libraries, up to 2, and still leave room for up to 1 supermarket stop."
+  },
+  {
+    "query_id": "poi_collection_24_v02",
+    "nl_query": "I'm going from (34.13601, -118.24992) to (34.232357, -118.255447) and have 2 hours total. I want to visit libraries, up to 2, and still leave room for up to 1 supermarket stop."
+  },
+  {
+    "query_id": "poi_collection_24_v03",
+    "nl_query": "I'm going from (34.089174, -117.95774) to (34.059369, -118.088506) and have 3 hours total. I want to visit libraries, up to 2, and still leave room for up to 1 supermarket stop."
+  },
+  {
+    "query_id": "poi_collection_24_v04",
+    "nl_query": "I'm going from (33.76578, -117.847276) to (33.72182, -117.818089) and have 4 hours total. I want to visit libraries, up to 2, and still leave room for up to 1 supermarket stop."
+  },
+  {
+    "query_id": "poi_collection_24_v05",
+    "nl_query": "I'm going from (33.796869, -117.866553) to (33.82222, -117.984272) and have 5 hours total. I want to visit libraries, up to 2, and still leave room for up to 1 supermarket stop."
+  },
+  {
+    "query_id": "poi_collection_24_v06",
+    "nl_query": "I'm going from (33.740534, -118.102988) to (33.852392, -118.193672) and have 6 hours total. I want to visit libraries, up to 2, and still leave room for up to 1 supermarket stop."
+  },
+  {
+    "query_id": "poi_collection_24_v07",
+    "nl_query": "I'm going from (34.105262, -118.085029) to (34.171467, -118.132147) and have 2 hours total. I want to visit libraries, up to 2, and still leave room for up to 1 supermarket stop."
+  },
+  {
+    "query_id": "poi_collection_25_v01",
+    "nl_query": "From (33.98604, -117.965598), I need to get to (33.938862, -118.062344) within 120 minutes. Along the way, I want to visit up to 2 banks. I also want to fit in up to 1 pharmacy stop."
+  },
+  {
+    "query_id": "poi_collection_25_v02",
+    "nl_query": "From (33.906923, -118.024389), I need to get to (33.864004, -118.041521) within 120 minutes. Along the way, I want to visit up to 2 banks. I also want to fit in up to 1 pharmacy stop."
+  },
+  {
+    "query_id": "poi_collection_25_v03",
+    "nl_query": "From (34.544335, -118.061027), I need to get to (34.638534, -118.15254) within 180 minutes. Along the way, I want to visit up to 2 banks. I also want to fit in up to 1 pharmacy stop."
+  },
+  {
+    "query_id": "poi_collection_25_v04",
+    "nl_query": "From (34.199435, -118.241328), I need to get to (34.115995, -118.264555) within 240 minutes. Along the way, I want to visit up to 2 banks. I also want to fit in up to 1 pharmacy stop."
+  },
+  {
+    "query_id": "poi_collection_25_v05",
+    "nl_query": "From (34.017022, -118.431265), I need to get to (34.029109, -118.516671) within 300 minutes. Along the way, I want to visit up to 2 banks. I also want to fit in up to 1 pharmacy stop."
+  },
+  {
+    "query_id": "poi_collection_25_v06",
+    "nl_query": "From (33.887575, -118.346811), I need to get to (33.955341, -118.359449) within 360 minutes. Along the way, I want to visit up to 2 banks. I also want to fit in up to 1 pharmacy stop."
+  },
+  {
+    "query_id": "poi_collection_25_v07",
+    "nl_query": "From (34.095977, -117.919833), I need to get to (34.074676, -117.972236) within 180 minutes. Along the way, I want to visit up to 2 banks. I also want to fit in up to 1 pharmacy stop."
+  },
+  {
+    "query_id": "poi_collection_26_v01",
+    "nl_query": "I need to get from (34.645975, -118.054348) to (34.653171, -118.116665) in 1 hours. On the way, I'd like to stop at up to 2 pharmacies and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_26_v02",
+    "nl_query": "I need to get from (33.81876, -118.100193) to (33.824416, -118.029563) in 2 hours. On the way, I'd like to stop at up to 2 pharmacies and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_26_v03",
+    "nl_query": "I need to get from (34.132633, -117.717078) to (34.024565, -117.74056) in 3 hours. On the way, I'd like to stop at up to 2 pharmacies and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_26_v04",
+    "nl_query": "I need to get from (33.842056, -118.367857) to (33.774243, -118.383624) in 4 hours. On the way, I'd like to stop at up to 2 pharmacies and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_26_v05",
+    "nl_query": "I need to get from (33.663061, -117.883818) to (33.634492, -117.799892) in 5 hours. On the way, I'd like to stop at up to 2 pharmacies and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_26_v06",
+    "nl_query": "I need to get from (34.202579, -118.424716) to (34.157604, -118.464945) in 6 hours. On the way, I'd like to stop at up to 2 pharmacies and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_26_v07",
+    "nl_query": "I need to get from (34.381151, -118.414791) to (34.419446, -118.544339) in 2 hours. On the way, I'd like to stop at up to 2 pharmacies and 1 library. Maximize total visits."
+  },
+  {
+    "query_id": "poi_collection_27_v01",
+    "nl_query": "From (34.109417, -118.792876), we're heading to (34.121834, -118.85477) and have 2 hours. We'd like to fit in some library stops, up to 2, and a pharmacy stop, up to 1."
+  },
+  {
+    "query_id": "poi_collection_27_v02",
+    "nl_query": "From (33.881976, -117.862982), we're heading to (33.921887, -117.868767) and have 2 hours. We'd like to fit in some library stops, up to 2, and a pharmacy stop, up to 1."
+  },
+  {
+    "query_id": "poi_collection_27_v03",
+    "nl_query": "From (33.768453, -118.007898), we're heading to (33.714064, -117.944099) and have 3 hours. We'd like to fit in some library stops, up to 2, and a pharmacy stop, up to 1."
+  },
+  {
+    "query_id": "poi_collection_27_v04",
+    "nl_query": "From (33.915108, -118.143212), we're heading to (33.962844, -118.162252) and have 4 hours. We'd like to fit in some library stops, up to 2, and a pharmacy stop, up to 1."
+  },
+  {
+    "query_id": "poi_collection_27_v05",
+    "nl_query": "From (34.078421, -117.834016), we're heading to (34.123443, -117.771557) and have 5 hours. We'd like to fit in some library stops, up to 2, and a pharmacy stop, up to 1."
+  },
+  {
+    "query_id": "poi_collection_27_v07",
+    "nl_query": "From (34.244363, -118.292115), we're heading to (34.148057, -118.232336) and have 2 hours. We'd like to fit in some library stops, up to 2, and a pharmacy stop, up to 1."
+  },
+  {
+    "query_id": "poi_collection_28_v01",
+    "nl_query": "I need to get from (34.121609, -117.933852) to (34.091024, -117.89292) within 2 hours. Along the way, I'd like to visit up to 1 bank and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_28_v02",
+    "nl_query": "I need to get from (33.905185, -118.196127) to (33.920447, -118.254362) within 2 hours. Along the way, I'd like to visit up to 1 bank and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_28_v03",
+    "nl_query": "I need to get from (34.04336, -117.816323) to (34.084954, -117.746135) within 3 hours. Along the way, I'd like to visit up to 1 bank and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_28_v04",
+    "nl_query": "I need to get from (33.929629, -118.216584) to (33.979047, -118.370375) within 4 hours. Along the way, I'd like to visit up to 1 bank and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_28_v05",
+    "nl_query": "I need to get from (34.097208, -117.889126) to (34.071184, -117.941388) within 5 hours. Along the way, I'd like to visit up to 1 bank and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_28_v06",
+    "nl_query": "I need to get from (34.004706, -117.991368) to (33.930963, -118.083593) within 6 hours. Along the way, I'd like to visit up to 1 bank and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_28_v07",
+    "nl_query": "I need to get from (33.906044, -118.11665) to (33.854768, -118.063646) within 1 hours. Along the way, I'd like to visit up to 1 bank and 2 pharmacies."
+  },
+  {
+    "query_id": "poi_collection_29_v01",
+    "nl_query": "I'm at (34.100483, -118.059623) and need to get to (34.00428, -118.064369) within 2 hours, and I'd like to fit in as many supermarket stops as possible, up to 3."
+  },
+  {
+    "query_id": "poi_collection_29_v02",
+    "nl_query": "I'm at (33.735962, -117.932513) and need to get to (33.766876, -117.878361) within 2 hours, and I'd like to fit in as many supermarket stops as possible, up to 3."
+  },
+  {
+    "query_id": "poi_collection_29_v03",
+    "nl_query": "I'm at (33.872493, -117.907015) and need to get to (33.796869, -117.866553) within 3 hours, and I'd like to fit in as many supermarket stops as possible, up to 3."
+  },
+  {
+    "query_id": "poi_collection_29_v04",
+    "nl_query": "I'm at (33.780634, -118.250288) and need to get to (33.778971, -118.160035) within 4 hours, and I'd like to fit in as many supermarket stops as possible, up to 3."
+  },
+  {
+    "query_id": "poi_collection_29_v05",
+    "nl_query": "I'm at (34.007076, -117.957065) and need to get to (34.099492, -117.967061) within 5 hours, and I'd like to fit in as many supermarket stops as possible, up to 3."
+  },
+  {
+    "query_id": "poi_collection_29_v06",
+    "nl_query": "I'm at (34.167685, -118.756146) and need to get to (34.144184, -118.81888) within 6 hours, and I'd like to fit in as many supermarket stops as possible, up to 3."
+  },
+  {
+    "query_id": "poi_collection_6_re01",
+    "nl_query": "Help me plan a route from (34.506066, -118.13665) to (34.54572, -118.121465) within 3 hours. I want to visit as many places as possible: pharmacies (max 2), banks (max 1), and libraries (max 2)."
+  }
+]

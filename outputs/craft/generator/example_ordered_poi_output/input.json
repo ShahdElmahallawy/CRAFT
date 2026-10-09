@@ -1,0 +1,26 @@
+{
+  "query_id": "example_ordered_poi",
+  "nl_query": "I'm at (33.829614, -117.954454) and need to get to (33.850874, -117.864057). On the way, I want to stop at a pharmacy within 7 miles of me, then a library about 2 miles after that, in that order. What's the shortest-distance route?",
+  "src": "122634531",
+  "dst": "122660006",
+  "objective": "minimize_distance",
+  "gpkg": "/home/selma008/unify/CRAFT/data/socal/road_network.gpkg",
+  "template_file": null,
+  "poi_types": [
+    "pharmacy",
+    "library"
+  ],
+  "poi_filters": [
+    {},
+    {}
+  ],
+  "ordered": true,
+  "leg_distances": [
+    11265.38,
+    3218.68
+  ],
+  "visit_time": {
+    "pharmacy": 900,
+    "library": 3600
+  }
+}

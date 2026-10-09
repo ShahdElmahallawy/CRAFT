@@ -1,0 +1,802 @@
+[
+  {
+    "query_id": "pref1",
+    "nl_query": "I'm at (34.07589, -117.718233) and need to get to (34.128754, -117.695276). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref2",
+    "nl_query": "I'm at (33.877566, -118.405919) and need to get to (33.819087, -118.269702). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref3",
+    "nl_query": "I'm at (33.678981, -117.760846) and need to get to (33.627674, -117.848544). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref4",
+    "nl_query": "I'm at (34.210299, -118.448727) and need to get to (34.2121, -118.499503). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref5",
+    "nl_query": "I'm at (34.390958, -118.488305) and need to get to (34.423845, -118.519119). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref6",
+    "nl_query": "I'm at (34.083831, -117.911634) and need to get to (34.13971, -117.969049). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref7",
+    "nl_query": "I'm at (33.915181, -118.163929) and need to get to (33.908215, -118.246406). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref8",
+    "nl_query": "I'm at (34.070879, -117.724369) and need to get to (34.097359, -117.773397). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref9",
+    "nl_query": "I'm at (34.139342, -118.19649) and need to get to (34.062414, -118.171443). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref10",
+    "nl_query": "I'm at (34.05665, -117.909537) and need to get to (34.097208, -117.889126). I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?"
+  },
+  {
+    "query_id": "pref11",
+    "nl_query": "I'm at (34.13901, -117.902369) and need to get to (34.095977, -117.919833). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref12",
+    "nl_query": "I'm at (33.910028, -118.294657) and need to get to (33.920537, -118.216964). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref13",
+    "nl_query": "I'm at (34.031081, -117.79664) and need to get to (34.121287, -117.733368). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref14",
+    "nl_query": "I'm at (33.931204, -118.190326) and need to get to (34.073106, -118.122905). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref15",
+    "nl_query": "I'm at (34.072308, -117.871462) and need to get to (34.089588, -117.912309). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref16",
+    "nl_query": "I'm at (33.999407, -117.961129) and need to get to (34.01333, -118.067438). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref17",
+    "nl_query": "I'm at (33.83959, -118.086801) and need to get to (33.954591, -118.048327). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref18",
+    "nl_query": "I'm at (34.65993, -118.151914) and need to get to (34.616245, -118.2207). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref19",
+    "nl_query": "I'm at (34.184074, -118.279062) and need to get to (34.19331, -118.2219). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref20",
+    "nl_query": "I'm at (34.019736, -118.500879) and need to get to (33.977172, -118.461923). I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref21",
+    "nl_query": "I need to get from (33.971292, -118.098483) to (33.968098, -118.018556). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref22",
+    "nl_query": "I need to get from (33.929388, -118.090568) to (33.968476, -118.11716). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref23",
+    "nl_query": "I need to get from (34.676669, -118.172034) to (34.51213, -118.081918). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref24",
+    "nl_query": "I need to get from (34.168102, -118.255193) to (34.144139, -118.195206). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref25",
+    "nl_query": "I need to get from (33.996991, -118.471611) to (34.060332, -118.545417). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref26",
+    "nl_query": "I need to get from (33.949151, -118.326698) to (33.912067, -118.364195). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref27",
+    "nl_query": "I need to get from (34.116203, -117.91367) to (34.075522, -117.990598). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref28",
+    "nl_query": "I need to get from (34.141466, -118.818373) to (34.137177, -118.756301). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref29",
+    "nl_query": "I need to get from (33.922949, -117.878987) to (33.886312, -117.955164). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref30",
+    "nl_query": "I need to get from (33.832067, -117.918932) to (33.712095, -117.897245). I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref31",
+    "nl_query": "I'm at (33.90175, -118.369497) heading to (33.913335, -118.289381). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref32",
+    "nl_query": "I'm at (34.09622, -117.967075) heading to (34.01857, -117.946754). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref33",
+    "nl_query": "I'm at (34.113349, -118.77053) heading to (34.14235, -118.808446). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref34",
+    "nl_query": "I'm at (33.85945, -117.986585) heading to (33.843445, -117.861068). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref35",
+    "nl_query": "I'm at (33.717923, -117.987459) heading to (33.712095, -117.897245). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref36",
+    "nl_query": "I'm at (33.934015, -118.208463) heading to (33.993112, -118.094658). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref37",
+    "nl_query": "I'm at (34.107382, -117.775259) heading to (34.142118, -117.83918). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref38",
+    "nl_query": "I'm at (33.994974, -118.343688) heading to (33.912067, -118.364195). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref39",
+    "nl_query": "I'm at (34.24505, -118.288771) heading to (34.213992, -118.35419). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref40",
+    "nl_query": "I'm at (34.052004, -117.983932) heading to (34.066789, -118.03941). I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref41",
+    "nl_query": "Can you plan a route from (33.99736, -118.153831) to (33.941565, -118.117288)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref42",
+    "nl_query": "Can you plan a route from (34.0615, -117.788389) to (34.080861, -117.843286)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref43",
+    "nl_query": "Can you plan a route from (33.974919, -118.424412) to (33.935808, -118.369979)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref44",
+    "nl_query": "Can you plan a route from (34.123977, -118.347094) to (34.111753, -118.296604)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref45",
+    "nl_query": "Can you plan a route from (34.094538, -118.01516) to (34.063298, -117.990951)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref46",
+    "nl_query": "Can you plan a route from (33.708614, -117.850232) to (33.730238, -117.795739)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref47",
+    "nl_query": "Can you plan a route from (33.877345, -117.905179) to (33.821843, -117.987674)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref48",
+    "nl_query": "Can you plan a route from (33.745401, -118.117926) to (33.767162, -118.196397)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref49",
+    "nl_query": "Can you plan a route from (34.166046, -118.113056) to (34.118713, -118.165392)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref50",
+    "nl_query": "Can you plan a route from (34.608315, -118.133103) to (34.722188, -118.22834)? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?"
+  },
+  {
+    "query_id": "pref51",
+    "nl_query": "I need to go from (33.767644, -117.853874) to (33.80283, -117.818411). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref52",
+    "nl_query": "I need to go from (33.860288, -117.946837) to (33.839985, -117.890454). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref53",
+    "nl_query": "I need to go from (33.79186, -118.295956) to (33.786362, -118.222615). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref54",
+    "nl_query": "I need to go from (34.156675, -118.147826) to (34.167678, -118.070145). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref55",
+    "nl_query": "I need to go from (34.71322, -118.210453) to (34.747781, -118.171922). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref56",
+    "nl_query": "I need to go from (33.824003, -118.076002) to (33.856519, -118.006857). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref57",
+    "nl_query": "I need to go from (34.141619, -117.704221) to (34.024565, -117.74056). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref58",
+    "nl_query": "I need to go from (33.872773, -118.374837) to (33.894649, -118.304783). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref59",
+    "nl_query": "I need to go from (33.656591, -117.896326) to (33.70143, -117.783771). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref60",
+    "nl_query": "I need to go from (34.184344, -118.471161) to (34.177608, -118.387789). I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref61",
+    "nl_query": "I'm leaving (33.882902, -118.085012) for (33.846189, -118.067758). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref62",
+    "nl_query": "I'm leaving (34.083969, -117.722613) for (34.018872, -117.736771). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref63",
+    "nl_query": "I'm leaving (33.834348, -118.339019) for (33.779942, -118.327346). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref64",
+    "nl_query": "I'm leaving (33.654407, -117.78099) for (33.712347, -117.751978). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref65",
+    "nl_query": "I'm leaving (34.153192, -118.406334) for (34.217742, -118.483688). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref66",
+    "nl_query": "I'm leaving (34.363384, -118.547207) for (34.400894, -118.531465). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref67",
+    "nl_query": "I'm leaving (34.142212, -117.896107) for (34.121609, -117.933852). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref68",
+    "nl_query": "I'm leaving (33.888587, -118.267469) for (33.830336, -118.216942). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref69",
+    "nl_query": "I'm leaving (34.017228, -117.818366) for (34.073002, -117.785653). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref70",
+    "nl_query": "I'm leaving (34.076135, -118.35426) for (33.965479, -118.151661). I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref71",
+    "nl_query": "Starting from (34.318532, -118.477472), heading to (34.425196, -118.494098). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref72",
+    "nl_query": "Starting from (34.13901, -117.902369), heading to (34.091024, -117.89292). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref73",
+    "nl_query": "Starting from (33.904982, -118.269639), heading to (33.88928, -118.140548). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref74",
+    "nl_query": "Starting from (34.096017, -117.769889), heading to (34.087119, -117.720884). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref75",
+    "nl_query": "Starting from (34.018721, -118.316601), heading to (34.130296, -118.228359). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref76",
+    "nl_query": "Starting from (34.07944, -117.866658), heading to (34.12305, -117.910198). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref77",
+    "nl_query": "Starting from (33.965438, -118.038773), heading to (33.988954, -118.099215). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref78",
+    "nl_query": "Starting from (33.858426, -118.099675), heading to (33.939417, -118.115767). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref79",
+    "nl_query": "Starting from (34.588755, -118.158803), heading to (34.532568, -118.056167). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref80",
+    "nl_query": "Starting from (34.185304, -118.23229), heading to (34.106411, -118.2383). I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref81",
+    "nl_query": "I need to get from (34.052943, -117.881118) to (34.086432, -117.841952). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref82",
+    "nl_query": "I need to get from (33.974304, -118.105871) to (33.937583, -118.042601). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref83",
+    "nl_query": "I need to get from (33.853606, -118.117153) to (33.921432, -118.093061). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref84",
+    "nl_query": "I need to get from (34.560008, -118.014482) to (34.598694, -118.163124). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref85",
+    "nl_query": "I need to get from (34.127759, -118.189286) to (34.134528, -118.260753). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref86",
+    "nl_query": "I need to get from (34.053329, -118.457969) to (34.075335, -118.504656). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref87",
+    "nl_query": "I need to get from (33.964001, -118.374437) to (33.932912, -118.326561). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref88",
+    "nl_query": "I need to get from (34.057619, -117.855775) to (34.080267, -117.986821). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref89",
+    "nl_query": "I need to get from (34.167721, -118.759252) to (34.089208, -118.818432). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref90",
+    "nl_query": "I need to get from (33.839985, -117.890454) to (33.90487, -117.886603). I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref91",
+    "nl_query": "I'm at (34.006597, -118.484084) and need to get to (34.083851, -118.459762). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref92",
+    "nl_query": "I'm at (33.957409, -118.388296) and need to get to (33.919059, -118.416579). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref93",
+    "nl_query": "I'm at (34.063031, -118.017142) and need to get to (34.121609, -117.933852). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref94",
+    "nl_query": "I'm at (34.153346, -118.751924) and need to get to (34.126527, -118.855996). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref95",
+    "nl_query": "I'm at (33.810596, -117.928462) and need to get to (33.878065, -117.882815). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref96",
+    "nl_query": "I'm at (33.727013, -117.975198) and need to get to (33.8139, -117.913067). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref97",
+    "nl_query": "I'm at (33.897371, -118.157358) and need to get to (33.90522, -118.077407). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref98",
+    "nl_query": "I'm at (34.066942, -117.795422) and need to get to (34.142118, -117.83918). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref99",
+    "nl_query": "I'm at (33.931045, -118.398175) and need to get to (33.927322, -118.343905). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref100",
+    "nl_query": "I'm at (34.237766, -118.268486) and need to get to (34.140308, -118.376723). I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref101",
+    "nl_query": "From (33.820852, -117.926051), I need to get to (33.73182, -117.954572). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref102",
+    "nl_query": "From (33.921432, -118.093061), I need to get to (33.959163, -118.133449). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref103",
+    "nl_query": "From (34.123171, -117.831262), I need to get to (34.070577, -117.839215). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref104",
+    "nl_query": "From (33.964615, -118.330635), I need to get to (33.99109, -118.421497). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref105",
+    "nl_query": "From (34.178206, -118.307988), I need to get to (34.177608, -118.387789). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref106",
+    "nl_query": "From (34.063031, -118.017142), I need to get to (34.125755, -118.014586). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref107",
+    "nl_query": "From (33.695625, -117.916729), I need to get to (33.782235, -117.819794). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref108",
+    "nl_query": "From (33.776172, -117.919172), I need to get to (33.796869, -117.866553). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref109",
+    "nl_query": "From (33.721682, -118.283747), I need to get to (33.772676, -118.24044). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref110",
+    "nl_query": "From (34.18827, -118.166918), I need to get to (34.085211, -118.180956). I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref111",
+    "nl_query": "I'm planning a trip from (34.112286, -118.063302) to (34.134942, -118.00276). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref112",
+    "nl_query": "I'm planning a trip from (33.747067, -117.924851) to (33.713339, -117.819303). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref113",
+    "nl_query": "I'm planning a trip from (33.85343, -117.966205) to (33.807682, -117.954079). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref114",
+    "nl_query": "I'm planning a trip from (33.839009, -118.177068) to (33.770797, -118.130683). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref115",
+    "nl_query": "I'm planning a trip from (34.085211, -118.180956) to (34.20341, -118.192865). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref116",
+    "nl_query": "I'm planning a trip from (34.700871, -118.04124) to (34.67109, -118.014201). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref117",
+    "nl_query": "I'm planning a trip from (33.861207, -118.054355) to (33.893052, -118.091213). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref118",
+    "nl_query": "I'm planning a trip from (34.106233, -117.725447) to (34.048472, -117.723629). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref119",
+    "nl_query": "I'm planning a trip from (33.840301, -118.325159) to (33.872773, -118.374837). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref120",
+    "nl_query": "I'm planning a trip from (33.642589, -117.880159) to (33.684102, -117.853688). I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref121",
+    "nl_query": "I'm going from (34.718511, -118.04668) to (34.777016, -118.17055). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref122",
+    "nl_query": "I'm going from (33.838386, -118.059142) to (33.887492, -118.096671). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref123",
+    "nl_query": "I'm going from (34.113844, -117.708203) to (34.024565, -117.74056). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref124",
+    "nl_query": "I'm going from (33.796957, -118.399824) to (33.869046, -118.362198). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref125",
+    "nl_query": "I'm going from (33.69145, -117.827517) to (33.730238, -117.795739). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref126",
+    "nl_query": "I'm going from (34.176669, -118.437794) to (34.192816, -118.478205). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref127",
+    "nl_query": "I'm going from (34.440035, -118.455945) to (34.420494, -118.588223). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref128",
+    "nl_query": "I'm going from (34.09232, -117.881376) to (34.152493, -117.910332). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref129",
+    "nl_query": "I'm going from (33.843184, -118.200225) to (33.942663, -118.191489). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref130",
+    "nl_query": "I'm going from (34.106671, -117.810119) to (34.087119, -117.720884). I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?"
+  },
+  {
+    "query_id": "pref131",
+    "nl_query": "Starting from (34.207544, -118.469938), I need to get to (34.144077, -118.418811). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref132",
+    "nl_query": "Starting from (34.454555, -118.5302), I need to get to (34.392708, -118.453757). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref133",
+    "nl_query": "Starting from (34.12305, -117.910198), I need to get to (34.152227, -117.958697). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref134",
+    "nl_query": "Starting from (33.8717, -118.295097), I need to get to (33.841647, -118.213334). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref135",
+    "nl_query": "Starting from (34.121287, -117.733368), I need to get to (34.015151, -117.82007). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref136",
+    "nl_query": "Starting from (33.976469, -118.113654), I need to get to (34.130296, -118.228359). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref137",
+    "nl_query": "Starting from (34.079075, -117.907831), I need to get to (34.131842, -117.899295). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref138",
+    "nl_query": "Starting from (34.007337, -118.041819), I need to get to (33.968201, -118.06874). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref139",
+    "nl_query": "Starting from (33.949245, -118.147572), I need to get to (33.919834, -118.068777). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref140",
+    "nl_query": "Starting from (34.636144, -118.091535), I need to get to (34.502849, -118.196851). I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?"
+  },
+  {
+    "query_id": "pref141",
+    "nl_query": "I'm leaving (34.071214, -118.296615) and heading to (33.975394, -118.3068). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref142",
+    "nl_query": "I'm leaving (34.142176, -117.892757) and heading to (34.084496, -117.851605). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref143",
+    "nl_query": "I'm leaving (33.9698, -118.01946) and heading to (34.005261, -117.964842). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref144",
+    "nl_query": "I'm leaving (33.968584, -118.056511) and heading to (33.962329, -118.126915). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref145",
+    "nl_query": "I'm leaving (34.502849, -118.196851) and heading to (34.602021, -118.107625). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref146",
+    "nl_query": "I'm leaving (34.131154, -118.183807) and heading to (34.17109, -118.182685). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref147",
+    "nl_query": "I'm leaving (34.029345, -118.502907) and heading to (34.083653, -118.508562). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref148",
+    "nl_query": "I'm leaving (33.920844, -118.415954) and heading to (33.873814, -118.357626). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref149",
+    "nl_query": "I'm leaving (34.014928, -117.910447) and heading to (34.097773, -117.95771). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref150",
+    "nl_query": "I'm leaving (34.096745, -118.81219) and heading to (34.140094, -118.832388). I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?"
+  },
+  {
+    "query_id": "pref151",
+    "nl_query": "I need to go from (34.172806, -118.206509) to (34.133101, -118.277109). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref152",
+    "nl_query": "I need to go from (34.083851, -118.459762) to (34.026828, -118.421574). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref153",
+    "nl_query": "I need to go from (33.869046, -118.362198) to (33.916263, -118.387515). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref154",
+    "nl_query": "I need to go from (34.07944, -117.866658) to (34.121609, -117.933852). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref155",
+    "nl_query": "I need to go from (34.131372, -118.821305) to (34.167721, -118.759252). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref156",
+    "nl_query": "I need to go from (33.831148, -117.922577) to (33.854779, -117.863628). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref157",
+    "nl_query": "I need to go from (33.741921, -117.973131) to (33.796869, -117.866553). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref158",
+    "nl_query": "I need to go from (33.959626, -118.078402) to (33.913336, -118.168869). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref159",
+    "nl_query": "I need to go from (34.117565, -117.844441) to (34.069378, -117.77958). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref160",
+    "nl_query": "I need to go from (33.923614, -118.404857) to (33.961641, -118.359533). I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?"
+  },
+  {
+    "query_id": "pref161",
+    "nl_query": "I'm at (33.91146, -117.945065) and need to get to (33.900377, -117.863628). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref162",
+    "nl_query": "I'm at (33.783686, -117.861825) and need to get to (33.815518, -118.000276). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref163",
+    "nl_query": "I'm at (33.938522, -118.072623) and need to get to (33.891586, -118.177131). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref164",
+    "nl_query": "I'm at (34.12225, -117.807766) and need to get to (34.097359, -117.773397). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref165",
+    "nl_query": "I'm at (34.002688, -118.299601) and need to get to (33.91844, -118.37436). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref166",
+    "nl_query": "I'm at (34.15588, -118.2458) and need to get to (34.211214, -118.386134). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref167",
+    "nl_query": "I'm at (34.128083, -118.049527) and need to get to (34.093415, -118.035856). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref168",
+    "nl_query": "I'm at (33.725237, -117.87483) and need to get to (33.745018, -117.941293). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref169",
+    "nl_query": "I'm at (33.881429, -117.897501) and need to get to (33.852019, -117.954984). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref170",
+    "nl_query": "I'm at (33.777151, -118.152419) and need to get to (33.830065, -118.25159). I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?"
+  },
+  {
+    "query_id": "pref171",
+    "nl_query": "I need to get from (34.176878, -118.332342) to (34.185304, -118.23229). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref172",
+    "nl_query": "I need to get from (34.087052, -118.080326) to (34.034744, -117.976314). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref173",
+    "nl_query": "I need to get from (33.72182, -117.818089) to (33.720694, -117.883626). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref174",
+    "nl_query": "I need to get from (33.832527, -117.934844) to (33.808368, -117.992191). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref175",
+    "nl_query": "I need to get from (33.745085, -118.091427) to (33.787471, -118.106012). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref176",
+    "nl_query": "I need to get from (34.144139, -118.195206) to (34.184362, -118.198326). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref177",
+    "nl_query": "I need to get from (34.6182, -118.224873) to (34.722188, -118.22834). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref178",
+    "nl_query": "I need to get from (33.864004, -118.041521) to (33.816969, -118.045689). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref179",
+    "nl_query": "I need to get from (34.042947, -117.741922) to (34.141563, -117.698749). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref180",
+    "nl_query": "I need to get from (33.852457, -118.397388) to (33.791059, -118.341122). I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?"
+  },
+  {
+    "query_id": "pref181",
+    "nl_query": "I'm going from (34.124352, -118.135968) to (34.093084, -118.097336). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref182",
+    "nl_query": "I'm going from (34.711421, -118.066638) to (34.664779, -118.234842). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref183",
+    "nl_query": "I'm going from (33.847232, -118.104129) to (33.877716, -118.072609). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref184",
+    "nl_query": "I'm going from (34.092734, -117.725055) to (34.142603, -117.695168). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref185",
+    "nl_query": "I'm going from (33.838864, -118.288624) to (33.862632, -118.383841). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref186",
+    "nl_query": "I'm going from (33.692912, -117.754112) to (33.636073, -117.827921). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref187",
+    "nl_query": "I'm going from (34.179409, -118.437704) to (34.192816, -118.478205). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref188",
+    "nl_query": "I'm going from (34.401526, -118.595561) to (34.467056, -118.450475). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref189",
+    "nl_query": "I'm going from (34.134231, -117.96996) to (34.113522, -117.903372). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref190",
+    "nl_query": "I'm going from (33.947405, -118.272561) to (33.856745, -118.239539). I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?"
+  },
+  {
+    "query_id": "pref191",
+    "nl_query": "I'm planning a trip from (33.696329, -117.898296) to (33.642589, -117.880159). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref192",
+    "nl_query": "I'm planning a trip from (34.159473, -118.429067) to (34.21149, -118.403388). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref193",
+    "nl_query": "I'm planning a trip from (34.421977, -118.58513) to (34.288606, -118.5411). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref194",
+    "nl_query": "I'm planning a trip from (34.142038, -117.91736) to (34.150605, -117.849016). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref195",
+    "nl_query": "I'm planning a trip from (33.852436, -118.184851) to (33.905185, -118.196127). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref196",
+    "nl_query": "I'm planning a trip from (34.09448, -117.724826) to (34.052105, -117.723722). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref197",
+    "nl_query": "I'm planning a trip from (33.876002, -118.397181) to (33.808064, -118.273079). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref198",
+    "nl_query": "I'm planning a trip from (34.164558, -118.215433) to (34.102761, -118.31582). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref199",
+    "nl_query": "I'm planning a trip from (33.806768, -118.045676) to (33.868488, -118.114324). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  },
+  {
+    "query_id": "pref200",
+    "nl_query": "I'm planning a trip from (34.024315, -117.901031) to (34.090594, -117.884119). I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?"
+  }
+]

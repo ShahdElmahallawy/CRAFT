@@ -11,7 +11,6 @@ from __future__ import annotations
 
 import json
 import os
-import re
 import subprocess
 import sys
 import time
@@ -48,8 +47,8 @@ def run_parser(
     """
     Parse NL query → flat structured JSON → write to work_dir.
 
-    Falls back to extracting src/dst from coordinates in the NL text when the
-    parser doesn't resolve them. Returns the path to the staged JSON file.
+    Falls back to the query's own src/dst fields when the parser doesn't
+    resolve them. Returns the path to the staged JSON file.
     Raises on parse failure.
     """
     query_id = query.get("query_id", "unknown")
@@ -61,19 +60,10 @@ def run_parser(
     )
     parsed.pop("_parse_meta", None)
 
-    if G is not None:
-        coords = _extract_coords(nl_query)
-        if not parsed.get("src"):
-            parsed["src"] = (
-                query.get("src")
-                or (coords and _nearest_node(G, *coords[0]))
-            )
-        if not parsed.get("dst"):
-            dst_c = coords[1] if len(coords) >= 2 else (coords[0] if coords else None)
-            parsed["dst"] = (
-                query.get("dst")
-                or (dst_c and _nearest_node(G, *dst_c))
-            )
+    if not parsed.get("src"):
+        parsed["src"] = query.get("src")
+    if not parsed.get("dst"):
+        parsed["dst"] = query.get("dst")
 
     parsed["gpkg"] = gpkg
     parsed.setdefault("template_file", query.get("template_file"))
@@ -160,23 +150,4 @@ def run_execute(
         return {"ok": False, "error": "execute timeout", "elapsed_s": time.perf_counter() - t0}
     except Exception as exc:
         return {"ok": False, "error": str(exc), "elapsed_s": time.perf_counter() - t0}
-
-
-# Helpers
-
-def _extract_coords(text: str):
-    """Return list of (lat, lon) tuples found in text."""
-    return [(float(a), float(b)) for a, b in re.findall(r"(-?\d+\.\d+)[,\s]+(-?\d+\.\d+)", text)]
-
-
-def _nearest_node(G, lat: float, lon: float) -> Optional[str]:
-    import math
-    best, best_d = None, float("inf")
-    for n, d in G.nodes(data=True):
-        nd = d.get("y", d.get("lat")), d.get("x", d.get("lon"))
-        if None in nd:
-            continue
-        dist = math.hypot(nd[0] - lat, nd[1] - lon)
-        if dist < best_d:
-            best, best_d = n, dist
-    return str(best) if best is not None else None
+    

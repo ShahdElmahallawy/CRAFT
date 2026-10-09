@@ -39,7 +39,6 @@ from craft.generator.tools.common_handlers import (
 
 PARSER_DIR = Path(__file__).resolve().parent
 PROBLEM_PATH = PARSER_DIR / "prompt.md"
-DEFAULT_CATALOG = ROOT / "data" / "riverside" / "catalog_pois.json"
 DEFAULT_GPKG = ROOT / "data" / "riverside" / "road_network.gpkg"
 _SCHEMA_PATHS = [
     ROOT / "data" / "socal" / "schema.json",
@@ -185,6 +184,14 @@ def parse(
     if _types:
         _c["visit_time"] = {str(t).lower(): LLMAP_VISIT_SEC.get(str(t).lower(), 900) for t in _types}
 
+    # alternative: let the query's own stated visit time win (normalize_constraints_for_pipeline
+    # already converted it to seconds under the same "visit_time" key) and only fall back to
+    # LLMAP's fixed durations when the query never mentions one. Not fair-vs-LLMAP anymore, but
+    # lets CRAFT actually honor a stated time like "each stop takes 25 minutes". To use this,
+    # comment out the block above and uncomment the one below.
+    # if _types and "visit_time" not in _c:
+    #     _c["visit_time"] = {str(t).lower(): LLMAP_VISIT_SEC.get(str(t).lower(), 900) for t in _types}
+
     return result
 
 
@@ -194,8 +201,8 @@ def main() -> None:
     group.add_argument("--nl", help="Natural language query string")
     group.add_argument("--input", help="Path to JSON file with {query_id, nl_query} or a benchmark query object")
     parser.add_argument("--query-id", default="query", help="Query ID (used with --nl)")
-    parser.add_argument("--catalog", default=str(DEFAULT_CATALOG), help="Path to catalog_pois.json")
-    parser.add_argument("--gpkg", default=str(DEFAULT_GPKG), help="Path to road_network.gpkg (for full category list)")
+    parser.add_argument("--catalog", default=None, help="Path to catalog_pois.json (optional — gpkg_path alone already covers its categories)")
+    parser.add_argument("--gpkg", default=str(DEFAULT_GPKG), help="Path to road_network.gpkg (primary source for the category list)")
     parser.add_argument("--model", default=os.getenv("OPENAI_MODEL", os.getenv("GEMINI_MODEL", "gemini-2.0-flash")))
     parser.add_argument("--output", default=None, help="Write result JSON to this path")
     parser.add_argument("--debug", action="store_true")

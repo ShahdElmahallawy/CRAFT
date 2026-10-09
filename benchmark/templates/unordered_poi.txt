@@ -1,0 +1,42 @@
+# Unordered POI + Distance Limits + Fastest Route Templates
+# Problem: Route from START to END, visiting required POI types in any order.
+# Each POI stop should be reachable within the stated leg distance limit, and
+# the user asks for the fastest or least-time route among valid options.
+# LLMAP-compatible POI types: pharmacy, bank, library, supermarket
+# Placeholders:
+#   {SRC_NODE}             — origin expressed as (lat, lon) coordinates
+#   {DST_NODE}             — destination expressed as (lat, lon) coordinates
+#   {DISTANCE_LIMIT_1_MI}  — max miles for one POI leg
+#   {DISTANCE_LIMIT_2_MI}  — max miles for another POI leg
+#   {DISTANCE_LIMIT_3_MI}  — max miles for a third POI leg
+#   {DISTANCE_LIMIT_MI}    — shared max miles for each POI leg
+# ================================================================================
+0: I'm at {SRC_NODE} and need to get to {DST_NODE}. Along the way, I want to stop at a pharmacy and a library, in any order. Each stop should be within {DISTANCE_LIMIT_MI} miles of the previous stop. What's the fastest route?
+
+1: I need to get from {SRC_NODE} to {DST_NODE}. I want to visit a supermarket and a pharmacy, but the order does not matter. Keep each POI leg within {DISTANCE_LIMIT_MI} miles. Which route will take the least time?
+
+2: From {SRC_NODE}, I need to reach {DST_NODE} and stop at a bank and a pharmacy along the way. Visit them in whichever order is faster, with each stop within {DISTANCE_LIMIT_MI} miles of the previous point. Get me there as quickly as possible.
+
+3: I'm heading from {SRC_NODE} to {DST_NODE}. I need to stop at a supermarket and a library, in any order, and each POI leg should stay within {DISTANCE_LIMIT_MI} miles. Find the quickest route that works.
+
+4: Can you plan a route from {SRC_NODE} to {DST_NODE}? I need to visit a pharmacy and a bank, order flexible, with each stop no more than {DISTANCE_LIMIT_MI} miles from the previous point. I need the route with the shortest travel time.
+
+5: I need to go from {SRC_NODE} to {DST_NODE}. Please include a supermarket and a library along the way, in any order. Each stop should be within {DISTANCE_LIMIT_MI} miles of the previous stop. What's the quickest way to get there?
+
+6: Starting from {SRC_NODE}, I need to get to {DST_NODE}. I want to visit a bank and a library, but you can choose the order. Keep each POI leg within {DISTANCE_LIMIT_MI} miles. Can you get me there as fast as possible?
+
+7: I need a route from {SRC_NODE} to {DST_NODE} with two unordered stops: a library and a bank. Each stop should be reachable within {DISTANCE_LIMIT_MI} miles of the previous point. Which route has the lowest travel time?
+
+8: I'm going from {SRC_NODE} to {DST_NODE}. I want to stop at a pharmacy and a supermarket, in whatever order is fastest. Keep each POI leg within {DISTANCE_LIMIT_MI} miles. Please give me the fastest route that works.
+
+9: I need to get from {SRC_NODE} to {DST_NODE} and visit a bank and a supermarket along the way. The order is flexible, and each stop must be within {DISTANCE_LIMIT_MI} miles of the previous point. Find me the route that takes the least time.
+
+10: From {SRC_NODE}, I need to get to {DST_NODE} with stops at a supermarket, a bank, and a pharmacy in any order. The leg limits are {DISTANCE_LIMIT_1_MI}, {DISTANCE_LIMIT_2_MI}, and {DISTANCE_LIMIT_3_MI} miles. What's the fastest way to get there?
+
+11: I need to go from {SRC_NODE} to {DST_NODE}, visiting a library, a bank, and a pharmacy along the way. Choose the order, but keep each POI leg within {DISTANCE_LIMIT_MI} miles. Which route is quickest overall?
+
+12: I'm planning a trip from {SRC_NODE} to {DST_NODE}. I need to stop at a supermarket, a library, and a bank in any order. Each POI leg should stay within {DISTANCE_LIMIT_MI} miles. Keep the trip time as low as possible.
+
+13: Help me get from {SRC_NODE} to {DST_NODE} with unordered stops at a pharmacy, a library, and a supermarket. Each stop needs to be within {DISTANCE_LIMIT_MI} miles of the previous point. Find me the route with the shortest travel time.
+
+14: I need to reach {DST_NODE} from {SRC_NODE} and stop at a bank, a pharmacy, and a library along the way. The order does not matter, and each POI leg has to stay within {DISTANCE_LIMIT_MI} miles. What's the quickest route?

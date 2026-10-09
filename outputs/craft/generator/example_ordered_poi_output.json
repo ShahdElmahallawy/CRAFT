@@ -1,0 +1,10 @@
+{
+  "query_name": "example_ordered_poi",
+  "status": "generated",
+  "template_file": null,
+  "template_id": null,
+  "algorithm": null,
+  "input_file": "/tmp/tmpnsc3mjae/example_ordered_poi.json",
+  "generated_file": "/home/selma008/unify/CRAFT/outputs/craft/generator/example_ordered_poi_output/generated.py",
+  "raw_response_file": "/home/selma008/unify/CRAFT/outputs/craft/generator/example_ordered_poi_output/raw_response.json"
+}

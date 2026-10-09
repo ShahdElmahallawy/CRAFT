@@ -1,0 +1,802 @@
+[
+  {
+    "query_id": "set2_ev_routing_001",
+    "nl_query": "I'm driving an EV car and need to get from (38.21616449999999, -122.46882950000001) to (37.3682825, -121.87044459999998). My battery is at 82%, and a full charge gives me 200 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_002",
+    "nl_query": "I'm driving an EV car from (36.997571999999984, -120.764146) to (37.50261800000001, -120.8700978). I have 24 miles of range left out of 300. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_003",
+    "nl_query": "My EV car is at 73% charge, with a maximum range of 350 miles. I need to get from (38.33798399999999, -120.516065) to (34.76380929999998, -118.2723906). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_004",
+    "nl_query": "Can you help me plan a route from (38.62774009999999, -121.39953660000002) to (37.640933, -120.7684711)? My EV car has 205 miles remaining out of a 250-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_005",
+    "nl_query": "I'm driving an EV car from (37.79622259999999, -122.228416) to (35.352248799999984, -119.09297580000002). The battery is at 72%, and a full charge gives me 150 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_006",
+    "nl_query": "I need to get from (36.357916999999986, -119.3143385) to (34.687134099999994, -118.18548410000001) in my EV car. I have 60 miles of range left, and the full range is 350 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_007",
+    "nl_query": "Help me plan a route for my EV car from (37.90294659999999, -121.85526720000001) to (36.850369699999995, -121.40011179999999). My battery is at 62%, and the car's maximum range is 150 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_008",
+    "nl_query": "I'm heading from (35.35151230000002, -119.0583886) to (35.74059740000001, -120.8799547) in my EV car. It's at 82% charge out of a maximum range of 300 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_009",
+    "nl_query": "I'm driving an EV car from (37.3845539, -122.22050080000001) to (37.32011819999999, -120.4682575). The battery is at 39%, and the full range is 300 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_010",
+    "nl_query": "I'm driving an EV car from (37.9043249, -122.19552739999999) to (37.775306, -122.4429584). I have 7 miles of range left out of a maximum of 350 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_011",
+    "nl_query": "I need a route for my EV car from (34.11310789999999, -117.83980859999998) to (34.07150779999999, -118.10798299999999). My battery is at 82%, and the maximum range is 300 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_012",
+    "nl_query": "I need to reach (33.91300149999999, -118.03658) from (33.43160359999999, -117.62123010000002) in my EV car. The battery is at 82%, and a full charge gives me 200 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_013",
+    "nl_query": "From (37.67498299999997, -120.963043), help me plan a route to (38.66754480000001, -121.51001470000001). My EV car has 88 miles left, and the full range is 350 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_014",
+    "nl_query": "I'm leaving (38.2446, -121.990131) in my EV car with the battery at 14% and a maximum range of 250 miles. I need to get to (37.729915999999996, -121.45076400000002). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_015",
+    "nl_query": "Help me plan a route for my EV car from (38.0246026, -121.9462547) to (37.75587399999999, -122.4819824). My battery is at 13%, and the max range is 200 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_016",
+    "nl_query": "I'm driving an EV car from (36.31495689999997, -119.27404330000002) to (37.231687799999996, -121.81617920000001). I currently have 164 miles of range left out of 350. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_017",
+    "nl_query": "I need to drive from (32.9534701, -117.2646543) to (33.63887779999995, -117.66515589999999) in my EV car. The battery is at 82%, and a full charge gives 200 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_018",
+    "nl_query": "I'm leaving (37.75239529999998, -120.867744) in my EV car. The battery is at 82%, the max range is 150 miles, and I'm heading to (37.926864899999984, -121.68235260000002). Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_019",
+    "nl_query": "I'm driving my EV car from (32.783046399999996, -116.9472116) to (34.565028, -118.05141000000002). The battery is at 82%, and the maximum range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_020",
+    "nl_query": "Find me the route with the shortest total distance for my EV car from (37.994986499999996, -121.79357160000002) to (38.052062999999954, -122.22713230000001). I currently have 18 miles of range, and the full range is 200 miles."
+  },
+  {
+    "query_id": "set2_ev_routing_021",
+    "nl_query": "Can you help me plan a route for my EV car from (37.34017589999998, -122.08194440000001) to (38.64302570000001, -121.5180423)? My battery is at 82%, and the max range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_022",
+    "nl_query": "I need to get from (37.79582119999998, -121.2754504) to (37.989712499999975, -120.3186926) in my EV car. My battery is at 31% and my maximum range is 150 miles, and I need a route that works with my available range. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_023",
+    "nl_query": "I need directions from (38.8767226, -121.289564) to (38.020978499999984, -121.9697447) in my EV car. My current range is 287 miles out of a maximum of 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_024",
+    "nl_query": "I'm driving an EV car and need to get from (38.050396499999984, -122.2236968) to (38.582180899999976, -122.59051799999999). My battery is at 6%, and a full charge gives me 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_025",
+    "nl_query": "I'm driving an EV car from (33.4863456, -117.1406473) to (33.746829799999986, -118.2619254). I have 123 miles of range left out of 150. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_026",
+    "nl_query": "My EV car is at 82% charge, with a maximum range of 250 miles. I need to get from (33.817312999999984, -116.38625020000002) to (34.8343873, -114.603322). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_027",
+    "nl_query": "Can you help me plan a route from (33.89524780000001, -117.88782800000003) to (34.18051499999999, -118.960687)? My EV car has 123 miles remaining out of a 150-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_028",
+    "nl_query": "I'm driving an EV car from (38.75910940000001, -120.66816599999997) to (37.3509574, -121.85039760000001). The battery is at 81%, and a full charge gives me 150 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_029",
+    "nl_query": "I need to get from (37.940467299999995, -122.05534930000002) to (38.63123730000001, -122.4485726) in my EV car. I have 123 miles of range left, and the full range is 150 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_030",
+    "nl_query": "Help me plan a route for my EV car from (32.9786767, -117.1314408) to (36.52191284809598, -119.54383320448818). My battery is at 65%, and the car's maximum range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_031",
+    "nl_query": "I'm heading from (32.653790699999995, -116.9421097) to (35.293024299999985, -118.9920088) in my EV car. It's at 84% charge out of a maximum range of 150 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_032",
+    "nl_query": "I'm driving an EV car from (34.2384466, -117.2662645) to (33.082044, -115.34811100000002). The battery is at 82%, and the full range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_033",
+    "nl_query": "I'm driving an EV car from (35.378319, -118.975593) to (36.328760299999985, -119.2563387). I have 38 miles of range left out of a maximum of 250 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_034",
+    "nl_query": "I need a route for my EV car from (37.985820600000004, -121.7323261) to (38.73799419999999, -121.30613870000002). My battery is at 28%, and the maximum range is 250 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_035",
+    "nl_query": "I need to reach (38.01741269999999, -121.34716739999999) from (38.15974400000002, -120.381289) in my EV car. The battery is at 82%, and a full charge gives me 300 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_036",
+    "nl_query": "From (38.662641199999996, -121.74989659999999), help me plan a route to (36.90518300000001, -121.662023). My EV car has 144 miles left, and the full range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_037",
+    "nl_query": "I'm leaving (39.159186700000014, -120.9578479) in my EV car with the battery at 82% and a maximum range of 350 miles. I need to get to (40.160922, -123.88598700000001). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_038",
+    "nl_query": "Help me plan a route for my EV car from (37.273751699999984, -121.89061529999998) to (38.526321699999976, -122.78764). My battery is at 82%, and the max range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_039",
+    "nl_query": "I'm driving an EV car from (36.53249443377349, -119.58868049011018) to (34.139670100000004, -117.5813443). I currently have 168 miles of range left out of 200. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_040",
+    "nl_query": "I need to drive from (35.63631899999999, -118.24580399999999) to (39.225955699999986, -121.06143580000001) in my EV car. The battery is at 53%, and a full charge gives 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_041",
+    "nl_query": "I'm leaving (37.73166659999996, -122.1708319) in my EV car. The battery is at 82%, the max range is 250 miles, and I'm heading to (39.18461500000002, -122.88557799999998). Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_042",
+    "nl_query": "I'm driving my EV car from (37.71248330000002, -120.43576750000001) to (39.75615289999999, -121.86078769999999). The battery is at 62%, and the maximum range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_043",
+    "nl_query": "Find me the route with the shortest total distance for my EV car from (34.11126950000001, -117.6735109) to (34.2271613, -118.87567899999999). I currently have 205 miles of range, and the full range is 250 miles."
+  },
+  {
+    "query_id": "set2_ev_routing_044",
+    "nl_query": "Can you help me plan a route for my EV car from (36.691817500000006, -119.56200449999999) to (33.95943179999999, -118.12429509999998)? My battery is at 89%, and the max range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_045",
+    "nl_query": "I need to get from (36.154094, -120.3508799) to (35.33005300000001, -119.04507699999999) in my EV car. My battery is at 16% and my maximum range is 350 miles, and I need a route that works with my available range. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_046",
+    "nl_query": "I need directions from (38.19473, -120.65227500000002) to (37.37214909999997, -120.46737500000002) in my EV car. My current range is 52 miles out of a maximum of 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_047",
+    "nl_query": "I'm driving an EV car and need to get from (37.6558712, -121.77342710000002) to (37.9977038, -122.3169182). My battery is at 9%, and a full charge gives me 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_048",
+    "nl_query": "I'm driving an EV car from (37.71784829999998, -122.07566039999999) to (37.54242549999998, -122.2938293). I have 12 miles of range left out of 250. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_049",
+    "nl_query": "My EV car is at 82% charge, with a maximum range of 350 miles. I need to get from (33.684217499999995, -117.90605540000001) to (34.27204109999999, -117.1902794). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_050",
+    "nl_query": "Can you help me plan a route from (40.28567699999999, -123.73241200000001) to (36.973175300000015, -122.02087800000001)? My EV car has 248 miles remaining out of a 350-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_051",
+    "nl_query": "I'm driving an EV car from (37.957265199999995, -121.9507355) to (38.3187569, -121.57890330000001). The battery is at 12%, and a full charge gives me 300 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_052",
+    "nl_query": "I need to get from (33.88563640000001, -118.40208770000001) to (36.7233865, -119.6731003) in my EV car. I have 130 miles of range left, and the full range is 200 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_053",
+    "nl_query": "Help me plan a route for my EV car from (37.873623999999985, -122.46191700000001) to (37.775708, -121.215746). My battery is at 9%, and the car's maximum range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_054",
+    "nl_query": "I'm heading from (38.61465549999998, -121.0588125) to (38.4105155, -122.7075346) in my EV car. It's at 29% charge out of a maximum range of 350 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_055",
+    "nl_query": "I'm driving an EV car from (36.68887840000001, -121.6647626) to (38.361748099999986, -122.7039325). The battery is at 48%, and the full range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_056",
+    "nl_query": "I'm driving an EV car from (37.44674000000003, -120.830865) to (34.29292920000001, -117.1690453). I have 170 miles of range left out of a maximum of 250 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_057",
+    "nl_query": "I need a route for my EV car from (37.73615829999998, -122.42015629999999) to (38.74345769999999, -121.22609769999998). My battery is at 21%, and the maximum range is 300 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_058",
+    "nl_query": "I need to reach (38.0642784, -122.1749861) from (37.71187969999998, -121.44069559999998) in my EV car. The battery is at 18%, and a full charge gives me 300 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_059",
+    "nl_query": "From (33.75558959999999, -117.0278342), help me plan a route to (36.8581557, -120.457527). My EV car has 270 miles left, and the full range is 350 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_060",
+    "nl_query": "I'm leaving (35.37084100000001, -119.13352900000001) in my EV car with the battery at 22% and a maximum range of 350 miles. I need to get to (33.8080127, -118.21109110000002). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_061",
+    "nl_query": "Help me plan a route for my EV car from (33.07775799999999, -117.26748030000002) to (32.73256299999997, -117.010033). My battery is at 82%, and the max range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_062",
+    "nl_query": "I'm driving an EV car from (38.07663529999999, -122.22135190000002) to (37.38484280000001, -121.87259099999999). I currently have 44 miles of range left out of 200. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_063",
+    "nl_query": "I need to drive from (38.6507941, -121.271207) to (38.145673599999974, -121.2748022) in my EV car. The battery is at 10%, and a full charge gives 250 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_064",
+    "nl_query": "I'm leaving (37.0374533, -119.51430740000002) in my EV car. The battery is at 63%, the max range is 200 miles, and I'm heading to (33.69655989999999, -117.9564414). Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_065",
+    "nl_query": "I'm driving my EV car from (37.91359320000001, -122.3033981) to (38.35773199999999, -121.205376). The battery is at 14%, and the maximum range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_066",
+    "nl_query": "Find me the route with the shortest total distance for my EV car from (38.046834899999986, -122.53881320000002) to (37.404726299999986, -122.08895120000001). I currently have 46 miles of range, and the full range is 150 miles."
+  },
+  {
+    "query_id": "set2_ev_routing_067",
+    "nl_query": "Can you help me plan a route for my EV car from (37.820548900000006, -122.2689438) to (38.33584149999999, -121.95033240000001)? My battery is at 6%, and the max range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_068",
+    "nl_query": "I need to get from (34.994003799999994, -114.6502735) to (32.756336000000005, -117.0081193) in my EV car. My battery is at 89% and my maximum range is 350 miles, and I need a route that works with my available range. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_069",
+    "nl_query": "I need directions from (35.4925282, -119.2605826) to (36.538174074360946, -121.90495242855538) in my EV car. My current range is 287 miles out of a maximum of 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_070",
+    "nl_query": "I'm driving an EV car and need to get from (37.29049470000002, -122.0162926) to (38.795591699999996, -121.7240546). My battery is at 82%, and a full charge gives me 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_071",
+    "nl_query": "I'm driving an EV car from (37.97605829999999, -122.1063122) to (37.6372469, -120.9845444). I have 164 miles of range left out of 200. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_072",
+    "nl_query": "My EV car is at 32% charge, with a maximum range of 350 miles. I need to get from (35.508106800000014, -120.6853679) to (35.396995399999994, -118.9297693). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_073",
+    "nl_query": "Can you help me plan a route from (33.644349899999995, -117.1471081) to (35.36442799999999, -119.181006)? My EV car has 249 miles remaining out of a 300-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_074",
+    "nl_query": "I'm driving an EV car from (38.41699299999997, -121.470162) to (37.784389199999985, -122.1837926). The battery is at 23%, and a full charge gives me 300 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_075",
+    "nl_query": "I need to get from (36.843587999999976, -121.402337) to (36.15242799999999, -121.17538300000001) in my EV car. I have 246 miles of range left, and the full range is 300 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_076",
+    "nl_query": "Help me plan a route for my EV car from (37.80157969999999, -122.2913856) to (38.84664669999996, -121.2435423). My battery is at 57%, and the car's maximum range is 200 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_077",
+    "nl_query": "I'm heading from (37.29978119999998, -121.9480844) to (37.75506219999999, -121.9031333) in my EV car. It's at 7% charge out of a maximum range of 300 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_078",
+    "nl_query": "I'm driving an EV car from (36.728762599999996, -119.8130864) to (38.67411279999999, -121.50185229999998). The battery is at 89%, and the full range is 150 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_079",
+    "nl_query": "I'm driving an EV car from (32.65809029999997, -115.44945090000004) to (33.78257979999998, -118.138294). I have 261 miles of range left out of a maximum of 300 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_080",
+    "nl_query": "I need a route for my EV car from (37.6702961, -121.0077048) to (40.73899999999998, -121.96872300000001). My battery is at 81%, and the maximum range is 300 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_081",
+    "nl_query": "I need to reach (33.5377034, -116.9698773) from (33.01488100000001, -117.037773) in my EV car. The battery is at 82%, and a full charge gives me 300 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_082",
+    "nl_query": "From (35.216804, -117.82015300000002), help me plan a route to (33.8606848, -117.74055350000002). My EV car has 141 miles left, and the full range is 150 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_083",
+    "nl_query": "I'm leaving (32.6391374, -115.5184576) in my EV car with the battery at 82% and a maximum range of 350 miles. I need to get to (34.1559039, -117.39909150000001). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_084",
+    "nl_query": "Help me plan a route for my EV car from (37.74256189999999, -121.9175305) to (37.75400749999998, -121.46097359999999). My battery is at 13%, and the max range is 200 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_085",
+    "nl_query": "I'm driving an EV car from (38.2202994, -122.6402343) to (37.37885849999999, -122.1157002). I currently have 40 miles of range left out of 150. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_086",
+    "nl_query": "I need to drive from (37.39855740000001, -122.13526290000001) to (37.975483200000006, -121.99331690000001) in my EV car. The battery is at 82%, and a full charge gives 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_087",
+    "nl_query": "I'm leaving (37.438266699999986, -122.17352299999999) in my EV car. The battery is at 13%, the max range is 300 miles, and I'm heading to (37.73587529999998, -121.46792960000002). Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_088",
+    "nl_query": "I'm driving my EV car from (35.75335979999998, -119.2429532) to (36.42465030000001, -121.313395). The battery is at 94%, and the maximum range is 200 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_089",
+    "nl_query": "Find me the route with the shortest total distance for my EV car from (38.15631530000001, -122.2515967) to (38.01192049999999, -121.80611180000001). I currently have 16 miles of range, and the full range is 200 miles."
+  },
+  {
+    "query_id": "set2_ev_routing_090",
+    "nl_query": "Can you help me plan a route for my EV car from (37.74875, -121.4290245) to (38.661621199999985, -121.15778060000001)? My battery is at 13%, and the max range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_091",
+    "nl_query": "I need to get from (36.29823280000001, -119.3550227) to (33.868046099999994, -118.39395810000002) in my EV car. My battery is at 89% and my maximum range is 300 miles, and I need a route that works with my available range. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_092",
+    "nl_query": "I need directions from (37.05423489999999, -121.54883810000001) to (38.70534159999997, -121.1038904) in my EV car. My current range is 78 miles out of a maximum of 300 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_093",
+    "nl_query": "I'm driving an EV car and need to get from (37.1815724, -119.79383010000001) to (40.449665200000005, -122.39549369999999). My battery is at 65%, and a full charge gives me 200 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_094",
+    "nl_query": "I'm driving an EV car from (35.12278099999998, -117.986907) to (35.357009800000014, -119.0921704). I have 78 miles of range left out of 200. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_095",
+    "nl_query": "My EV car is at 82% charge, with a maximum range of 200 miles. I need to get from (37.91002899999998, -122.5593327) to (37.532098899999966, -122.0190097). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_096",
+    "nl_query": "Can you help me plan a route from (38.32617259999998, -122.48240150000001) to (37.985869899999976, -122.51844039999999)? My EV car has 246 miles remaining out of a 300-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_097",
+    "nl_query": "I'm driving an EV car from (33.766538199999985, -117.8120387) to (34.148706699999984, -117.6597884). The battery is at 82%, and a full charge gives me 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_098",
+    "nl_query": "I need to get from (34.175599000000005, -118.78697) to (34.059099799999984, -117.5582628) in my EV car. I have 164 miles of range left, and the full range is 200 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_099",
+    "nl_query": "Help me plan a route for my EV car from (35.5432965, -120.73122620000001) to (39.13161409999999, -121.55986320000001). My battery is at 50%, and the car's maximum range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_100",
+    "nl_query": "I'm heading from (36.77049059999998, -119.7499349) to (33.730508599999986, -116.94551150000001) in my EV car. It's at 77% charge out of a maximum range of 300 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_101",
+    "nl_query": "I'm driving an EV car from (37.99786719999999, -121.7189209) to (38.605517100000014, -121.26978120000001). The battery is at 11%, and the full range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_102",
+    "nl_query": "I'm driving an EV car from (37.74196270000002, -122.38831169999999) to (37.88494539999999, -122.04002869999998). I have 18 miles of range left out of a maximum of 200 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_103",
+    "nl_query": "I need a route for my EV car from (32.534238000000016, -117.03521140000001) to (33.89628359999996, -118.0290938). My battery is at 82%, and the maximum range is 250 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_104",
+    "nl_query": "I need to reach (40.692898, -122.40419) from (37.69931540000002, -122.1186403) in my EV car. The battery is at 66%, and a full charge gives me 200 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_105",
+    "nl_query": "From (38.324116299999986, -122.3259776), help me plan a route to (37.00071169999999, -121.95759419999999). My EV car has 99 miles left, and the full range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_106",
+    "nl_query": "I'm leaving (38.09315680000001, -122.27345389999999) in my EV car with the battery at 21% and a maximum range of 200 miles. I need to get to (37.5158587, -121.99461800000002). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_107",
+    "nl_query": "Help me plan a route for my EV car from (34.21828139999999, -118.85711790000002) to (33.658885099999985, -117.8243854). My battery is at 82%, and the max range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_108",
+    "nl_query": "I'm driving an EV car from (38.246978999999996, -121.297765) to (36.722639900000004, -120.06162169999999). I currently have 205 miles of range left out of 250. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_109",
+    "nl_query": "I need to drive from (38.48234459999999, -121.43186559999998) to (37.928198699999996, -122.39053639999999) in my EV car. The battery is at 20%, and a full charge gives 200 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_110",
+    "nl_query": "I'm leaving (36.907019999999996, -121.63103400000001) in my EV car. The battery is at 14%, the max range is 350 miles, and I'm heading to (37.41661199999999, -119.87789599999999). Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_111",
+    "nl_query": "I'm driving my EV car from (38.000326799999975, -122.5746715) to (38.76224919999999, -121.2282163). The battery is at 90%, and the maximum range is 150 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_112",
+    "nl_query": "Find me the route with the shortest total distance for my EV car from (38.658173200000014, -121.128335) to (37.62158359999997, -121.03134120000001). I currently have 75 miles of range, and the full range is 250 miles."
+  },
+  {
+    "query_id": "set2_ev_routing_113",
+    "nl_query": "Can you help me plan a route for my EV car from (38.69897369999999, -121.79781320000001) to (38.646201999999974, -121.11108500000002)? My battery is at 82%, and the max range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_114",
+    "nl_query": "I need to get from (32.93250609999999, -117.1560011) to (36.71187139999998, -119.6902149) in my EV car. My battery is at 62% and my maximum range is 300 miles, and I need a route that works with my available range. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_115",
+    "nl_query": "I need directions from (38.88918819999999, -121.3196074) to (38.86640659999999, -120.994998) in my EV car. My current range is 287 miles out of a maximum of 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_116",
+    "nl_query": "I'm driving an EV car and need to get from (36.7911031, -119.87071229999998) to (37.95429690000001, -121.31221540000001). My battery is at 40%, and a full charge gives me 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_117",
+    "nl_query": "I'm driving an EV car from (39.68722899999998, -120.989299) to (38.1556173, -122.1827018). I have 78 miles of range left out of 200. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_118",
+    "nl_query": "My EV car is at 13% charge, with a maximum range of 250 miles. I need to get from (38.66839409999997, -121.74229930000001) to (37.92914330000001, -121.9783875). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_119",
+    "nl_query": "Can you help me plan a route from (33.79069599999998, -117.98031750000001) to (36.093234499999994, -119.0455694)? My EV car has 258 miles remaining out of a 300-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_120",
+    "nl_query": "I'm driving an EV car from (35.38876839999999, -120.85164250000001) to (37.56528199999999, -121.9895049). The battery is at 98%, and a full charge gives me 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_121",
+    "nl_query": "I need to get from (36.590434251856166, -121.95513127966773) to (37.46270869999999, -122.44048240000001) in my EV car. I have 48 miles of range left, and the full range is 300 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_122",
+    "nl_query": "Help me plan a route for my EV car from (32.676139699999986, -117.0017419) to (35.321027999999984, -119.108592). My battery is at 94%, and the car's maximum range is 350 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_123",
+    "nl_query": "I'm heading from (38.232616999999976, -122.68049800000001) to (37.32688399999999, -121.85428760000002) in my EV car. It's at 21% charge out of a maximum range of 350 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_124",
+    "nl_query": "I'm driving an EV car from (32.862749, -116.9237782) to (33.23991800000001, -117.29821). The battery is at 82%, and the full range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_125",
+    "nl_query": "I'm driving an EV car from (37.653951, -120.09637200000002) to (39.15570249999999, -121.5759146). I have 205 miles of range left out of a maximum of 250 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_126",
+    "nl_query": "I need a route for my EV car from (37.30490819999999, -121.9788664) to (37.7100749, -121.4407839). My battery is at 12%, and the maximum range is 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_127",
+    "nl_query": "I need to reach (33.96036400000003, -118.020332) from (34.1586459, -118.7539301) in my EV car. The battery is at 82%, and a full charge gives me 200 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_128",
+    "nl_query": "From (37.62971590000001, -122.4053325), help me plan a route to (35.35327099999999, -118.93198430000001). My EV car has 128 miles left, and the full range is 250 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_129",
+    "nl_query": "I'm leaving (37.137835299999985, -121.6533683) in my EV car with the battery at 23% and a maximum range of 150 miles. I need to get to (37.523690699999975, -122.04649929999998). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_130",
+    "nl_query": "Help me plan a route for my EV car from (37.66829829999998, -122.1312627) to (38.2341349, -122.5999464). My battery is at 13%, and the max range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_131",
+    "nl_query": "I'm driving an EV car from (33.736842299999985, -118.01291640000001) to (33.042861999999985, -116.862457). I currently have 164 miles of range left out of 200. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_132",
+    "nl_query": "I need to drive from (37.51641299999998, -119.887094) to (37.333376000000015, -120.45850600000001) in my EV car. The battery is at 82%, and a full charge gives 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_133",
+    "nl_query": "I'm leaving (33.564437999999996, -116.95240310000001) in my EV car. The battery is at 82%, the max range is 350 miles, and I'm heading to (33.87068739999998, -118.39946750000001). Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_134",
+    "nl_query": "I'm driving my EV car from (37.73343169999996, -122.4331925) to (37.336863999999984, -121.95854400000002). The battery is at 11%, and the maximum range is 250 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_135",
+    "nl_query": "Find me the route with the shortest total distance for my EV car from (37.92539010000001, -122.5223109) to (37.76595669999998, -122.21903219999999). I currently have 22 miles of range, and the full range is 250 miles."
+  },
+  {
+    "query_id": "set2_ev_routing_136",
+    "nl_query": "Can you help me plan a route for my EV car from (38.837602199999985, -121.5437437) to (40.568873899999986, -124.1266784)? My battery is at 58%, and the max range is 250 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_137",
+    "nl_query": "I need to get from (37.92384719999999, -121.7287312) to (37.04935210000001, -120.87466459999999) in my EV car. My battery is at 25% and my maximum range is 300 miles, and I need a route that works with my available range. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_138",
+    "nl_query": "I need directions from (38.02521460000001, -122.1109788) to (37.390628299999996, -122.1134876) in my EV car. My current range is 42 miles out of a maximum of 300 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_139",
+    "nl_query": "I'm driving an EV car and need to get from (34.87258880000001, -117.10238980000001) to (34.591999799999996, -118.1652939). My battery is at 82%, and a full charge gives me 200 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_140",
+    "nl_query": "I'm driving an EV car from (38.1399659, -120.45911090000001) to (36.829435800000006, -119.8879272). I have 114 miles of range left out of 200. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_141",
+    "nl_query": "My EV car is at 82% charge, with a maximum range of 250 miles. I need to get from (33.70077149999998, -117.825664) to (34.238439099999994, -116.80759269999999). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_142",
+    "nl_query": "Can you help me plan a route from (39.905415, -122.14063) to (39.33849039999998, -121.0315536)? My EV car has 27 miles remaining out of a 300-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_143",
+    "nl_query": "I'm driving an EV car from (34.265174499999986, -116.8400338) to (35.07672809999998, -117.56179150000001). The battery is at 82%, and a full charge gives me 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_144",
+    "nl_query": "I need to get from (33.76014069999997, -118.1894959) to (33.4970303, -117.1203657) in my EV car. I have 164 miles of range left, and the full range is 200 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_145",
+    "nl_query": "Help me plan a route for my EV car from (38.639819, -121.513019) to (37.66557340000001, -121.91740829999999). My battery is at 24%, and the car's maximum range is 350 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_146",
+    "nl_query": "I'm heading from (33.957448999999976, -118.30025870000001) to (36.8156825, -119.7937641) in my EV car. It's at 92% charge out of a maximum range of 350 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_147",
+    "nl_query": "I'm driving an EV car from (38.69200489999998, -122.0219094) to (39.639148199999994, -121.79964680000002). The battery is at 36%, and the full range is 200 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_148",
+    "nl_query": "I'm driving an EV car from (37.791092699999986, -122.40899650000001) to (37.07122900000001, -120.847848). I have 46 miles of range left out of a maximum of 200 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_149",
+    "nl_query": "I need a route for my EV car from (38.663795799999995, -121.2962519) to (36.999102900000004, -121.5799017). My battery is at 80%, and the maximum range is 150 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_150",
+    "nl_query": "I need to reach (38.805232799999985, -121.3919101) from (38.64564549999999, -121.0767765) in my EV car. The battery is at 12%, and a full charge gives me 150 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_151",
+    "nl_query": "From (34.1298901, -117.47537480000001), help me plan a route to (36.0542253, -119.03835740000001). My EV car has 287 miles left, and the full range is 350 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_152",
+    "nl_query": "I'm leaving (41.191180999999986, -122.248358) in my EV car with the battery at 19% and a maximum range of 350 miles. I need to get to (38.690617299999985, -121.25533). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_153",
+    "nl_query": "Help me plan a route for my EV car from (36.079615, -119.949887) to (36.59908254325409, -118.93579760281824). My battery is at 82%, and the max range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_154",
+    "nl_query": "I'm driving an EV car from (37.57882829999999, -122.3230713) to (38.0066021, -122.31361790000001). I currently have 20 miles of range left out of 150. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_155",
+    "nl_query": "I need to drive from (33.89464760000002, -117.507567) to (33.76633239999999, -117.0273641) in my EV car. The battery is at 82%, and a full charge gives 350 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_156",
+    "nl_query": "I'm leaving (38.26585789999998, -122.02497180000002) in my EV car. The battery is at 32%, the max range is 250 miles, and I'm heading to (37.1128877, -122.11560260000002). Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_157",
+    "nl_query": "I'm driving my EV car from (38.616500399999985, -121.3931679) to (37.91720429999999, -122.0768606). The battery is at 32%, and the maximum range is 150 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_158",
+    "nl_query": "Find me the route with the shortest total distance for my EV car from (34.017917600000004, -117.66412500000001) to (35.2895859, -119.12133090000002). I currently have 92 miles of range, and the full range is 250 miles."
+  },
+  {
+    "query_id": "set2_ev_routing_159",
+    "nl_query": "Can you help me plan a route for my EV car from (32.80024519999999, -117.22925430000001) to (35.36881919999998, -117.6380365)? My battery is at 82%, and the max range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_160",
+    "nl_query": "I need to get from (34.1490528, -119.19776370000001) to (32.64804100000001, -115.4822162) in my EV car. My battery is at 48% and my maximum range is 350 miles, and I need a route that works with my available range. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_161",
+    "nl_query": "I need directions from (39.738852, -121.570279) to (39.74012620000003, -122.1888588) in my EV car. My current range is 28 miles out of a maximum of 150 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_162",
+    "nl_query": "I'm driving an EV car and need to get from (34.0588372, -118.3431207) to (33.879144099999976, -117.5297409). My battery is at 82%, and a full charge gives me 150 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_163",
+    "nl_query": "I'm driving an EV car from (37.9573547, -122.02409279999999) to (37.13521389999997, -121.6532922). I have 60 miles of range left out of 350. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_164",
+    "nl_query": "My EV car is at 82% charge, with a maximum range of 200 miles. I need to get from (33.887163799999996, -117.3799705) to (34.142207199999994, -118.08554179999999). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_165",
+    "nl_query": "Can you help me plan a route from (37.45775049999999, -121.91473570000001) to (38.580128999999985, -121.54870939999999)? My EV car has 65 miles remaining out of a 250-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_166",
+    "nl_query": "I'm driving an EV car from (32.52799419980043, -117.09314154337227) to (32.9792019, -115.5356767). The battery is at 82%, and a full charge gives me 200 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_167",
+    "nl_query": "I need to get from (34.81525750000002, -118.92070070000001) to (37.73209229999997, -122.4067891) in my EV car. I have 200 miles of range left, and the full range is 350 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_168",
+    "nl_query": "Help me plan a route for my EV car from (36.85464049999999, -119.6603622) to (33.267433999999994, -117.2902857). My battery is at 56%, and the car's maximum range is 350 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_169",
+    "nl_query": "I'm heading from (34.56806509999997, -118.0070881) to (33.7847194, -116.4340369) in my EV car. It's at 82% charge out of a maximum range of 300 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_170",
+    "nl_query": "I'm driving an EV car from (38.01441899999999, -121.31449299999998) to (37.76971469999999, -121.9646481). The battery is at 13%, and the full range is 300 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_171",
+    "nl_query": "I'm driving an EV car from (35.290879099999984, -120.66827059999999) to (34.05957440000002, -118.4829484). I have 287 miles of range left out of a maximum of 350 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_172",
+    "nl_query": "I need a route for my EV car from (37.951362099999976, -121.9409066) to (37.7494595, -122.18103910000002). My battery is at 82%, and the maximum range is 300 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_173",
+    "nl_query": "I need to reach (37.68722349999997, -121.2512474) from (38.410213999999975, -121.40840830000002) in my EV car. The battery is at 82%, and a full charge gives me 250 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_174",
+    "nl_query": "From (32.5311517, -117.0093817), help me plan a route to (34.242193499999956, -118.26173830000002). My EV car has 246 miles left, and the full range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_175",
+    "nl_query": "I'm leaving (34.471959299999995, -118.5357321) in my EV car with the battery at 82% and a maximum range of 300 miles. I need to get to (33.8710916, -118.34374990000002). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_176",
+    "nl_query": "Help me plan a route for my EV car from (35.2103586, -120.5703358) to (34.488514099999996, -117.5322641). My battery is at 47%, and the max range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_177",
+    "nl_query": "I'm driving an EV car from (33.72787859999997, -118.2879573) to (33.64585629999999, -116.95585399999999). I currently have 205 miles of range left out of 250. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_178",
+    "nl_query": "I need to drive from (34.1348485, -118.72470580000001) to (34.114208, -117.902595) in my EV car. The battery is at 82%, and a full charge gives 150 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_179",
+    "nl_query": "I'm leaving (37.424271199999986, -121.9087056) in my EV car. The battery is at 68%, the max range is 250 miles, and I'm heading to (35.336286, -119.11111299999999). Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_180",
+    "nl_query": "I'm driving my EV car from (37.67853609999998, -121.4595966) to (37.90778709999999, -121.3185287). The battery is at 6%, and the maximum range is 200 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_181",
+    "nl_query": "Find me the route with the shortest total distance for my EV car from (37.985319199999985, -122.56976200000001) to (37.9179922, -122.0456404). I currently have 36 miles of range, and the full range is 200 miles."
+  },
+  {
+    "query_id": "set2_ev_routing_182",
+    "nl_query": "Can you help me plan a route for my EV car from (37.74912640000001, -122.4053526) to (37.29417309999997, -121.9482252)? My battery is at 14%, and the max range is 300 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_183",
+    "nl_query": "I need to get from (37.6881573, -122.4059148) to (38.47557170000001, -121.50736750000002) in my EV car. My battery is at 55% and my maximum range is 150 miles, and I need a route that works with my available range. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_184",
+    "nl_query": "I need directions from (37.5386833, -122.4996856) to (36.95741339999998, -121.73282240000002) in my EV car. My current range is 48 miles out of a maximum of 300 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_185",
+    "nl_query": "I'm driving an EV car and need to get from (36.60013911592756, -121.87421308409282) to (34.06490999999999, -117.77699099999998). My battery is at 70%, and a full charge gives me 150 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_186",
+    "nl_query": "I'm driving an EV car from (35.45073429999998, -120.69688530000002) to (37.356154099999976, -121.8665663). I have 222 miles of range left out of 250. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_187",
+    "nl_query": "My EV car is at 84% charge, with a maximum range of 350 miles. I need to get from (34.091652199999984, -118.0995867) to (38.06113509999999, -120.19689529999998). What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_188",
+    "nl_query": "Can you help me plan a route from (34.462001600000015, -118.5073586) to (36.02227889999998, -118.9952761)? My EV car has 82 miles remaining out of a 250-mile full range. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_189",
+    "nl_query": "I'm driving an EV car from (38.02739799999999, -121.9374483) to (38.158221499999996, -121.1384463). The battery is at 9%, and a full charge gives me 200 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_190",
+    "nl_query": "I need to get from (34.1057797, -117.8649025) to (35.3865888, -120.8516038) in my EV car. I have 287 miles of range left, and the full range is 350 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_191",
+    "nl_query": "Help me plan a route for my EV car from (37.95764480000001, -122.1111528) to (38.75309260000001, -121.34245430000001). My battery is at 11%, and the car's maximum range is 300 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_192",
+    "nl_query": "I'm heading from (35.12810900000001, -120.573621) to (37.34141480000001, -122.0133203) in my EV car. It's at 82% charge out of a maximum range of 350 miles. Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_193",
+    "nl_query": "I'm driving an EV car from (34.30912399999999, -119.28901120000002) to (34.2114922, -118.22755950000001). The battery is at 82%, and the full range is 350 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_194",
+    "nl_query": "I'm driving an EV car from (35.44720569999997, -119.11032600000001) to (36.0456737, -117.94798599999999). I have 38 miles of range left out of a maximum of 200 miles. Please give me the shortest route."
+  },
+  {
+    "query_id": "set2_ev_routing_195",
+    "nl_query": "I need a route for my EV car from (38.8106997, -121.15481459999998) to (38.10332609999998, -121.2613906). My battery is at 28%, and the maximum range is 200 miles. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set2_ev_routing_196",
+    "nl_query": "I need to reach (33.80703260000001, -116.4520216) from (33.92035219999998, -118.37822280000002) in my EV car. The battery is at 84%, and a full charge gives me 200 miles. Which route is shortest overall?"
+  },
+  {
+    "query_id": "set2_ev_routing_197",
+    "nl_query": "From (36.7212878, -121.65461210000001), help me plan a route to (38.410137699999986, -121.70596939999999). My EV car has 110 miles left, and the full range is 200 miles. Can you keep the route as short as possible?"
+  },
+  {
+    "query_id": "set2_ev_routing_198",
+    "nl_query": "I'm leaving (37.688789999999976, -120.266789) in my EV car with the battery at 18% and a maximum range of 350 miles. I need to get to (36.73151070000001, -120.0728199). Find me the route with the shortest total distance."
+  },
+  {
+    "query_id": "set2_ev_routing_199",
+    "nl_query": "Help me plan a route for my EV car from (32.63128379999999, -117.0646832) to (35.92802809999999, -119.2726094). My battery is at 84%, and the max range is 150 miles. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set2_ev_routing_200",
+    "nl_query": "I'm driving an EV car from (33.81583789999998, -118.372323) to (36.42910330000001, -120.22068650000001). I currently have 205 miles of range left out of 250. Please give me the shortest route."
+  }
+]

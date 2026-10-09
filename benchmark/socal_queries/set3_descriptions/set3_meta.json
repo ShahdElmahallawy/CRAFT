@@ -1,0 +1,9280 @@
+[
+  {
+    "query_id": "set3_ordered+desc_001",
+    "city": "Los Angeles",
+    "src": [
+      34.111753,
+      -118.296604
+    ],
+    "dst": [
+      33.946501,
+      -118.267322
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 143
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 78
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_002",
+    "city": "Los Angeles",
+    "src": [
+      33.932713,
+      -118.281013
+    ],
+    "dst": [
+      34.02253,
+      -118.270174
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 674
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 98
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "wheelchair": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_003",
+    "city": "Los Angeles",
+    "src": [
+      33.982838,
+      -118.280115
+    ],
+    "dst": [
+      34.06178,
+      -118.28434
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 85
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 19
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_004",
+    "city": "Los Angeles",
+    "src": [
+      34.030077,
+      -118.257228
+    ],
+    "dst": [
+      34.113226,
+      -118.279895
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 84
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 674
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "sushi"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_005",
+    "city": "Los Angeles",
+    "src": [
+      34.108615,
+      -118.285258
+    ],
+    "dst": [
+      34.172663,
+      -118.26832
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 78
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 39
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "vietnamese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_006",
+    "city": "Los Angeles",
+    "src": [
+      34.169,
+      -118.261071
+    ],
+    "dst": [
+      33.981301,
+      -118.243555
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "bubble_tea",
+        "nl_phrase": "a bubble tea cafe",
+        "candidate_count_in_city": 78
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 11
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "bubble_tea"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_007",
+    "city": "Los Angeles",
+    "src": [
+      33.943286,
+      -118.254124
+    ],
+    "dst": [
+      34.047736,
+      -118.239373
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "restaurant",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 227
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 42
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 547
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "cuisine": "mediterranean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_008",
+    "city": "Santa Monica",
+    "src": [
+      34.06388,
+      -118.490329
+    ],
+    "dst": [
+      33.974919,
+      -118.424412
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 31
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 53
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "italian"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_009",
+    "city": "Santa Monica",
+    "src": [
+      34.00674,
+      -118.437376
+    ],
+    "dst": [
+      34.064077,
+      -118.427309
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 281
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 24
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "seafood"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_010",
+    "city": "Santa Monica",
+    "src": [
+      34.067485,
+      -118.462428
+    ],
+    "dst": [
+      34.037975,
+      -118.528263
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 48
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 35
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "japanese"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_011",
+    "city": "Santa Monica",
+    "src": [
+      34.017742,
+      -118.422088
+    ],
+    "dst": [
+      34.044402,
+      -118.536633
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 36
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 281
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_012",
+    "city": "Santa Monica",
+    "src": [
+      34.049374,
+      -118.566665
+    ],
+    "dst": [
+      34.019736,
+      -118.500879
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 31
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 35
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "pizza"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_013",
+    "city": "Santa Monica",
+    "src": [
+      34.06041,
+      -118.548463
+    ],
+    "dst": [
+      34.073775,
+      -118.505579
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "bubble_tea",
+        "nl_phrase": "a bubble tea cafe",
+        "candidate_count_in_city": 21
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 674
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "bubble_tea"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_014",
+    "city": "Santa Monica",
+    "src": [
+      34.055,
+      -118.504732
+    ],
+    "dst": [
+      34.004529,
+      -118.480538
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 53
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 35
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 102
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "italian"
+      },
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_015",
+    "city": "Pasadena",
+    "src": [
+      34.131324,
+      -118.193546
+    ],
+    "dst": [
+      34.20341,
+      -118.192865
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 60
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 26
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_016",
+    "city": "Pasadena",
+    "src": [
+      34.174252,
+      -118.197152
+    ],
+    "dst": [
+      34.115593,
+      -118.145521
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 193
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 23
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "wheelchair": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_017",
+    "city": "Pasadena",
+    "src": [
+      34.113816,
+      -118.15038
+    ],
+    "dst": [
+      34.198284,
+      -118.144111
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 42
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 6
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_018",
+    "city": "Pasadena",
+    "src": [
+      34.174433,
+      -118.141683
+    ],
+    "dst": [
+      34.124352,
+      -118.135968
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 18
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 193
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "vietnamese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_019",
+    "city": "Pasadena",
+    "src": [
+      34.084746,
+      -118.119801
+    ],
+    "dst": [
+      34.171467,
+      -118.132147
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 26
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 28
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "pizza"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_020",
+    "city": "Pasadena",
+    "src": [
+      34.154332,
+      -118.12553
+    ],
+    "dst": [
+      34.10988,
+      -118.104124
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 47
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_021",
+    "city": "Pasadena",
+    "src": [
+      34.198079,
+      -118.121521
+    ],
+    "dst": [
+      34.167733,
+      -118.06474
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 19
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 42
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 107
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_022",
+    "city": "Burbank",
+    "src": [
+      34.189821,
+      -118.339308
+    ],
+    "dst": [
+      34.111872,
+      -118.313441
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 35
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 18
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_023",
+    "city": "Burbank",
+    "src": [
+      34.111753,
+      -118.296604
+    ],
+    "dst": [
+      34.213312,
+      -118.306877
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 114
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 41
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "mexican"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_024",
+    "city": "Burbank",
+    "src": [
+      34.182788,
+      -118.294454
+    ],
+    "dst": [
+      34.117124,
+      -118.280491
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "attraction"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 9
+      },
+      {
+        "poi_type": "attraction",
+        "filter_kind": "description",
+        "description": "a theme park attraction",
+        "keywords": [
+          "theme",
+          "amusement",
+          "disney",
+          "ride"
+        ],
+        "nl_phrase": "a theme park attraction",
+        "candidate_count_in_city": 15
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "description": "a theme park attraction"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_025",
+    "city": "Burbank",
+    "src": [
+      34.252417,
+      -118.304344
+    ],
+    "dst": [
+      34.184074,
+      -118.279062
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 6
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 114
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "seafood"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_026",
+    "city": "Burbank",
+    "src": [
+      34.169,
+      -118.261071
+    ],
+    "dst": [
+      34.178389,
+      -118.395301
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 18
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 17
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_027",
+    "city": "Burbank",
+    "src": [
+      34.149932,
+      -118.241831
+    ],
+    "dst": [
+      34.140308,
+      -118.376723
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 43
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_028",
+    "city": "Burbank",
+    "src": [
+      34.232357,
+      -118.255447
+    ],
+    "dst": [
+      34.123977,
+      -118.347094
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "restaurant",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 18
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 14
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 95
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "mediterranean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_029",
+    "city": "Glendale",
+    "src": [
+      34.111499,
+      -118.331774
+    ],
+    "dst": [
+      34.075682,
+      -118.282107
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 63
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 23
+      }
+    ],
+    "poi_filters": [
+      {
+        "wheelchair": "yes"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_030",
+    "city": "Glendale",
+    "src": [
+      34.103611,
+      -118.287409
+    ],
+    "dst": [
+      34.177274,
+      -118.309585
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 188
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 32
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_031",
+    "city": "Glendale",
+    "src": [
+      34.181909,
+      -118.313022
+    ],
+    "dst": [
+      34.117124,
+      -118.280491
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "bubble_tea",
+        "nl_phrase": "a bubble tea cafe",
+        "candidate_count_in_city": 10
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "bubble_tea"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_032",
+    "city": "Glendale",
+    "src": [
+      34.100119,
+      -118.259233
+    ],
+    "dst": [
+      34.174176,
+      -118.269586
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 24
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 188
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "sushi"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_033",
+    "city": "Glendale",
+    "src": [
+      34.147252,
+      -118.279067
+    ],
+    "dst": [
+      34.130296,
+      -118.228359
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 23
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "chinese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_034",
+    "city": "Glendale",
+    "src": [
+      34.093595,
+      -118.255241
+    ],
+    "dst": [
+      34.173451,
+      -118.24939
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 32
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_035",
+    "city": "Glendale",
+    "src": [
+      34.151798,
+      -118.244772
+    ],
+    "dst": [
+      34.196067,
+      -118.201714
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 26
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 32
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 128
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "italian"
+      },
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_036",
+    "city": "Van Nuys",
+    "src": [
+      34.2121,
+      -118.499503
+    ],
+    "dst": [
+      34.179406,
+      -118.457454
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 31
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 10
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mexican"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_037",
+    "city": "Van Nuys",
+    "src": [
+      34.192816,
+      -118.478205
+    ],
+    "dst": [
+      34.179409,
+      -118.437704
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 41
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 5
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "seafood"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_038",
+    "city": "Van Nuys",
+    "src": [
+      34.148465,
+      -118.458027
+    ],
+    "dst": [
+      34.158538,
+      -118.403125
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 16
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 9
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "cuisine": "japanese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_039",
+    "city": "Van Nuys",
+    "src": [
+      34.200168,
+      -118.454222
+    ],
+    "dst": [
+      34.218485,
+      -118.41232
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 41
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_040",
+    "city": "Van Nuys",
+    "src": [
+      34.173691,
+      -118.413318
+    ],
+    "dst": [
+      34.193552,
+      -118.498801
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 10
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 5
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_041",
+    "city": "Van Nuys",
+    "src": [
+      34.193952,
+      -118.386628
+    ],
+    "dst": [
+      34.145947,
+      -118.48527
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 5
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 41
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_042",
+    "city": "Inglewood",
+    "src": [
+      33.929799,
+      -118.427242
+    ],
+    "dst": [
+      33.907905,
+      -118.374287
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 10
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 20
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_043",
+    "city": "Inglewood",
+    "src": [
+      33.974919,
+      -118.424412
+    ],
+    "dst": [
+      33.919343,
+      -118.366082
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 361
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 44
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_044",
+    "city": "Inglewood",
+    "src": [
+      33.963507,
+      -118.382957
+    ],
+    "dst": [
+      33.90175,
+      -118.369497
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 41
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 44
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_045",
+    "city": "Inglewood",
+    "src": [
+      33.999379,
+      -118.396973
+    ],
+    "dst": [
+      33.961259,
+      -118.37183
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 25
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 133
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_046",
+    "city": "Inglewood",
+    "src": [
+      33.961641,
+      -118.359533
+    ],
+    "dst": [
+      34.02106,
+      -118.371166
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 11
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "japanese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_047",
+    "city": "Inglewood",
+    "src": [
+      34.001588,
+      -118.357117
+    ],
+    "dst": [
+      33.915391,
+      -118.323805
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 8
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 133
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "vietnamese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_048",
+    "city": "Inglewood",
+    "src": [
+      33.927322,
+      -118.343905
+    ],
+    "dst": [
+      33.97182,
+      -118.328656
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 9
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 44
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 142
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mediterranean"
+      },
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_049",
+    "city": "Torrance",
+    "src": [
+      33.900705,
+      -118.325287
+    ],
+    "dst": [
+      33.838652,
+      -118.309171
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 17
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 34
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_050",
+    "city": "Torrance",
+    "src": [
+      33.800946,
+      -118.307584
+    ],
+    "dst": [
+      33.894649,
+      -118.304783
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 152
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 30
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "sushi"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_051",
+    "city": "Torrance",
+    "src": [
+      33.87542,
+      -118.288294
+    ],
+    "dst": [
+      33.796957,
+      -118.399824
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "bubble_tea",
+        "nl_phrase": "a bubble tea cafe",
+        "candidate_count_in_city": 26
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 4
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "bubble_tea"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_052",
+    "city": "Torrance",
+    "src": [
+      33.839103,
+      -118.279764
+    ],
+    "dst": [
+      33.874931,
+      -118.406826
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 43
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 152
+      }
+    ],
+    "poi_filters": [
+      {
+        "wheelchair": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_053",
+    "city": "Torrance",
+    "src": [
+      33.798704,
+      -118.4049
+    ],
+    "dst": [
+      33.785137,
+      -118.353804
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 34
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "mediterranean"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_054",
+    "city": "Torrance",
+    "src": [
+      33.825565,
+      -118.388636
+    ],
+    "dst": [
+      33.794598,
+      -118.34768
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 55
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 152
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "japanese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_055",
+    "city": "Torrance",
+    "src": [
+      33.866576,
+      -118.3837
+    ],
+    "dst": [
+      33.787276,
+      -118.338247
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 23
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 65
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 176
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_056",
+    "city": "Hawthorne",
+    "src": [
+      33.90175,
+      -118.369497
+    ],
+    "dst": [
+      33.875171,
+      -118.316086
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 12
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 15
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_057",
+    "city": "Hawthorne",
+    "src": [
+      33.954598,
+      -118.35255
+    ],
+    "dst": [
+      33.9301,
+      -118.312553
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 208
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 48
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_058",
+    "city": "Hawthorne",
+    "src": [
+      33.907335,
+      -118.325135
+    ],
+    "dst": [
+      33.897251,
+      -118.39853
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 32
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_059",
+    "city": "Hawthorne",
+    "src": [
+      33.879107,
+      -118.305909
+    ],
+    "dst": [
+      33.919059,
+      -118.416579
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 27
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 84
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mexican"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_060",
+    "city": "Hawthorne",
+    "src": [
+      33.899999,
+      -118.407209
+    ],
+    "dst": [
+      33.926383,
+      -118.37439
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 15
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 43
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_061",
+    "city": "Hawthorne",
+    "src": [
+      33.916263,
+      -118.387515
+    ],
+    "dst": [
+      33.887575,
+      -118.346811
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 10
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 84
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "italian"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_062",
+    "city": "Compton",
+    "src": [
+      33.891586,
+      -118.177131
+    ],
+    "dst": [
+      33.87542,
+      -118.288294
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 9
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "seafood"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_063",
+    "city": "Compton",
+    "src": [
+      33.952891,
+      -118.19341
+    ],
+    "dst": [
+      33.927186,
+      -118.150484
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 34
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_064",
+    "city": "Compton",
+    "src": [
+      33.931743,
+      -118.163686
+    ],
+    "dst": [
+      33.932822,
+      -118.29193
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 5
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 5
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_065",
+    "city": "Compton",
+    "src": [
+      33.894649,
+      -118.304783
+    ],
+    "dst": [
+      33.87169,
+      -118.255878
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 34
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_066",
+    "city": "Compton",
+    "src": [
+      33.884597,
+      -118.259209
+    ],
+    "dst": [
+      33.920447,
+      -118.254362
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "sushi"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_067",
+    "city": "Compton",
+    "src": [
+      33.825467,
+      -118.228544
+    ],
+    "dst": [
+      33.891374,
+      -118.2328
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 8
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 34
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_068",
+    "city": "Downey",
+    "src": [
+      33.891586,
+      -118.177131
+    ],
+    "dst": [
+      33.983192,
+      -118.186205
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 33
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 7
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mexican"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_069",
+    "city": "Downey",
+    "src": [
+      33.952891,
+      -118.19341
+    ],
+    "dst": [
+      33.909843,
+      -118.154391
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 164
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 7
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_070",
+    "city": "Downey",
+    "src": [
+      33.890651,
+      -118.138355
+    ],
+    "dst": [
+      33.962844,
+      -118.162252
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 25
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_071",
+    "city": "Downey",
+    "src": [
+      33.943924,
+      -118.152485
+    ],
+    "dst": [
+      33.906044,
+      -118.11665
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 42
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_072",
+    "city": "Downey",
+    "src": [
+      33.99736,
+      -118.153831
+    ],
+    "dst": [
+      33.940351,
+      -118.131246
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 7
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 4
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "italian"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_073",
+    "city": "Downey",
+    "src": [
+      33.959163,
+      -118.133449
+    ],
+    "dst": [
+      33.887492,
+      -118.096671
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_074",
+    "city": "Norwalk",
+    "src": [
+      33.91704,
+      -118.091689
+    ],
+    "dst": [
+      33.846189,
+      -118.067758
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 12
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 11
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_075",
+    "city": "Norwalk",
+    "src": [
+      33.971292,
+      -118.098483
+    ],
+    "dst": [
+      33.906198,
+      -118.067761
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 86
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 9
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "seafood"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_076",
+    "city": "Norwalk",
+    "src": [
+      33.885353,
+      -118.071334
+    ],
+    "dst": [
+      33.949299,
+      -118.053676
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 16
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_077",
+    "city": "Norwalk",
+    "src": [
+      33.957485,
+      -118.071406
+    ],
+    "dst": [
+      33.89756,
+      -118.026551
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 23
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 86
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_078",
+    "city": "Norwalk",
+    "src": [
+      33.864004,
+      -118.041521
+    ],
+    "dst": [
+      33.909843,
+      -118.154391
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 11
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 29
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "american"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_079",
+    "city": "Norwalk",
+    "src": [
+      33.934536,
+      -118.034443
+    ],
+    "dst": [
+      33.890651,
+      -118.138355
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 12
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "wheelchair": "yes"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_080",
+    "city": "Norwalk",
+    "src": [
+      33.912215,
+      -118.005872
+    ],
+    "dst": [
+      33.853606,
+      -118.117153
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 8
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 15
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 148
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_081",
+    "city": "Whittier",
+    "src": [
+      33.907352,
+      -118.033251
+    ],
+    "dst": [
+      33.979064,
+      -118.029472
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 11
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_082",
+    "city": "Whittier",
+    "src": [
+      33.979095,
+      -118.033891
+    ],
+    "dst": [
+      33.92523,
+      -118.010588
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 13
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "american"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_083",
+    "city": "Whittier",
+    "src": [
+      34.041414,
+      -118.038184
+    ],
+    "dst": [
+      33.982071,
+      -117.990641
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 4
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "sushi"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_084",
+    "city": "Whittier",
+    "src": [
+      33.952557,
+      -118.017752
+    ],
+    "dst": [
+      34.045173,
+      -118.002081
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 11
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 60
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_085",
+    "city": "Whittier",
+    "src": [
+      34.004706,
+      -117.991368
+    ],
+    "dst": [
+      33.976469,
+      -118.113654
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 13
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_086",
+    "city": "Whittier",
+    "src": [
+      33.945703,
+      -117.977994
+    ],
+    "dst": [
+      34.006683,
+      -117.960885
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 20
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "seafood"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_087",
+    "city": "Cerritos",
+    "src": [
+      33.868523,
+      -118.046461
+    ],
+    "dst": [
+      33.868488,
+      -118.114324
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 6
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 11
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "sushi"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_088",
+    "city": "Cerritos",
+    "src": [
+      33.840217,
+      -118.113099
+    ],
+    "dst": [
+      33.842335,
+      -118.067681
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 66
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "mexican"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_089",
+    "city": "Cerritos",
+    "src": [
+      33.840651,
+      -118.088796
+    ],
+    "dst": [
+      33.883043,
+      -118.066327
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 12
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 13
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_090",
+    "city": "Cerritos",
+    "src": [
+      33.887696,
+      -118.082371
+    ],
+    "dst": [
+      33.839918,
+      -118.032355
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 36
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 185
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_091",
+    "city": "Cerritos",
+    "src": [
+      33.85778,
+      -118.07232
+    ],
+    "dst": [
+      33.828592,
+      -118.013293
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 11
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 5
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "vietnamese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_092",
+    "city": "Cerritos",
+    "src": [
+      33.818924,
+      -118.027655
+    ],
+    "dst": [
+      33.898917,
+      -118.034102
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 18
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 66
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_093",
+    "city": "Long Beach",
+    "src": [
+      33.770797,
+      -118.130683
+    ],
+    "dst": [
+      33.741109,
+      -118.099324
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 13
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 8
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_094",
+    "city": "Long Beach",
+    "src": [
+      33.737898,
+      -118.100281
+    ],
+    "dst": [
+      33.81065,
+      -118.102752
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 136
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 50
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "mexican"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_095",
+    "city": "Long Beach",
+    "src": [
+      33.803142,
+      -118.09914
+    ],
+    "dst": [
+      33.740472,
+      -118.265463
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 14
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_096",
+    "city": "Long Beach",
+    "src": [
+      33.718123,
+      -118.280327
+    ],
+    "dst": [
+      33.820546,
+      -118.264633
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 13
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 136
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_097",
+    "city": "Long Beach",
+    "src": [
+      33.777898,
+      -118.274055
+    ],
+    "dst": [
+      33.82938,
+      -118.25016
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 8
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "mediterranean"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_098",
+    "city": "Long Beach",
+    "src": [
+      33.720921,
+      -118.249482
+    ],
+    "dst": [
+      33.808389,
+      -118.255341
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 16
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 136
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "sushi"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_099",
+    "city": "Long Beach",
+    "src": [
+      33.7746,
+      -118.254168
+    ],
+    "dst": [
+      33.792618,
+      -118.207587
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "restaurant",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "bubble_tea",
+        "nl_phrase": "a bubble tea cafe",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 179
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "bubble_tea"
+      },
+      {
+        "cuisine": "seafood"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_100",
+    "city": "El Monte",
+    "src": [
+      34.060672,
+      -117.960124
+    ],
+    "dst": [
+      34.076268,
+      -118.09512
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 8
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_101",
+    "city": "El Monte",
+    "src": [
+      34.054863,
+      -118.09957
+    ],
+    "dst": [
+      34.01333,
+      -118.067438
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 74
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "wheelchair": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_102",
+    "city": "El Monte",
+    "src": [
+      34.00428,
+      -118.064369
+    ],
+    "dst": [
+      34.08859,
+      -118.073327
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 7
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_103",
+    "city": "El Monte",
+    "src": [
+      34.067246,
+      -118.070504
+    ],
+    "dst": [
+      34.007337,
+      -118.041819
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 10
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 74
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "vietnamese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_104",
+    "city": "El Monte",
+    "src": [
+      34.121605,
+      -118.066632
+    ],
+    "dst": [
+      34.062834,
+      -118.040376
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 8
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 27
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_105",
+    "city": "El Monte",
+    "src": [
+      34.072532,
+      -118.029641
+    ],
+    "dst": [
+      34.124339,
+      -118.031076
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 12
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 74
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "seafood"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_106",
+    "city": "West Covina",
+    "src": [
+      34.020102,
+      -117.951415
+    ],
+    "dst": [
+      34.08616,
+      -117.933989
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_107",
+    "city": "West Covina",
+    "src": [
+      34.076055,
+      -117.955853
+    ],
+    "dst": [
+      34.014928,
+      -117.910447
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 29
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 5
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_108",
+    "city": "West Covina",
+    "src": [
+      34.121609,
+      -117.933852
+    ],
+    "dst": [
+      34.05665,
+      -117.909537
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 18
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_109",
+    "city": "West Covina",
+    "src": [
+      34.079075,
+      -117.907831
+    ],
+    "dst": [
+      34.024315,
+      -117.901031
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 4
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 29
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "seafood"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_110",
+    "city": "West Covina",
+    "src": [
+      34.133592,
+      -117.919462
+    ],
+    "dst": [
+      34.07894,
+      -117.883492
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 6
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "chinese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_111",
+    "city": "West Covina",
+    "src": [
+      34.068072,
+      -117.892808
+    ],
+    "dst": [
+      34.041031,
+      -117.861214
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 15
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 29
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_112",
+    "city": "Covina",
+    "src": [
+      34.095325,
+      -117.83708
+    ],
+    "dst": [
+      34.072996,
+      -117.92405
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_113",
+    "city": "Covina",
+    "src": [
+      34.113603,
+      -117.940076
+    ],
+    "dst": [
+      34.090594,
+      -117.884119
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 26
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "american"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_114",
+    "city": "Covina",
+    "src": [
+      34.095977,
+      -117.919833
+    ],
+    "dst": [
+      34.072903,
+      -117.87255
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 14
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "cuisine": "thai"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_115",
+    "city": "Covina",
+    "src": [
+      34.037998,
+      -117.882127
+    ],
+    "dst": [
+      34.118533,
+      -117.874915
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 4
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 26
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "italian"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_116",
+    "city": "Covina",
+    "src": [
+      34.117866,
+      -117.896401
+    ],
+    "dst": [
+      34.057619,
+      -117.855775
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "cuisine": "sushi"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_117",
+    "city": "Covina",
+    "src": [
+      34.05342,
+      -117.871682
+    ],
+    "dst": [
+      34.117565,
+      -117.844441
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 26
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "vietnamese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_118",
+    "city": "Pomona",
+    "src": [
+      34.020231,
+      -117.797923
+    ],
+    "dst": [
+      34.099466,
+      -117.813353
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 15
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 17
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_119",
+    "city": "Pomona",
+    "src": [
+      34.106671,
+      -117.810119
+    ],
+    "dst": [
+      34.064611,
+      -117.770381
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 39
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "vietnamese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_120",
+    "city": "Pomona",
+    "src": [
+      34.045238,
+      -117.767177
+    ],
+    "dst": [
+      34.123443,
+      -117.771557
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 8
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "cuisine": "japanese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_121",
+    "city": "Pomona",
+    "src": [
+      34.096017,
+      -117.769889
+    ],
+    "dst": [
+      34.042947,
+      -117.741922
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 5
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 39
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_122",
+    "city": "Pomona",
+    "src": [
+      34.018872,
+      -117.736771
+    ],
+    "dst": [
+      34.085671,
+      -117.751545
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 8
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 9
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "cuisine": "pizza"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_123",
+    "city": "Pomona",
+    "src": [
+      34.109551,
+      -117.74859
+    ],
+    "dst": [
+      34.072621,
+      -117.716232
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 39
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "sushi"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_124",
+    "city": "Azusa",
+    "src": [
+      34.117866,
+      -117.896401
+    ],
+    "dst": [
+      34.15485,
+      -117.854569
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 9
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_125",
+    "city": "Azusa",
+    "src": [
+      34.117958,
+      -117.870351
+    ],
+    "dst": [
+      34.126642,
+      -117.933781
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 10
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "mexican"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_126",
+    "city": "Azusa",
+    "src": [
+      34.13971,
+      -117.969049
+    ],
+    "dst": [
+      34.084205,
+      -117.905032
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "cuisine": "sushi"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_127",
+    "city": "Azusa",
+    "src": [
+      34.147902,
+      -117.937691
+    ],
+    "dst": [
+      34.098282,
+      -117.922736
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 5
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 20
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_128",
+    "city": "Azusa",
+    "src": [
+      34.137701,
+      -117.913823
+    ],
+    "dst": [
+      34.118533,
+      -117.874915
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "cuisine": "thai"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_129",
+    "city": "Azusa",
+    "src": [
+      34.117866,
+      -117.896401
+    ],
+    "dst": [
+      34.15485,
+      -117.854569
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 20
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "italian"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_130",
+    "city": "San Dimas",
+    "src": [
+      34.12218,
+      -117.791923
+    ],
+    "dst": [
+      34.117565,
+      -117.844441
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 7
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_131",
+    "city": "San Dimas",
+    "src": [
+      34.122561,
+      -117.768142
+    ],
+    "dst": [
+      34.111777,
+      -117.851725
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 28
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 10
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_132",
+    "city": "San Dimas",
+    "src": [
+      34.08617,
+      -117.862009
+    ],
+    "dst": [
+      34.076485,
+      -117.813985
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 17
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 4
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_133",
+    "city": "San Dimas",
+    "src": [
+      34.078804,
+      -117.829133
+    ],
+    "dst": [
+      34.137371,
+      -117.82847
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 28
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_134",
+    "city": "San Dimas",
+    "src": [
+      34.121814,
+      -117.820379
+    ],
+    "dst": [
+      34.097359,
+      -117.773397
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 10
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_135",
+    "city": "San Dimas",
+    "src": [
+      34.0615,
+      -117.788389
+    ],
+    "dst": [
+      34.106958,
+      -117.773497
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 6
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 28
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_136",
+    "city": "Anaheim",
+    "src": [
+      33.791106,
+      -117.910132
+    ],
+    "dst": [
+      33.881337,
+      -117.93018
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 18
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 32
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_137",
+    "city": "Anaheim",
+    "src": [
+      33.845766,
+      -117.919366
+    ],
+    "dst": [
+      33.77076,
+      -117.902034
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 268
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 26
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "italian"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_138",
+    "city": "Anaheim",
+    "src": [
+      33.789293,
+      -117.886458
+    ],
+    "dst": [
+      33.847,
+      -117.874528
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 24
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 8
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "japanese"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_139",
+    "city": "Anaheim",
+    "src": [
+      33.836949,
+      -117.897325
+    ],
+    "dst": [
+      33.796869,
+      -117.866553
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 22
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 268
+      }
+    ],
+    "poi_filters": [
+      {
+        "wheelchair": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_140",
+    "city": "Anaheim",
+    "src": [
+      33.888883,
+      -117.891285
+    ],
+    "dst": [
+      33.871084,
+      -117.848067
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 32
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 58
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_141",
+    "city": "Anaheim",
+    "src": [
+      33.851163,
+      -117.862909
+    ],
+    "dst": [
+      33.78706,
+      -117.970358
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "attraction"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 78
+      },
+      {
+        "poi_type": "attraction",
+        "filter_kind": "description",
+        "description": "a theme park attraction",
+        "keywords": [
+          "theme",
+          "amusement",
+          "disney",
+          "ride"
+        ],
+        "nl_phrase": "a theme park attraction",
+        "candidate_count_in_city": 115
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      {
+        "description": "a theme park attraction"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_142",
+    "city": "Anaheim",
+    "src": [
+      33.834525,
+      -117.831977
+    ],
+    "dst": [
+      33.842333,
+      -117.977912
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 56
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 304
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "vietnamese"
+      },
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_143",
+    "city": "Garden Grove",
+    "src": [
+      33.765881,
+      -117.86133
+    ],
+    "dst": [
+      33.794476,
+      -118.012153
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 10
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 24
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_144",
+    "city": "Garden Grove",
+    "src": [
+      33.77161,
+      -118.000887
+    ],
+    "dst": [
+      33.727013,
+      -117.975198
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 216
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 26
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_145",
+    "city": "Garden Grove",
+    "src": [
+      33.731783,
+      -117.986752
+    ],
+    "dst": [
+      33.794721,
+      -117.964358
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "attraction"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 22
+      },
+      {
+        "poi_type": "attraction",
+        "filter_kind": "description",
+        "description": "a theme park attraction",
+        "keywords": [
+          "theme",
+          "amusement",
+          "disney",
+          "ride"
+        ],
+        "nl_phrase": "a theme park attraction",
+        "candidate_count_in_city": 88
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "italian"
+      },
+      {
+        "description": "a theme park attraction"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_146",
+    "city": "Garden Grove",
+    "src": [
+      33.777491,
+      -117.986189
+    ],
+    "dst": [
+      33.73182,
+      -117.954572
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 50
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 216
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_147",
+    "city": "Garden Grove",
+    "src": [
+      33.831491,
+      -117.987565
+    ],
+    "dst": [
+      33.795953,
+      -117.937464
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 24
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 42
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_148",
+    "city": "Garden Grove",
+    "src": [
+      33.758546,
+      -117.944274
+    ],
+    "dst": [
+      33.832432,
+      -117.943956
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 74
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 8
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mexican"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_149",
+    "city": "Garden Grove",
+    "src": [
+      33.807682,
+      -117.954079
+    ],
+    "dst": [
+      33.757125,
+      -117.918562
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 24
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 34
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 306
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_150",
+    "city": "Fullerton",
+    "src": [
+      33.915494,
+      -117.879563
+    ],
+    "dst": [
+      33.900195,
+      -117.996932
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 42
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 16
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_151",
+    "city": "Fullerton",
+    "src": [
+      33.857853,
+      -117.870392
+    ],
+    "dst": [
+      33.887976,
+      -118.002872
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 679
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 16
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_152",
+    "city": "Fullerton",
+    "src": [
+      33.876871,
+      -117.993897
+    ],
+    "dst": [
+      33.842333,
+      -117.977912
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "attraction"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 14
+      },
+      {
+        "poi_type": "attraction",
+        "filter_kind": "description",
+        "description": "a theme park attraction",
+        "keywords": [
+          "theme",
+          "amusement",
+          "disney",
+          "ride"
+        ],
+        "nl_phrase": "a theme park attraction",
+        "candidate_count_in_city": 131
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "japanese"
+      },
+      {
+        "description": "a theme park attraction"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_153",
+    "city": "Fullerton",
+    "src": [
+      33.827973,
+      -117.966387
+    ],
+    "dst": [
+      33.915617,
+      -117.977079
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 16
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 256
+      }
+    ],
+    "poi_filters": [
+      {
+        "wheelchair": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_154",
+    "city": "Fullerton",
+    "src": [
+      33.897927,
+      -117.984047
+    ],
+    "dst": [
+      33.832432,
+      -117.943956
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 16
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 12
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "mediterranean"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_155",
+    "city": "Fullerton",
+    "src": [
+      33.832527,
+      -117.934844
+    ],
+    "dst": [
+      33.9276,
+      -117.941769
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 60
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 4
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_156",
+    "city": "Fullerton",
+    "src": [
+      33.897445,
+      -117.946506
+    ],
+    "dst": [
+      33.850842,
+      -117.919844
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "restaurant",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 32
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 12
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 352
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "cuisine": "mediterranean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_157",
+    "city": "Santa Ana",
+    "src": [
+      33.700418,
+      -117.831291
+    ],
+    "dst": [
+      33.791462,
+      -117.836873
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 28
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_158",
+    "city": "Santa Ana",
+    "src": [
+      33.782235,
+      -117.819794
+    ],
+    "dst": [
+      33.775046,
+      -117.945227
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 272
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "mediterranean"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_159",
+    "city": "Santa Ana",
+    "src": [
+      33.716716,
+      -117.807932
+    ],
+    "dst": [
+      33.745018,
+      -117.941293
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 116
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "a history museum",
+        "keywords": [
+          "history"
+        ],
+        "nl_phrase": "a history museum",
+        "candidate_count_in_city": 5
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mexican"
+      },
+      {
+        "description": "a history museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_160",
+    "city": "Santa Ana",
+    "src": [
+      33.771622,
+      -117.805473
+    ],
+    "dst": [
+      33.713816,
+      -117.919841
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 272
+      }
+    ],
+    "poi_filters": [
+      {
+        "wheelchair": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_161",
+    "city": "Santa Ana",
+    "src": [
+      33.695625,
+      -117.916729
+    ],
+    "dst": [
+      33.776172,
+      -117.919172
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 28
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 60
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_162",
+    "city": "Santa Ana",
+    "src": [
+      33.741713,
+      -117.905851
+    ],
+    "dst": [
+      33.799714,
+      -117.892163
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 32
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 6
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "sushi"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_163",
+    "city": "Santa Ana",
+    "src": [
+      33.700055,
+      -117.876935
+    ],
+    "dst": [
+      33.781251,
+      -117.900799
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "restaurant",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 28
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 14
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 288
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "mediterranean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_164",
+    "city": "Irvine",
+    "src": [
+      33.665431,
+      -117.829634
+    ],
+    "dst": [
+      33.749944,
+      -117.836305
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 26
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 18
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_165",
+    "city": "Irvine",
+    "src": [
+      33.734387,
+      -117.817439
+    ],
+    "dst": [
+      33.670834,
+      -117.801571
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 762
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "bubble_tea",
+        "nl_phrase": "a bubble tea cafe",
+        "candidate_count_in_city": 38
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "bubble_tea"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_166",
+    "city": "Irvine",
+    "src": [
+      33.634492,
+      -117.799892
+    ],
+    "dst": [
+      33.733167,
+      -117.790058
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 44
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_167",
+    "city": "Irvine",
+    "src": [
+      33.695161,
+      -117.791403
+    ],
+    "dst": [
+      33.687974,
+      -117.746776
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 11
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 256
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "thai"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_168",
+    "city": "Irvine",
+    "src": [
+      33.651124,
+      -117.780708
+    ],
+    "dst": [
+      33.715965,
+      -117.776388
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 18
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 51
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "chinese"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_169",
+    "city": "Irvine",
+    "src": [
+      33.715706,
+      -117.761468
+    ],
+    "dst": [
+      33.651738,
+      -117.874267
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "attraction"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 32
+      },
+      {
+        "poi_type": "attraction",
+        "filter_kind": "description",
+        "description": "a theme park attraction",
+        "keywords": [
+          "theme",
+          "amusement",
+          "disney",
+          "ride"
+        ],
+        "nl_phrase": "a theme park attraction",
+        "candidate_count_in_city": 6
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "sushi"
+      },
+      {
+        "description": "a theme park attraction"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_170",
+    "city": "Irvine",
+    "src": [
+      33.708308,
+      -117.902692
+    ],
+    "dst": [
+      33.667238,
+      -117.850023
+    ],
+    "distance_limits_mi": [
+      4,
+      4,
+      3
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "restaurant",
+      "park"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 44
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mediterranean",
+        "nl_phrase": "a Mediterranean restaurant",
+        "candidate_count_in_city": 20
+      },
+      {
+        "poi_type": "park",
+        "filter_kind": "none",
+        "nl_phrase": "a park",
+        "candidate_count_in_city": 718
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "cuisine": "mediterranean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_171",
+    "city": "Thousand Oaks",
+    "src": [
+      34.10938,
+      -118.758296
+    ],
+    "dst": [
+      34.167605,
+      -118.763466
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "italian"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_172",
+    "city": "Thousand Oaks",
+    "src": [
+      34.167717,
+      -118.761075
+    ],
+    "dst": [
+      34.091572,
+      -118.819
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 6
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "pizza"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_173",
+    "city": "Thousand Oaks",
+    "src": [
+      34.153871,
+      -118.757087
+    ],
+    "dst": [
+      34.121774,
+      -118.85494
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "italian"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_174",
+    "city": "Thousand Oaks",
+    "src": [
+      34.091971,
+      -118.874245
+    ],
+    "dst": [
+      34.138569,
+      -118.833618
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 5
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 6
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mexican"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_175",
+    "city": "Thousand Oaks",
+    "src": [
+      34.137301,
+      -118.833949
+    ],
+    "dst": [
+      34.091456,
+      -118.810925
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_176",
+    "city": "Thousand Oaks",
+    "src": [
+      34.109417,
+      -118.792876
+    ],
+    "dst": [
+      34.167721,
+      -118.759252
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 6
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "japanese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_177",
+    "city": "Santa Clarita",
+    "src": [
+      34.371634,
+      -118.53519
+    ],
+    "dst": [
+      34.458335,
+      -118.532703
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "vietnamese",
+        "nl_phrase": "a Vietnamese restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 5
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "vietnamese"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_178",
+    "city": "Santa Clarita",
+    "src": [
+      34.427202,
+      -118.545321
+    ],
+    "dst": [
+      34.33232,
+      -118.506004
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 43
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "sushi",
+        "nl_phrase": "a sushi restaurant",
+        "candidate_count_in_city": 8
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "sushi"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_179",
+    "city": "Santa Clarita",
+    "src": [
+      34.491709,
+      -118.542229
+    ],
+    "dst": [
+      34.36842,
+      -118.505902
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "museum"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "museum",
+        "filter_kind": "description",
+        "description": "an art museum",
+        "keywords": [
+          "art"
+        ],
+        "nl_phrase": "an art museum",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "seafood"
+      },
+      {
+        "description": "an art museum"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_180",
+    "city": "Santa Clarita",
+    "src": [
+      34.340894,
+      -118.521308
+    ],
+    "dst": [
+      34.445951,
+      -118.505693
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "korean",
+        "nl_phrase": "a Korean restaurant",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 43
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "korean"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_181",
+    "city": "Santa Clarita",
+    "src": [
+      34.420543,
+      -118.493966
+    ],
+    "dst": [
+      34.31549,
+      -118.475171
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 5
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a restaurant with outdoor seating",
+        "candidate_count_in_city": 4
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_182",
+    "city": "Santa Clarita",
+    "src": [
+      34.46029,
+      -118.499284
+    ],
+    "dst": [
+      34.398673,
+      -118.47315
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "attraction"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 4
+      },
+      {
+        "poi_type": "attraction",
+        "filter_kind": "description",
+        "description": "a theme park attraction",
+        "keywords": [
+          "theme",
+          "amusement",
+          "disney",
+          "ride"
+        ],
+        "nl_phrase": "a theme park attraction",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "japanese"
+      },
+      {
+        "description": "a theme park attraction"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_183",
+    "city": "Lancaster",
+    "src": [
+      34.747792,
+      -118.16827
+    ],
+    "dst": [
+      34.638534,
+      -118.15254
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 15
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "cuisine": "italian"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_184",
+    "city": "Lancaster",
+    "src": [
+      34.612729,
+      -118.165481
+    ],
+    "dst": [
+      34.687302,
+      -118.165614
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 27
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "wheelchair",
+        "value": "yes",
+        "nl_phrase": "a wheelchair-accessible restaurant",
+        "candidate_count_in_city": 9
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "wheelchair": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_185",
+    "city": "Lancaster",
+    "src": [
+      34.674301,
+      -118.142734
+    ],
+    "dst": [
+      34.747972,
+      -118.144548
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 11
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      {
+        "outdoor_seating": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_186",
+    "city": "Lancaster",
+    "src": [
+      34.740643,
+      -118.142533
+    ],
+    "dst": [
+      34.599675,
+      -118.125484
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 4
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 27
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_187",
+    "city": "Lancaster",
+    "src": [
+      34.615164,
+      -118.130005
+    ],
+    "dst": [
+      34.70056,
+      -118.132936
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 3
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 2
+      }
+    ],
+    "poi_filters": [
+      {
+        "internet_access": "wlan"
+      },
+      {
+        "cuisine": "italian"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_188",
+    "city": "Lancaster",
+    "src": [
+      34.677461,
+      -118.124368
+    ],
+    "dst": [
+      34.759905,
+      -118.126315
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a restaurant that offers takeout",
+        "candidate_count_in_city": 7
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 27
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_189",
+    "city": "Palmdale",
+    "src": [
+      34.675827,
+      -118.076243
+    ],
+    "dst": [
+      34.558069,
+      -118.034452
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 14
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mexican"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_190",
+    "city": "Palmdale",
+    "src": [
+      34.536884,
+      -118.024959
+    ],
+    "dst": [
+      34.609476,
+      -118.040887
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 21
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 11
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "cuisine": "american"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_191",
+    "city": "Palmdale",
+    "src": [
+      34.569656,
+      -118.043335
+    ],
+    "dst": [
+      34.51421,
+      -118.219392
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "japanese",
+        "nl_phrase": "a Japanese restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 14
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "japanese"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_192",
+    "city": "Palmdale",
+    "src": [
+      34.560777,
+      -118.014481
+    ],
+    "dst": [
+      34.501285,
+      -118.198373
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "pizza",
+        "nl_phrase": "a pizza restaurant",
+        "candidate_count_in_city": 9
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 21
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "pizza"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_193",
+    "city": "Palmdale",
+    "src": [
+      34.620592,
+      -118.23112
+    ],
+    "dst": [
+      34.528471,
+      -118.185998
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 14
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "seafood",
+        "nl_phrase": "a seafood restaurant",
+        "candidate_count_in_city": 4
+      }
+    ],
+    "poi_filters": [
+      {
+        "takeaway": "yes"
+      },
+      {
+        "cuisine": "seafood"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_194",
+    "city": "Palmdale",
+    "src": [
+      34.582743,
+      -118.207331
+    ],
+    "dst": [
+      34.502623,
+      -118.180692
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "chinese",
+        "nl_phrase": "a Chinese restaurant",
+        "candidate_count_in_city": 4
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 21
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "chinese"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_195",
+    "city": "Ontario",
+    "src": [
+      34.042947,
+      -117.741922
+    ],
+    "dst": [
+      34.141563,
+      -117.698749
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "american",
+        "nl_phrase": "an American restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 7
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "american"
+      },
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_196",
+    "city": "Ontario",
+    "src": [
+      34.11208,
+      -117.738059
+    ],
+    "dst": [
+      34.028343,
+      -117.744301
+    ],
+    "distance_limits_mi": [
+      7,
+      6
+    ],
+    "difficulty": "easy",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 38
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "takeaway",
+        "value": "yes",
+        "nl_phrase": "a cafe that offers takeout",
+        "candidate_count_in_city": 7
+      }
+    ],
+    "poi_filters": [
+      null,
+      {
+        "takeaway": "yes"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_197",
+    "city": "Ontario",
+    "src": [
+      34.083969,
+      -117.722613
+    ],
+    "dst": [
+      34.024565,
+      -117.74056
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "mexican",
+        "nl_phrase": "a Mexican restaurant",
+        "candidate_count_in_city": 4
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "internet_access",
+        "value": "wlan",
+        "nl_phrase": "a cafe with Wi-Fi",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "mexican"
+      },
+      {
+        "internet_access": "wlan"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_198",
+    "city": "Ontario",
+    "src": [
+      34.135969,
+      -117.695386
+    ],
+    "dst": [
+      34.055292,
+      -117.742422
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "restaurant",
+      "cafe"
+    ],
+    "stops": [
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "italian",
+        "nl_phrase": "an Italian restaurant",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "cafe",
+        "filter_kind": "none",
+        "nl_phrase": "a cafe",
+        "candidate_count_in_city": 18
+      }
+    ],
+    "poi_filters": [
+      {
+        "cuisine": "italian"
+      },
+      null
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_199",
+    "city": "Ontario",
+    "src": [
+      34.058744,
+      -117.747976
+    ],
+    "dst": [
+      34.135981,
+      -117.694173
+    ],
+    "distance_limits_mi": [
+      5,
+      5
+    ],
+    "difficulty": "medium",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "structured",
+        "column": "cuisine",
+        "value": "thai",
+        "nl_phrase": "a Thai restaurant",
+        "candidate_count_in_city": 3
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      {
+        "cuisine": "thai"
+      }
+    ]
+  },
+  {
+    "query_id": "set3_ordered+desc_200",
+    "city": "Ontario",
+    "src": [
+      34.048472,
+      -117.723629
+    ],
+    "dst": [
+      34.113844,
+      -117.708203
+    ],
+    "distance_limits_mi": [
+      4,
+      4
+    ],
+    "difficulty": "hard",
+    "poi_types": [
+      "cafe",
+      "restaurant"
+    ],
+    "stops": [
+      {
+        "poi_type": "cafe",
+        "filter_kind": "structured",
+        "column": "outdoor_seating",
+        "value": "yes",
+        "nl_phrase": "a cafe with outdoor seating",
+        "candidate_count_in_city": 2
+      },
+      {
+        "poi_type": "restaurant",
+        "filter_kind": "none",
+        "nl_phrase": "a restaurant",
+        "candidate_count_in_city": 38
+      }
+    ],
+    "poi_filters": [
+      {
+        "outdoor_seating": "yes"
+      },
+      null
+    ]
+  }
+]

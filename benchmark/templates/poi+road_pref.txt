@@ -1,0 +1,50 @@
+# POI Stops + Road Preference Templates (LLMAP-compatible)
+# Problem: Route from START to END, visiting one or more required POI types
+# along the way, UNORDERED (no sequence requirement — any order that visits
+# all of them is fine). The user also states a road-type preference (avoid
+# highways) that should shape which route is chosen without ever being a
+# hard requirement — a route that can't fully avoid highways is still valid.
+# LLMAP-compatible POI types: pharmacy, bank, library, supermarket
+# Placeholders:
+#   {SRC_NODE}  — origin expressed as (lat, lon) coordinates
+#   {DST_NODE}  — destination expressed as (lat, lon) coordinates
+# ================================================================================
+0: I'm at {SRC_NODE} and need to get to {DST_NODE}. I need to stop at a pharmacy along the way. I'd like to avoid highways as much as possible. What's the fastest route?
+
+1: I'm at {SRC_NODE} and need to get to {DST_NODE}. I need to stop at a bank along the way. Please keep me off the highways if you can. What's the quickest way there?
+
+2: I need to get from {SRC_NODE} to {DST_NODE}. I want to stop at a supermarket along the way. I really don't want to take any highways. Can you find me the fastest path?
+
+3: I'm at {SRC_NODE} heading to {DST_NODE}. I need to stop at a library along the way. If possible, stay off the freeways. What route gets me there the quickest?
+
+4: Can you plan a route from {SRC_NODE} to {DST_NODE}? I need to stop at a pharmacy and a bank along the way. I'd rather not drive on highways. Which way is fastest?
+
+5: I need to go from {SRC_NODE} to {DST_NODE}. I want to stop at a pharmacy and a supermarket along the way. Please avoid highways if at all possible. What's the quickest route you'd suggest?
+
+6: I'm leaving {SRC_NODE} for {DST_NODE}. I need to stop at a pharmacy and a library along the way. I'd like to avoid highways as much as possible. How can I get there the fastest?
+
+7: Starting from {SRC_NODE}, heading to {DST_NODE}. I need to stop at a bank and a supermarket along the way. Please keep me off the highways if you can. What's the best route time-wise?
+
+8: I need to get from {SRC_NODE} to {DST_NODE}. I want to stop at a bank and a library along the way. I really don't want to take any highways. What's the fastest route?
+
+9: I'm at {SRC_NODE} and need to get to {DST_NODE}. I need to stop at a supermarket and a library along the way. If possible, stay off the freeways. What's the quickest way there?
+
+10: From {SRC_NODE}, I need to get to {DST_NODE}. I want to stop at a pharmacy, a bank, and a supermarket along the way. I'd rather not drive on highways. Can you find me the fastest path?
+
+11: I'm planning a trip from {SRC_NODE} to {DST_NODE}. I need to stop at a pharmacy, a bank, and a library along the way. Please avoid highways if at all possible. What route gets me there the quickest?
+
+12: I'm going from {SRC_NODE} to {DST_NODE}. I need to stop at a pharmacy, a supermarket, and a library along the way. I'd like to avoid highways as much as possible. Which way is fastest?
+
+13: Starting from {SRC_NODE}, I need to get to {DST_NODE}. I need to stop at a bank, a supermarket, and a library along the way. Please keep me off the highways if you can. What's the quickest route you'd suggest?
+
+14: I'm leaving {SRC_NODE} and heading to {DST_NODE}. I need to stop at a pharmacy, a bank, a supermarket, and a library along the way. I really don't want to take any highways. How can I get there the fastest?
+
+15: I need to go from {SRC_NODE} to {DST_NODE}. I need a pharmacy stop somewhere along the way. If possible, stay off the freeways. What's the best route time-wise?
+
+16: I'm at {SRC_NODE} and need to get to {DST_NODE}. I need a bank stop somewhere along the way. I'd rather not drive on highways. What's the fastest route?
+
+17: I need to get from {SRC_NODE} to {DST_NODE}. I need a supermarket stop somewhere along the way. Please avoid highways if at all possible. What's the quickest way there?
+
+18: I'm going from {SRC_NODE} to {DST_NODE}. I need a library stop somewhere along the way. I'd like to avoid highways as much as possible. Can you find me the fastest path?
+
+19: I'm planning a trip from {SRC_NODE} to {DST_NODE}. I need to stop at a pharmacy and a bank, in any order. Please keep me off the highways if you can. What route gets me there the quickest?

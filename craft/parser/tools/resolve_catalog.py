@@ -1,14 +1,13 @@
 """
 Pure-code helpers for the parser agent — no LLM calls here.
 
-CatalogResolver lists the dataset's real POI categories (so the LLM only ever
-picks from valid names) and maps loose wording like "coffee shop" to "cafe".
+CatalogResolver lists the dataset's real POI categories, so the LLM only ever
+picks from valid names instead of inventing its own.
 """
 
 from __future__ import annotations
 
 import json
-import math
 import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -17,36 +16,29 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-try:
-    from rapidfuzz import fuzz, process as rf_process
-    _HAVE_RAPIDFUZZ = True
-except ImportError:
-    import difflib
-    _HAVE_RAPIDFUZZ = False
-
 from craft.generator.tools.common_handlers import CATEGORY_COLS
-
-MATCH_THRESHOLD = 70
 
 
 class CatalogResolver:
-    """Loads dataset categories from catalog_pois.json (and, if gpkg_path is
-    given, from the gpkg pois layer too) and normalizes loose category wording."""
+    """Loads dataset categories from the gpkg pois layer's category columns
+    (CATEGORY_COLS), which is the complete list — and optionally also from a
+    pre-built catalog_pois.json, a legacy/secondary source kept for callers
+    that don't have a gpkg handy. In practice the gpkg already covers
+    everything catalog_pois.json has (and more), so gpkg_path alone is enough."""
 
     def __init__(
         self,
-        catalog_path: str,
+        catalog_path: Optional[str] = None,
         gpkg_path: Optional[str] = None,
     ) -> None:
         self._categories: List[str] = []
-        self._category_aliases: Dict[str, str] = {}
 
-        self._load_catalog(catalog_path)
+        if catalog_path:
+            self._load_catalog(catalog_path)
         if gpkg_path:
             self._load_gpkg(gpkg_path)
 
         self._categories = sorted(set(self._categories))
-        self._build_category_aliases()
 
     def _load_catalog(self, catalog_path: str) -> None:
         """Load catalog_pois.json (dict of category -> list of POI entries)."""
@@ -83,57 +75,8 @@ class CatalogResolver:
                     cat_values.append(v)
         self._categories.extend(cat_values)
 
-    def _build_category_aliases(self) -> None:
-        aliases = {
-            "coffee": "cafe",
-            "coffee shop": "cafe",
-            "gas station": "fuel",
-            "grocery": "supermarket",
-            "grocery store": "supermarket",
-            "fitness": "fitness",
-            "gym": "fitness",
-            "movie theater": "cinema",
-            "pharmacy": "pharmacy",
-        }
-        category_set = set(self._categories)
-        for alias, target in aliases.items():
-            if target in category_set:
-                self._category_aliases[alias] = target
-
     def list_categories(self) -> List[str]:
         return list(self._categories)
-
-    def normalize_category(self, label: str) -> Optional[str]:
-        if not label:
-            return None
-        raw = str(label).strip().lower()
-        if not raw:
-            return None
-        if raw in self._category_aliases:
-            return self._category_aliases[raw]
-        if raw in self._categories:
-            return raw
-        if not self._categories:
-            return None
-
-        if _HAVE_RAPIDFUZZ:
-            best = rf_process.extractOne(raw, self._categories, scorer=fuzz.WRatio)
-            if best is None:
-                return None
-            matched, score, _idx = best
-            return matched if score >= MATCH_THRESHOLD else None
-
-        import difflib
-
-        scored = [
-            (difflib.SequenceMatcher(None, raw, cat).ratio() * 100.0, cat)
-            for cat in self._categories
-        ]
-        scored.sort(reverse=True)
-        if not scored:
-            return None
-        score, cat = scored[0]
-        return cat if score >= MATCH_THRESHOLD else None
 
     def __len__(self) -> int:
         return len(self._categories)

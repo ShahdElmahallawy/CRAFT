@@ -1,0 +1,802 @@
+[
+  {
+    "query_id": "set3_ordered+desc_001",
+    "nl_query": "I'm at (34.111753, -118.296604) and need to get to (33.946501, -118.267322). On the way, I want to stop at a restaurant that offers takeout within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_002",
+    "nl_query": "I'm at (33.932713, -118.281013) and need to get to (34.02253, -118.270174). I want to stop at a cafe first, no more than 7 miles away, and then a wheelchair-accessible restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_003",
+    "nl_query": "I need to get from (33.982838, -118.280115) to (34.06178, -118.28434) with two stops: first a Thai restaurant within 5 miles, then an art museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_004",
+    "nl_query": "Can you plan a route from (34.030077, -118.257228) to (34.113226, -118.279895)? I need to stop at a sushi restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_005",
+    "nl_query": "I'm planning a trip from (34.108615, -118.285258) to (34.172663, -118.26832). I need to visit a cafe with Wi-Fi first within 5 miles, then a Vietnamese restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_006",
+    "nl_query": "Starting from (34.169, -118.261071), heading to (33.981301, -118.243555). I need to stop at a bubble tea cafe first within 4 miles, then at a history museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_007",
+    "nl_query": "I need to get from (33.943286, -118.254124) to (34.047736, -118.239373) with three stops in order: first a cafe that offers takeout within 4 miles, then a Mediterranean restaurant within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_008",
+    "nl_query": "I'm at (34.06388, -118.490329) and need to get to (33.974919, -118.424412). On the way, I want to stop at a cafe with Wi-Fi within 7 miles of me, then an Italian restaurant about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_009",
+    "nl_query": "I'm at (34.00674, -118.437376) and need to get to (34.064077, -118.427309). I want to stop at a cafe first, no more than 7 miles away, and then a seafood restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_010",
+    "nl_query": "I need to get from (34.067485, -118.462428) to (34.037975, -118.528263) with two stops: first a Japanese restaurant within 5 miles, then a cafe with outdoor seating about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_011",
+    "nl_query": "Can you plan a route from (34.017742, -118.422088) to (34.044402, -118.536633)? I need to stop at an American restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_012",
+    "nl_query": "I'm planning a trip from (34.049374, -118.566665) to (34.019736, -118.500879). I need to visit a cafe with Wi-Fi first within 5 miles, then a pizza restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_013",
+    "nl_query": "Starting from (34.06041, -118.548463), heading to (34.073775, -118.505579). I need to stop at a bubble tea cafe first within 4 miles, then at a restaurant about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_014",
+    "nl_query": "I need to get from (34.055, -118.504732) to (34.004529, -118.480538) with three stops in order: first an Italian restaurant within 4 miles, then a cafe with outdoor seating within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_015",
+    "nl_query": "I'm at (34.131324, -118.193546) and need to get to (34.20341, -118.192865). On the way, I want to stop at a restaurant that offers takeout within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_016",
+    "nl_query": "I'm at (34.174252, -118.197152) and need to get to (34.115593, -118.145521). I want to stop at a cafe first, no more than 7 miles away, and then a wheelchair-accessible restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_017",
+    "nl_query": "I need to get from (34.113816, -118.15038) to (34.198284, -118.144111) with two stops: first a cafe with outdoor seating within 5 miles, then an art museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_018",
+    "nl_query": "Can you plan a route from (34.174433, -118.141683) to (34.124352, -118.135968)? I need to stop at a Vietnamese restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_019",
+    "nl_query": "I'm planning a trip from (34.084746, -118.119801) to (34.171467, -118.132147). I need to visit a cafe with Wi-Fi first within 5 miles, then a pizza restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_020",
+    "nl_query": "Starting from (34.154332, -118.12553), heading to (34.10988, -118.104124). I need to stop at a Chinese restaurant first within 4 miles, then at a history museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_021",
+    "nl_query": "I need to get from (34.198079, -118.121521) to (34.167733, -118.06474) with three stops in order: first a Thai restaurant within 4 miles, then a cafe with outdoor seating within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_022",
+    "nl_query": "I'm at (34.189821, -118.339308) and need to get to (34.111872, -118.313441). On the way, I want to stop at a pizza restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_023",
+    "nl_query": "I'm at (34.111753, -118.296604) and need to get to (34.213312, -118.306877). I want to stop at a cafe first, no more than 7 miles away, and then a Mexican restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_024",
+    "nl_query": "I need to get from (34.182788, -118.294454) to (34.117124, -118.280491) with two stops: first a restaurant that offers takeout within 5 miles, then a theme park attraction about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_025",
+    "nl_query": "Can you plan a route from (34.252417, -118.304344) to (34.184074, -118.279062)? I need to stop at a seafood restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_026",
+    "nl_query": "I'm planning a trip from (34.169, -118.261071) to (34.178389, -118.395301). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant with outdoor seating about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_027",
+    "nl_query": "Starting from (34.149932, -118.241831), heading to (34.140308, -118.376723). I need to stop at an American restaurant first within 4 miles, then at an art museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_028",
+    "nl_query": "I need to get from (34.232357, -118.255447) to (34.123977, -118.347094) with three stops in order: first a cafe with Wi-Fi within 4 miles, then a Mediterranean restaurant within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_029",
+    "nl_query": "I'm at (34.111499, -118.331774) and need to get to (34.075682, -118.282107). On the way, I want to stop at a wheelchair-accessible restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_030",
+    "nl_query": "I'm at (34.103611, -118.287409) and need to get to (34.177274, -118.309585). I want to stop at a cafe first, no more than 7 miles away, and then a restaurant with outdoor seating about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_031",
+    "nl_query": "I need to get from (34.181909, -118.313022) to (34.117124, -118.280491) with two stops: first a bubble tea cafe within 5 miles, then an art museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_032",
+    "nl_query": "Can you plan a route from (34.100119, -118.259233) to (34.174176, -118.269586)? I need to stop at a sushi restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_033",
+    "nl_query": "I'm planning a trip from (34.147252, -118.279067) to (34.130296, -118.228359). I need to visit a cafe with Wi-Fi first within 5 miles, then a Chinese restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_034",
+    "nl_query": "Starting from (34.093595, -118.255241), heading to (34.173451, -118.24939). I need to stop at a cafe with outdoor seating first within 4 miles, then at a history museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_035",
+    "nl_query": "I need to get from (34.151798, -118.244772) to (34.196067, -118.201714) with three stops in order: first an Italian restaurant within 4 miles, then a cafe with outdoor seating within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_036",
+    "nl_query": "I'm at (34.2121, -118.499503) and need to get to (34.179406, -118.457454). On the way, I want to stop at a Mexican restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_037",
+    "nl_query": "I'm at (34.192816, -118.478205) and need to get to (34.179409, -118.437704). I want to stop at a cafe first, no more than 7 miles away, and then a seafood restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_038",
+    "nl_query": "I need to get from (34.148465, -118.458027) to (34.158538, -118.403125) with two stops: first a cafe that offers takeout within 5 miles, then a Japanese restaurant about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_039",
+    "nl_query": "Can you plan a route from (34.200168, -118.454222) to (34.218485, -118.41232)? I need to stop at an American restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_040",
+    "nl_query": "I'm planning a trip from (34.173691, -118.413318) to (34.193552, -118.498801). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant with outdoor seating about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_041",
+    "nl_query": "Starting from (34.193952, -118.386628), heading to (34.145947, -118.48527). I need to stop at a restaurant that offers takeout first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_042",
+    "nl_query": "I'm at (33.929799, -118.427242) and need to get to (33.907905, -118.374287). On the way, I want to stop at a Thai restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_043",
+    "nl_query": "I'm at (33.974919, -118.424412) and need to get to (33.919343, -118.366082). I want to stop at a restaurant first, no more than 7 miles away, and then a cafe with outdoor seating about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_044",
+    "nl_query": "I need to get from (33.963507, -118.382957) to (33.90175, -118.369497) with two stops: first a pizza restaurant within 5 miles, then a cafe with outdoor seating about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_045",
+    "nl_query": "Can you plan a route from (33.999379, -118.396973) to (33.961259, -118.37183)? I need to stop at an American restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_046",
+    "nl_query": "I'm planning a trip from (33.961641, -118.359533) to (34.02106, -118.371166). I need to visit a cafe with Wi-Fi first within 5 miles, then a Japanese restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_047",
+    "nl_query": "Starting from (34.001588, -118.357117), heading to (33.915391, -118.323805). I need to stop at a Vietnamese restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_048",
+    "nl_query": "I need to get from (33.927322, -118.343905) to (33.97182, -118.328656) with three stops in order: first a Mediterranean restaurant within 4 miles, then a cafe with outdoor seating within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_049",
+    "nl_query": "I'm at (33.900705, -118.325287) and need to get to (33.838652, -118.309171). On the way, I want to stop at a Korean restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_050",
+    "nl_query": "I'm at (33.800946, -118.307584) and need to get to (33.894649, -118.304783). I want to stop at a cafe first, no more than 7 miles away, and then a sushi restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_051",
+    "nl_query": "I need to get from (33.87542, -118.288294) to (33.796957, -118.399824) with two stops: first a bubble tea cafe within 5 miles, then a history museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_052",
+    "nl_query": "Can you plan a route from (33.839103, -118.279764) to (33.874931, -118.406826)? I need to stop at a wheelchair-accessible restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_053",
+    "nl_query": "I'm planning a trip from (33.798704, -118.4049) to (33.785137, -118.353804). I need to visit a cafe with Wi-Fi first within 5 miles, then a Mediterranean restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_054",
+    "nl_query": "Starting from (33.825565, -118.388636), heading to (33.794598, -118.34768). I need to stop at a Japanese restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_055",
+    "nl_query": "I need to get from (33.866576, -118.3837) to (33.787276, -118.338247) with three stops in order: first a Chinese restaurant within 4 miles, then a cafe with outdoor seating within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_056",
+    "nl_query": "I'm at (33.90175, -118.369497) and need to get to (33.875171, -118.316086). On the way, I want to stop at an American restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_057",
+    "nl_query": "I'm at (33.954598, -118.35255) and need to get to (33.9301, -118.312553). I want to stop at a restaurant first, no more than 7 miles away, and then a cafe that offers takeout about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_058",
+    "nl_query": "I need to get from (33.907335, -118.325135) to (33.897251, -118.39853) with two stops: first a Korean restaurant within 5 miles, then a cafe with outdoor seating about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_059",
+    "nl_query": "Can you plan a route from (33.879107, -118.305909) to (33.919059, -118.416579)? I need to stop at a Mexican restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_060",
+    "nl_query": "I'm planning a trip from (33.899999, -118.407209) to (33.926383, -118.37439). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant with outdoor seating about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_061",
+    "nl_query": "Starting from (33.916263, -118.387515), heading to (33.887575, -118.346811). I need to stop at an Italian restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_062",
+    "nl_query": "I'm at (33.891586, -118.177131) and need to get to (33.87542, -118.288294). On the way, I want to stop at a seafood restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_063",
+    "nl_query": "I'm at (33.952891, -118.19341) and need to get to (33.927186, -118.150484). I want to stop at a cafe first, no more than 7 miles away, and then a restaurant with outdoor seating about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_064",
+    "nl_query": "I need to get from (33.931743, -118.163686) to (33.932822, -118.29193) with two stops: first a Chinese restaurant within 5 miles, then a cafe with outdoor seating about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_065",
+    "nl_query": "Can you plan a route from (33.894649, -118.304783) to (33.87169, -118.255878)? I need to stop at a Korean restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_066",
+    "nl_query": "I'm planning a trip from (33.884597, -118.259209) to (33.920447, -118.254362). I need to visit a cafe with Wi-Fi first within 5 miles, then a sushi restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_067",
+    "nl_query": "Starting from (33.825467, -118.228544), heading to (33.891374, -118.2328). I need to stop at a restaurant that offers takeout first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_068",
+    "nl_query": "I'm at (33.891586, -118.177131) and need to get to (33.983192, -118.186205). On the way, I want to stop at a Mexican restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_069",
+    "nl_query": "I'm at (33.952891, -118.19341) and need to get to (33.909843, -118.154391). I want to stop at a restaurant first, no more than 7 miles away, and then a cafe with Wi-Fi about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_070",
+    "nl_query": "I need to get from (33.890651, -118.138355) to (33.962844, -118.162252) with two stops: first an American restaurant within 5 miles, then a history museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_071",
+    "nl_query": "Can you plan a route from (33.943924, -118.152485) to (33.906044, -118.11665)? I need to stop at a restaurant that offers takeout first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_072",
+    "nl_query": "I'm planning a trip from (33.99736, -118.153831) to (33.940351, -118.131246). I need to visit a cafe with Wi-Fi first within 5 miles, then an Italian restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_073",
+    "nl_query": "Starting from (33.959163, -118.133449), heading to (33.887492, -118.096671). I need to stop at a Korean restaurant first within 4 miles, then at an art museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_074",
+    "nl_query": "I'm at (33.91704, -118.091689) and need to get to (33.846189, -118.067758). On the way, I want to stop at a restaurant with outdoor seating within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_075",
+    "nl_query": "I'm at (33.971292, -118.098483) and need to get to (33.906198, -118.067761). I want to stop at a cafe first, no more than 7 miles away, and then a seafood restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_076",
+    "nl_query": "I need to get from (33.885353, -118.071334) to (33.949299, -118.053676) with two stops: first a Chinese restaurant within 5 miles, then an art museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_077",
+    "nl_query": "Can you plan a route from (33.957485, -118.071406) to (33.89756, -118.026551)? I need to stop at a Korean restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_078",
+    "nl_query": "I'm planning a trip from (33.864004, -118.041521) to (33.909843, -118.154391). I need to visit a cafe with Wi-Fi first within 5 miles, then an American restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_079",
+    "nl_query": "Starting from (33.934536, -118.034443), heading to (33.890651, -118.138355). I need to stop at a wheelchair-accessible restaurant first within 4 miles, then at a history museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_080",
+    "nl_query": "I need to get from (33.912215, -118.005872) to (33.853606, -118.117153) with three stops in order: first a Thai restaurant within 4 miles, then a cafe with outdoor seating within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_081",
+    "nl_query": "I'm at (33.907352, -118.033251) and need to get to (33.979064, -118.029472). On the way, I want to stop at a pizza restaurant within 7 miles of me, then a cafe that offers takeout about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_082",
+    "nl_query": "I'm at (33.979095, -118.033891) and need to get to (33.92523, -118.010588). I want to stop at a cafe first, no more than 7 miles away, and then an American restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_083",
+    "nl_query": "I need to get from (34.041414, -118.038184) to (33.982071, -117.990641) with two stops: first a sushi restaurant within 5 miles, then a history museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_084",
+    "nl_query": "Can you plan a route from (33.952557, -118.017752) to (34.045173, -118.002081)? I need to stop at a cafe that offers takeout first within 5 miles, then a restaurant within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_085",
+    "nl_query": "I'm planning a trip from (34.004706, -117.991368) to (33.976469, -118.113654). I need to visit an American restaurant first within 5 miles, then a cafe with Wi-Fi about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_086",
+    "nl_query": "Starting from (33.945703, -117.977994), heading to (34.006683, -117.960885). I need to stop at a seafood restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_087",
+    "nl_query": "I'm at (33.868523, -118.046461) and need to get to (33.868488, -118.114324). On the way, I want to stop at a sushi restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_088",
+    "nl_query": "I'm at (33.840217, -118.113099) and need to get to (33.842335, -118.067681). I want to stop at a cafe first, no more than 7 miles away, and then a Mexican restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_089",
+    "nl_query": "I need to get from (33.840651, -118.088796) to (33.883043, -118.066327) with two stops: first a restaurant that offers takeout within 5 miles, then a cafe with outdoor seating about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_090",
+    "nl_query": "Can you plan a route from (33.887696, -118.082371) to (33.839918, -118.032355)? I need to stop at a cafe that offers takeout first within 5 miles, then a restaurant within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_091",
+    "nl_query": "I'm planning a trip from (33.85778, -118.07232) to (33.828592, -118.013293). I need to visit a cafe with Wi-Fi first within 5 miles, then a Vietnamese restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_092",
+    "nl_query": "Starting from (33.818924, -118.027655), heading to (33.898917, -118.034102). I need to stop at an American restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_093",
+    "nl_query": "I'm at (33.770797, -118.130683) and need to get to (33.741109, -118.099324). On the way, I want to stop at a restaurant that offers takeout within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_094",
+    "nl_query": "I'm at (33.737898, -118.100281) and need to get to (33.81065, -118.102752). I want to stop at a cafe first, no more than 7 miles away, and then a Mexican restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_095",
+    "nl_query": "I need to get from (33.803142, -118.09914) to (33.740472, -118.265463) with two stops: first a Thai restaurant within 5 miles, then a history museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_096",
+    "nl_query": "Can you plan a route from (33.718123, -118.280327) to (33.820546, -118.264633)? I need to stop at a Chinese restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_097",
+    "nl_query": "I'm planning a trip from (33.777898, -118.274055) to (33.82938, -118.25016). I need to visit a cafe with Wi-Fi first within 5 miles, then a Mediterranean restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_098",
+    "nl_query": "Starting from (33.720921, -118.249482), heading to (33.808389, -118.255341). I need to stop at a sushi restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_099",
+    "nl_query": "I need to get from (33.7746, -118.254168) to (33.792618, -118.207587) with three stops in order: first a bubble tea cafe within 4 miles, then a seafood restaurant within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_100",
+    "nl_query": "I'm at (34.060672, -117.960124) and need to get to (34.076268, -118.09512). On the way, I want to stop at a Thai restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_101",
+    "nl_query": "I'm at (34.054863, -118.09957) and need to get to (34.01333, -118.067438). I want to stop at a cafe first, no more than 7 miles away, and then a wheelchair-accessible restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_102",
+    "nl_query": "I need to get from (34.00428, -118.064369) to (34.08859, -118.073327) with two stops: first a restaurant with outdoor seating within 5 miles, then a history museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_103",
+    "nl_query": "Can you plan a route from (34.067246, -118.070504) to (34.007337, -118.041819)? I need to stop at a Vietnamese restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_104",
+    "nl_query": "I'm planning a trip from (34.121605, -118.066632) to (34.062834, -118.040376). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant that offers takeout about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_105",
+    "nl_query": "Starting from (34.072532, -118.029641), heading to (34.124339, -118.031076). I need to stop at a seafood restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_106",
+    "nl_query": "I'm at (34.020102, -117.951415) and need to get to (34.08616, -117.933989). On the way, I want to stop at a Thai restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_107",
+    "nl_query": "I'm at (34.076055, -117.955853) and need to get to (34.014928, -117.910447). I want to stop at a cafe first, no more than 7 miles away, and then a restaurant with outdoor seating about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_108",
+    "nl_query": "I need to get from (34.121609, -117.933852) to (34.05665, -117.909537) with two stops: first a cafe that offers takeout within 5 miles, then a history museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_109",
+    "nl_query": "Can you plan a route from (34.079075, -117.907831) to (34.024315, -117.901031)? I need to stop at a seafood restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_110",
+    "nl_query": "I'm planning a trip from (34.133592, -117.919462) to (34.07894, -117.883492). I need to visit a cafe with Wi-Fi first within 5 miles, then a Chinese restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_111",
+    "nl_query": "Starting from (34.068072, -117.892808), heading to (34.041031, -117.861214). I need to stop at an American restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_112",
+    "nl_query": "I'm at (34.095325, -117.83708) and need to get to (34.072996, -117.92405). On the way, I want to stop at a Thai restaurant within 7 miles of me, then a cafe that offers takeout about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_113",
+    "nl_query": "I'm at (34.113603, -117.940076) and need to get to (34.090594, -117.884119). I want to stop at a cafe first, no more than 7 miles away, and then an American restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_114",
+    "nl_query": "I need to get from (34.095977, -117.919833) to (34.072903, -117.87255) with two stops: first a cafe that offers takeout within 5 miles, then a Thai restaurant about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_115",
+    "nl_query": "Can you plan a route from (34.037998, -117.882127) to (34.118533, -117.874915)? I need to stop at an Italian restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_116",
+    "nl_query": "I'm planning a trip from (34.117866, -117.896401) to (34.057619, -117.855775). I need to visit a cafe with outdoor seating first within 5 miles, then a sushi restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_117",
+    "nl_query": "Starting from (34.05342, -117.871682), heading to (34.117565, -117.844441). I need to stop at a Vietnamese restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_118",
+    "nl_query": "I'm at (34.020231, -117.797923) and need to get to (34.099466, -117.813353). On the way, I want to stop at a restaurant that offers takeout within 7 miles of me, then a cafe that offers takeout about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_119",
+    "nl_query": "I'm at (34.106671, -117.810119) and need to get to (34.064611, -117.770381). I want to stop at a cafe first, no more than 7 miles away, and then a Vietnamese restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_120",
+    "nl_query": "I need to get from (34.045238, -117.767177) to (34.123443, -117.771557) with two stops: first a cafe with outdoor seating within 5 miles, then a Japanese restaurant about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_121",
+    "nl_query": "Can you plan a route from (34.096017, -117.769889) to (34.042947, -117.741922)? I need to stop at a Chinese restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_122",
+    "nl_query": "I'm planning a trip from (34.018872, -117.736771) to (34.085671, -117.751545). I need to visit a cafe with outdoor seating first within 5 miles, then a pizza restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_123",
+    "nl_query": "Starting from (34.109551, -117.74859), heading to (34.072621, -117.716232). I need to stop at a sushi restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_124",
+    "nl_query": "I'm at (34.117866, -117.896401) and need to get to (34.15485, -117.854569). On the way, I want to stop at a restaurant that offers takeout within 7 miles of me, then a cafe with outdoor seating about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_125",
+    "nl_query": "I'm at (34.117958, -117.870351) and need to get to (34.126642, -117.933781). I want to stop at a cafe first, no more than 7 miles away, and then a Mexican restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_126",
+    "nl_query": "I need to get from (34.13971, -117.969049) to (34.084205, -117.905032) with two stops: first a cafe with outdoor seating within 5 miles, then a sushi restaurant about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_127",
+    "nl_query": "Can you plan a route from (34.147902, -117.937691) to (34.098282, -117.922736)? I need to stop at a restaurant with outdoor seating first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_128",
+    "nl_query": "I'm planning a trip from (34.137701, -117.913823) to (34.118533, -117.874915). I need to visit a cafe with outdoor seating first within 5 miles, then a Thai restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_129",
+    "nl_query": "Starting from (34.117866, -117.896401), heading to (34.15485, -117.854569). I need to stop at an Italian restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_130",
+    "nl_query": "I'm at (34.12218, -117.791923) and need to get to (34.117565, -117.844441). On the way, I want to stop at a pizza restaurant within 7 miles of me, then a cafe that offers takeout about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_131",
+    "nl_query": "I'm at (34.122561, -117.768142) and need to get to (34.111777, -117.851725). I want to stop at a cafe first, no more than 7 miles away, and then a restaurant with outdoor seating about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_132",
+    "nl_query": "I need to get from (34.08617, -117.862009) to (34.076485, -117.813985) with two stops: first a restaurant that offers takeout within 5 miles, then a cafe with Wi-Fi about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_133",
+    "nl_query": "Can you plan a route from (34.078804, -117.829133) to (34.137371, -117.82847)? I need to stop at a Korean restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_134",
+    "nl_query": "I'm planning a trip from (34.121814, -117.820379) to (34.097359, -117.773397). I need to visit a restaurant with outdoor seating first within 5 miles, then a cafe that offers takeout about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_135",
+    "nl_query": "Starting from (34.0615, -117.788389), heading to (34.106958, -117.773497). I need to stop at an American restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_136",
+    "nl_query": "I'm at (33.791106, -117.910132) and need to get to (33.881337, -117.93018). On the way, I want to stop at a Korean restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_137",
+    "nl_query": "I'm at (33.845766, -117.919366) and need to get to (33.77076, -117.902034). I want to stop at a cafe first, no more than 7 miles away, and then an Italian restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_138",
+    "nl_query": "I need to get from (33.789293, -117.886458) to (33.847, -117.874528) with two stops: first a Japanese restaurant within 5 miles, then an art museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_139",
+    "nl_query": "Can you plan a route from (33.836949, -117.897325) to (33.796869, -117.866553)? I need to stop at a wheelchair-accessible restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_140",
+    "nl_query": "I'm planning a trip from (33.888883, -117.891285) to (33.871084, -117.848067). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant that offers takeout about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_141",
+    "nl_query": "Starting from (33.851163, -117.862909), heading to (33.78706, -117.970358). I need to stop at a pizza restaurant first within 4 miles, then at a theme park attraction about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_142",
+    "nl_query": "I need to get from (33.834525, -117.831977) to (33.842333, -117.977912) with three stops in order: first a Vietnamese restaurant within 4 miles, then a cafe with outdoor seating within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_143",
+    "nl_query": "I'm at (33.765881, -117.86133) and need to get to (33.794476, -118.012153). On the way, I want to stop at a Korean restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_144",
+    "nl_query": "I'm at (33.77161, -118.000887) and need to get to (33.727013, -117.975198). I want to stop at a cafe first, no more than 7 miles away, and then a restaurant that offers takeout about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_145",
+    "nl_query": "I need to get from (33.731783, -117.986752) to (33.794721, -117.964358) with two stops: first an Italian restaurant within 5 miles, then a theme park attraction about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_146",
+    "nl_query": "Can you plan a route from (33.777491, -117.986189) to (33.73182, -117.954572)? I need to stop at a pizza restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_147",
+    "nl_query": "I'm planning a trip from (33.831491, -117.987565) to (33.795953, -117.937464). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant with outdoor seating about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_148",
+    "nl_query": "Starting from (33.758546, -117.944274), heading to (33.832432, -117.943956). I need to stop at a Mexican restaurant first within 4 miles, then at an art museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_149",
+    "nl_query": "I need to get from (33.807682, -117.954079) to (33.757125, -117.918562) with three stops in order: first a Chinese restaurant within 4 miles, then a cafe with outdoor seating within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_150",
+    "nl_query": "I'm at (33.915494, -117.879563) and need to get to (33.900195, -117.996932). On the way, I want to stop at a restaurant with outdoor seating within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_151",
+    "nl_query": "I'm at (33.857853, -117.870392) and need to get to (33.887976, -118.002872). I want to stop at a restaurant first, no more than 7 miles away, and then a cafe with Wi-Fi about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_152",
+    "nl_query": "I need to get from (33.876871, -117.993897) to (33.842333, -117.977912) with two stops: first a Japanese restaurant within 5 miles, then a theme park attraction about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_153",
+    "nl_query": "Can you plan a route from (33.827973, -117.966387) to (33.915617, -117.977079)? I need to stop at a wheelchair-accessible restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_154",
+    "nl_query": "I'm planning a trip from (33.897927, -117.984047) to (33.832432, -117.943956). I need to visit a cafe with Wi-Fi first within 5 miles, then a Mediterranean restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_155",
+    "nl_query": "Starting from (33.832527, -117.934844), heading to (33.9276, -117.941769). I need to stop at a pizza restaurant first within 4 miles, then at an art museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_156",
+    "nl_query": "I need to get from (33.897445, -117.946506) to (33.850842, -117.919844) with three stops in order: first a cafe with outdoor seating within 4 miles, then a Mediterranean restaurant within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_157",
+    "nl_query": "I'm at (33.700418, -117.831291) and need to get to (33.791462, -117.836873). On the way, I want to stop at a Thai restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_158",
+    "nl_query": "I'm at (33.782235, -117.819794) and need to get to (33.775046, -117.945227). I want to stop at a cafe first, no more than 7 miles away, and then a Mediterranean restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_159",
+    "nl_query": "I need to get from (33.716716, -117.807932) to (33.745018, -117.941293) with two stops: first a Mexican restaurant within 5 miles, then a history museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_160",
+    "nl_query": "Can you plan a route from (33.771622, -117.805473) to (33.713816, -117.919841)? I need to stop at a wheelchair-accessible restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_161",
+    "nl_query": "I'm planning a trip from (33.695625, -117.916729) to (33.776172, -117.919172). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant with outdoor seating about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_162",
+    "nl_query": "Starting from (33.741713, -117.905851), heading to (33.799714, -117.892163). I need to stop at a sushi restaurant first within 4 miles, then at an art museum about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_163",
+    "nl_query": "I need to get from (33.700055, -117.876935) to (33.781251, -117.900799) with three stops in order: first a cafe with Wi-Fi within 4 miles, then a Mediterranean restaurant within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_164",
+    "nl_query": "I'm at (33.665431, -117.829634) and need to get to (33.749944, -117.836305). On the way, I want to stop at a restaurant that offers takeout within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_165",
+    "nl_query": "I'm at (33.734387, -117.817439) and need to get to (33.670834, -117.801571). I want to stop at a restaurant first, no more than 7 miles away, and then a bubble tea cafe about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_166",
+    "nl_query": "I need to get from (33.634492, -117.799892) to (33.733167, -117.790058) with two stops: first a pizza restaurant within 5 miles, then an art museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_167",
+    "nl_query": "Can you plan a route from (33.695161, -117.791403) to (33.687974, -117.746776)? I need to stop at a Thai restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_168",
+    "nl_query": "I'm planning a trip from (33.651124, -117.780708) to (33.715965, -117.776388). I need to visit a cafe with Wi-Fi first within 5 miles, then a Chinese restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_169",
+    "nl_query": "Starting from (33.715706, -117.761468), heading to (33.651738, -117.874267). I need to stop at a sushi restaurant first within 4 miles, then at a theme park attraction about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_170",
+    "nl_query": "I need to get from (33.708308, -117.902692) to (33.667238, -117.850023) with three stops in order: first a cafe with outdoor seating within 4 miles, then a Mediterranean restaurant within 4 miles after that, and then a park within 3 miles after that. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_171",
+    "nl_query": "I'm at (34.10938, -118.758296) and need to get to (34.167605, -118.763466). On the way, I want to stop at a cafe with Wi-Fi within 7 miles of me, then an Italian restaurant about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_172",
+    "nl_query": "I'm at (34.167717, -118.761075) and need to get to (34.091572, -118.819). I want to stop at a cafe first, no more than 7 miles away, and then a pizza restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_173",
+    "nl_query": "I need to get from (34.153871, -118.757087) to (34.121774, -118.85494) with two stops: first an Italian restaurant within 5 miles, then a cafe with Wi-Fi about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_174",
+    "nl_query": "Can you plan a route from (34.091971, -118.874245) to (34.138569, -118.833618)? I need to stop at a Mexican restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_175",
+    "nl_query": "I'm planning a trip from (34.137301, -118.833949) to (34.091456, -118.810925). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant with outdoor seating about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_176",
+    "nl_query": "Starting from (34.109417, -118.792876), heading to (34.167721, -118.759252). I need to stop at a Japanese restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_177",
+    "nl_query": "I'm at (34.371634, -118.53519) and need to get to (34.458335, -118.532703). On the way, I want to stop at a Vietnamese restaurant within 7 miles of me, then a cafe with Wi-Fi about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_178",
+    "nl_query": "I'm at (34.427202, -118.545321) and need to get to (34.33232, -118.506004). I want to stop at a cafe first, no more than 7 miles away, and then a sushi restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_179",
+    "nl_query": "I need to get from (34.491709, -118.542229) to (34.36842, -118.505902) with two stops: first a seafood restaurant within 5 miles, then an art museum about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_180",
+    "nl_query": "Can you plan a route from (34.340894, -118.521308) to (34.445951, -118.505693)? I need to stop at a Korean restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_181",
+    "nl_query": "I'm planning a trip from (34.420543, -118.493966) to (34.31549, -118.475171). I need to visit a cafe with Wi-Fi first within 5 miles, then a restaurant with outdoor seating about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_182",
+    "nl_query": "Starting from (34.46029, -118.499284), heading to (34.398673, -118.47315). I need to stop at a Japanese restaurant first within 4 miles, then at a theme park attraction about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_183",
+    "nl_query": "I'm at (34.747792, -118.16827) and need to get to (34.638534, -118.15254). On the way, I want to stop at a cafe that offers takeout within 7 miles of me, then an Italian restaurant about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_184",
+    "nl_query": "I'm at (34.612729, -118.165481) and need to get to (34.687302, -118.165614). I want to stop at a cafe first, no more than 7 miles away, and then a wheelchair-accessible restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_185",
+    "nl_query": "I need to get from (34.674301, -118.142734) to (34.747972, -118.144548) with two stops: first a pizza restaurant within 5 miles, then a cafe with outdoor seating about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_186",
+    "nl_query": "Can you plan a route from (34.740643, -118.142533) to (34.599675, -118.125484)? I need to stop at a Chinese restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_187",
+    "nl_query": "I'm planning a trip from (34.615164, -118.130005) to (34.70056, -118.132936). I need to visit a cafe with Wi-Fi first within 5 miles, then an Italian restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_188",
+    "nl_query": "Starting from (34.677461, -118.124368), heading to (34.759905, -118.126315). I need to stop at a restaurant that offers takeout first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_189",
+    "nl_query": "I'm at (34.675827, -118.076243) and need to get to (34.558069, -118.034452). On the way, I want to stop at a Mexican restaurant within 7 miles of me, then a cafe that offers takeout about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_190",
+    "nl_query": "I'm at (34.536884, -118.024959) and need to get to (34.609476, -118.040887). I want to stop at a cafe first, no more than 7 miles away, and then an American restaurant about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_191",
+    "nl_query": "I need to get from (34.569656, -118.043335) to (34.51421, -118.219392) with two stops: first a Japanese restaurant within 5 miles, then a cafe that offers takeout about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_192",
+    "nl_query": "Can you plan a route from (34.560777, -118.014481) to (34.501285, -118.198373)? I need to stop at a pizza restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_193",
+    "nl_query": "I'm planning a trip from (34.620592, -118.23112) to (34.528471, -118.185998). I need to visit a cafe that offers takeout first within 5 miles, then a seafood restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_194",
+    "nl_query": "Starting from (34.582743, -118.207331), heading to (34.502623, -118.180692). I need to stop at a Chinese restaurant first within 4 miles, then at a cafe about 4 miles later, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_195",
+    "nl_query": "I'm at (34.042947, -117.741922) and need to get to (34.141563, -117.698749). On the way, I want to stop at an American restaurant within 7 miles of me, then a cafe that offers takeout about 6 miles after that, in that order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_196",
+    "nl_query": "I'm at (34.11208, -117.738059) and need to get to (34.028343, -117.744301). I want to stop at a restaurant first, no more than 7 miles away, and then a cafe that offers takeout about 6 miles after that, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_197",
+    "nl_query": "I need to get from (34.083969, -117.722613) to (34.024565, -117.74056) with two stops: first a Mexican restaurant within 5 miles, then a cafe with Wi-Fi about 5 miles later, in that order. What's the shortest way to get there?"
+  },
+  {
+    "query_id": "set3_ordered+desc_198",
+    "nl_query": "Can you plan a route from (34.135969, -117.695386) to (34.055292, -117.742422)? I need to stop at an Italian restaurant first within 5 miles, then a cafe within another 5 miles, in that order. Please give me the shortest route."
+  },
+  {
+    "query_id": "set3_ordered+desc_199",
+    "nl_query": "I'm planning a trip from (34.058744, -117.747976) to (34.135981, -117.694173). I need to visit a cafe with outdoor seating first within 5 miles, then a Thai restaurant about 5 miles later. Both stops are required and have to be in order. What's the shortest-distance route?"
+  },
+  {
+    "query_id": "set3_ordered+desc_200",
+    "nl_query": "Starting from (34.048472, -117.723629), heading to (34.113844, -117.708203). I need to stop at a cafe with outdoor seating first within 4 miles, then at a restaurant about 4 miles later, in that order. What's the shortest-distance route?"
+  }
+]

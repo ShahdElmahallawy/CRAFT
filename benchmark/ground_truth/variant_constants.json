@@ -1,0 +1,3162 @@
+{
+  "ev+ordered_poi#0": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library"
+    ]
+  },
+  "ev+ordered_poi#1": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "pharmacy"
+    ]
+  },
+  "ev+ordered_poi#10": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "bank"
+    ],
+    "types_generator": [
+      "supermarket",
+      "bank"
+    ]
+  },
+  "ev+ordered_poi#11": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "as short as possible",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "library",
+      "bank"
+    ]
+  },
+  "ev+ordered_poi#12": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library"
+    ]
+  },
+  "ev+ordered_poi#13": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "library",
+      "pharmacy"
+    ]
+  },
+  "ev+ordered_poi#14": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "ev+ordered_poi#2": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "ev+ordered_poi#3": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "library",
+      "pharmacy"
+    ]
+  },
+  "ev+ordered_poi#4": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "bank"
+    ],
+    "types_generator": [
+      "supermarket",
+      "bank"
+    ]
+  },
+  "ev+ordered_poi#5": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library"
+    ]
+  },
+  "ev+ordered_poi#6": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "pharmacy"
+    ]
+  },
+  "ev+ordered_poi#7": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "ev+ordered_poi#8": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "library",
+      "bank"
+    ]
+  },
+  "ev+ordered_poi#9": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library"
+    ]
+  },
+  "ev_routing#0": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#1": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#10": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#11": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#12": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "as short as possible",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#13": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#14": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#15": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#16": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#17": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#18": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "as short as possible",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#19": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#2": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#20": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#21": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#22": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#3": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#4": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#5": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#6": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "as short as possible",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#7": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#8": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ev_routing#9": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": null,
+    "poi_types": [],
+    "road_preference": null,
+    "types_checker": [],
+    "types_generator": []
+  },
+  "ordered_poi#0": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library"
+    ]
+  },
+  "ordered_poi#1": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "library",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#10": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "bank"
+    ],
+    "types_generator": [
+      "supermarket",
+      "bank"
+    ]
+  },
+  "ordered_poi#11": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "as short as possible",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "library",
+      "bank"
+    ]
+  },
+  "ordered_poi#12": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "bank"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "bank"
+    ]
+  },
+  "ordered_poi#13": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "library",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#14": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#15": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "as short as possible",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#16": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "supermarket"
+    ],
+    "types_generator": [
+      "library",
+      "supermarket"
+    ]
+  },
+  "ordered_poi#17": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "ordered_poi#18": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "supermarket",
+      "library"
+    ]
+  },
+  "ordered_poi#19": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "library",
+      "bank"
+    ]
+  },
+  "ordered_poi#2": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#20": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "supermarket"
+    ],
+    "types_generator": [
+      "bank",
+      "supermarket"
+    ]
+  },
+  "ordered_poi#21": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#22": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library"
+    ]
+  },
+  "ordered_poi#23": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "supermarket"
+    ],
+    "types_generator": [
+      "library",
+      "supermarket"
+    ]
+  },
+  "ordered_poi#24": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#25": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank",
+      "library",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#26": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library",
+      "bank"
+    ]
+  },
+  "ordered_poi#27": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "as short as possible",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "library",
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#28": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "supermarket",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "supermarket",
+      "bank"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "supermarket",
+      "bank"
+    ]
+  },
+  "ordered_poi#29": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "supermarket",
+      "pharmacy",
+      "library"
+    ]
+  },
+  "ordered_poi#3": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "pharmacy"
+    ]
+  },
+  "ordered_poi#4": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "bank"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "bank"
+    ]
+  },
+  "ordered_poi#5": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "supermarket",
+      "library"
+    ]
+  },
+  "ordered_poi#6": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "ordered_poi#7": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "library",
+      "bank"
+    ]
+  },
+  "ordered_poi#8": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "supermarket"
+    ]
+  },
+  "ordered_poi#9": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_distance",
+    "objective_evidence": "shortest",
+    "ordered": true,
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "supermarket"
+    ],
+    "types_generator": [
+      "bank",
+      "supermarket"
+    ]
+  },
+  "poi+road_pref#0": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy"
+    ],
+    "types_generator": [
+      "pharmacy"
+    ]
+  },
+  "poi+road_pref#1": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "bank"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "bank"
+    ],
+    "types_generator": [
+      "bank"
+    ]
+  },
+  "poi+road_pref#10": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "bank",
+      "supermarket"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy",
+      "bank",
+      "supermarket"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "bank",
+      "supermarket"
+    ]
+  },
+  "poi+road_pref#11": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "bank",
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy",
+      "bank",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "bank",
+      "library"
+    ]
+  },
+  "poi+road_pref#12": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "supermarket",
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy",
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "supermarket",
+      "library"
+    ]
+  },
+  "poi+road_pref#13": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "supermarket",
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "bank",
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "supermarket",
+      "library"
+    ]
+  },
+  "poi+road_pref#14": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "bank",
+      "supermarket",
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy",
+      "bank",
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "bank",
+      "supermarket",
+      "library"
+    ]
+  },
+  "poi+road_pref#15": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "time-wise",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy"
+    ],
+    "types_generator": [
+      "pharmacy"
+    ]
+  },
+  "poi+road_pref#16": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "bank"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "bank"
+    ],
+    "types_generator": [
+      "bank"
+    ]
+  },
+  "poi+road_pref#17": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "supermarket"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "supermarket"
+    ],
+    "types_generator": [
+      "supermarket"
+    ]
+  },
+  "poi+road_pref#18": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "library"
+    ],
+    "types_generator": [
+      "library"
+    ]
+  },
+  "poi+road_pref#19": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy",
+      "bank"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "bank"
+    ]
+  },
+  "poi+road_pref#2": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "supermarket"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "supermarket"
+    ],
+    "types_generator": [
+      "supermarket"
+    ]
+  },
+  "poi+road_pref#3": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "library"
+    ],
+    "types_generator": [
+      "library"
+    ]
+  },
+  "poi+road_pref#4": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy",
+      "bank"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "bank"
+    ]
+  },
+  "poi+road_pref#5": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "supermarket"
+    ]
+  },
+  "poi+road_pref#6": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library"
+    ]
+  },
+  "poi+road_pref#7": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "time-wise",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "bank",
+      "supermarket"
+    ],
+    "types_generator": [
+      "bank",
+      "supermarket"
+    ]
+  },
+  "poi+road_pref#8": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "bank",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "poi+road_pref#9": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "road_preference": "avoid_highways",
+    "types_checker": [
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "supermarket",
+      "library"
+    ]
+  },
+  "poi_collection#0": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "library",
+      "bank"
+    ]
+  },
+  "poi_collection#1": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "poi_collection#10": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "supermarket"
+    ],
+    "types_generator": [
+      "bank",
+      "supermarket"
+    ]
+  },
+  "poi_collection#11": {
+    "cat_limits_checker": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": []
+  },
+  "poi_collection#12": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "poi_collection#13": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "bank"
+    ]
+  },
+  "poi_collection#14": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "supermarket"
+    ],
+    "types_generator": [
+      "bank",
+      "supermarket"
+    ]
+  },
+  "poi_collection#15": {
+    "cat_limits_checker": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": []
+  },
+  "poi_collection#16": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "library",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "library",
+      "supermarket"
+    ],
+    "types_generator": [
+      "bank",
+      "library",
+      "supermarket"
+    ]
+  },
+  "poi_collection#17": {
+    "cat_limits_checker": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "library"
+    ]
+  },
+  "poi_collection#18": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "poi_collection#19": {
+    "cat_limits_checker": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "supermarket"
+    ]
+  },
+  "poi_collection#2": {
+    "cat_limits_checker": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": []
+  },
+  "poi_collection#20": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "pharmacy",
+      "library"
+    ]
+  },
+  "poi_collection#21": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "poi_collection#22": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "bank"
+    ],
+    "types_generator": [
+      "supermarket",
+      "bank"
+    ]
+  },
+  "poi_collection#23": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "poi_collection#24": {
+    "cat_limits_checker": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "cat_limits_generator": {
+      "supermarket": 1
+    },
+    "cat_limits_postfix": {
+      "library": 2
+    },
+    "category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "supermarket"
+    ],
+    "types_generator": [
+      "supermarket"
+    ]
+  },
+  "poi_collection#25": {
+    "cat_limits_checker": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "cat_limits_generator": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "poi_collection#26": {
+    "cat_limits_checker": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "library"
+    ]
+  },
+  "poi_collection#27": {
+    "cat_limits_checker": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "category_limits": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "library",
+      "pharmacy"
+    ]
+  },
+  "poi_collection#28": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank"
+    ]
+  },
+  "poi_collection#29": {
+    "cat_limits_checker": {
+      "supermarket": 3
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": {
+      "supermarket": 3
+    },
+    "category_limits": {
+      "supermarket": 3
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket"
+    ],
+    "types_generator": [
+      "supermarket"
+    ]
+  },
+  "poi_collection#3": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "bank"
+    ],
+    "types_generator": [
+      "bank"
+    ]
+  },
+  "poi_collection#4": {
+    "cat_limits_checker": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "cat_limits_generator": {
+      "supermarket": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "supermarket"
+    ],
+    "types_generator": [
+      "supermarket"
+    ]
+  },
+  "poi_collection#5": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 2
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "library"
+    ],
+    "types_generator": [
+      "bank"
+    ]
+  },
+  "poi_collection#6": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "bank",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "bank",
+      "library"
+    ],
+    "types_generator": [
+      "bank"
+    ]
+  },
+  "poi_collection#7": {
+    "cat_limits_checker": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "cat_limits_generator": {
+      "supermarket": 2
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "supermarket"
+    ]
+  },
+  "poi_collection#8": {
+    "cat_limits_checker": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "bank": 1,
+      "library": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "poi_collection#9": {
+    "cat_limits_checker": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "cat_limits_generator": {
+      "pharmacy": 1
+    },
+    "cat_limits_postfix": null,
+    "category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "matched_by": [],
+    "objective": "maximize_poi",
+    "objective_evidence": "-",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": []
+  },
+  "unordered_poi#0": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library"
+    ]
+  },
+  "unordered_poi#1": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "least time",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "pharmacy"
+    ]
+  },
+  "unordered_poi#10": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "unordered_poi#11": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "library",
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "unordered_poi#12": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "trip time as low as possible",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "supermarket",
+      "library",
+      "bank"
+    ]
+  },
+  "unordered_poi#13": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "shortest travel/trip time",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "library",
+      "supermarket"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "library",
+      "supermarket"
+    ]
+  },
+  "unordered_poi#14": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "pharmacy",
+      "library"
+    ]
+  },
+  "unordered_poi#2": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "as quickly as possible",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "pharmacy"
+    ],
+    "types_generator": [
+      "bank",
+      "pharmacy"
+    ]
+  },
+  "unordered_poi#3": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "supermarket",
+      "library"
+    ]
+  },
+  "unordered_poi#4": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "shortest travel/trip time",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "bank"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "bank"
+    ]
+  },
+  "unordered_poi#5": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "quickest",
+    "ordered": false,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "supermarket",
+      "library"
+    ],
+    "types_generator": [
+      "supermarket",
+      "library"
+    ]
+  },
+  "unordered_poi#6": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "as fast",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "library"
+    ],
+    "types_generator": [
+      "bank",
+      "library"
+    ]
+  },
+  "unordered_poi#7": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "lowest travel time",
+    "ordered": false,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "library",
+      "bank"
+    ],
+    "types_generator": [
+      "library",
+      "bank"
+    ]
+  },
+  "unordered_poi#8": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "fastest",
+    "ordered": false,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "types_generator": [
+      "pharmacy",
+      "supermarket"
+    ]
+  },
+  "unordered_poi#9": {
+    "cat_limits_checker": null,
+    "cat_limits_generator": null,
+    "cat_limits_postfix": null,
+    "category_limits": null,
+    "matched_by": [],
+    "objective": "minimize_travel_time",
+    "objective_evidence": "least time",
+    "ordered": false,
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "road_preference": null,
+    "types_checker": [
+      "bank",
+      "supermarket"
+    ],
+    "types_generator": [
+      "bank",
+      "supermarket"
+    ]
+  }
+}
