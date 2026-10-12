@@ -20,7 +20,7 @@ ev_ordered_oracle_v2. Its results are not to be used until this passes.
    queries whose candidate layers are small enough to enumerate exhaustively.
 
 Usage:
-  conda run -n myenv python evaluation/oracle/verify_ev_ordered_v2.py \
+  python evaluation/oracle/verify_ev_ordered_v2.py \
       --v1 <v1 results json> --v2 <v2 results json> [--brute 5]
 """
 from __future__ import annotations

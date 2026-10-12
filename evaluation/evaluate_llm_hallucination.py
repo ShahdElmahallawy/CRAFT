@@ -20,8 +20,8 @@ Run order:
   3. python evaluation/evaluate_llm_baseline.py      (Steps 3-5: constraints + comparison)
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_llm_hallucination.py
-  conda run -n myenv python evaluation/evaluate_llm_hallucination.py \\
+  python evaluation/evaluate_llm_hallucination.py
+  python evaluation/evaluate_llm_hallucination.py \\
       --templates ordered_poi --limit 5
 """
 

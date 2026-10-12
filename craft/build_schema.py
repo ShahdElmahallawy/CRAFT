@@ -149,7 +149,7 @@ def build_schema(
     try:
         import geopandas as gpd
     except ImportError:
-        sys.exit("geopandas not available — activate the conda env: conda run -n myenv python craft/build_schema.py")
+        sys.exit("geopandas not available — install requirements.txt in your active environment")
 
     print(f"Reading {gpkg_path} (layer={layer}) ...")
     pois_gdf = gpd.read_file(str(gpkg_path), layer=layer)

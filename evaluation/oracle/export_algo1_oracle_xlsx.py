@@ -37,7 +37,7 @@ notes below, because each one changes the number:
   claim.
 
 Usage:
-  conda run -n myenv python evaluation/oracle/export_algo1_oracle_xlsx.py \
+  python evaluation/oracle/export_algo1_oracle_xlsx.py \
       --craft-xlsx <regenerated craft set1 xlsx>
 """
 from __future__ import annotations

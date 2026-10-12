@@ -37,10 +37,10 @@ the same reference every other description-filter eval uses. ROW level, because
 that is the level the ground truth is labelled at.
 
 Usage:
-  conda run -n myenv python evaluation/description_gt/evaluate_llm_rerank.py
-  conda run -n myenv python evaluation/description_gt/evaluate_llm_rerank.py --threshold 0.5
-  conda run -n myenv python evaluation/description_gt/evaluate_llm_rerank.py --arms plain
-  conda run -n myenv python evaluation/description_gt/evaluate_llm_rerank.py --limit 30  # smoke
+  python evaluation/description_gt/evaluate_llm_rerank.py
+  python evaluation/description_gt/evaluate_llm_rerank.py --threshold 0.5
+  python evaluation/description_gt/evaluate_llm_rerank.py --arms plain
+  python evaluation/description_gt/evaluate_llm_rerank.py --limit 30  # smoke
 """
 from __future__ import annotations
 

@@ -6,11 +6,8 @@ see how the system works before using it at scale.
 
 ## 1. Setup
 
-**Python env.** Needs `geopandas`, `networkx`, `shapely`, `pandas`, `numpy`. If you
-have conda:
-```
-conda activate myenv   # or whatever env has these installed
-```
+**Python env.** Activate whatever environment has the packages in
+`requirements.txt` installed (`pip install -r requirements.txt`).
 
 **API keys.** Create a `.env` file at the `CRAFT/` root (same folder this
 `examples/` dir lives in) with at least one LLM provider:
@@ -38,16 +35,16 @@ for the expected GPKG schema) and build its `schema.json` with
 
 ```
 cd CRAFT
-conda run -n myenv python examples/run_example.py
+python examples/run_example.py
 ```
 
 This uses the bundled `example_query.json` by default. To try your own query:
 ```
-conda run -n myenv python examples/run_example.py --query "I'm at (33.83, -117.95) and need to get to (33.85, -117.86). Stop at a pharmacy, then a library, in that order."
+python examples/run_example.py --query "I'm at (33.83, -117.95) and need to get to (33.85, -117.86). Stop at a pharmacy, then a library, in that order."
 ```
 or point it at your own query file:
 ```
-conda run -n myenv python examples/run_example.py --query-file my_query.json --query-id my_query
+python examples/run_example.py --query-file my_query.json --query-id my_query
 ```
 (`my_query.json` should look like `example_query.json`: `{"query_id": ..., "nl_query": ...}`.)
 

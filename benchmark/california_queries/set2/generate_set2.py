@@ -1,31 +1,15 @@
 """
-Generates Set 2: 200 ev_routing EV queries on the full California road network.
+Generates Set 2: 200 ev_routing EV queries on the full California road network —
+the long/moderate-distance counterpart to Set 1, same templates and schema,
+just longer trips (moderate 15-75mi x100, long 75-300mi x100).
 
-Same query style as set1/ev_routing.json — identical NL templates from
-benchmark/templates/ev_routing.txt and the same bare {query_id, nl_query}
-schema — so Set 2 is the long/moderate-distance counterpart of Set 1,
-differing only in the src/dst pairs and the battery numbers that follow.
-
-Composition (200 total): moderate 15-75mi x100, long 75-300mi x100.
-
-Charger requirement: 60% (120 queries) are built so the trip can't be
-completed on the starting charge alone — starting range < road distance
-(haversine x 1.3) and >=1 charger within a 10km band of the corridor. The
-other 80 get a comfortable margin (range >= trip x 1.5) and need no stop.
-
-Node source: the California GPKG `nodes` layer directly (1,186,063 nodes),
-not the sparse 116-node catalog grid, which is too coarse for these distance
-bands. Pairs are rejection-sampled (17%/41% of random pairs land in the
-moderate/long bands respectively, so this converges fast — a full pairwise
-matrix would be intractable at 1.18M nodes). Deterministic, seed=42.
-
-needs_charger is targeted by explicit count per group rather than a
-probabilistic draw: only ~31% (15-75 mi) / ~68% (75-300 mi) of random
-California pairs have any charger within the corridor band, so a
-probability-based assignment undershoots the target badly.
+60% of queries (120) are built so the trip can't be completed on the starting
+charge and must pass a charger; the rest get a comfortable margin. Samples
+node pairs directly from the California gpkg (not the coarse 116-node catalog
+grid). Deterministic, seed=42.
 
 Usage:
-  conda run -n myenv python benchmark/california_queries/set2/generate_set2.py
+  python benchmark/california_queries/set2/generate_set2.py
 """
 
 import importlib.util
@@ -89,18 +73,9 @@ def load_nodes():
 
 
 def compute_battery(trip_mi, max_range_mi, needs_charger, rng):
-    """
-    Pick a starting charge satisfying the needs_charger contract:
-      True  -> cur_mi in (trip*0.3, road_mi)  [must stop to charge]
-      False -> cur_mi >= trip*1.5             [comfortable margin]
-
-    Derived directly from trip_mi rather than reusing
-    generate_set2_california.py's compute_battery, whose "not forced" branch
-    floors the pct at 30% of max_range — an assumption that only holds when
-    the trip is long relative to max range, and which overshoots road_mi for
-    the shorter trips in this set.
-    Returns (cur_mi_rounded, battery_pct).
-    """
+    """Picks a starting charge: needs_charger=True -> cur_mi in (trip*0.3, road_mi)
+    (must stop to charge); False -> cur_mi >= trip*1.5 (comfortable margin).
+    Returns (cur_mi_rounded, battery_pct)."""
     road_mi = trip_mi * ROAD_FACTOR
     false_thresh = trip_mi * 1.5
 

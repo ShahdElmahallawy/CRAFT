@@ -10,9 +10,9 @@ evaluation.constraint_checker.evaluate_hipp_system — gold-driven, not
 NL-regex-driven (see constraint_checker.py's HIPP section for why).
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_crafthipp.py
-  conda run -n myenv python evaluation/evaluate_crafthipp.py --models gemini-3_1-flash-lite
-  conda run -n myenv python evaluation/evaluate_crafthipp.py --no-sp
+  python evaluation/evaluate_crafthipp.py
+  python evaluation/evaluate_crafthipp.py --models gemini-3_1-flash-lite
+  python evaluation/evaluate_crafthipp.py --no-sp
 """
 from __future__ import annotations
 

@@ -1,22 +1,10 @@
 """
-Generates the poi+road_pref benchmark queries.
-
-Same convention as generate_set1.py: numbered NL template variants in
-benchmark/templates/poi+road_pref.txt, literal POI type names baked into each
-variant's text (unordered, no "in that order" language), filling in just
-{SRC_NODE}/{DST_NODE} per variation. Every stop is a plain required POI type —
-no either/or groups — so this template isolates one axis: an always-on
-"avoid highways" road-type preference (an edge-level constraint).
-
-Only builds query text (query_id, nl_query) — doesn't touch the parser,
-generator, or any system code.
+Generates the poi+road_pref benchmark queries — unordered POI stops plus an
+always-on "avoid highways" preference, filling benchmark/templates/poi+road_pref.txt.
+Only builds query text (query_id, nl_query); no parser/generator code involved.
 
 Usage:
-  conda run -n myenv python benchmark/socal_queries/poi_road_pref/generate_poi_road_pref.py
-
-Output:
-  benchmark/socal_queries/poi_road_pref/poi_road_pref.json
-  benchmark/socal_queries/poi_road_pref/summary.json
+  python benchmark/socal_queries/poi_road_pref/generate_poi_road_pref.py
 """
 
 import argparse

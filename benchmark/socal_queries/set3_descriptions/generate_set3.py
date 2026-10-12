@@ -1,27 +1,15 @@
 #!/usr/bin/env python3
 """
-Generates Set 3: filtered-POI queries.
+Generates Set 3: 200 ordered_poi queries, each filtering at least one stop by
+a real POI attribute (cuisine, wheelchair, ...) or, for a few, a free-text
+description (museum/attraction). A filter is only used in a city if the gpkg
+actually has >= MIN_CANDIDATES matching POIs there.
 
-200 queries, ONE template family (ordered_poi — ordered POI stops with
-per-leg distance limits). Each query filters at least one stop by a real POI
-attribute (cuisine, outdoor_seating, wheelchair, takeaway, internet_access —
-deterministic substring match on real gpkg columns) or, for a minority of
-queries, a free-text description hint (museum/attraction only, where
-description-keyword coverage is actually grounded per city).
-
-Feasibility is checked directly against data/socal/road_network.gpkg (pois
-layer): a filter is only used in a city if the gpkg shows >= MIN_CANDIDATES
-real matching POIs within that city's radius.
-
-Outputs:
-  ordered+desc.json  — 200 {query_id, nl_query} records (parser-facing)
-  set3_meta.json      — ground-truth sidecar: per-query stop filters,
-                         src/dst, distance limits, difficulty, and the
-                         in-city candidate count used for the gate.
-  summary.json              — counts
+Outputs: ordered+desc.json (query_id/nl_query, parser-facing), set3_meta.json
+(ground truth: stop filters, src/dst, distance limits, difficulty).
 
 Usage:
-  conda run -n myenv python benchmark/socal_queries/set3_descriptions/generate_set3.py
+  python benchmark/socal_queries/set3_descriptions/generate_set3.py
 """
 
 from __future__ import annotations

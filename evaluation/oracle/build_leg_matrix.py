@@ -30,7 +30,7 @@ Output (evaluation/oracle/leg_matrix/):
                    duplicate per-type matrix rows instead.
 
 Usage:
-  conda run -n myenv python evaluation/oracle/build_leg_matrix.py [--workers 4]
+  python evaluation/oracle/build_leg_matrix.py [--workers 4]
 
 Resumable: checkpoints dist_m/time_s + the set of completed row indices to
 evaluation/oracle/leg_matrix/_checkpoints/ every --checkpoint-every rows.

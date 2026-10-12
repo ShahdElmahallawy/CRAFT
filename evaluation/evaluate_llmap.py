@@ -5,9 +5,9 @@ All constraint checks and the comparable objective are computed by the shared
 evaluation.constraint_checker, so columns match the LLM and Craft exports.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_llmap.py
-  conda run -n myenv python evaluation/evaluate_llmap.py --out outputs/llmap_results.xlsx
-  conda run -n myenv python evaluation/evaluate_llmap.py --no-sp   # Tier-1 only
+  python evaluation/evaluate_llmap.py
+  python evaluation/evaluate_llmap.py --out outputs/llmap_results.xlsx
+  python evaluation/evaluate_llmap.py --no-sp   # Tier-1 only
 """
 from __future__ import annotations
 

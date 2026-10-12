@@ -21,7 +21,7 @@ because the ground truth is labelled per POI row, and the gap between the two vi
 is the node-level leakage (several POIs share one nearest node).
 
 Usage:
-  conda run -n myenv python evaluation/export_description_eval.py
+  python evaluation/export_description_eval.py
 """
 from __future__ import annotations
 
@@ -167,7 +167,7 @@ def main() -> None:
                        / "set3_ordered+desc_gold.json").read_text())
     stops_by_phrase: Dict[str, List[str]] = {}
     for r in gold:
-        for s in (r["_provenance"].get("stops") or []):
+        for s in (r.get("stops") or []):
             if s.get("filter_kind") == "description":
                 ph = s.get("nl_phrase") or s.get("description")
                 stops_by_phrase.setdefault(ph, []).append(r["query_id"])

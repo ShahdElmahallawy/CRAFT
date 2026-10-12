@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 evaluate_parser.py — score craft/parser output against the deterministic gold
-records in benchmark/ground_truth/ (built by benchmark/build_ground_truth.py).
+records in benchmark/ground_truth/.
 
 Why this is not a simple dict diff
 ----------------------------------
@@ -41,8 +41,8 @@ system rather than parsed from the query, so scoring it would blame the parser f
 something it never produced.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_parser.py
-  conda run -n myenv python evaluation/evaluate_parser.py --no-endpoints
+  python evaluation/evaluate_parser.py
+  python evaluation/evaluate_parser.py --no-endpoints
 """
 from __future__ import annotations
 
@@ -369,7 +369,7 @@ def main() -> None:
         if p.exists():
             gold_sets[name] = json.loads(p.read_text())
     if not gold_sets:
-        sys.exit(f"no gold files in {gold_dir} — run benchmark/build_ground_truth.py first")
+        sys.exit(f"no gold files in {gold_dir} — expected benchmark/ground_truth/*_gold.json")
 
     collected_dir = Path(args.collected_dir)
     missing_snapshots = [m for m in args.models if not collected_path(m, collected_dir).exists()]

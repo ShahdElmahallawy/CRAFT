@@ -1,37 +1,13 @@
 """
-Converts the HIPP dataset into SoCal benchmark query instances.
+Converts baselines/LLMAP/dataset/HIPP.json (1000 records) into SoCal query
+instances, adding src/dst coordinates and query_id/template/nl_query/city while
+keeping every original HIPP field as-is.
 
-Reads: baselines/LLMAP/dataset/HIPP.json (1000 records)
-Writes:
-  hipp_all.json        — all 1000 records, slim (query_id + nl_query)
-  hipp_meta.json       — all 1000 records, full gold (quality/distance weights included)
-  hipp_ordered.json    — the "ordered" family only, slim
-  hipp_unordered.json  — the "unordered" family only, slim
-
-Everything from HIPP stays as-is (human_instruction, poi types, dependencies,
-time_limit, quality_weight, distance_weight). We only add src/dst coordinates
-(sampled from the SoCal road network), query_id/template/nl_query/city, and
-copy the synthetic_label fields into hipp_meta.json so evaluation/LLMAP have
-one self-contained gold source.
-
-Type mapping (HIPP -> our catalog):
-  shopping_mall -> mall (the shop=mall value specifically, not the generic shop
-                 column — only shop=mall rows carry the synthetic rating/
-                 opening_hours enrichment; mapping to "shop" would resolve
-                 every mall stop to an empty candidate set)
-  supermarket   -> supermarket
-  pharmacy      -> pharmacy
-  bank          -> bank
-  library       -> library
-
-Ordering tag:
-  "ordered"   if synthetic_label.dependencies is non-empty
-  "unordered" otherwise
-
-Origin/destination sampling reuses set1_city_focused logic:
-  - cities.json (31 SoCal cities with lat/lon + radius)
-  - catalog_nodes.json (road-network nodes with lat/lon)
-  - smart_pick_pair: 4–28 km haversine distance
+Writes hipp_all.json (slim, all 1000), hipp_meta.json (full gold), and
+hipp_ordered.json/hipp_unordered.json (split by whether synthetic_label.dependencies
+is non-empty). shopping_mall maps to the shop=mall value specifically — the
+generic shop column lacks the synthetic rating/opening_hours enrichment those
+rows carry. src/dst sampling reuses set1's city + smart_pick_pair logic.
 """
 
 import argparse

@@ -5,10 +5,10 @@ and saves the result where you can actually look at it.
 Use this to try the system out before running anything at benchmark scale.
 
 Usage:
-  conda run -n myenv python examples/run_example.py
-  conda run -n myenv python examples/run_example.py --query "Drive from (33.83, -117.95) to (33.85, -117.86), stop at a pharmacy."
-  conda run -n myenv python examples/run_example.py --query-file my_query.json
-  conda run -n myenv python examples/run_example.py --model gpt-4.1
+  python examples/run_example.py
+  python examples/run_example.py --query "Drive from (33.83, -117.95) to (33.85, -117.86), stop at a pharmacy."
+  python examples/run_example.py --query-file my_query.json
+  python examples/run_example.py --model gpt-4.1
 """
 
 from __future__ import annotations

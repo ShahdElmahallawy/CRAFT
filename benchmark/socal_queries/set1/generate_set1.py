@@ -5,8 +5,8 @@ Samples src/dst and POIs within a single California city per query,
 using data/socal/ catalogs and cities.json.
 
 Usage:
-  conda run -n myenv python benchmark/socal_queries/set1/generate_set1.py
-  conda run -n myenv python benchmark/socal_queries/set1/generate_set1.py --seed 99
+  python benchmark/socal_queries/set1/generate_set1.py
+  python benchmark/socal_queries/set1/generate_set1.py --seed 99
 
 Output (one file per template):
   benchmark/socal_queries/set1/ev_routing.json

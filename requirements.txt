@@ -1,0 +1,14 @@
+# Python 3.12. Install with: pip install -r requirements.txt
+geopandas==1.1.2
+networkx==3.4.2
+shapely==2.1.2
+pandas==3.0.0
+numpy==2.0.2
+scipy==1.17.0
+openpyxl==3.1.5
+pyogrio==0.12.1
+openai==1.109.1
+
+# Only needed if you also want to run the LLMAP baseline (baselines/LLMAP/) —
+# it has its own, older pinned versions that can conflict with the above, so
+# install it in a separate environment: pip install -r baselines/LLMAP/requirements.txt

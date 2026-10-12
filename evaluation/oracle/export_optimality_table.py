@@ -42,7 +42,7 @@ repeated on the Column Descriptions sheet.
   sits inside the tolerance band by accident.
 
 Usage:
-  conda run -n myenv python evaluation/oracle/export_optimality_table.py \
+  python evaluation/oracle/export_optimality_table.py \
       --craft-xlsx <regenerated craft set1 xlsx>
 """
 from __future__ import annotations

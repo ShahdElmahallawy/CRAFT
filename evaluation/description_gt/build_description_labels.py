@@ -26,8 +26,8 @@ recorded per row as a cheap, independent cross-check.
 Results are cached per (phrase,row) so re-runs cost nothing and are deterministic.
 
 Usage:
-  conda run -n myenv python evaluation/description_gt/build_description_labels.py
-  conda run -n myenv python evaluation/description_gt/build_description_labels.py --passes 1
+  python evaluation/description_gt/build_description_labels.py
+  python evaluation/description_gt/build_description_labels.py --passes 1
 """
 from __future__ import annotations
 

@@ -17,8 +17,8 @@ HIPP query_ids (hipp_NNNN) never collide with set1 ids, so the shared
 index merges both sets safely.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_llm_hipp.py
-  conda run -n myenv python evaluation/evaluate_llm_hipp.py --no-sp
+  python evaluation/evaluate_llm_hipp.py
+  python evaluation/evaluate_llm_hipp.py --no-sp
 """
 from __future__ import annotations
 

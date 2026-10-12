@@ -6,9 +6,9 @@ evaluation.constraint_checker so columns are identical across LLM / LLMAP / Craf
 LLM-specific columns (hallucination, matching detail, filter-match) are appended.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_llm.py
-  conda run -n myenv python evaluation/evaluate_llm.py --out outputs/llm_results.xlsx
-  conda run -n myenv python evaluation/evaluate_llm.py --no-sp   # Tier-1 only
+  python evaluation/evaluate_llm.py
+  python evaluation/evaluate_llm.py --out outputs/llm_results.xlsx
+  python evaluation/evaluate_llm.py --no-sp   # Tier-1 only
 """
 from __future__ import annotations
 

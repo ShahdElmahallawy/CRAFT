@@ -33,8 +33,8 @@ changes the number:
    correctness signal, not a gap, so it is never averaged into MAPE.
 
 Usage:
-  conda run -n myenv python evaluation/oracle/compare_craft_vs_oracle.py
-  conda run -n myenv python evaluation/oracle/compare_craft_vs_oracle.py --models gpt-4_1
+  python evaluation/oracle/compare_craft_vs_oracle.py
+  python evaluation/oracle/compare_craft_vs_oracle.py --models gpt-4_1
 """
 from __future__ import annotations
 

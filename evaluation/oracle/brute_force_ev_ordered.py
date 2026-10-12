@@ -22,7 +22,7 @@ Layers are now filtered by the leg limits exactly as the scorer measures them
 (DIRECT POI->POI distance), which is what makes the enumeration tractable.
 
 Usage:
-  conda run -n myenv python evaluation/oracle/brute_force_ev_ordered.py \
+  python evaluation/oracle/brute_force_ev_ordered.py \
       --v2 evaluation/oracle/results/ev_ordered_poi_v2_oracle.json --n 5
 """
 from __future__ import annotations

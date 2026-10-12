@@ -36,9 +36,9 @@ nearest node). Catalog counts are POI counts; candidate sets are deduplicated NO
 sets. Both are reported — never compare one against the other.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_possible_targets.py
-  conda run -n myenv python evaluation/evaluate_possible_targets.py --verify-replay 10
-  conda run -n myenv python evaluation/evaluate_possible_targets.py --full-graph
+  python evaluation/evaluate_possible_targets.py
+  python evaluation/evaluate_possible_targets.py --verify-replay 10
+  python evaluation/evaluate_possible_targets.py --full-graph
 """
 from __future__ import annotations
 

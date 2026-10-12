@@ -852,13 +852,11 @@ def required_cat_limits(nl: str) -> Dict[str, int]:
     trails the noun rather than leading it — poi_collection template variants
     24/27/29), and a bare 'a library' (→ 1). Returns {} if nothing parses.
 
-    The post-noun form was found and worked around only for gold-reconciliation
-    in build_ground_truth.py::postfix_cat_limits(); folded in here directly
-    (same 35-char/no-period-or-semicolon window) so every caller of THIS
-    function — the export scorer and the baseline evaluator — gets the fix,
-    not just the gold-building audit. Without it, e.g. "up to 3" on variant 29
-    was missed entirely and silently fell back to the bare-mention default of
-    1, which then reports a real 3-collection route as an over-cap violation.
+    The post-noun form needs its own window scan (same 35-char/no-period-or-
+    semicolon rule as the leading-number form) since the number trails the
+    category instead of preceding it. Without it, e.g. "up to 3" on variant 29
+    gets missed entirely and silently falls back to the bare-mention default
+    of 1, which then reports a real 3-collection route as an over-cap violation.
     """
     text = nl.lower()
     limits: Dict[str, int] = {}

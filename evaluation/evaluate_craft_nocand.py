@@ -19,8 +19,8 @@ Headline metric follows the project convention (see CLAUDE.md "EVALUATION & SCOR
 Do NOT compare arms on the raw `feasible` column or the `constraint_satisfaction` mean.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_craft_nocand.py
-  conda run -n myenv python evaluation/evaluate_craft_nocand.py --templates ordered_poi
+  python evaluation/evaluate_craft_nocand.py
+  python evaluation/evaluate_craft_nocand.py --templates ordered_poi
 """
 from __future__ import annotations
 

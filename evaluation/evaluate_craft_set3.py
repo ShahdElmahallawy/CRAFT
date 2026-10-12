@@ -19,9 +19,9 @@ Two solved-correctly definitions are exported side by side:
                                pre-filter-scoring numbers for continuity)
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_craft_set3.py
-  conda run -n myenv python evaluation/evaluate_craft_set3.py --models gemini-3_1-flash-lite
-  conda run -n myenv python evaluation/evaluate_craft_set3.py --no-sp
+  python evaluation/evaluate_craft_set3.py
+  python evaluation/evaluate_craft_set3.py --models gemini-3_1-flash-lite
+  python evaluation/evaluate_craft_set3.py --no-sp
 """
 from __future__ import annotations
 

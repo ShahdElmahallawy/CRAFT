@@ -37,7 +37,7 @@ figures, NOT what the live filter returns. End-to-end cascade numbers live in
 results/desc.xlsx and results/craft_description_filter_llm_rerank.xlsx.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_description_filter.py
+  python evaluation/evaluate_description_filter.py
 """
 from __future__ import annotations
 

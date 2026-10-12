@@ -39,8 +39,8 @@ Description stops (29) have no deterministic ground truth and are reported
 SEPARATELY, never mixed into the structured aggregates.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_filtration.py
-  conda run -n myenv python evaluation/evaluate_filtration.py --verify-replay 5
+  python evaluation/evaluate_filtration.py
+  python evaluation/evaluate_filtration.py --verify-replay 5
 """
 from __future__ import annotations
 
@@ -261,7 +261,7 @@ def main() -> None:
     cats: Set[str] = set()
     cols: Set[str] = set()
     for r in gold:
-        for s in (r["_provenance"].get("stops") or []):
+        for s in (r.get("stops") or []):
             cats.add(s["poi_type"])
             if s.get("filter_kind") == "structured":
                 cols.add(s["column"])
@@ -358,7 +358,7 @@ def main() -> None:
                 continue
             n += 1
             po = rec.get("parser_output") or {}
-            stops = g["_provenance"].get("stops") or []
+            stops = g.get("stops") or []
             gfilters = g.get("poi_filters") or []
             for i, spec in enumerate(stops):
                 cat = spec["poi_type"]

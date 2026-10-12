@@ -18,7 +18,7 @@ too, and parse_battery_m must strip it first, so these variants check that leg
 limits and battery ranges do not contaminate each other.
 
 Run:
-  conda run -n myenv python evaluation/oracle/test_distance_limit_parsing.py
+  python evaluation/oracle/test_distance_limit_parsing.py
 """
 from __future__ import annotations
 

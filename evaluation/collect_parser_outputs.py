@@ -34,8 +34,8 @@ whenever craft output records change (new run, gap fill, regenerated
 queries) and BEFORE evaluate_parser.py.
 
 Usage:
-  conda run -n myenv python evaluation/collect_parser_outputs.py
-  conda run -n myenv python evaluation/collect_parser_outputs.py --models gpt-4_1
+  python evaluation/collect_parser_outputs.py
+  python evaluation/collect_parser_outputs.py --models gpt-4_1
 """
 from __future__ import annotations
 
@@ -74,7 +74,7 @@ def main() -> None:
         if p.exists():
             gold_sets[name] = json.loads(p.read_text())
     if not gold_sets:
-        sys.exit(f"no gold files in {gold_dir} — run benchmark/build_ground_truth.py first")
+        sys.exit(f"no gold files in {gold_dir} — expected benchmark/ground_truth/*_gold.json")
 
     total_expected = sum(len(v) for v in gold_sets.values())
     print(f"[collect] {len(gold_sets)} gold sets, {total_expected} queries/model\n")

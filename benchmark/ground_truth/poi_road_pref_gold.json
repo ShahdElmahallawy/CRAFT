@@ -1,22 +1,5 @@
 [
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -45,23 +28,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -90,23 +56,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -135,23 +84,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -180,23 +112,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -225,23 +140,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -270,23 +168,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -315,23 +196,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -360,23 +224,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -405,23 +252,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -450,23 +280,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -495,23 +308,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -540,23 +336,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -585,23 +364,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -630,23 +392,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -675,23 +420,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -720,23 +448,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -765,23 +476,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -810,23 +504,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -855,23 +532,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -900,23 +560,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -945,23 +588,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -990,23 +616,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1035,23 +644,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1080,23 +672,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1125,23 +700,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1170,23 +728,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1215,23 +756,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1260,23 +784,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1305,23 +812,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1350,23 +840,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1395,23 +868,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1440,23 +896,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1485,23 +924,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1530,23 +952,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1575,23 +980,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1620,23 +1008,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1665,23 +1036,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1710,23 +1064,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1755,23 +1092,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1800,25 +1120,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1848,25 +1149,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1896,25 +1178,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1944,25 +1207,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -1992,25 +1236,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2040,25 +1265,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2088,25 +1294,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2136,25 +1323,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2184,25 +1352,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2232,25 +1381,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2280,25 +1410,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2328,25 +1439,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2376,25 +1468,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2424,25 +1497,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2472,25 +1526,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2520,25 +1555,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2568,25 +1584,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2616,25 +1613,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2664,25 +1642,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2712,25 +1671,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2760,25 +1700,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2808,25 +1729,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2856,25 +1758,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2904,25 +1787,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -2952,25 +1816,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3000,25 +1845,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3048,25 +1874,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3096,25 +1903,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3144,25 +1932,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3192,25 +1961,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3240,25 +1990,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3288,25 +2019,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3336,25 +2048,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3384,25 +2077,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3432,25 +2106,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3480,25 +2135,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3528,25 +2164,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3576,25 +2193,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3624,25 +2222,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3672,25 +2251,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3720,25 +2280,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3768,25 +2309,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3816,25 +2338,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3864,25 +2367,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3912,25 +2396,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -3960,25 +2425,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4008,25 +2454,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4056,25 +2483,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4104,25 +2512,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4152,25 +2541,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4200,25 +2570,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4248,25 +2599,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4296,25 +2628,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4344,25 +2657,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4392,25 +2686,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4440,25 +2715,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4488,25 +2744,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4536,25 +2773,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4584,25 +2802,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4632,25 +2831,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4680,27 +2860,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4731,27 +2890,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4782,27 +2920,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4833,27 +2950,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4884,27 +2980,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4935,27 +3010,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -4986,27 +3040,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5037,27 +3070,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5088,27 +3100,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5139,27 +3130,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5190,27 +3160,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5241,27 +3190,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5292,27 +3220,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5343,27 +3250,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5394,27 +3280,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5445,27 +3310,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5496,27 +3340,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5547,27 +3370,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5598,27 +3400,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5649,27 +3430,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5700,27 +3460,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5751,27 +3490,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5802,27 +3520,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5853,27 +3550,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5904,27 +3580,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -5955,27 +3610,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6006,27 +3640,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6057,27 +3670,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6108,27 +3700,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6159,27 +3730,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6210,27 +3760,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6261,27 +3790,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6312,27 +3820,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6363,27 +3850,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6414,27 +3880,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6465,27 +3910,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6516,27 +3940,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6567,27 +3970,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6618,27 +4000,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6669,27 +4030,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6720,29 +4060,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6774,29 +4091,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6828,29 +4122,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6882,29 +4153,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6936,29 +4184,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -6990,29 +4215,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7044,29 +4246,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7098,29 +4277,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7152,29 +4308,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7206,29 +4339,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank",
-        "supermarket",
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7260,23 +4370,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7305,23 +4398,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7350,23 +4426,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7395,23 +4454,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7440,23 +4482,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7485,23 +4510,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7530,23 +4538,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7575,23 +4566,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7620,23 +4594,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7665,23 +4622,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "time-wise",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy"
-      ],
-      "types_generator": [
-        "pharmacy"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7710,23 +4650,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7755,23 +4678,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7800,23 +4706,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7845,23 +4734,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7890,23 +4762,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7935,23 +4790,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -7980,23 +4818,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8025,23 +4846,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8070,23 +4874,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8115,23 +4902,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "bank"
-      ],
-      "types_generator": [
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8160,23 +4930,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8205,23 +4958,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8250,23 +4986,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8295,23 +5014,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8340,23 +5042,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8385,23 +5070,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8430,23 +5098,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8475,23 +5126,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8520,23 +5154,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8565,23 +5182,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "supermarket"
-      ],
-      "types_generator": [
-        "supermarket"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8610,23 +5210,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8655,23 +5238,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8700,23 +5266,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8745,23 +5294,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8790,23 +5322,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8835,23 +5350,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8880,23 +5378,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8925,23 +5406,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -8970,23 +5434,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9015,23 +5462,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "fastest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "library"
-      ],
-      "types_generator": [
-        "library"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9060,25 +5490,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9108,25 +5519,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9156,25 +5548,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9204,25 +5577,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9252,25 +5606,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9300,25 +5635,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9348,25 +5664,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9396,25 +5693,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9444,25 +5722,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,
@@ -9492,25 +5751,6 @@
     "visit_min": null
   },
   {
-    "_provenance": {
-      "cat_limits_checker": null,
-      "cat_limits_generator": null,
-      "cat_limits_postfix": null,
-      "matched_by": [
-        "regex"
-      ],
-      "objective_evidence": "quickest",
-      "roundtrip": "exact",
-      "template_source": "current",
-      "types_checker": [
-        "pharmacy",
-        "bank"
-      ],
-      "types_generator": [
-        "pharmacy",
-        "bank"
-      ]
-    },
     "category_limits": null,
     "current_battery_mi": null,
     "current_battery_pct": null,

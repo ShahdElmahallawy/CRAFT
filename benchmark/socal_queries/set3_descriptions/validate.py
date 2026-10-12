@@ -5,21 +5,14 @@ Records contain only {query_id, nl_query}. Ground truth (which stop is
 filtered, by what column/value or description, src/dst, distance limits,
 difficulty) lives in set3_meta.json, one entry per query_id.
 
-Checks:
-  1.  Every record has exactly the fields: query_id, nl_query
-  2.  query_id format: set3_ordered+desc_NNN (3-digit) and all unique
-  3.  No unfilled {PLACEHOLDER} in nl_query
-  4.  nl_query is non-empty and contains at least one coordinate "(lat, lon)"
-  5.  Total record count == 200 (single template: ordered_poi)
-  6.  Every record has a matching set3_meta.json entry
-  7.  Each meta entry's poi_filters length == its stops length == the number
-      of stops actually present in the nl_query text (2 or 3)
-  8.  Every meta stop with filter_kind in {structured, description} has
-      candidate_count_in_city >= 2 (the generator's own feasibility gate,
-      re-checked here so a future edit can't silently violate it)
+Checks: record shape (only query_id/nl_query), query_id format + uniqueness,
+no unfilled {PLACEHOLDER}s, a coordinate present in nl_query, count == 200,
+every record has a matching set3_meta.json entry, poi_filters/stops/nl_query
+stop counts agree, and every filtered stop still meets the >=2-candidate
+feasibility gate.
 
 Usage:
-  conda run -n myenv python benchmark/socal_queries/set3_descriptions/validate.py
+  python benchmark/socal_queries/set3_descriptions/validate.py
 """
 
 import json

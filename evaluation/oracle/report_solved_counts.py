@@ -17,7 +17,7 @@ leftover directories from retired template families, which is why the scope
 is pinned here rather than trusted from the file.
 
 Usage:
-  conda run -n myenv python evaluation/oracle/report_solved_counts.py \
+  python evaluation/oracle/report_solved_counts.py \
       --craft X.xlsx --llm Y.xlsx --llmap Z.xlsx
 """
 from __future__ import annotations

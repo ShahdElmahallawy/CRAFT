@@ -9,8 +9,8 @@ each record's matched_stops against its hipp_meta.json gold record via
 evaluation.constraint_checker.evaluate_hipp_baseline.
 
 Usage:
-  conda run -n myenv python evaluation/evaluate_llmap_hipp.py
-  conda run -n myenv python evaluation/evaluate_llmap_hipp.py --no-sp
+  python evaluation/evaluate_llmap_hipp.py
+  python evaluation/evaluate_llmap_hipp.py --no-sp
 """
 from __future__ import annotations
 

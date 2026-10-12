@@ -12,7 +12,7 @@ evaluation pipeline (evaluate_description_filter.py, export_description_eval.py)
 reads this file.
 
 Usage:
-  conda run -n myenv python evaluation/description_gt/annotate_labels_for_review.py
+  python evaluation/description_gt/annotate_labels_for_review.py
 """
 from __future__ import annotations
 
