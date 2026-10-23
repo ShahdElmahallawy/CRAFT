@@ -3,12 +3,16 @@ Runs ONE query through the full CRAFT pipeline (parse -> generate -> execute)
 and saves the result where you can actually look at it.
 
 Use this to try the system out before running anything at benchmark scale.
+By default this talks to a local Qwen model (e.g. served via Ollama) at
+OPENAI_BASE_URL — see examples/README.md to get one running in a minute.
+Pass --model to use a cloud model instead.
 
 Usage:
   python examples/run_example.py
   python examples/run_example.py --query "Drive from (33.83, -117.95) to (33.85, -117.86), stop at a pharmacy."
   python examples/run_example.py --query-file my_query.json
   python examples/run_example.py --model gpt-4.1
+  python examples/run_example.py --model gemini-3.1-flash-lite
 """
 
 from __future__ import annotations
@@ -54,8 +58,12 @@ def main() -> None:
                         help=f"JSON file with {{query_id, nl_query}} (default: {DEFAULT_QUERY_FILE.name})")
     parser.add_argument("--query-id", default="example_query", help="Used only with --query")
     parser.add_argument("--gpkg", default=str(DEFAULT_GPKG), help="Path to road_network.gpkg")
-    parser.add_argument("--model", default="gemini-3.1-flash-lite", help="LLM model for parsing + generation")
-    parser.add_argument("--timeout-generate", type=float, default=120.0)
+    parser.add_argument("--model", default="qwen2.5:7b",
+                        help="LLM model for parsing + generation. Local model name "
+                             "(default) reads OPENAI_BASE_URL/OPENAI_API_KEY; a name "
+                             "containing 'gemini' reads GEMINI_BASE_URL/GEMINI_API_KEY instead.")
+    parser.add_argument("--timeout-generate", type=float, default=120.0,
+                        help="Raise this (e.g. 300) for a local model running on CPU.")
     parser.add_argument("--timeout-execute", type=float, default=120.0)
     args = parser.parse_args()
 
@@ -85,8 +93,11 @@ def main() -> None:
     llm = LocalLLM(model=args.model, timeout_s=args.timeout_generate)
     if not llm.enabled:
         sys.exit(
-            "No LLM endpoint configured. Set GEMINI_API_KEY/GEMINI_BASE_URL (or OPENAI_*) "
-            "in a .env file at the project root — see examples/README.md."
+            "No LLM endpoint configured.\n"
+            "  Local model (default --model): set OPENAI_BASE_URL/OPENAI_API_KEY in a "
+            ".env file at the project root to point at your local server (e.g. Ollama).\n"
+            "  Cloud model (--model gemini-... or gpt-...): set GEMINI_* or OPENAI_* instead.\n"
+            "See examples/README.md."
         )
 
     print("Step 1/3: parsing ...")

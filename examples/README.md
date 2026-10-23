@@ -9,27 +9,43 @@ see how the system works before using it at scale.
 **Python env.** Activate whatever environment has the packages in
 `requirements.txt` installed (`pip install -r requirements.txt`).
 
-**API keys.** Create a `.env` file at the `CRAFT/` root (same folder this
-`examples/` dir lives in) with at least one LLM provider:
-```
-GEMINI_API_KEY=...
-GEMINI_BASE_URL=...
-```
-(or `OPENAI_API_KEY` / `OPENAI_BASE_URL` for `--model gpt-4.1`-style runs). Both
-the parser and the generator call the same model.
+**LLM.** By default this demo runs fully locally against a small Qwen model, no
+API key or internet access needed once the model is pulled.
 
-**Dataset.** You need a road network GPKG with `nodes`, `edges`, and `pois` layers.
-Place it at:
+Install [Ollama](https://ollama.com), then:
+```
+ollama pull qwen2.5:7b
+ollama serve   # usually already running after install — skip if so
+```
+Create a `.env` file at the `CRAFT/` root (same folder this `examples/` dir
+lives in) pointing at it:
+```
+OPENAI_BASE_URL=http://localhost:11434/v1
+OPENAI_API_KEY=ollama
+```
+(`OPENAI_API_KEY` can be any non-empty string — Ollama doesn't check it.) A
+7B model is slow on CPU-only machines; if you don't have a GPU, either expect
+a wait and pass `--timeout-generate 300`, or pull a smaller tag
+(`qwen2.5:3b` or `qwen2.5:1.5b`) and pass it via `--model`.
+
+Prefer a cloud model instead? Skip Ollama and set the matching keys instead —
+`GEMINI_API_KEY`/`GEMINI_BASE_URL` for `--model gemini-3.1-flash-lite`, or
+`OPENAI_API_KEY`/`OPENAI_BASE_URL` for `--model gpt-4.1`. Both the parser and
+the generator call the same model.
+
+**Dataset.** This demo only needs a road network GPKG with `nodes`, `edges`,
+and `pois` layers, plus its schema:
 ```
 CRAFT/data/socal/road_network.gpkg
 CRAFT/data/socal/schema.json
 ```
-This repo's own SoCal dataset (~460MB) isn't checked into git — download it from
-**[Drive link — ask for access]** and drop both files in `data/socal/`.
+Download both from **[Drive link — ask for access]** and place them in
+`data/socal/` — see the top-level `README.md`'s "Downloading the datasets"
+section for the full dataset (needed if you want to regenerate benchmark
+query sets or run the full evaluation, not just this single-query demo).
 
-Using your own dataset instead? Point `--gpkg` at it (see the main `craft/README`
-for the expected GPKG schema) and build its `schema.json` with
-`python craft/build_schema.py --gpkg <your.gpkg>` first.
+Using your own dataset instead? Point `--gpkg` at it and build its
+`schema.json` first with `python craft/build_schema.py --gpkg <your.gpkg>`.
 
 ## 2. Run it
 
@@ -38,7 +54,8 @@ cd CRAFT
 python examples/run_example.py
 ```
 
-This uses the bundled `example_query.json` by default. To try your own query:
+This uses the bundled `example_query.json` and your local Qwen model by default.
+To try your own query:
 ```
 python examples/run_example.py --query "I'm at (33.83, -117.95) and need to get to (33.85, -117.86). Stop at a pharmacy, then a library, in that order."
 ```
@@ -48,8 +65,9 @@ python examples/run_example.py --query-file my_query.json --query-id my_query
 ```
 (`my_query.json` should look like `example_query.json`: `{"query_id": ..., "nl_query": ...}`.)
 
-Other useful flags: `--model gpt-4.1`, `--timeout-generate 300` (slower/local
-models need more time), `--timeout-execute 300` (large or hard searches).
+Other useful flags: `--model gpt-4.1` or `--model gemini-3.1-flash-lite` to use
+a cloud model instead, `--timeout-generate 300` (a local model on CPU needs
+more time), `--timeout-execute 300` (large or hard searches).
 
 ## 3. What you'll see
 

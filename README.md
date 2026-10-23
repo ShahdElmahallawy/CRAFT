@@ -1,12 +1,5 @@
 # CRAFT
 
-A schema-driven approach to constrained routing. Instead of hand-coding a new
-algorithm per problem type (EV routing, ordered stops, POI collection, ...),
-CRAFT uses one general Dijkstra template and has an LLM fill in the
-problem-specific logic — `State.start`, `expand`, `dominates`, `is_goal` — from
-a natural-language query. A separate parser agent turns the NL query into
-structured constraints first; the generator agent then writes the search code.
-
 ## Structure
 
 | Folder | What's in it |
@@ -16,22 +9,59 @@ structured constraints first; the generator agent then writes the search code.
 | `benchmark/` | Query sets, NL templates, ground truth |
 | `evaluation/` | The scoring pipeline shared across all three systems |
 | `examples/` | A runnable single-query demo — **start here** |
-| `data/` | Datasets (gitignored — see Setup) |
+| `data/` | Datasets (gitignored — see "Downloading the datasets") |
 
 ## Setup
 
 1. `pip install -r requirements.txt` (Python 3.12)
-2. Create a `.env` at this folder's root with at least one LLM provider:
+2. Get an LLM. By default the demo runs fully locally with no API key:
+   [install Ollama](https://ollama.com), `ollama pull qwen2.5:7b`, then
+   point a `.env` at this folder's root to it:
    ```
-   GEMINI_API_KEY=...
-   GEMINI_BASE_URL=...
+   OPENAI_BASE_URL=http://localhost:11434/v1
+   OPENAI_API_KEY=ollama
    ```
-3. Get the dataset: `data/socal/road_network.gpkg` + `schema.json` aren't
-   checked into git (too large). Download from **[Drive link — ask for
-   access]** and place both in `data/socal/`.
+   For a cloud model: Set `GEMINI_API_KEY`/`GEMINI_BASE_URL` (or
+   `OPENAI_API_KEY`/`OPENAI_BASE_URL` for a real OpenAI key) instead — see
+   `examples/README.md` for details.
+3. Get the dataset — see "Downloading the datasets" below.
 
 Using your own road network instead of SoCal? See the "Running your own
 query" section below.
+
+## Downloading the datasets
+
+`data/` isn't checked into git (too large) — download and place the pieces
+you need from **[[Drive link](https://drive.google.com/drive/folders/1EHU_bB0UN9It6M3T0dTQRi080L15cZiE)]**.
+
+**SoCal — required for everything in this repo.** Download the bundle and
+place it at `data/socal/`:
+```
+data/socal/road_network.gpkg      # the road graph + POIs (~460MB)
+data/socal/schema.json            # POI attribute schema
+data/socal/catalog_pois.json      # POI catalog (benchmark query generation)
+data/socal/catalog_nodes.json     # candidate node catalog (benchmark query generation)
+data/socal/catalog_charging.json  # charging-station catalog (EV query generation)
+data/socal/catalog_count.json     # per-category POI counts
+data/socal/cities.json            # the 31 benchmark cities (name/lat/lon/radius)
+data/socal/set3_query_embeddings.json  # query-side embeddings for set3's description filter
+```
+This is everything needed to run the demo, regenerate any benchmark query set,
+and evaluate all three systems — the ground truth and oracle-optimal results
+needed for scoring already ship with the code (`benchmark/ground_truth/`,
+`evaluation/oracle/results/`, `outputs/evaluation/description_gt/`), no
+separate download needed for those.
+
+**Optional, large — skip unless you specifically need these:**
+- `data/socal/poi_embeddings.json` (~3.5GB) — only used as a live fallback for
+  set3's description filter when the frozen ground-truth labels are missing
+  (which they aren't; they're already included). Only needed if you're
+  rebuilding those labels from scratch via `evaluation/description_gt/`.
+- `data/california/` (~2.7GB, dominated by `california_road_network.gpkg`) —
+  only needed to regenerate or re-run Set 2's long-trip EV queries
+  (`benchmark/california_queries/set2/`). Set 2's query text and ground truth
+  are already included; you only need this to execute CRAFT/the baselines
+  against those queries yourself.
 
 ## Running a query
 

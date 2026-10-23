@@ -1,0 +1,5872 @@
+[
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10823.7,
+    "stops": [
+      "2243534261",
+      "4075548656"
+    ],
+    "chain": [
+      "122634531",
+      "2243534261",
+      "4075548656",
+      "122660006"
+    ],
+    "leg_distances_m": [
+      3846.02,
+      511.55,
+      6466.13
+    ],
+    "leg_limits_m": [
+      11265.41,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_0_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 15246.59,
+    "stops": [
+      "3813547972",
+      "123099970"
+    ],
+    "chain": [
+      "122938405",
+      "3813547972",
+      "123099970",
+      "122829942"
+    ],
+    "leg_distances_m": [
+      846.1,
+      1503.54,
+      12896.95
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_0_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 28609.2,
+    "stops": [
+      "12487175908",
+      "123305239"
+    ],
+    "chain": [
+      "4302964584",
+      "12487175908",
+      "123305239",
+      "2306304720"
+    ],
+    "leg_distances_m": [
+      15137.8,
+      107.24,
+      13364.16
+    ],
+    "leg_limits_m": [
+      16093.44,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_0_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7313.71,
+    "stops": [
+      "3748624073",
+      "123275972"
+    ],
+    "chain": [
+      "123142019",
+      "3748624073",
+      "123275972",
+      "123171495"
+    ],
+    "leg_distances_m": [
+      2193.61,
+      1323.12,
+      3796.97
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_0_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7560.59,
+    "stops": [
+      "4808116729",
+      "123188963"
+    ],
+    "chain": [
+      "18166005",
+      "4808116729",
+      "123188963",
+      "13603165521"
+    ],
+    "leg_distances_m": [
+      1028.09,
+      1864.73,
+      4667.77
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_0_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12176.36,
+    "stops": [
+      "4048881224",
+      "123105179"
+    ],
+    "chain": [
+      "122975316",
+      "4048881224",
+      "123105179",
+      "122667918"
+    ],
+    "leg_distances_m": [
+      3145.84,
+      1499.91,
+      7530.61
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_0_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 30905.76,
+    "stops": [
+      "466532256",
+      "1831143024"
+    ],
+    "chain": [
+      "122696172",
+      "466532256",
+      "1831143024",
+      "122876926"
+    ],
+    "leg_distances_m": [
+      8004.03,
+      3198.35,
+      19703.38
+    ],
+    "leg_limits_m": [
+      11265.41,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_0_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8325.53,
+    "stops": [
+      "122937396",
+      "122937410"
+    ],
+    "chain": [
+      "122639176",
+      "122937396",
+      "122937410",
+      "122748180"
+    ],
+    "leg_distances_m": [
+      3559.65,
+      924.39,
+      3841.5
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_1_v01"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_1_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7960.76,
+    "stops": [
+      "122742800",
+      "13603211070"
+    ],
+    "chain": [
+      "1866785668",
+      "122742800",
+      "13603211070",
+      "13593781136"
+    ],
+    "leg_distances_m": [
+      369.12,
+      3857.96,
+      3733.69
+    ],
+    "leg_limits_m": [
+      1609.34,
+      4828.03,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_1_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8650.74,
+    "stops": [
+      "2305912113",
+      "122987342"
+    ],
+    "chain": [
+      "122817742",
+      "2305912113",
+      "122987342",
+      "122808284"
+    ],
+    "leg_distances_m": [
+      4855.81,
+      1488.67,
+      2306.26
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_1_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 15797.15,
+    "stops": [
+      "3474123218",
+      "122689001"
+    ],
+    "chain": [
+      "122814598",
+      "3474123218",
+      "122689001",
+      "123236518"
+    ],
+    "leg_distances_m": [
+      1854.53,
+      331.35,
+      13611.27
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_1_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9776.32,
+    "stops": [
+      "1746457376",
+      "1746242069"
+    ],
+    "chain": [
+      "4011863844",
+      "1746457376",
+      "1746242069",
+      "1752255935"
+    ],
+    "leg_distances_m": [
+      3122.78,
+      2469.0,
+      4184.54
+    ],
+    "leg_limits_m": [
+      3218.69,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_1_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13767.61,
+    "stops": [
+      "122901562",
+      "123048303"
+    ],
+    "chain": [
+      "450396125",
+      "122901562",
+      "123048303",
+      "122728676"
+    ],
+    "leg_distances_m": [
+      6387.85,
+      170.64,
+      7209.13
+    ],
+    "leg_limits_m": [
+      9656.06,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_1_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 30006.36,
+    "stops": [
+      "6102896964",
+      "122836180"
+    ],
+    "chain": [
+      "1712616427",
+      "6102896964",
+      "122836180",
+      "122875094"
+    ],
+    "leg_distances_m": [
+      1692.92,
+      366.49,
+      27946.95
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_2_v01"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      9656.06,
+      null
+    ],
+    "query_id": "ordered_poi_2_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7482.28,
+    "stops": [
+      "3872277409",
+      "3872277409"
+    ],
+    "chain": [
+      "122812171",
+      "3872277409",
+      "3872277409",
+      "13240140882"
+    ],
+    "leg_distances_m": [
+      1357.08,
+      0.0,
+      6125.2
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_2_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 6325.38,
+    "stops": [
+      "2273123092",
+      "2198612936"
+    ],
+    "chain": [
+      "122972250",
+      "2273123092",
+      "2198612936",
+      "1345305456"
+    ],
+    "leg_distances_m": [
+      1399.63,
+      3482.06,
+      1443.69
+    ],
+    "leg_limits_m": [
+      1609.34,
+      8046.72,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_2_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10468.16,
+    "stops": [
+      "7008286317",
+      "122794571"
+    ],
+    "chain": [
+      "123474448",
+      "7008286317",
+      "122794571",
+      "2437655751"
+    ],
+    "leg_distances_m": [
+      1875.12,
+      2570.33,
+      6022.71
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_2_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 21802.77,
+    "stops": [
+      "8905179909",
+      "13284915730"
+    ],
+    "chain": [
+      "122814204",
+      "8905179909",
+      "13284915730",
+      "122475352"
+    ],
+    "leg_distances_m": [
+      11337.28,
+      541.32,
+      9924.16
+    ],
+    "leg_limits_m": [
+      14484.1,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_2_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13493.82,
+    "stops": [
+      "122886876",
+      "2461217288"
+    ],
+    "chain": [
+      "123619432",
+      "122886876",
+      "2461217288",
+      "305080020"
+    ],
+    "leg_distances_m": [
+      258.03,
+      2603.56,
+      10632.24
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_3_v01"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      11265.41,
+      null
+    ],
+    "query_id": "ordered_poi_3_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9673.13,
+    "stops": [
+      "122738700",
+      "122738700"
+    ],
+    "chain": [
+      "6766235583",
+      "122738700",
+      "122738700",
+      "123397761"
+    ],
+    "leg_distances_m": [
+      1272.97,
+      0.0,
+      8400.16
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_3_v03"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_3_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10575.94,
+    "stops": [
+      "122776476",
+      "122754779"
+    ],
+    "chain": [
+      "122759049",
+      "122776476",
+      "122754779",
+      "2243337123"
+    ],
+    "leg_distances_m": [
+      1071.95,
+      160.53,
+      9343.46
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_3_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7220.15,
+    "stops": [
+      "1828529085",
+      "13603274271"
+    ],
+    "chain": [
+      "122519433",
+      "1828529085",
+      "13603274271",
+      "123120550"
+    ],
+    "leg_distances_m": [
+      1380.58,
+      1483.62,
+      4355.95
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_3_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 16442.19,
+    "stops": [
+      "4023792088",
+      "3250344195"
+    ],
+    "chain": [
+      "123202431",
+      "4023792088",
+      "3250344195",
+      "122940952"
+    ],
+    "leg_distances_m": [
+      1451.6,
+      195.61,
+      14794.99
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_4_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10075.7,
+    "stops": [
+      "299890783",
+      "4022522445"
+    ],
+    "chain": [
+      "123367701",
+      "299890783",
+      "4022522445",
+      "122626072"
+    ],
+    "leg_distances_m": [
+      999.09,
+      4652.69,
+      4423.92
+    ],
+    "leg_limits_m": [
+      1609.34,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_4_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_4_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13733.98,
+    "stops": [
+      "1839490226",
+      "25904013"
+    ],
+    "chain": [
+      "332161502",
+      "1839490226",
+      "25904013",
+      "122900973"
+    ],
+    "leg_distances_m": [
+      701.64,
+      1003.66,
+      12028.69
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_4_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14925.62,
+    "stops": [
+      "122937307",
+      "123370688"
+    ],
+    "chain": [
+      "122937325",
+      "122937307",
+      "123370688",
+      "8204293337"
+    ],
+    "leg_distances_m": [
+      706.67,
+      605.32,
+      13613.63
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_4_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7256.45,
+    "stops": [
+      "2198612935",
+      "122973936"
+    ],
+    "chain": [
+      "1345305456",
+      "2198612935",
+      "122973936",
+      "122853999"
+    ],
+    "leg_distances_m": [
+      199.47,
+      1330.67,
+      5726.31
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_4_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 23074.39,
+    "stops": [
+      "2110001858",
+      "738204065"
+    ],
+    "chain": [
+      "3078302950",
+      "2110001858",
+      "738204065",
+      "1592996709"
+    ],
+    "leg_distances_m": [
+      10826.83,
+      1124.57,
+      11122.99
+    ],
+    "leg_limits_m": [
+      22530.82,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "ordered_poi_5_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 6978.44,
+    "stops": [
+      "122758870",
+      "13001350566"
+    ],
+    "chain": [
+      "122823398",
+      "122758870",
+      "13001350566",
+      "123091074"
+    ],
+    "leg_distances_m": [
+      733.37,
+      532.49,
+      5712.58
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "ordered_poi_5_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_5_v03"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "query_id": "ordered_poi_5_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7194.98,
+    "stops": [
+      "4614971233",
+      "1831143024"
+    ],
+    "chain": [
+      "123491081",
+      "4614971233",
+      "1831143024",
+      "481429529"
+    ],
+    "leg_distances_m": [
+      2100.57,
+      3007.18,
+      2087.22
+    ],
+    "leg_limits_m": [
+      4828.03,
+      9656.06,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "ordered_poi_5_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_5_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14960.96,
+    "stops": [
+      "122996352",
+      "123317785"
+    ],
+    "chain": [
+      "3791077058",
+      "122996352",
+      "123317785",
+      "1900642023"
+    ],
+    "leg_distances_m": [
+      1148.0,
+      10658.88,
+      3154.08
+    ],
+    "leg_limits_m": [
+      1609.34,
+      12874.75,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "ordered_poi_5_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12931.73,
+    "stops": [
+      "1796806905",
+      "122647777"
+    ],
+    "chain": [
+      "36220583",
+      "1796806905",
+      "122647777",
+      "122718309"
+    ],
+    "leg_distances_m": [
+      10379.48,
+      442.07,
+      2110.18
+    ],
+    "leg_limits_m": [
+      11265.41,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_6_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14053.92,
+    "stops": [
+      "2273123092",
+      "6806766792"
+    ],
+    "chain": [
+      "122972250",
+      "2273123092",
+      "6806766792",
+      "122764851"
+    ],
+    "leg_distances_m": [
+      1399.63,
+      2013.59,
+      10640.71
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_6_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 15788.94,
+    "stops": [
+      "122793092",
+      "343597521"
+    ],
+    "chain": [
+      "123290667",
+      "122793092",
+      "343597521",
+      "122978215"
+    ],
+    "leg_distances_m": [
+      1271.54,
+      399.06,
+      14118.34
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_6_v03"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_6_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14817.46,
+    "stops": [
+      "123449794",
+      "122901562"
+    ],
+    "chain": [
+      "394952910",
+      "123449794",
+      "122901562",
+      "122674194"
+    ],
+    "leg_distances_m": [
+      7820.01,
+      366.54,
+      6630.92
+    ],
+    "leg_limits_m": [
+      9656.06,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_6_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 71785.34,
+    "stops": [
+      "123047024",
+      "122767241"
+    ],
+    "chain": [
+      "122843764",
+      "123047024",
+      "122767241",
+      "4008033432"
+    ],
+    "leg_distances_m": [
+      936.25,
+      273.42,
+      70575.68
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_6_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10553.39,
+    "stops": [
+      "123374765",
+      "122742800"
+    ],
+    "chain": [
+      "123339047",
+      "123374765",
+      "122742800",
+      "1717202085"
+    ],
+    "leg_distances_m": [
+      2314.47,
+      1469.98,
+      6768.94
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_6_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13420.55,
+    "stops": [
+      "122574865",
+      "18314684"
+    ],
+    "chain": [
+      "32581298",
+      "122574865",
+      "18314684",
+      "123262092"
+    ],
+    "leg_distances_m": [
+      5331.9,
+      570.78,
+      7517.88
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_7_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10762.85,
+    "stops": [
+      "1711206898",
+      "4822046282"
+    ],
+    "chain": [
+      "1922014543",
+      "1711206898",
+      "4822046282",
+      "11182162225"
+    ],
+    "leg_distances_m": [
+      848.52,
+      1286.99,
+      8627.35
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_7_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11549.75,
+    "stops": [
+      "122663417",
+      "122670688"
+    ],
+    "chain": [
+      "122789010",
+      "122663417",
+      "122670688",
+      "4083903331"
+    ],
+    "leg_distances_m": [
+      2921.63,
+      317.74,
+      8310.38
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_7_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9167.95,
+    "stops": [
+      "7891841140",
+      "7891805735"
+    ],
+    "chain": [
+      "13654422058",
+      "7891841140",
+      "7891805735",
+      "7424620972"
+    ],
+    "leg_distances_m": [
+      4304.67,
+      259.4,
+      4603.87
+    ],
+    "leg_limits_m": [
+      8046.72,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_7_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8671.46,
+    "stops": [
+      "122790313",
+      "123477066"
+    ],
+    "chain": [
+      "123526070",
+      "122790313",
+      "123477066",
+      "122774109"
+    ],
+    "leg_distances_m": [
+      1602.81,
+      1501.32,
+      5567.33
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_7_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_7_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 18927.66,
+    "stops": [
+      "2195300849",
+      "4060441600"
+    ],
+    "chain": [
+      "122966503",
+      "2195300849",
+      "4060441600",
+      "123702730"
+    ],
+    "leg_distances_m": [
+      1961.23,
+      2612.47,
+      14353.95
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_7_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 16412.42,
+    "stops": [
+      "60957874",
+      "122734121"
+    ],
+    "chain": [
+      "123397606",
+      "60957874",
+      "122734121",
+      "123697670"
+    ],
+    "leg_distances_m": [
+      1548.1,
+      94.76,
+      14769.56
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_8_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13516.93,
+    "stops": [
+      "13607991729",
+      "13607991730"
+    ],
+    "chain": [
+      "8503872946",
+      "13607991729",
+      "13607991730",
+      "122672855"
+    ],
+    "leg_distances_m": [
+      5313.1,
+      41.27,
+      8162.57
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_8_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7601.46,
+    "stops": [
+      "1790768911",
+      "13421950843"
+    ],
+    "chain": [
+      "123274475",
+      "1790768911",
+      "13421950843",
+      "1790974706"
+    ],
+    "leg_distances_m": [
+      1458.22,
+      1305.11,
+      4838.13
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_8_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14811.9,
+    "stops": [
+      "1399479438",
+      "122904317"
+    ],
+    "chain": [
+      "122689076",
+      "1399479438",
+      "122904317",
+      "1835086109"
+    ],
+    "leg_distances_m": [
+      3656.72,
+      1492.81,
+      9662.38
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_8_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13093.41,
+    "stops": [
+      "1777729072",
+      "123249042"
+    ],
+    "chain": [
+      "1776305903",
+      "1777729072",
+      "123249042",
+      "122804395"
+    ],
+    "leg_distances_m": [
+      1452.6,
+      391.26,
+      11249.55
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_8_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      1214
+    ],
+    "leg_limits_m": [
+      9656.06,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_8_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8512.83,
+    "stops": [
+      "123044321",
+      "122913428"
+    ],
+    "chain": [
+      "1921035362",
+      "123044321",
+      "122913428",
+      "122985843"
+    ],
+    "leg_distances_m": [
+      2506.59,
+      967.58,
+      5038.67
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_8_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8157.16,
+    "stops": [
+      "123597144",
+      "123038447"
+    ],
+    "chain": [
+      "4688425949",
+      "123597144",
+      "123038447",
+      "123050106"
+    ],
+    "leg_distances_m": [
+      4178.53,
+      628.67,
+      3349.97
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_9_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_9_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13279.67,
+    "stops": [
+      "2000790052",
+      "269571153"
+    ],
+    "chain": [
+      "5631792257",
+      "2000790052",
+      "269571153",
+      "123473078"
+    ],
+    "leg_distances_m": [
+      2029.87,
+      494.1,
+      10755.7
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_9_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12087.28,
+    "stops": [
+      "2195230211",
+      "122776476"
+    ],
+    "chain": [
+      "122650957",
+      "2195230211",
+      "122776476",
+      "122701921"
+    ],
+    "leg_distances_m": [
+      1802.12,
+      648.94,
+      9636.22
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_9_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 15032.61,
+    "stops": [
+      "2456269852",
+      "122620403"
+    ],
+    "chain": [
+      "122974105",
+      "2456269852",
+      "122620403",
+      "123224902"
+    ],
+    "leg_distances_m": [
+      1233.52,
+      782.43,
+      13016.66
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_9_v06"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_9_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 15098.62,
+    "stops": [
+      "123658016",
+      "122658500"
+    ],
+    "chain": [
+      "668264",
+      "123658016",
+      "122658500",
+      "123790184"
+    ],
+    "leg_distances_m": [
+      1709.14,
+      231.29,
+      13158.19
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      1255
+    ],
+    "poi_types": [
+      "supermarket",
+      "bank"
+    ],
+    "query_id": "ordered_poi_10_v01"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      1255
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_10_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      1255
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_10_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 47024.43,
+    "stops": [
+      "122740484",
+      "9855932024"
+    ],
+    "chain": [
+      "122728631",
+      "122740484",
+      "9855932024",
+      "3069540116"
+    ],
+    "leg_distances_m": [
+      599.22,
+      2022.52,
+      44402.7
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      1255
+    ],
+    "poi_types": [
+      "supermarket",
+      "bank"
+    ],
+    "query_id": "ordered_poi_10_v04"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      1255
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_10_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      1255
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_10_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12522.26,
+    "stops": [
+      "3534202121",
+      "1829966677"
+    ],
+    "chain": [
+      "122758007",
+      "3534202121",
+      "1829966677",
+      "3974682327"
+    ],
+    "leg_distances_m": [
+      1400.14,
+      3909.71,
+      7212.41
+    ],
+    "leg_limits_m": [
+      1609.34,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      1255
+    ],
+    "poi_types": [
+      "supermarket",
+      "bank"
+    ],
+    "query_id": "ordered_poi_10_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12733.72,
+    "stops": [
+      "122751084",
+      "1923921142"
+    ],
+    "chain": [
+      "123535072",
+      "122751084",
+      "1923921142",
+      "1901753405"
+    ],
+    "leg_distances_m": [
+      1094.65,
+      1412.49,
+      10226.58
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_11_v01"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "leg_limits_m": [
+      1609.34,
+      4828.03,
+      null
+    ],
+    "query_id": "ordered_poi_11_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10095.73,
+    "stops": [
+      "122901562",
+      "123449794"
+    ],
+    "chain": [
+      "4035540791",
+      "122901562",
+      "123449794",
+      "122892146"
+    ],
+    "leg_distances_m": [
+      1006.76,
+      366.54,
+      8722.43
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_11_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8854.96,
+    "stops": [
+      "123444184",
+      "122821155"
+    ],
+    "chain": [
+      "305080020",
+      "123444184",
+      "122821155",
+      "322705308"
+    ],
+    "leg_distances_m": [
+      4563.06,
+      536.21,
+      3755.69
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_11_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10593.16,
+    "stops": [
+      "4808585687",
+      "4013445341"
+    ],
+    "chain": [
+      "2713456764",
+      "4808585687",
+      "4013445341",
+      "123652664"
+    ],
+    "leg_distances_m": [
+      4693.78,
+      77.34,
+      5822.04
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_11_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7579.49,
+    "stops": [
+      "122935429",
+      "333539393"
+    ],
+    "chain": [
+      "18166116",
+      "122935429",
+      "333539393",
+      "9582336525"
+    ],
+    "leg_distances_m": [
+      2352.05,
+      216.51,
+      5010.93
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_11_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 16715.58,
+    "stops": [
+      "9320425761",
+      "5526455405"
+    ],
+    "chain": [
+      "1576195325",
+      "9320425761",
+      "5526455405",
+      "38426677"
+    ],
+    "leg_distances_m": [
+      4059.98,
+      1099.34,
+      11556.26
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_11_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7967.76,
+    "stops": [
+      "123231741",
+      "7008286317"
+    ],
+    "chain": [
+      "123089174",
+      "123231741",
+      "7008286317",
+      "123358566"
+    ],
+    "leg_distances_m": [
+      4170.27,
+      1109.2,
+      2688.29
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_12_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14386.63,
+    "stops": [
+      "2068414881",
+      "7891841143"
+    ],
+    "chain": [
+      "123808085",
+      "2068414881",
+      "7891841143",
+      "123525402"
+    ],
+    "leg_distances_m": [
+      1708.87,
+      123.73,
+      12554.04
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_12_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_12_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12255.68,
+    "stops": [
+      "6761447331",
+      "2909944999"
+    ],
+    "chain": [
+      "123740911",
+      "6761447331",
+      "2909944999",
+      "123041171"
+    ],
+    "leg_distances_m": [
+      2560.59,
+      845.13,
+      8849.96
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_12_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13883.55,
+    "stops": [
+      "3448252795",
+      "123531583"
+    ],
+    "chain": [
+      "123702730",
+      "3448252795",
+      "123531583",
+      "122575396"
+    ],
+    "leg_distances_m": [
+      6014.97,
+      1865.68,
+      6002.9
+    ],
+    "leg_limits_m": [
+      14484.1,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_12_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10748.2,
+    "stops": [
+      "11878549721",
+      "2506722897"
+    ],
+    "chain": [
+      "4085164939",
+      "11878549721",
+      "2506722897",
+      "7783570398"
+    ],
+    "leg_distances_m": [
+      1471.83,
+      797.28,
+      8479.08
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_12_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9037.74,
+    "stops": [
+      "122854266",
+      "123562284"
+    ],
+    "chain": [
+      "123316462",
+      "122854266",
+      "123562284",
+      "123120534"
+    ],
+    "leg_distances_m": [
+      571.04,
+      821.08,
+      7645.63
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "ordered_poi_12_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 19042.4,
+    "stops": [
+      "123509881",
+      "123069135"
+    ],
+    "chain": [
+      "123285946",
+      "123509881",
+      "123069135",
+      "123798086"
+    ],
+    "leg_distances_m": [
+      2365.62,
+      6583.44,
+      10093.34
+    ],
+    "leg_limits_m": [
+      4828.03,
+      14484.1,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_13_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12626.96,
+    "stops": [
+      "7773149942",
+      "12951481403"
+    ],
+    "chain": [
+      "122725889",
+      "7773149942",
+      "12951481403",
+      "2523508030"
+    ],
+    "leg_distances_m": [
+      2843.59,
+      3122.1,
+      6661.28
+    ],
+    "leg_limits_m": [
+      3218.69,
+      4828.03,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_13_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8757.53,
+    "stops": [
+      "122911209",
+      "122622850"
+    ],
+    "chain": [
+      "122938405",
+      "122911209",
+      "122622850",
+      "122683061"
+    ],
+    "leg_distances_m": [
+      1509.87,
+      342.13,
+      6905.53
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_13_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 17690.34,
+    "stops": [
+      "123305239",
+      "12487175908"
+    ],
+    "chain": [
+      "122933975",
+      "123305239",
+      "12487175908",
+      "123755893"
+    ],
+    "leg_distances_m": [
+      5852.99,
+      6972.21,
+      4865.14
+    ],
+    "leg_limits_m": [
+      11265.41,
+      30577.54,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_13_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8294.5,
+    "stops": [
+      "13001350566",
+      "6117310788"
+    ],
+    "chain": [
+      "4083903332",
+      "13001350566",
+      "6117310788",
+      "323940780"
+    ],
+    "leg_distances_m": [
+      3453.94,
+      1947.37,
+      2893.19
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_13_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13316.24,
+    "stops": [
+      "122623527",
+      "20400154"
+    ],
+    "chain": [
+      "123162946",
+      "122623527",
+      "20400154",
+      "1717116207"
+    ],
+    "leg_distances_m": [
+      1790.47,
+      1495.6,
+      10030.17
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_13_v06"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      389,
+      569
+    ],
+    "leg_limits_m": [
+      11265.41,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_13_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10809.0,
+    "stops": [
+      "1831615683",
+      "358475308"
+    ],
+    "chain": [
+      "122991894",
+      "1831615683",
+      "358475308",
+      "122805829"
+    ],
+    "leg_distances_m": [
+      420.94,
+      1162.28,
+      9225.78
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_14_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11009.79,
+    "stops": [
+      "269569866",
+      "123340921"
+    ],
+    "chain": [
+      "122632935",
+      "269569866",
+      "123340921",
+      "123565876"
+    ],
+    "leg_distances_m": [
+      1554.92,
+      2197.02,
+      7257.85
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_14_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7926.97,
+    "stops": [
+      "2236147162",
+      "2243534261"
+    ],
+    "chain": [
+      "122744849",
+      "2236147162",
+      "2243534261",
+      "1823597798"
+    ],
+    "leg_distances_m": [
+      1124.89,
+      478.48,
+      6323.61
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_14_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 29502.04,
+    "stops": [
+      "123741629",
+      "3602567439"
+    ],
+    "chain": [
+      "123065569",
+      "123741629",
+      "3602567439",
+      "18166151"
+    ],
+    "leg_distances_m": [
+      285.92,
+      1576.58,
+      27639.54
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_14_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10819.73,
+    "stops": [
+      "122793962",
+      "122814446"
+    ],
+    "chain": [
+      "122779698",
+      "122793962",
+      "122814446",
+      "1878582791"
+    ],
+    "leg_distances_m": [
+      1136.11,
+      351.38,
+      9332.24
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_14_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11289.32,
+    "stops": [
+      "3316309564",
+      "122689001"
+    ],
+    "chain": [
+      "122814563",
+      "3316309564",
+      "122689001",
+      "254113033"
+    ],
+    "leg_distances_m": [
+      477.7,
+      604.11,
+      10207.51
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_14_v06"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      8046.72,
+      null
+    ],
+    "query_id": "ordered_poi_14_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9788.19,
+    "stops": [
+      "123358225",
+      "466532256"
+    ],
+    "chain": [
+      "123757162",
+      "123358225",
+      "466532256",
+      "123742937"
+    ],
+    "leg_distances_m": [
+      2216.78,
+      211.81,
+      7359.59
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_15_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9608.83,
+    "stops": [
+      "122842316",
+      "122706463"
+    ],
+    "chain": [
+      "2316599188",
+      "122842316",
+      "122706463",
+      "123664033"
+    ],
+    "leg_distances_m": [
+      1567.3,
+      141.88,
+      7899.65
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_15_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12889.5,
+    "stops": [
+      "4689137609",
+      "2896388141"
+    ],
+    "chain": [
+      "122823804",
+      "4689137609",
+      "2896388141",
+      "122495764"
+    ],
+    "leg_distances_m": [
+      604.72,
+      570.14,
+      11714.64
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_15_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 16366.8,
+    "stops": [
+      "27062237",
+      "16944278"
+    ],
+    "chain": [
+      "10620014",
+      "27062237",
+      "16944278",
+      "123270744"
+    ],
+    "leg_distances_m": [
+      1062.04,
+      1257.68,
+      14047.09
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_15_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10667.72,
+    "stops": [
+      "122620344",
+      "122700806"
+    ],
+    "chain": [
+      "122673354",
+      "122620344",
+      "122700806",
+      "122732993"
+    ],
+    "leg_distances_m": [
+      3125.01,
+      5888.18,
+      1654.53
+    ],
+    "leg_limits_m": [
+      3218.69,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_15_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 21770.85,
+    "stops": [
+      "3453549759",
+      "122860623"
+    ],
+    "chain": [
+      "122655878",
+      "3453549759",
+      "122860623",
+      "13326306786"
+    ],
+    "leg_distances_m": [
+      8813.82,
+      674.76,
+      12282.27
+    ],
+    "leg_limits_m": [
+      9656.06,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_15_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 17689.91,
+    "stops": [
+      "122901562",
+      "123048303"
+    ],
+    "chain": [
+      "1832965691",
+      "122901562",
+      "123048303",
+      "445115924"
+    ],
+    "leg_distances_m": [
+      10177.22,
+      170.64,
+      7342.05
+    ],
+    "leg_limits_m": [
+      19312.13,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_16_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 22227.65,
+    "stops": [
+      "123675648",
+      "123273247"
+    ],
+    "chain": [
+      "6305018975",
+      "123675648",
+      "123273247",
+      "10177867095"
+    ],
+    "leg_distances_m": [
+      5968.42,
+      811.0,
+      15448.23
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_16_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_16_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7398.02,
+    "stops": [
+      "122563691",
+      "122935417"
+    ],
+    "chain": [
+      "123056675",
+      "122563691",
+      "122935417",
+      "1722988202"
+    ],
+    "leg_distances_m": [
+      2882.93,
+      1230.3,
+      3284.79
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_16_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 25106.11,
+    "stops": [
+      "13607970000",
+      "13607986079"
+    ],
+    "chain": [
+      "4598676637",
+      "13607970000",
+      "13607986079",
+      "330007083"
+    ],
+    "leg_distances_m": [
+      7846.15,
+      1552.66,
+      15707.31
+    ],
+    "leg_limits_m": [
+      11265.41,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_16_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7396.59,
+    "stops": [
+      "123174588",
+      "122732379"
+    ],
+    "chain": [
+      "122600183",
+      "123174588",
+      "122732379",
+      "123292536"
+    ],
+    "leg_distances_m": [
+      2686.08,
+      988.56,
+      3721.96
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_16_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 18221.28,
+    "stops": [
+      "122676003",
+      "122904317"
+    ],
+    "chain": [
+      "2243337123",
+      "122676003",
+      "122904317",
+      "122790755"
+    ],
+    "leg_distances_m": [
+      638.09,
+      831.47,
+      16751.72
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_16_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7448.33,
+    "stops": [
+      "123010887",
+      "122790313"
+    ],
+    "chain": [
+      "559900690",
+      "123010887",
+      "122790313",
+      "122994709"
+    ],
+    "leg_distances_m": [
+      1064.19,
+      219.44,
+      6164.69
+    ],
+    "leg_limits_m": [
+      3218.69,
+      4828.03,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_17_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12489.67,
+    "stops": [
+      "3564102146",
+      "13599714226"
+    ],
+    "chain": [
+      "3485252671",
+      "3564102146",
+      "13599714226",
+      "123038082"
+    ],
+    "leg_distances_m": [
+      5476.47,
+      1127.41,
+      5885.8
+    ],
+    "leg_limits_m": [
+      6437.38,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_17_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9427.29,
+    "stops": [
+      "123094614",
+      "847836125"
+    ],
+    "chain": [
+      "122584347",
+      "123094614",
+      "847836125",
+      "322992034"
+    ],
+    "leg_distances_m": [
+      894.47,
+      570.36,
+      7962.45
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_17_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 16069.78,
+    "stops": [
+      "122633620",
+      "1833765897"
+    ],
+    "chain": [
+      "324160207",
+      "122633620",
+      "1833765897",
+      "728447237"
+    ],
+    "leg_distances_m": [
+      5653.79,
+      453.81,
+      9962.19
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_17_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 16634.35,
+    "stops": [
+      "123396212",
+      "123586950"
+    ],
+    "chain": [
+      "324700470",
+      "123396212",
+      "123586950",
+      "1705264873"
+    ],
+    "leg_distances_m": [
+      11274.3,
+      1112.67,
+      4247.38
+    ],
+    "leg_limits_m": [
+      25749.5,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_17_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 6839.5,
+    "stops": [
+      "1831073723",
+      "35527728"
+    ],
+    "chain": [
+      "1901942266",
+      "1831073723",
+      "35527728",
+      "123197687"
+    ],
+    "leg_distances_m": [
+      1957.38,
+      239.44,
+      4642.68
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "ordered_poi_17_v06"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "query_id": "ordered_poi_17_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8788.26,
+    "stops": [
+      "123415900",
+      "123521496"
+    ],
+    "chain": [
+      "122938405",
+      "123415900",
+      "123521496",
+      "123507037"
+    ],
+    "leg_distances_m": [
+      1331.12,
+      2271.91,
+      5185.22
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "ordered_poi_18_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 22337.73,
+    "stops": [
+      "122717771",
+      "7891841140"
+    ],
+    "chain": [
+      "4584387277",
+      "122717771",
+      "7891841140",
+      "122829614"
+    ],
+    "leg_distances_m": [
+      5013.72,
+      5055.96,
+      12268.05
+    ],
+    "leg_limits_m": [
+      6437.38,
+      17702.78,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "ordered_poi_18_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      6437.38,
+      null
+    ],
+    "query_id": "ordered_poi_18_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10956.96,
+    "stops": [
+      "3701927950",
+      "122679731"
+    ],
+    "chain": [
+      "122612700",
+      "3701927950",
+      "122679731",
+      "3313643828"
+    ],
+    "leg_distances_m": [
+      989.94,
+      1161.35,
+      8805.68
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "ordered_poi_18_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "leg_limits_m": [
+      11265.41,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_18_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8563.81,
+    "stops": [
+      "123443051",
+      "122912265"
+    ],
+    "chain": [
+      "3069540116",
+      "123443051",
+      "122912265",
+      "123316074"
+    ],
+    "leg_distances_m": [
+      402.64,
+      1536.84,
+      6624.33
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "ordered_poi_18_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9249.69,
+    "stops": [
+      "122925704",
+      "15368074"
+    ],
+    "chain": [
+      "122849725",
+      "122925704",
+      "15368074",
+      "3875788581"
+    ],
+    "leg_distances_m": [
+      2936.89,
+      1028.53,
+      5284.27
+    ],
+    "leg_limits_m": [
+      9656.06,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_19_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 19914.2,
+    "stops": [
+      "122814712",
+      "13424246938"
+    ],
+    "chain": [
+      "20954368",
+      "122814712",
+      "13424246938",
+      "122719568"
+    ],
+    "leg_distances_m": [
+      1104.62,
+      66.2,
+      18743.39
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_19_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 6483.41,
+    "stops": [
+      "122757379",
+      "122757374"
+    ],
+    "chain": [
+      "122853999",
+      "122757379",
+      "122757374",
+      "122903297"
+    ],
+    "leg_distances_m": [
+      1544.8,
+      200.21,
+      4738.4
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_19_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 18563.11,
+    "stops": [
+      "123284921",
+      "122905731"
+    ],
+    "chain": [
+      "123042483",
+      "123284921",
+      "122905731",
+      "123546663"
+    ],
+    "leg_distances_m": [
+      1963.82,
+      2549.23,
+      14050.05
+    ],
+    "leg_limits_m": [
+      3218.69,
+      4828.03,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_19_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11184.81,
+    "stops": [
+      "123464351",
+      "122660296"
+    ],
+    "chain": [
+      "122920676",
+      "123464351",
+      "122660296",
+      "123045086"
+    ],
+    "leg_distances_m": [
+      932.38,
+      6371.86,
+      3880.56
+    ],
+    "leg_limits_m": [
+      1609.34,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_19_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8643.33,
+    "stops": [
+      "123675648",
+      "123273254"
+    ],
+    "chain": [
+      "7344503002",
+      "123675648",
+      "123273254",
+      "122578032"
+    ],
+    "leg_distances_m": [
+      2361.97,
+      510.51,
+      5770.85
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255
+    ],
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_19_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 15522.48,
+    "stops": [
+      "122758731",
+      "123038447"
+    ],
+    "chain": [
+      "122861288",
+      "122758731",
+      "123038447",
+      "1833922414"
+    ],
+    "leg_distances_m": [
+      3610.06,
+      205.27,
+      11707.15
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_20_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11491.64,
+    "stops": [
+      "122905487",
+      "123238620"
+    ],
+    "chain": [
+      "123336423",
+      "122905487",
+      "123238620",
+      "123084372"
+    ],
+    "leg_distances_m": [
+      1306.47,
+      890.71,
+      9294.47
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_20_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9912.11,
+    "stops": [
+      "2243534260",
+      "122770751"
+    ],
+    "chain": [
+      "1833823681",
+      "2243534260",
+      "122770751",
+      "122917801"
+    ],
+    "leg_distances_m": [
+      294.3,
+      633.27,
+      8984.53
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_20_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8270.63,
+    "stops": [
+      "563316485",
+      "123400482"
+    ],
+    "chain": [
+      "123781961",
+      "563316485",
+      "123400482",
+      "123167134"
+    ],
+    "leg_distances_m": [
+      935.99,
+      986.0,
+      6348.65
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_20_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 16656.82,
+    "stops": [
+      "6792243372",
+      "6792243372"
+    ],
+    "chain": [
+      "123279201",
+      "6792243372",
+      "6792243372",
+      "122657252"
+    ],
+    "leg_distances_m": [
+      6179.72,
+      0.0,
+      10477.11
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_20_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 19326.43,
+    "stops": [
+      "4023792062",
+      "4023792062"
+    ],
+    "chain": [
+      "122698315",
+      "4023792062",
+      "4023792062",
+      "6846934027"
+    ],
+    "leg_distances_m": [
+      870.81,
+      0.0,
+      18455.62
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      1214
+    ],
+    "poi_types": [
+      "bank",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_20_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11044.91,
+    "stops": [
+      "123280799",
+      "8584982268"
+    ],
+    "chain": [
+      "122912561",
+      "123280799",
+      "8584982268",
+      "123458196"
+    ],
+    "leg_distances_m": [
+      2561.07,
+      1818.5,
+      6665.34
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_21_v01"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_21_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 28028.34,
+    "stops": [
+      "123099389",
+      "123227220"
+    ],
+    "chain": [
+      "122769547",
+      "123099389",
+      "123227220",
+      "2452098458"
+    ],
+    "leg_distances_m": [
+      5728.78,
+      97.93,
+      22201.63
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_21_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14564.37,
+    "stops": [
+      "16218309",
+      "15027623"
+    ],
+    "chain": [
+      "1832047321",
+      "16218309",
+      "15027623",
+      "7065885973"
+    ],
+    "leg_distances_m": [
+      1296.48,
+      1350.2,
+      11917.7
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_21_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 7985.93,
+    "stops": [
+      "4083327004",
+      "122757283"
+    ],
+    "chain": [
+      "122909316",
+      "4083327004",
+      "122757283",
+      "122749074"
+    ],
+    "leg_distances_m": [
+      1425.48,
+      259.95,
+      6300.5
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_21_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      null
+    ],
+    "query_id": "ordered_poi_21_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 29622.99,
+    "stops": [
+      "122727138",
+      "122916889"
+    ],
+    "chain": [
+      "122517983",
+      "122727138",
+      "122916889",
+      "2003598593"
+    ],
+    "leg_distances_m": [
+      11518.82,
+      134.33,
+      17969.83
+    ],
+    "leg_limits_m": [
+      12874.75,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_21_v07"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34
+    ],
+    "query_id": "ordered_poi_22_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "query_id": "ordered_poi_22_v03"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34
+    ],
+    "query_id": "ordered_poi_22_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8384.86,
+    "stops": [
+      "122993081",
+      "122703679"
+    ],
+    "chain": [
+      "123204926",
+      "122993081",
+      "122703679",
+      "122981364"
+    ],
+    "leg_distances_m": [
+      5645.07,
+      422.18,
+      2317.61
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_22_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "query_id": "ordered_poi_22_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 18387.77,
+    "stops": [
+      "1746242069",
+      "122884140"
+    ],
+    "chain": [
+      "122816839",
+      "1746242069",
+      "122884140",
+      "123014745"
+    ],
+    "leg_distances_m": [
+      7614.92,
+      2816.94,
+      7955.91
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_22_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10838.9,
+    "stops": [
+      "122663417",
+      "3566218048"
+    ],
+    "chain": [
+      "122798843",
+      "122663417",
+      "3566218048",
+      "2964762921"
+    ],
+    "leg_distances_m": [
+      559.54,
+      996.81,
+      9282.56
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_23_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10634.75,
+    "stops": [
+      "4808585687",
+      "9032925120"
+    ],
+    "chain": [
+      "122672516",
+      "4808585687",
+      "9032925120",
+      "123057650"
+    ],
+    "leg_distances_m": [
+      1944.2,
+      1606.74,
+      7083.8
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_23_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13722.84,
+    "stops": [
+      "122663417",
+      "122622756"
+    ],
+    "chain": [
+      "3625373922",
+      "122663417",
+      "122622756",
+      "122592735"
+    ],
+    "leg_distances_m": [
+      2620.55,
+      1592.57,
+      9509.72
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_23_v03"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "leg_limits_m": [
+      14484.1,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_23_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 39946.88,
+    "stops": [
+      "122916460",
+      "3229552850"
+    ],
+    "chain": [
+      "122690426",
+      "122916460",
+      "3229552850",
+      "4022539546"
+    ],
+    "leg_distances_m": [
+      2146.66,
+      604.17,
+      37196.04
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_23_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11470.62,
+    "stops": [
+      "123428698",
+      "123038447"
+    ],
+    "chain": [
+      "122942389",
+      "123428698",
+      "123038447",
+      "123055047"
+    ],
+    "leg_distances_m": [
+      360.52,
+      1338.63,
+      9771.47
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_23_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8781.73,
+    "stops": [
+      "123708107",
+      "6726768531"
+    ],
+    "chain": [
+      "122929076",
+      "123708107",
+      "6726768531",
+      "122689179"
+    ],
+    "leg_distances_m": [
+      506.86,
+      371.75,
+      7903.12
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1214
+    ],
+    "poi_types": [
+      "library",
+      "supermarket"
+    ],
+    "query_id": "ordered_poi_23_v07"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      1255,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_24_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13920.76,
+    "stops": [
+      "122617894",
+      "122793092",
+      "122801275"
+    ],
+    "chain": [
+      "123290667",
+      "122617894",
+      "122793092",
+      "122801275",
+      "123640563"
+    ],
+    "leg_distances_m": [
+      1415.64,
+      1014.4,
+      3327.6,
+      8163.12
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      4828.03,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_24_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 6772.59,
+    "stops": [
+      "13603603151",
+      "3602567432",
+      "3602567439"
+    ],
+    "chain": [
+      "122927851",
+      "13603603151",
+      "3602567432",
+      "3602567439",
+      "1729829302"
+    ],
+    "leg_distances_m": [
+      468.66,
+      109.42,
+      900.02,
+      5294.49
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_24_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9966.6,
+    "stops": [
+      "3738342127",
+      "4037091139",
+      "4037270444"
+    ],
+    "chain": [
+      "612597152",
+      "3738342127",
+      "4037091139",
+      "4037270444",
+      "122812343"
+    ],
+    "leg_distances_m": [
+      1313.37,
+      429.6,
+      774.72,
+      7448.91
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_24_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 12403.26,
+    "stops": [
+      "122964574",
+      "1721355096",
+      "2488852396"
+    ],
+    "chain": [
+      "1728614631",
+      "122964574",
+      "1721355096",
+      "2488852396",
+      "123569373"
+    ],
+    "leg_distances_m": [
+      1481.1,
+      4458.17,
+      238.02,
+      6225.97
+    ],
+    "leg_limits_m": [
+      1609.34,
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_24_v05"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 10442.14,
+    "stops": [
+      "122674627",
+      "122934663",
+      "204216799"
+    ],
+    "chain": [
+      "3860728766",
+      "122674627",
+      "122934663",
+      "204216799",
+      "601384575"
+    ],
+    "leg_distances_m": [
+      1501.51,
+      1410.19,
+      752.21,
+      6778.22
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "supermarket",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_24_v06"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      1255,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      3218.69,
+      null
+    ],
+    "query_id": "ordered_poi_24_v07"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      389,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      1609.34
+    ],
+    "query_id": "ordered_poi_25_v01"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      389,
+      569
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "query_id": "ordered_poi_25_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 22651.53,
+    "stops": [
+      "8905179909",
+      "7891841140",
+      "122931368"
+    ],
+    "chain": [
+      "122895946",
+      "8905179909",
+      "7891841140",
+      "122931368",
+      "3247063478"
+    ],
+    "leg_distances_m": [
+      6727.65,
+      3688.51,
+      4553.54,
+      7681.84
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_25_v03"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      389,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      1609.34
+    ],
+    "query_id": "ordered_poi_25_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9201.87,
+    "stops": [
+      "3564102146",
+      "13599714226",
+      "122733571"
+    ],
+    "chain": [
+      "4023783587",
+      "3564102146",
+      "13599714226",
+      "122733571",
+      "123050154"
+    ],
+    "leg_distances_m": [
+      1649.64,
+      1127.41,
+      3754.81,
+      2670.01
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "n_candidates_per_slot": [
+      1255,
+      389,
+      569
+    ],
+    "poi_types": [
+      "bank",
+      "library",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_25_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      389,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      1609.34
+    ],
+    "query_id": "ordered_poi_25_v06"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1255,
+      389,
+      569
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "query_id": "ordered_poi_25_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 18153.24,
+    "stops": [
+      "1884292853",
+      "4486264154",
+      "7324457282"
+    ],
+    "chain": [
+      "330003566",
+      "1884292853",
+      "4486264154",
+      "7324457282",
+      "123034319"
+    ],
+    "leg_distances_m": [
+      1590.34,
+      1983.39,
+      1257.26,
+      13322.25
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      8046.72,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_26_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 9290.2,
+    "stops": [
+      "18210808",
+      "123055759",
+      "6856678735"
+    ],
+    "chain": [
+      "122762264",
+      "18210808",
+      "123055759",
+      "6856678735",
+      "1831048727"
+    ],
+    "leg_distances_m": [
+      6266.6,
+      1321.21,
+      823.04,
+      879.35
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_26_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 16078.16,
+    "stops": [
+      "1710390172",
+      "7773149942",
+      "7773149942"
+    ],
+    "chain": [
+      "3011897762",
+      "1710390172",
+      "7773149942",
+      "7773149942",
+      "3106112415"
+    ],
+    "leg_distances_m": [
+      1371.89,
+      3875.9,
+      0.0,
+      10830.37
+    ],
+    "leg_limits_m": [
+      1609.34,
+      4828.03,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_26_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14369.44,
+    "stops": [
+      "2830867238",
+      "122750696",
+      "13603495448"
+    ],
+    "chain": [
+      "8602479818",
+      "2830867238",
+      "122750696",
+      "13603495448",
+      "122919664"
+    ],
+    "leg_distances_m": [
+      2901.61,
+      682.11,
+      1007.02,
+      9778.71
+    ],
+    "leg_limits_m": [
+      4828.03,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_26_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 29093.45,
+    "stops": [
+      "122916889",
+      "738204065",
+      "123052127"
+    ],
+    "chain": [
+      "123576019",
+      "122916889",
+      "738204065",
+      "123052127",
+      "1919739937"
+    ],
+    "leg_distances_m": [
+      13634.7,
+      4920.96,
+      221.33,
+      10316.46
+    ],
+    "leg_limits_m": [
+      30577.54,
+      9656.06,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_26_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      389,
+      1255
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_26_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 6463.04,
+    "stops": [
+      "602271452",
+      "123521496",
+      "36180499"
+    ],
+    "chain": [
+      "123089499",
+      "602271452",
+      "123521496",
+      "36180499",
+      "123031876"
+    ],
+    "leg_distances_m": [
+      1596.41,
+      208.54,
+      438.88,
+      4219.22
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      569,
+      389,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "library",
+      "bank"
+    ],
+    "query_id": "ordered_poi_26_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 13103.26,
+    "stops": [
+      "123586950",
+      "123396212",
+      "122854266"
+    ],
+    "chain": [
+      "122882037",
+      "123586950",
+      "123396212",
+      "122854266",
+      "122618104"
+    ],
+    "leg_distances_m": [
+      5117.3,
+      1112.67,
+      1055.59,
+      5817.71
+    ],
+    "leg_limits_m": [
+      14484.1,
+      3218.69,
+      6437.38,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_27_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11913.63,
+    "stops": [
+      "123320225",
+      "1718676766",
+      "21478635"
+    ],
+    "chain": [
+      "122910580",
+      "123320225",
+      "1718676766",
+      "21478635",
+      "122814712"
+    ],
+    "leg_distances_m": [
+      3875.92,
+      394.11,
+      1606.98,
+      6036.62
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_27_v02"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11402.93,
+    "stops": [
+      "122937396",
+      "269585984",
+      "122937410"
+    ],
+    "chain": [
+      "5631792257",
+      "122937396",
+      "269585984",
+      "122937410",
+      "122667784"
+    ],
+    "leg_distances_m": [
+      3800.85,
+      734.39,
+      310.51,
+      6557.18
+    ],
+    "leg_limits_m": [
+      6437.38,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_27_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11708.15,
+    "stops": [
+      "4075548656",
+      "2243534260",
+      "2243534261"
+    ],
+    "chain": [
+      "2817565510",
+      "4075548656",
+      "2243534260",
+      "2243534261",
+      "1897684124"
+    ],
+    "leg_distances_m": [
+      1625.27,
+      363.09,
+      335.29,
+      9384.5
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_27_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 20435.87,
+    "stops": [
+      "1718185213",
+      "1832241807",
+      "1832241807"
+    ],
+    "chain": [
+      "123705774",
+      "1718185213",
+      "1832241807",
+      "1832241807",
+      "10738391828"
+    ],
+    "leg_distances_m": [
+      4792.21,
+      3195.77,
+      0.0,
+      12447.9
+    ],
+    "leg_limits_m": [
+      6437.38,
+      3218.69,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      389,
+      1255,
+      569
+    ],
+    "poi_types": [
+      "library",
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "ordered_poi_27_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      389,
+      1255,
+      569
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_27_v06"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      389,
+      1255,
+      569
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_27_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 15304.38,
+    "stops": [
+      "122689001",
+      "122905731",
+      "122905731"
+    ],
+    "chain": [
+      "4075422155",
+      "122689001",
+      "122905731",
+      "122905731",
+      "122917146"
+    ],
+    "leg_distances_m": [
+      6282.59,
+      1837.7,
+      0.0,
+      7184.09
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket",
+      "bank"
+    ],
+    "query_id": "ordered_poi_28_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 21775.59,
+    "stops": [
+      "466532256",
+      "123358225",
+      "13607910693"
+    ],
+    "chain": [
+      "13607928040",
+      "466532256",
+      "123358225",
+      "13607910693",
+      "122838245"
+    ],
+    "leg_distances_m": [
+      9087.71,
+      211.81,
+      381.09,
+      12094.97
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket",
+      "bank"
+    ],
+    "query_id": "ordered_poi_28_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      1214,
+      1255
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      1609.34
+    ],
+    "query_id": "ordered_poi_28_v03"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      1214,
+      1255
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "query_id": "ordered_poi_28_v04"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      1214,
+      1255
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "query_id": "ordered_poi_28_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      569,
+      1214,
+      1255
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "query_id": "ordered_poi_28_v06"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 8560.55,
+    "stops": [
+      "123044321",
+      "122913428",
+      "122670688"
+    ],
+    "chain": [
+      "3706607764",
+      "123044321",
+      "122913428",
+      "122670688",
+      "1921035362"
+    ],
+    "leg_distances_m": [
+      5140.72,
+      967.58,
+      1815.37,
+      636.88
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "n_candidates_per_slot": [
+      569,
+      1214,
+      1255
+    ],
+    "poi_types": [
+      "pharmacy",
+      "supermarket",
+      "bank"
+    ],
+    "query_id": "ordered_poi_28_v07"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 11139.53,
+    "stops": [
+      "123369891",
+      "5968243481",
+      "3897158133"
+    ],
+    "chain": [
+      "122662101",
+      "123369891",
+      "5968243481",
+      "3897158133",
+      "122975881"
+    ],
+    "leg_distances_m": [
+      2489.71,
+      3893.41,
+      455.77,
+      4300.65
+    ],
+    "leg_limits_m": [
+      3218.69,
+      8046.72,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_29_v01"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 14894.01,
+    "stops": [
+      "123235308",
+      "123048303",
+      "122901562"
+    ],
+    "chain": [
+      "122667881",
+      "123235308",
+      "123048303",
+      "122901562",
+      "445108532"
+    ],
+    "leg_distances_m": [
+      2036.74,
+      5800.15,
+      170.64,
+      6886.48
+    ],
+    "leg_limits_m": [
+      3218.69,
+      8046.72,
+      1609.34,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_29_v02"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      569,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_29_v03"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 19211.01,
+    "stops": [
+      "3862901778",
+      "4808116729",
+      "123188963"
+    ],
+    "chain": [
+      "122568229",
+      "3862901778",
+      "4808116729",
+      "123188963",
+      "122745671"
+    ],
+    "leg_distances_m": [
+      856.0,
+      2038.45,
+      1864.73,
+      14451.84
+    ],
+    "leg_limits_m": [
+      1609.34,
+      3218.69,
+      3218.69,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_29_v04"
+  },
+  {
+    "status": "optimal",
+    "optimal_distance_m": 19071.97,
+    "stops": [
+      "122754286",
+      "122804061",
+      "3905746920"
+    ],
+    "chain": [
+      "122764851",
+      "122754286",
+      "122804061",
+      "3905746920",
+      "1841804383"
+    ],
+    "leg_distances_m": [
+      910.81,
+      316.09,
+      13354.58,
+      4490.49
+    ],
+    "leg_limits_m": [
+      3218.69,
+      1609.34,
+      17702.78,
+      null
+    ],
+    "n_candidates_per_slot": [
+      1214,
+      569,
+      389
+    ],
+    "poi_types": [
+      "supermarket",
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "ordered_poi_29_v05"
+  },
+  {
+    "status": "infeasible",
+    "optimal_distance_m": null,
+    "n_candidates_per_slot": [
+      1214,
+      569,
+      389
+    ],
+    "leg_limits_m": [
+      1609.34,
+      1609.34,
+      1609.34,
+      null
+    ],
+    "query_id": "ordered_poi_29_v06"
+  }
+]

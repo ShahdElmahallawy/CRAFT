@@ -1,0 +1,7754 @@
+[
+  {
+    "status": "optimal",
+    "optimal_time_s": 596.19,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "2897708535",
+      "122795746"
+    ],
+    "chain": [
+      "122649782",
+      "2897708535",
+      "122795746",
+      "3974682327"
+    ],
+    "leg_times_s": [
+      92.35,
+      62.94,
+      440.9
+    ],
+    "leg_distances_m": [
+      1597.11,
+      863.98,
+      10163.49
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r001"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 982.58,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "6117310788",
+      "6117310788"
+    ],
+    "chain": [
+      "2502232425",
+      "6117310788",
+      "6117310788",
+      "122508432"
+    ],
+    "leg_times_s": [
+      154.15,
+      0.0,
+      828.42
+    ],
+    "leg_distances_m": [
+      2180.23,
+      0.0,
+      14169.02
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r002"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 617.89,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "123044321",
+      "123180979"
+    ],
+    "chain": [
+      "123083003",
+      "123044321",
+      "123180979",
+      "123329149"
+    ],
+    "leg_times_s": [
+      252.11,
+      123.57,
+      242.22
+    ],
+    "leg_distances_m": [
+      3925.63,
+      1987.16,
+      3858.03
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r003"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 580.5,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "122795746",
+      "4058563359"
+    ],
+    "chain": [
+      "9982230802",
+      "122795746",
+      "4058563359",
+      "122693050"
+    ],
+    "leg_times_s": [
+      395.64,
+      53.79,
+      131.07
+    ],
+    "leg_distances_m": [
+      8711.55,
+      769.32,
+      2109.26
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r004"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 409.19,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "7008286317",
+      "123231741"
+    ],
+    "chain": [
+      "123476464",
+      "7008286317",
+      "123231741",
+      "123414009"
+    ],
+    "leg_times_s": [
+      193.25,
+      65.14,
+      150.8
+    ],
+    "leg_distances_m": [
+      3128.85,
+      1138.86,
+      2408.57
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r005"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 566.89,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "6117310788",
+      "13001350566"
+    ],
+    "chain": [
+      "323940780",
+      "6117310788",
+      "13001350566",
+      "122744503"
+    ],
+    "leg_times_s": [
+      85.68,
+      130.47,
+      350.75
+    ],
+    "leg_distances_m": [
+      1694.51,
+      1954.99,
+      5194.84
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r006"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 485.18,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "122901562",
+      "3738342294"
+    ],
+    "chain": [
+      "122954847",
+      "122901562",
+      "3738342294",
+      "122679836"
+    ],
+    "leg_times_s": [
+      45.35,
+      225.13,
+      214.71
+    ],
+    "leg_distances_m": [
+      565.22,
+      4226.23,
+      3550.87
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r007"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 798.43,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "273496878",
+      "122768575"
+    ],
+    "chain": [
+      "123790184",
+      "273496878",
+      "122768575",
+      "122727520"
+    ],
+    "leg_times_s": [
+      527.85,
+      28.28,
+      242.29
+    ],
+    "leg_distances_m": [
+      8664.7,
+      467.8,
+      3596.16
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r008"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 237.17,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "123183501",
+      "26959277"
+    ],
+    "chain": [
+      "358383260",
+      "123183501",
+      "26959277",
+      "26959277"
+    ],
+    "leg_times_s": [
+      167.05,
+      70.12,
+      0.0
+    ],
+    "leg_distances_m": [
+      2931.18,
+      1225.35,
+      0.0
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r009"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 713.75,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "20827716",
+      "122697423"
+    ],
+    "chain": [
+      "123084372",
+      "20827716",
+      "122697423",
+      "122566313"
+    ],
+    "leg_times_s": [
+      368.2,
+      241.21,
+      104.34
+    ],
+    "leg_distances_m": [
+      6737.25,
+      4328.54,
+      1709.41
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r010"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 586.57,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "3856395529",
+      "7559319053"
+    ],
+    "chain": [
+      "306308095",
+      "3856395529",
+      "7559319053",
+      "122625011"
+    ],
+    "leg_times_s": [
+      198.7,
+      94.62,
+      293.25
+    ],
+    "leg_distances_m": [
+      5219.88,
+      1660.38,
+      4627.24
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r011"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 872.25,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "603977798",
+      "358475308"
+    ],
+    "chain": [
+      "122974114",
+      "603977798",
+      "358475308",
+      "1832165680"
+    ],
+    "leg_times_s": [
+      88.41,
+      708.42,
+      75.42
+    ],
+    "leg_distances_m": [
+      1391.51,
+      15477.31,
+      1303.34
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r012"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 793.72,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "2446077639",
+      "123055759"
+    ],
+    "chain": [
+      "123012784",
+      "2446077639",
+      "123055759",
+      "123021316"
+    ],
+    "leg_times_s": [
+      403.3,
+      124.01,
+      266.41
+    ],
+    "leg_distances_m": [
+      6484.47,
+      2008.61,
+      4422.42
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r013"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 425.62,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "1832378181",
+      "122900110"
+    ],
+    "chain": [
+      "122774467",
+      "1832378181",
+      "122900110",
+      "1836180225"
+    ],
+    "leg_times_s": [
+      238.54,
+      22.36,
+      164.72
+    ],
+    "leg_distances_m": [
+      5055.15,
+      444.17,
+      3328.32
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r014"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 719.5,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "122786538",
+      "122704553"
+    ],
+    "chain": [
+      "123312381",
+      "122786538",
+      "122704553",
+      "1751689275"
+    ],
+    "leg_times_s": [
+      202.07,
+      438.63,
+      78.8
+    ],
+    "leg_distances_m": [
+      3128.84,
+      9113.8,
+      1090.12
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r015"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 467.9,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "122993079",
+      "123045402"
+    ],
+    "chain": [
+      "122714500",
+      "122993079",
+      "123045402",
+      "123565876"
+    ],
+    "leg_times_s": [
+      128.27,
+      261.97,
+      77.66
+    ],
+    "leg_distances_m": [
+      1891.57,
+      4353.25,
+      1087.45
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r016"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 704.28,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "4060441600",
+      "12202937275"
+    ],
+    "chain": [
+      "123647252",
+      "4060441600",
+      "12202937275",
+      "123110555"
+    ],
+    "leg_times_s": [
+      160.33,
+      309.81,
+      234.14
+    ],
+    "leg_distances_m": [
+      2648.59,
+      4937.16,
+      4286.62
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r017"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1002.85,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "4332382801",
+      "4332382801"
+    ],
+    "chain": [
+      "5621970362",
+      "4332382801",
+      "4332382801",
+      "123167853"
+    ],
+    "leg_times_s": [
+      139.13,
+      0.0,
+      863.72
+    ],
+    "leg_distances_m": [
+      2201.66,
+      0.0,
+      18927.3
+    ],
+    "leg_limits_m": [
+      25749.5,
+      25749.5,
+      25749.5
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r018"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 694.02,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "540554485",
+      "123594160"
+    ],
+    "chain": [
+      "123010950",
+      "540554485",
+      "123594160",
+      "13599877235"
+    ],
+    "leg_times_s": [
+      157.59,
+      172.95,
+      363.48
+    ],
+    "leg_distances_m": [
+      2838.67,
+      3084.51,
+      8872.99
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r019"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 718.96,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "123098536",
+      "122646457"
+    ],
+    "chain": [
+      "122889206",
+      "123098536",
+      "122646457",
+      "122880520"
+    ],
+    "leg_times_s": [
+      122.2,
+      142.98,
+      453.78
+    ],
+    "leg_distances_m": [
+      2220.99,
+      3549.43,
+      10433.29
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r020"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 435.83,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "789102843",
+      "540554485"
+    ],
+    "chain": [
+      "1709906855",
+      "789102843",
+      "540554485",
+      "123005915"
+    ],
+    "leg_times_s": [
+      73.33,
+      228.55,
+      133.94
+    ],
+    "leg_distances_m": [
+      1353.13,
+      4004.36,
+      2158.86
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r021"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 719.48,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "123294134",
+      "123247746"
+    ],
+    "chain": [
+      "4033275392",
+      "123294134",
+      "123247746",
+      "3695848227"
+    ],
+    "leg_times_s": [
+      53.95,
+      197.06,
+      468.47
+    ],
+    "leg_distances_m": [
+      764.27,
+      3070.77,
+      9234.07
+    ],
+    "leg_limits_m": [
+      24140.16,
+      24140.16,
+      24140.16
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r022"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 539.99,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "2243060666",
+      "122754779"
+    ],
+    "chain": [
+      "123049995",
+      "2243060666",
+      "122754779",
+      "122966306"
+    ],
+    "leg_times_s": [
+      321.65,
+      39.34,
+      179.0
+    ],
+    "leg_distances_m": [
+      6152.19,
+      556.79,
+      2577.02
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r023"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 304.94,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "122729498",
+      "123317785"
+    ],
+    "chain": [
+      "123324628",
+      "122729498",
+      "123317785",
+      "122618104"
+    ],
+    "leg_times_s": [
+      160.27,
+      98.51,
+      46.16
+    ],
+    "leg_distances_m": [
+      2412.75,
+      1693.12,
+      802.71
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r024"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 466.31,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "122968563",
+      "123708107"
+    ],
+    "chain": [
+      "122615392",
+      "122968563",
+      "123708107",
+      "122929076"
+    ],
+    "leg_times_s": [
+      335.63,
+      97.52,
+      33.16
+    ],
+    "leg_distances_m": [
+      5080.66,
+      1525.87,
+      506.86
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r025"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1299.34,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "7891841140",
+      "8905179909"
+    ],
+    "chain": [
+      "122941423",
+      "7891841140",
+      "8905179909",
+      "123028150"
+    ],
+    "leg_times_s": [
+      796.38,
+      251.02,
+      251.95
+    ],
+    "leg_distances_m": [
+      12112.46,
+      3658.78,
+      4136.76
+    ],
+    "leg_limits_m": [
+      16093.44,
+      16093.44,
+      16093.44
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r026"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 761.64,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "122769239",
+      "122646457"
+    ],
+    "chain": [
+      "12535611972",
+      "122769239",
+      "122646457",
+      "123029117"
+    ],
+    "leg_times_s": [
+      42.05,
+      302.6,
+      416.99
+    ],
+    "leg_distances_m": [
+      562.04,
+      6576.34,
+      7265.79
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r027"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 535.95,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "6899703389",
+      "3484551980"
+    ],
+    "chain": [
+      "3485252671",
+      "6899703389",
+      "3484551980",
+      "5787374058"
+    ],
+    "leg_times_s": [
+      138.48,
+      145.1,
+      252.37
+    ],
+    "leg_distances_m": [
+      2432.85,
+      2411.36,
+      5229.08
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r028"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 435.45,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "122768600",
+      "122675718"
+    ],
+    "chain": [
+      "122768602",
+      "122768600",
+      "122675718",
+      "4616899181"
+    ],
+    "leg_times_s": [
+      5.94,
+      175.91,
+      253.6
+    ],
+    "leg_distances_m": [
+      98.31,
+      2829.11,
+      3932.4
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r029"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1101.09,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "4020377137",
+      "2504148703"
+    ],
+    "chain": [
+      "123569373",
+      "4020377137",
+      "2504148703",
+      "123680200"
+    ],
+    "leg_times_s": [
+      439.14,
+      44.06,
+      617.89
+    ],
+    "leg_distances_m": [
+      5353.72,
+      705.59,
+      13250.82
+    ],
+    "leg_limits_m": [
+      20921.47,
+      20921.47,
+      20921.47
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r030"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 742.5,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "2326501646",
+      "122660412"
+    ],
+    "chain": [
+      "122817331",
+      "2326501646",
+      "122660412",
+      "2910128537"
+    ],
+    "leg_times_s": [
+      134.02,
+      98.83,
+      509.64
+    ],
+    "leg_distances_m": [
+      2141.11,
+      1479.49,
+      10146.51
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r031"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 690.26,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "3872277409",
+      "25904013"
+    ],
+    "chain": [
+      "25904061",
+      "3872277409",
+      "25904013",
+      "1790536168"
+    ],
+    "leg_times_s": [
+      126.67,
+      203.33,
+      360.26
+    ],
+    "leg_distances_m": [
+      1845.16,
+      3272.23,
+      5653.67
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r032"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 615.96,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "7276225398",
+      "82303663"
+    ],
+    "chain": [
+      "282138784",
+      "7276225398",
+      "82303663",
+      "1788029658"
+    ],
+    "leg_times_s": [
+      5.06,
+      440.13,
+      170.78
+    ],
+    "leg_distances_m": [
+      86.51,
+      8180.08,
+      2520.56
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r033"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 453.87,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "122679790",
+      "122891409"
+    ],
+    "chain": [
+      "122600843",
+      "122679790",
+      "122891409",
+      "1870880623"
+    ],
+    "leg_times_s": [
+      70.82,
+      43.51,
+      339.55
+    ],
+    "leg_distances_m": [
+      1160.44,
+      551.37,
+      4250.59
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r034"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 724.47,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "26511806",
+      "122814712"
+    ],
+    "chain": [
+      "122772986",
+      "26511806",
+      "122814712",
+      "122935788"
+    ],
+    "leg_times_s": [
+      280.13,
+      348.12,
+      96.22
+    ],
+    "leg_distances_m": [
+      4319.86,
+      6871.48,
+      1361.87
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r035"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 564.84,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "123099294",
+      "3470494333"
+    ],
+    "chain": [
+      "122780535",
+      "123099294",
+      "3470494333",
+      "7886352215"
+    ],
+    "leg_times_s": [
+      244.64,
+      255.42,
+      64.78
+    ],
+    "leg_distances_m": [
+      3989.06,
+      6341.35,
+      902.53
+    ],
+    "leg_limits_m": [
+      16093.44,
+      16093.44,
+      16093.44
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r036"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 540.16,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "122925704",
+      "122836180"
+    ],
+    "chain": [
+      "122738955",
+      "122925704",
+      "122836180",
+      "122678976"
+    ],
+    "leg_times_s": [
+      136.31,
+      94.11,
+      309.73
+    ],
+    "leg_distances_m": [
+      2118.06,
+      1650.34,
+      5329.24
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r037"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 722.76,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "4048881224",
+      "122656938"
+    ],
+    "chain": [
+      "122777358",
+      "4048881224",
+      "122656938",
+      "6117272105"
+    ],
+    "leg_times_s": [
+      375.2,
+      112.93,
+      234.64
+    ],
+    "leg_distances_m": [
+      6156.35,
+      2012.44,
+      3958.08
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r038"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 560.84,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "13421962119",
+      "358475308"
+    ],
+    "chain": [
+      "122772986",
+      "13421962119",
+      "358475308",
+      "358472647"
+    ],
+    "leg_times_s": [
+      311.44,
+      229.33,
+      20.07
+    ],
+    "leg_distances_m": [
+      5190.67,
+      5204.32,
+      352.12
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r039"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 694.46,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "122628307",
+      "13510921862"
+    ],
+    "chain": [
+      "123178967",
+      "122628307",
+      "13510921862",
+      "122617259"
+    ],
+    "leg_times_s": [
+      71.41,
+      510.48,
+      112.56
+    ],
+    "leg_distances_m": [
+      1102.55,
+      11755.42,
+      1706.58
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r040"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 761.62,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "8584982268",
+      "13428012068"
+    ],
+    "chain": [
+      "123031658",
+      "8584982268",
+      "13428012068",
+      "1613170313"
+    ],
+    "leg_times_s": [
+      247.94,
+      302.0,
+      211.68
+    ],
+    "leg_distances_m": [
+      3956.96,
+      7382.32,
+      3837.98
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r041"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 779.89,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "123726610",
+      "122729498"
+    ],
+    "chain": [
+      "122882037",
+      "123726610",
+      "122729498",
+      "122924690"
+    ],
+    "leg_times_s": [
+      395.87,
+      282.57,
+      101.44
+    ],
+    "leg_distances_m": [
+      6314.42,
+      5626.49,
+      1520.6
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r042"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 441.45,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "501381783",
+      "21687766"
+    ],
+    "chain": [
+      "123303788",
+      "501381783",
+      "21687766",
+      "6305278258"
+    ],
+    "leg_times_s": [
+      92.27,
+      218.99,
+      130.19
+    ],
+    "leg_distances_m": [
+      1330.3,
+      3391.14,
+      1939.01
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r043"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 792.33,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "123273254",
+      "123675648"
+    ],
+    "chain": [
+      "123165342",
+      "123273254",
+      "123675648",
+      "123083486"
+    ],
+    "leg_times_s": [
+      85.23,
+      35.9,
+      671.2
+    ],
+    "leg_distances_m": [
+      1108.01,
+      510.51,
+      14353.1
+    ],
+    "leg_limits_m": [
+      24140.16,
+      24140.16,
+      24140.16
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r044"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 742.89,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "122891176",
+      "123142465"
+    ],
+    "chain": [
+      "122794703",
+      "122891176",
+      "123142465",
+      "6787875052"
+    ],
+    "leg_times_s": [
+      333.8,
+      342.94,
+      66.15
+    ],
+    "leg_distances_m": [
+      3976.48,
+      5208.19,
+      833.86
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r045"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 434.4,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "123726610",
+      "122854266"
+    ],
+    "chain": [
+      "122847941",
+      "123726610",
+      "122854266",
+      "122861288"
+    ],
+    "leg_times_s": [
+      261.61,
+      68.06,
+      104.73
+    ],
+    "leg_distances_m": [
+      3782.32,
+      974.43,
+      1848.86
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r046"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 851.04,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "122773793",
+      "123082647"
+    ],
+    "chain": [
+      "123414101",
+      "122773793",
+      "123082647",
+      "122916210"
+    ],
+    "leg_times_s": [
+      405.04,
+      329.31,
+      116.69
+    ],
+    "leg_distances_m": [
+      5133.69,
+      4769.85,
+      1462.45
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r047"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 306.88,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "321198791",
+      "602271452"
+    ],
+    "chain": [
+      "122737307",
+      "321198791",
+      "602271452",
+      "123631286"
+    ],
+    "leg_times_s": [
+      174.88,
+      130.73,
+      1.27
+    ],
+    "leg_distances_m": [
+      2989.7,
+      2045.51,
+      14.42
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r048"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 646.59,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "123726610",
+      "9650863756"
+    ],
+    "chain": [
+      "122574321",
+      "123726610",
+      "9650863756",
+      "365787019"
+    ],
+    "leg_times_s": [
+      352.81,
+      292.94,
+      0.85
+    ],
+    "leg_distances_m": [
+      5941.29,
+      4690.03,
+      14.84
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r049"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 468.9,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "1719854938",
+      "123067955"
+    ],
+    "chain": [
+      "4015344849",
+      "1719854938",
+      "123067955",
+      "122716811"
+    ],
+    "leg_times_s": [
+      218.8,
+      52.18,
+      197.92
+    ],
+    "leg_distances_m": [
+      5614.97,
+      913.31,
+      3244.18
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r050"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 272.85,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "122770256",
+      "2305912113"
+    ],
+    "chain": [
+      "122950545",
+      "122770256",
+      "2305912113",
+      "122776600"
+    ],
+    "leg_times_s": [
+      165.68,
+      68.89,
+      38.28
+    ],
+    "leg_distances_m": [
+      2335.36,
+      981.3,
+      545.22
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r051"
+  },
+  {
+    "status": "infeasible",
+    "optimal_time_s": null,
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "query_id": "unordered_poi_r052"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 594.19,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "123243355",
+      "123332225"
+    ],
+    "chain": [
+      "122667784",
+      "123243355",
+      "123332225",
+      "123125948"
+    ],
+    "leg_times_s": [
+      477.6,
+      47.18,
+      69.42
+    ],
+    "leg_distances_m": [
+      7348.07,
+      714.57,
+      1110.63
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r053"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 698.18,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "296090222",
+      "1991891486"
+    ],
+    "chain": [
+      "394816355",
+      "296090222",
+      "1991891486",
+      "7783570398"
+    ],
+    "leg_times_s": [
+      52.81,
+      436.8,
+      208.57
+    ],
+    "leg_distances_m": [
+      739.46,
+      11978.19,
+      3354.64
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r054"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1542.15,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "738204065",
+      "122916889"
+    ],
+    "chain": [
+      "122940557",
+      "738204065",
+      "122916889",
+      "3078302905"
+    ],
+    "leg_times_s": [
+      461.24,
+      252.45,
+      828.47
+    ],
+    "leg_distances_m": [
+      11179.79,
+      4920.96,
+      12324.95
+    ],
+    "leg_limits_m": [
+      19312.13,
+      19312.13,
+      19312.13
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r055"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 596.55,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "11878550435",
+      "1192953061"
+    ],
+    "chain": [
+      "3639395910",
+      "11878550435",
+      "1192953061",
+      "5659678170"
+    ],
+    "leg_times_s": [
+      175.81,
+      288.16,
+      132.58
+    ],
+    "leg_distances_m": [
+      3172.47,
+      6963.67,
+      2981.84
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r056"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 412.14,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "8738630134",
+      "123332225"
+    ],
+    "chain": [
+      "123174610",
+      "8738630134",
+      "123332225",
+      "123125948"
+    ],
+    "leg_times_s": [
+      137.73,
+      205.0,
+      69.42
+    ],
+    "leg_distances_m": [
+      2115.08,
+      3607.13,
+      1110.63
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r057"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 498.37,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "3474123218",
+      "3474123218"
+    ],
+    "chain": [
+      "122593338",
+      "3474123218",
+      "3474123218",
+      "123007752"
+    ],
+    "leg_times_s": [
+      370.07,
+      0.0,
+      128.3
+    ],
+    "leg_distances_m": [
+      6888.74,
+      0.0,
+      1954.92
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r058"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 789.07,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "3250344195",
+      "4023792088"
+    ],
+    "chain": [
+      "122679756",
+      "3250344195",
+      "4023792088",
+      "4023964076"
+    ],
+    "leg_times_s": [
+      667.55,
+      6.83,
+      114.69
+    ],
+    "leg_distances_m": [
+      12530.27,
+      137.35,
+      1995.12
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r059"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 854.18,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "738204065",
+      "2110001858"
+    ],
+    "chain": [
+      "123041507",
+      "738204065",
+      "2110001858",
+      "123417330"
+    ],
+    "leg_times_s": [
+      488.79,
+      21.38,
+      344.01
+    ],
+    "leg_distances_m": [
+      8715.96,
+      413.05,
+      6694.16
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r060"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 770.83,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "122891409",
+      "122679790"
+    ],
+    "chain": [
+      "1870880623",
+      "122891409",
+      "122679790",
+      "122802262"
+    ],
+    "leg_times_s": [
+      339.55,
+      43.76,
+      387.52
+    ],
+    "leg_distances_m": [
+      4250.59,
+      550.14,
+      6040.26
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r061"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 339.18,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "123726610",
+      "122758731"
+    ],
+    "chain": [
+      "646113157",
+      "123726610",
+      "122758731",
+      "122847941"
+    ],
+    "leg_times_s": [
+      76.12,
+      121.7,
+      141.36
+    ],
+    "leg_distances_m": [
+      892.21,
+      1575.5,
+      2190.63
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r062"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 378.96,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "4048881224",
+      "123432780"
+    ],
+    "chain": [
+      "9769325495",
+      "4048881224",
+      "123432780",
+      "7008286317"
+    ],
+    "leg_times_s": [
+      112.91,
+      208.68,
+      57.36
+    ],
+    "leg_distances_m": [
+      1602.71,
+      3172.69,
+      795.24
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r063"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 703.1,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "2297585958",
+      "6371516392"
+    ],
+    "chain": [
+      "122994587",
+      "2297585958",
+      "6371516392",
+      "122785767"
+    ],
+    "leg_times_s": [
+      171.74,
+      233.38,
+      297.98
+    ],
+    "leg_distances_m": [
+      2586.39,
+      4171.45,
+      4961.72
+    ],
+    "leg_limits_m": [
+      16093.44,
+      16093.44,
+      16093.44
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r064"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1055.31,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "123043806",
+      "123556167"
+    ],
+    "chain": [
+      "123294994",
+      "123043806",
+      "123556167",
+      "355953314"
+    ],
+    "leg_times_s": [
+      139.46,
+      18.26,
+      897.59
+    ],
+    "leg_distances_m": [
+      2240.07,
+      301.96,
+      16754.46
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r065"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 723.91,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "4022522445",
+      "122682980"
+    ],
+    "chain": [
+      "10996324052",
+      "4022522445",
+      "122682980",
+      "122975782"
+    ],
+    "leg_times_s": [
+      202.44,
+      27.16,
+      494.31
+    ],
+    "leg_distances_m": [
+      3587.22,
+      423.81,
+      11685.91
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r066"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1526.84,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "6788097510",
+      "122676003"
+    ],
+    "chain": [
+      "1712686640",
+      "6788097510",
+      "122676003",
+      "122650957"
+    ],
+    "leg_times_s": [
+      744.6,
+      313.8,
+      468.44
+    ],
+    "leg_distances_m": [
+      12472.15,
+      5955.52,
+      9827.82
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r067"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 343.64,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "2273123092",
+      "1832514181"
+    ],
+    "chain": [
+      "122651054",
+      "2273123092",
+      "1832514181",
+      "122994587"
+    ],
+    "leg_times_s": [
+      19.14,
+      287.59,
+      36.91
+    ],
+    "leg_distances_m": [
+      275.39,
+      5602.65,
+      444.41
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r068"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 691.77,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "3738342127",
+      "122901562"
+    ],
+    "chain": [
+      "122963004",
+      "3738342127",
+      "122901562",
+      "123346224"
+    ],
+    "leg_times_s": [
+      292.34,
+      191.73,
+      207.7
+    ],
+    "leg_distances_m": [
+      4682.81,
+      3445.88,
+      3481.36
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r069"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 702.1,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "2297585907",
+      "6806766792"
+    ],
+    "chain": [
+      "2297585884",
+      "2297585907",
+      "6806766792",
+      "4075357388"
+    ],
+    "leg_times_s": [
+      32.45,
+      297.86,
+      371.79
+    ],
+    "leg_distances_m": [
+      652.73,
+      5878.47,
+      6485.06
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r070"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 576.4,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "122928464",
+      "13663562843"
+    ],
+    "chain": [
+      "123285281",
+      "122928464",
+      "13663562843",
+      "6280995138"
+    ],
+    "leg_times_s": [
+      106.85,
+      308.13,
+      161.41
+    ],
+    "leg_distances_m": [
+      1386.69,
+      6928.44,
+      2796.65
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r071"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 342.51,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "18312159",
+      "2897567461"
+    ],
+    "chain": [
+      "122839529",
+      "18312159",
+      "2897567461",
+      "122775704"
+    ],
+    "leg_times_s": [
+      221.85,
+      10.81,
+      109.85
+    ],
+    "leg_distances_m": [
+      3507.37,
+      169.08,
+      1482.9
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r072"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 506.7,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "1711206898",
+      "4822046287"
+    ],
+    "chain": [
+      "122917755",
+      "1711206898",
+      "4822046287",
+      "122817489"
+    ],
+    "leg_times_s": [
+      143.54,
+      74.13,
+      289.03
+    ],
+    "leg_distances_m": [
+      2172.07,
+      1322.97,
+      4588.5
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r073"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 709.18,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "122729498",
+      "122854266"
+    ],
+    "chain": [
+      "324700470",
+      "122729498",
+      "122854266",
+      "122962604"
+    ],
+    "leg_times_s": [
+      317.12,
+      228.22,
+      163.84
+    ],
+    "leg_distances_m": [
+      5807.77,
+      4977.87,
+      2782.39
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r074"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 539.26,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "3602567439",
+      "3602567432"
+    ],
+    "chain": [
+      "122919015",
+      "3602567439",
+      "3602567432",
+      "10996324052"
+    ],
+    "leg_times_s": [
+      238.97,
+      10.62,
+      289.67
+    ],
+    "leg_distances_m": [
+      3911.9,
+      186.3,
+      5766.49
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r075"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 901.56,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "4036567104",
+      "6806766792"
+    ],
+    "chain": [
+      "1631400205",
+      "4036567104",
+      "6806766792",
+      "2817565510"
+    ],
+    "leg_times_s": [
+      266.72,
+      233.69,
+      401.14
+    ],
+    "leg_distances_m": [
+      4939.63,
+      5278.68,
+      6841.81
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r076"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 776.99,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "123779592",
+      "1834919537"
+    ],
+    "chain": [
+      "1906214502",
+      "123779592",
+      "1834919537",
+      "122618104"
+    ],
+    "leg_times_s": [
+      289.63,
+      117.16,
+      370.21
+    ],
+    "leg_distances_m": [
+      6256.24,
+      2055.15,
+      7497.47
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r077"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 558.32,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "123317785",
+      "122729498"
+    ],
+    "chain": [
+      "324777670",
+      "123317785",
+      "122729498",
+      "122861288"
+    ],
+    "leg_times_s": [
+      254.69,
+      98.41,
+      205.21
+    ],
+    "leg_distances_m": [
+      4923.67,
+      1691.52,
+      3999.83
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r078"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 425.08,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "13427698140",
+      "122685713"
+    ],
+    "chain": [
+      "122747660",
+      "13427698140",
+      "122685713",
+      "123031658"
+    ],
+    "leg_times_s": [
+      346.21,
+      12.83,
+      66.04
+    ],
+    "leg_distances_m": [
+      5969.2,
+      219.85,
+      783.6
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r079"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 576.74,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "7265448785",
+      "4060441600"
+    ],
+    "chain": [
+      "122902179",
+      "7265448785",
+      "4060441600",
+      "123508018"
+    ],
+    "leg_times_s": [
+      261.0,
+      267.82,
+      47.92
+    ],
+    "leg_distances_m": [
+      4302.12,
+      4606.79,
+      806.81
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r080"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 768.87,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "2297585951",
+      "2297585914"
+    ],
+    "chain": [
+      "122917755",
+      "2297585951",
+      "2297585914",
+      "122879647"
+    ],
+    "leg_times_s": [
+      308.9,
+      129.09,
+      330.89
+    ],
+    "leg_distances_m": [
+      5644.14,
+      2494.34,
+      6409.38
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r081"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 273.37,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "122738515",
+      "123514095"
+    ],
+    "chain": [
+      "123358751",
+      "122738515",
+      "123514095",
+      "123526070"
+    ],
+    "leg_times_s": [
+      53.58,
+      156.4,
+      63.39
+    ],
+    "leg_distances_m": [
+      793.76,
+      2417.49,
+      935.86
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r082"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 689.25,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "1790768911",
+      "26511806"
+    ],
+    "chain": [
+      "359530859",
+      "1790768911",
+      "26511806",
+      "32581298"
+    ],
+    "leg_times_s": [
+      130.72,
+      271.7,
+      286.82
+    ],
+    "leg_distances_m": [
+      1536.25,
+      4727.53,
+      5181.12
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r083"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 505.26,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "13608235061",
+      "13608254881"
+    ],
+    "chain": [
+      "122654068",
+      "13608235061",
+      "13608254881",
+      "6003363453"
+    ],
+    "leg_times_s": [
+      202.95,
+      52.03,
+      250.28
+    ],
+    "leg_distances_m": [
+      3399.12,
+      913.01,
+      5606.62
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r084"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 691.23,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "123048303",
+      "122901562"
+    ],
+    "chain": [
+      "4614663346",
+      "123048303",
+      "122901562",
+      "122812343"
+    ],
+    "leg_times_s": [
+      155.99,
+      10.32,
+      524.92
+    ],
+    "leg_distances_m": [
+      2464.95,
+      170.64,
+      8078.28
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r085"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 627.71,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "4048881224",
+      "563320339"
+    ],
+    "chain": [
+      "1931805114",
+      "4048881224",
+      "563320339",
+      "123544413"
+    ],
+    "leg_times_s": [
+      231.92,
+      60.83,
+      334.97
+    ],
+    "leg_distances_m": [
+      3847.76,
+      1076.29,
+      6893.89
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r086"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 751.42,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "122936173",
+      "1715406006"
+    ],
+    "chain": [
+      "295527942",
+      "122936173",
+      "1715406006",
+      "13598819794"
+    ],
+    "leg_times_s": [
+      281.78,
+      310.8,
+      158.83
+    ],
+    "leg_distances_m": [
+      5486.61,
+      6760.33,
+      3534.47
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r087"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 583.51,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "122943340",
+      "122943321"
+    ],
+    "chain": [
+      "122767611",
+      "122943340",
+      "122943321",
+      "122823457"
+    ],
+    "leg_times_s": [
+      125.45,
+      84.61,
+      373.45
+    ],
+    "leg_distances_m": [
+      1811.0,
+      1199.62,
+      5694.66
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r088"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 712.38,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "12946594390",
+      "1711206898"
+    ],
+    "chain": [
+      "330371176",
+      "12946594390",
+      "1711206898",
+      "122648245"
+    ],
+    "leg_times_s": [
+      412.09,
+      168.17,
+      132.12
+    ],
+    "leg_distances_m": [
+      8985.56,
+      2810.13,
+      1957.25
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r089"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 631.2,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "123111032",
+      "1828529252"
+    ],
+    "chain": [
+      "123012326",
+      "123111032",
+      "1828529252",
+      "122772142"
+    ],
+    "leg_times_s": [
+      198.13,
+      191.08,
+      241.99
+    ],
+    "leg_distances_m": [
+      3254.98,
+      3192.68,
+      4131.23
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r090"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 362.61,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "13414281719",
+      "123067337"
+    ],
+    "chain": [
+      "123321814",
+      "13414281719",
+      "123067337",
+      "559812969"
+    ],
+    "leg_times_s": [
+      135.72,
+      22.86,
+      204.03
+    ],
+    "leg_distances_m": [
+      2182.6,
+      403.57,
+      3451.29
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r091"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 783.68,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "2297585906",
+      "2198612936"
+    ],
+    "chain": [
+      "122753815",
+      "2297585906",
+      "2198612936",
+      "1833823681"
+    ],
+    "leg_times_s": [
+      44.47,
+      530.13,
+      209.08
+    ],
+    "leg_distances_m": [
+      667.92,
+      10493.3,
+      3269.47
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r092"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 339.0,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "2321316266",
+      "6209056266"
+    ],
+    "chain": [
+      "122648780",
+      "2321316266",
+      "6209056266",
+      "122788994"
+    ],
+    "leg_times_s": [
+      70.04,
+      150.26,
+      118.71
+    ],
+    "leg_distances_m": [
+      934.84,
+      3445.53,
+      2041.43
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r093"
+  },
+  {
+    "status": "infeasible",
+    "optimal_time_s": null,
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "query_id": "unordered_poi_r094"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 723.3,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "3791077073",
+      "123779592"
+    ],
+    "chain": [
+      "5947148120",
+      "3791077073",
+      "123779592",
+      "5168429794"
+    ],
+    "leg_times_s": [
+      495.03,
+      23.23,
+      205.04
+    ],
+    "leg_distances_m": [
+      10980.5,
+      312.46,
+      5002.77
+    ],
+    "leg_limits_m": [
+      19312.13,
+      19312.13,
+      19312.13
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r095"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1115.71,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "2986501854",
+      "9747602370"
+    ],
+    "chain": [
+      "122699056",
+      "2986501854",
+      "9747602370",
+      "123652277"
+    ],
+    "leg_times_s": [
+      586.96,
+      393.31,
+      135.44
+    ],
+    "leg_distances_m": [
+      8691.27,
+      7412.21,
+      2085.45
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r096"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 669.08,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "122943340",
+      "122943340"
+    ],
+    "chain": [
+      "123565646",
+      "122943340",
+      "122943340",
+      "394952910"
+    ],
+    "leg_times_s": [
+      273.21,
+      0.0,
+      395.87
+    ],
+    "leg_distances_m": [
+      4345.17,
+      0.0,
+      6785.52
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r097"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 346.9,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "7112016265",
+      "13001350566"
+    ],
+    "chain": [
+      "123171495",
+      "7112016265",
+      "13001350566",
+      "123089174"
+    ],
+    "leg_times_s": [
+      117.95,
+      30.38,
+      198.56
+    ],
+    "leg_distances_m": [
+      1580.61,
+      380.96,
+      2740.74
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r098"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 693.92,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "122689001",
+      "3474123218"
+    ],
+    "chain": [
+      "123033923",
+      "122689001",
+      "3474123218",
+      "122689028"
+    ],
+    "leg_times_s": [
+      599.84,
+      18.54,
+      75.55
+    ],
+    "leg_distances_m": [
+      10985.86,
+      328.55,
+      1224.95
+    ],
+    "leg_limits_m": [
+      20921.47,
+      20921.47,
+      20921.47
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r099"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 438.7,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "123726610",
+      "122854266"
+    ],
+    "chain": [
+      "122758705",
+      "123726610",
+      "122854266",
+      "123346224"
+    ],
+    "leg_times_s": [
+      66.71,
+      68.06,
+      303.92
+    ],
+    "leg_distances_m": [
+      853.7,
+      974.43,
+      5473.96
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r100"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 359.24,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "4085283538",
+      "123007944"
+    ],
+    "chain": [
+      "122805928",
+      "4085283538",
+      "123007944",
+      "122757732"
+    ],
+    "leg_times_s": [
+      260.64,
+      17.05,
+      81.55
+    ],
+    "leg_distances_m": [
+      6331.63,
+      304.88,
+      1150.27
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r101"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 534.44,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "2243492724",
+      "122628042"
+    ],
+    "chain": [
+      "122634531",
+      "2243492724",
+      "122628042",
+      "122628087"
+    ],
+    "leg_times_s": [
+      323.57,
+      205.48,
+      5.38
+    ],
+    "leg_distances_m": [
+      5715.18,
+      3465.92,
+      84.21
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r102"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 419.73,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "123444184",
+      "123444188"
+    ],
+    "chain": [
+      "122983859",
+      "123444184",
+      "123444188",
+      "3084412990"
+    ],
+    "leg_times_s": [
+      257.71,
+      106.6,
+      55.42
+    ],
+    "leg_distances_m": [
+      4502.45,
+      1239.77,
+      759.98
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r103"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 429.89,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "2401074392",
+      "122848863"
+    ],
+    "chain": [
+      "122685516",
+      "2401074392",
+      "122848863",
+      "122846565"
+    ],
+    "leg_times_s": [
+      278.53,
+      22.06,
+      129.3
+    ],
+    "leg_distances_m": [
+      4707.18,
+      374.5,
+      2685.65
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r104"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 342.67,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "4046099928",
+      "122556854"
+    ],
+    "chain": [
+      "323940780",
+      "4046099928",
+      "122556854",
+      "122679836"
+    ],
+    "leg_times_s": [
+      128.91,
+      110.85,
+      102.91
+    ],
+    "leg_distances_m": [
+      2530.91,
+      1634.63,
+      1624.95
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r105"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 738.45,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "1775532183",
+      "3581139511"
+    ],
+    "chain": [
+      "122933424",
+      "1775532183",
+      "3581139511",
+      "4023783587"
+    ],
+    "leg_times_s": [
+      43.44,
+      668.92,
+      26.09
+    ],
+    "leg_distances_m": [
+      730.58,
+      15253.54,
+      431.56
+    ],
+    "leg_limits_m": [
+      19312.13,
+      19312.13,
+      19312.13
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r106"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 698.69,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "1831143024",
+      "13607910690"
+    ],
+    "chain": [
+      "122838245",
+      "1831143024",
+      "13607910690",
+      "13607910692"
+    ],
+    "leg_times_s": [
+      545.29,
+      152.07,
+      1.33
+    ],
+    "leg_distances_m": [
+      12294.79,
+      2702.57,
+      22.93
+    ],
+    "leg_limits_m": [
+      19312.13,
+      19312.13,
+      19312.13
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r107"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 452.23,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "123242485",
+      "6761447331"
+    ],
+    "chain": [
+      "298605600",
+      "123242485",
+      "6761447331",
+      "123072711"
+    ],
+    "leg_times_s": [
+      319.8,
+      93.85,
+      38.59
+    ],
+    "leg_distances_m": [
+      5714.14,
+      1496.77,
+      437.26
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r108"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 866.66,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "21478635",
+      "122700835"
+    ],
+    "chain": [
+      "359089217",
+      "21478635",
+      "122700835",
+      "123364839"
+    ],
+    "leg_times_s": [
+      554.65,
+      184.11,
+      127.9
+    ],
+    "leg_distances_m": [
+      10517.74,
+      2813.02,
+      1453.67
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r109"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 496.89,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "18312159",
+      "2897567461"
+    ],
+    "chain": [
+      "122775704",
+      "18312159",
+      "2897567461",
+      "122566647"
+    ],
+    "leg_times_s": [
+      114.4,
+      10.81,
+      371.69
+    ],
+    "leg_distances_m": [
+      1651.88,
+      169.08,
+      5587.0
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r110"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 550.98,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "318269021",
+      "318269021"
+    ],
+    "chain": [
+      "122787660",
+      "318269021",
+      "318269021",
+      "318023637"
+    ],
+    "leg_times_s": [
+      460.12,
+      0.0,
+      90.86
+    ],
+    "leg_distances_m": [
+      7941.77,
+      0.0,
+      1306.66
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r111"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 421.45,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "123082296",
+      "122734705"
+    ],
+    "chain": [
+      "1922014543",
+      "123082296",
+      "122734705",
+      "122732993"
+    ],
+    "leg_times_s": [
+      169.08,
+      141.95,
+      110.41
+    ],
+    "leg_distances_m": [
+      2546.91,
+      2212.29,
+      1742.5
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r112"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 526.84,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "123360083",
+      "32581260"
+    ],
+    "chain": [
+      "123571521",
+      "123360083",
+      "32581260",
+      "269066365"
+    ],
+    "leg_times_s": [
+      89.09,
+      212.92,
+      224.83
+    ],
+    "leg_distances_m": [
+      1129.36,
+      3301.97,
+      3454.25
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r113"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 851.37,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "12912061257",
+      "123317785"
+    ],
+    "chain": [
+      "123730420",
+      "12912061257",
+      "123317785",
+      "122900243"
+    ],
+    "leg_times_s": [
+      327.89,
+      242.07,
+      281.41
+    ],
+    "leg_distances_m": [
+      5544.4,
+      4489.85,
+      4388.33
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r114"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 867.6,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "17445327",
+      "17737739"
+    ],
+    "chain": [
+      "122748874",
+      "17445327",
+      "17737739",
+      "123473359"
+    ],
+    "leg_times_s": [
+      358.94,
+      473.88,
+      34.78
+    ],
+    "leg_distances_m": [
+      5509.85,
+      9734.72,
+      438.53
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r115"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 700.75,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "2419142733",
+      "2419240965"
+    ],
+    "chain": [
+      "123238413",
+      "2419142733",
+      "2419240965",
+      "839158822"
+    ],
+    "leg_times_s": [
+      526.52,
+      153.69,
+      20.53
+    ],
+    "leg_distances_m": [
+      11509.05,
+      2696.05,
+      357.58
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r116"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 486.22,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "2053778078",
+      "122814446"
+    ],
+    "chain": [
+      "122657144",
+      "2053778078",
+      "122814446",
+      "122779698"
+    ],
+    "leg_times_s": [
+      83.18,
+      343.37,
+      59.68
+    ],
+    "leg_distances_m": [
+      1126.24,
+      6409.08,
+      795.34
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r117"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 714.99,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "8857211120",
+      "123073313"
+    ],
+    "chain": [
+      "122966503",
+      "8857211120",
+      "123073313",
+      "123199108"
+    ],
+    "leg_times_s": [
+      241.11,
+      229.05,
+      244.83
+    ],
+    "leg_distances_m": [
+      3912.9,
+      3859.75,
+      5636.25
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r118"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 316.83,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "122671316",
+      "123036299"
+    ],
+    "chain": [
+      "593060800",
+      "122671316",
+      "123036299",
+      "123072401"
+    ],
+    "leg_times_s": [
+      138.43,
+      12.54,
+      165.86
+    ],
+    "leg_distances_m": [
+      3040.07,
+      196.14,
+      2516.92
+    ],
+    "leg_limits_m": [
+      3218.69,
+      3218.69,
+      3218.69
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r119"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 754.7,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "122854266",
+      "123562284"
+    ],
+    "chain": [
+      "123594472",
+      "122854266",
+      "123562284",
+      "123303020"
+    ],
+    "leg_times_s": [
+      509.49,
+      54.7,
+      190.51
+    ],
+    "leg_distances_m": [
+      9638.78,
+      821.08,
+      3035.74
+    ],
+    "leg_limits_m": [
+      22530.82,
+      22530.82,
+      22530.82
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r120"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 626.62,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "122943340",
+      "122943340"
+    ],
+    "chain": [
+      "123451002",
+      "122943340",
+      "122943340",
+      "122728676"
+    ],
+    "leg_times_s": [
+      141.25,
+      0.0,
+      485.37
+    ],
+    "leg_distances_m": [
+      2241.43,
+      0.0,
+      9172.29
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r121"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 934.47,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "12985694023",
+      "13518423800"
+    ],
+    "chain": [
+      "122592176",
+      "12985694023",
+      "13518423800",
+      "123057786"
+    ],
+    "leg_times_s": [
+      379.76,
+      163.39,
+      391.33
+    ],
+    "leg_distances_m": [
+      6591.05,
+      2545.53,
+      7880.5
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r122"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 498.83,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "3583764518",
+      "4083327004"
+    ],
+    "chain": [
+      "2523508030",
+      "3583764518",
+      "4083327004",
+      "122871858"
+    ],
+    "leg_times_s": [
+      317.61,
+      50.82,
+      130.41
+    ],
+    "leg_distances_m": [
+      7277.01,
+      836.0,
+      2657.82
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r123"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 405.69,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "4072370892",
+      "4022774683"
+    ],
+    "chain": [
+      "122618599",
+      "4072370892",
+      "4022774683",
+      "123259097"
+    ],
+    "leg_times_s": [
+      90.69,
+      36.73,
+      278.28
+    ],
+    "leg_distances_m": [
+      1214.04,
+      655.49,
+      4257.59
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r124"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 620.62,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "8664995815",
+      "122655896"
+    ],
+    "chain": [
+      "123459909",
+      "8664995815",
+      "122655896",
+      "2130264688"
+    ],
+    "leg_times_s": [
+      262.15,
+      147.65,
+      210.82
+    ],
+    "leg_distances_m": [
+      4020.44,
+      3263.28,
+      3390.15
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r125"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 835.0,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "122748360",
+      "26880601"
+    ],
+    "chain": [
+      "122599438",
+      "122748360",
+      "26880601",
+      "122860305"
+    ],
+    "leg_times_s": [
+      57.98,
+      337.63,
+      439.39
+    ],
+    "leg_distances_m": [
+      745.27,
+      7464.61,
+      6535.63
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r126"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 596.75,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "122943340",
+      "2896388141"
+    ],
+    "chain": [
+      "122699073",
+      "122943340",
+      "2896388141",
+      "122648471"
+    ],
+    "leg_times_s": [
+      497.23,
+      16.95,
+      82.58
+    ],
+    "leg_distances_m": [
+      8596.71,
+      192.04,
+      1207.64
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r127"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 369.14,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "122809859",
+      "122809853"
+    ],
+    "chain": [
+      "7150868683",
+      "122809859",
+      "122809853",
+      "122766947"
+    ],
+    "leg_times_s": [
+      166.19,
+      17.42,
+      185.54
+    ],
+    "leg_distances_m": [
+      2966.6,
+      305.63,
+      2820.6
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r128"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 684.61,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "123779592",
+      "122981444"
+    ],
+    "chain": [
+      "1832965691",
+      "123779592",
+      "122981444",
+      "123282181"
+    ],
+    "leg_times_s": [
+      340.91,
+      22.34,
+      321.36
+    ],
+    "leg_distances_m": [
+      6452.85,
+      297.75,
+      7903.08
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r129"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 789.65,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "123631305",
+      "3830446985"
+    ],
+    "chain": [
+      "123662203",
+      "123631305",
+      "3830446985",
+      "1840733180"
+    ],
+    "leg_times_s": [
+      621.04,
+      81.83,
+      86.79
+    ],
+    "leg_distances_m": [
+      11774.12,
+      1359.39,
+      1458.54
+    ],
+    "leg_limits_m": [
+      16093.44,
+      16093.44,
+      16093.44
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r130"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 623.98,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "321198791",
+      "4013050931"
+    ],
+    "chain": [
+      "122980717",
+      "321198791",
+      "4013050931",
+      "122685734"
+    ],
+    "leg_times_s": [
+      43.42,
+      436.15,
+      144.41
+    ],
+    "leg_distances_m": [
+      637.17,
+      8023.15,
+      3713.92
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r131"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 578.79,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "1828529252",
+      "122750696"
+    ],
+    "chain": [
+      "122772142",
+      "1828529252",
+      "122750696",
+      "585065130"
+    ],
+    "leg_times_s": [
+      240.31,
+      15.05,
+      323.43
+    ],
+    "leg_distances_m": [
+      4110.58,
+      214.32,
+      4434.03
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r132"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 621.65,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "1831143024",
+      "13607910690"
+    ],
+    "chain": [
+      "123554259",
+      "1831143024",
+      "13607910690",
+      "122928703"
+    ],
+    "leg_times_s": [
+      436.68,
+      152.07,
+      32.9
+    ],
+    "leg_distances_m": [
+      6825.56,
+      2702.57,
+      513.41
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r133"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 630.68,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "4022522445",
+      "12202937275"
+    ],
+    "chain": [
+      "12427592779",
+      "4022522445",
+      "12202937275",
+      "123367701"
+    ],
+    "leg_times_s": [
+      411.14,
+      35.72,
+      183.82
+    ],
+    "leg_distances_m": [
+      8055.12,
+      542.72,
+      3387.28
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r134"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 521.92,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "6191182060",
+      "2283668732"
+    ],
+    "chain": [
+      "6191182060",
+      "6191182060",
+      "2283668732",
+      "122811147"
+    ],
+    "leg_times_s": [
+      0.0,
+      224.28,
+      297.65
+    ],
+    "leg_distances_m": [
+      0.0,
+      5095.43,
+      4163.79
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r135"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 882.51,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "4539281853",
+      "4073805349"
+    ],
+    "chain": [
+      "122566313",
+      "4539281853",
+      "4073805349",
+      "123752440"
+    ],
+    "leg_times_s": [
+      533.7,
+      68.57,
+      280.25
+    ],
+    "leg_distances_m": [
+      8700.1,
+      1226.06,
+      4158.79
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r136"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 882.79,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "73640203",
+      "122936315"
+    ],
+    "chain": [
+      "123339047",
+      "73640203",
+      "122936315",
+      "122584347"
+    ],
+    "leg_times_s": [
+      388.34,
+      32.71,
+      461.74
+    ],
+    "leg_distances_m": [
+      6040.09,
+      540.73,
+      7383.54
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r137"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 890.49,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "2297585958",
+      "769420448"
+    ],
+    "chain": [
+      "122776600",
+      "2297585958",
+      "769420448",
+      "122917801"
+    ],
+    "leg_times_s": [
+      458.12,
+      264.64,
+      167.73
+    ],
+    "leg_distances_m": [
+      7809.1,
+      5926.85,
+      2947.19
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r138"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 370.82,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "123027973",
+      "2897567461"
+    ],
+    "chain": [
+      "122585721",
+      "123027973",
+      "2897567461",
+      "123312554"
+    ],
+    "leg_times_s": [
+      42.96,
+      87.57,
+      240.29
+    ],
+    "leg_distances_m": [
+      535.44,
+      1375.96,
+      4192.43
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r139"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 818.72,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "123036299",
+      "122732475"
+    ],
+    "chain": [
+      "7097321585",
+      "123036299",
+      "122732475",
+      "269570945"
+    ],
+    "leg_times_s": [
+      215.91,
+      289.79,
+      313.02
+    ],
+    "leg_distances_m": [
+      4841.69,
+      4758.57,
+      5407.31
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r140"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 502.69,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "122704354",
+      "122847443"
+    ],
+    "chain": [
+      "1316700826",
+      "122704354",
+      "122847443",
+      "123004508"
+    ],
+    "leg_times_s": [
+      334.91,
+      102.67,
+      65.11
+    ],
+    "leg_distances_m": [
+      6093.19,
+      1449.04,
+      943.99
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r141"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 950.89,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "122742800",
+      "122573698"
+    ],
+    "chain": [
+      "21306016",
+      "122742800",
+      "122573698",
+      "18166005"
+    ],
+    "leg_times_s": [
+      283.32,
+      616.26,
+      51.3
+    ],
+    "leg_distances_m": [
+      4289.06,
+      13091.73,
+      900.15
+    ],
+    "leg_limits_m": [
+      20921.47,
+      20921.47,
+      20921.47
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r142"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 518.22,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "1923921142",
+      "122751084"
+    ],
+    "chain": [
+      "123175433",
+      "1923921142",
+      "122751084",
+      "122910834"
+    ],
+    "leg_times_s": [
+      58.98,
+      102.36,
+      356.89
+    ],
+    "leg_distances_m": [
+      955.18,
+      1422.07,
+      6270.5
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r143"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 594.53,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "123028389",
+      "122702436"
+    ],
+    "chain": [
+      "122702515",
+      "123028389",
+      "122702436",
+      "9188662134"
+    ],
+    "leg_times_s": [
+      171.59,
+      50.73,
+      372.21
+    ],
+    "leg_distances_m": [
+      2095.39,
+      680.37,
+      4562.01
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r144"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 434.78,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "6043731178",
+      "123609220"
+    ],
+    "chain": [
+      "123417730",
+      "6043731178",
+      "123609220",
+      "122816276"
+    ],
+    "leg_times_s": [
+      106.96,
+      98.11,
+      229.71
+    ],
+    "leg_distances_m": [
+      1633.71,
+      1715.36,
+      3880.5
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r145"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 961.17,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "122860623",
+      "7008215792"
+    ],
+    "chain": [
+      "123468282",
+      "122860623",
+      "7008215792",
+      "122658987"
+    ],
+    "leg_times_s": [
+      311.85,
+      52.19,
+      597.14
+    ],
+    "leg_distances_m": [
+      5651.52,
+      866.68,
+      14429.82
+    ],
+    "leg_limits_m": [
+      17702.78,
+      17702.78,
+      17702.78
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r146"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 481.17,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "2321241283",
+      "11878550435"
+    ],
+    "chain": [
+      "1707938885",
+      "2321241283",
+      "11878550435",
+      "4085164939"
+    ],
+    "leg_times_s": [
+      319.93,
+      16.77,
+      144.47
+    ],
+    "leg_distances_m": [
+      6810.78,
+      294.18,
+      2900.58
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r147"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 311.89,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "122912265",
+      "123042333"
+    ],
+    "chain": [
+      "3581139501",
+      "122912265",
+      "123042333",
+      "123139134"
+    ],
+    "leg_times_s": [
+      196.09,
+      72.83,
+      42.97
+    ],
+    "leg_distances_m": [
+      3076.33,
+      1107.43,
+      759.52
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r148"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 584.42,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "7008286317",
+      "4075609633"
+    ],
+    "chain": [
+      "123507866",
+      "7008286317",
+      "4075609633",
+      "4617114500"
+    ],
+    "leg_times_s": [
+      55.62,
+      319.74,
+      209.06
+    ],
+    "leg_distances_m": [
+      829.74,
+      5614.57,
+      2963.14
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r149"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 972.72,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "738204065",
+      "7008215792"
+    ],
+    "chain": [
+      "123159996",
+      "738204065",
+      "7008215792",
+      "123048042"
+    ],
+    "leg_times_s": [
+      220.14,
+      482.35,
+      270.24
+    ],
+    "leg_distances_m": [
+      3444.92,
+      12887.81,
+      5124.17
+    ],
+    "leg_limits_m": [
+      16093.44,
+      16093.44,
+      16093.44
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r150"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 537.2,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "123155620",
+      "4010047865"
+    ],
+    "chain": [
+      "122889556",
+      "123155620",
+      "4010047865",
+      "122676891"
+    ],
+    "leg_times_s": [
+      177.85,
+      189.9,
+      169.45
+    ],
+    "leg_distances_m": [
+      2720.85,
+      3618.67,
+      2689.06
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r151"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 722.32,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "123010887",
+      "122790313"
+    ],
+    "chain": [
+      "123010950",
+      "123010887",
+      "122790313",
+      "122894641"
+    ],
+    "leg_times_s": [
+      205.59,
+      13.27,
+      503.47
+    ],
+    "leg_distances_m": [
+      3255.33,
+      219.44,
+      8329.25
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r152"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 359.75,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "122804061",
+      "122754286"
+    ],
+    "chain": [
+      "122633149",
+      "122804061",
+      "122754286",
+      "122561970"
+    ],
+    "leg_times_s": [
+      91.83,
+      20.47,
+      247.45
+    ],
+    "leg_distances_m": [
+      1451.94,
+      317.07,
+      3871.02
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r153"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 678.29,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "123048303",
+      "122901562"
+    ],
+    "chain": [
+      "123130519",
+      "123048303",
+      "122901562",
+      "123643292"
+    ],
+    "leg_times_s": [
+      380.14,
+      10.32,
+      287.84
+    ],
+    "leg_distances_m": [
+      5635.53,
+      170.64,
+      5264.91
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r154"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 729.41,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "4023792062",
+      "4023792088"
+    ],
+    "chain": [
+      "123158689",
+      "4023792062",
+      "4023792088",
+      "123740066"
+    ],
+    "leg_times_s": [
+      563.82,
+      80.72,
+      84.87
+    ],
+    "leg_distances_m": [
+      10388.44,
+      1621.76,
+      1312.7
+    ],
+    "leg_limits_m": [
+      16093.44,
+      16093.44,
+      16093.44
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r155"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 341.53,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "122738700",
+      "122898681"
+    ],
+    "chain": [
+      "4451136531",
+      "122738700",
+      "122898681",
+      "122906022"
+    ],
+    "leg_times_s": [
+      116.95,
+      52.83,
+      171.75
+    ],
+    "leg_distances_m": [
+      1415.81,
+      745.13,
+      2678.96
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r156"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 571.6,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "1776305901",
+      "3830446985"
+    ],
+    "chain": [
+      "1776305903",
+      "1776305901",
+      "3830446985",
+      "123180634"
+    ],
+    "leg_times_s": [
+      50.26,
+      209.38,
+      311.96
+    ],
+    "leg_distances_m": [
+      699.13,
+      3433.83,
+      7217.14
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r157"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 532.61,
+    "optimal_order": [
+      "bank",
+      "pharmacy"
+    ],
+    "stops": [
+      "2053777949",
+      "1991891486"
+    ],
+    "chain": [
+      "3859092501",
+      "2053777949",
+      "1991891486",
+      "123102509"
+    ],
+    "leg_times_s": [
+      183.17,
+      3.97,
+      345.47
+    ],
+    "leg_distances_m": [
+      3671.93,
+      69.69,
+      6024.24
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r158"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 548.8,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "3176155721",
+      "6117310788"
+    ],
+    "chain": [
+      "2420385091",
+      "3176155721",
+      "6117310788",
+      "526588367"
+    ],
+    "leg_times_s": [
+      87.88,
+      80.45,
+      380.47
+    ],
+    "leg_distances_m": [
+      1106.65,
+      1148.19,
+      6488.85
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r159"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1030.05,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "738204065",
+      "123052127"
+    ],
+    "chain": [
+      "1894742212",
+      "738204065",
+      "123052127",
+      "3078302941"
+    ],
+    "leg_times_s": [
+      339.83,
+      11.85,
+      678.36
+    ],
+    "leg_distances_m": [
+      5893.61,
+      221.33,
+      9831.14
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r160"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 521.69,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "2471608426",
+      "122663417"
+    ],
+    "chain": [
+      "123718673",
+      "2471608426",
+      "122663417",
+      "122612984"
+    ],
+    "leg_times_s": [
+      73.69,
+      17.8,
+      430.19
+    ],
+    "leg_distances_m": [
+      1203.23,
+      253.57,
+      6990.03
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r161"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 511.66,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "13593797802",
+      "122658500"
+    ],
+    "chain": [
+      "7629999420",
+      "13593797802",
+      "122658500",
+      "146480090"
+    ],
+    "leg_times_s": [
+      122.59,
+      44.34,
+      344.73
+    ],
+    "leg_distances_m": [
+      1865.45,
+      598.36,
+      6955.6
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r162"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 989.87,
+    "optimal_order": [
+      "library",
+      "pharmacy"
+    ],
+    "stops": [
+      "1831143024",
+      "466532256"
+    ],
+    "chain": [
+      "122604069",
+      "1831143024",
+      "466532256",
+      "122604879"
+    ],
+    "leg_times_s": [
+      574.08,
+      198.92,
+      216.86
+    ],
+    "leg_distances_m": [
+      12793.79,
+      3199.75,
+      3501.49
+    ],
+    "leg_limits_m": [
+      28968.19,
+      28968.19,
+      28968.19
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r163"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 612.43,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "122717771",
+      "122860623"
+    ],
+    "chain": [
+      "2818960513",
+      "122717771",
+      "122860623",
+      "122640904"
+    ],
+    "leg_times_s": [
+      120.62,
+      345.71,
+      146.11
+    ],
+    "leg_distances_m": [
+      2345.99,
+      6425.66,
+      2408.07
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r164"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 851.42,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "122854266",
+      "123562284"
+    ],
+    "chain": [
+      "123324628",
+      "122854266",
+      "123562284",
+      "1833922414"
+    ],
+    "leg_times_s": [
+      169.75,
+      54.7,
+      626.97
+    ],
+    "leg_distances_m": [
+      3015.68,
+      821.08,
+      10373.69
+    ],
+    "leg_limits_m": [
+      19312.13,
+      19312.13,
+      19312.13
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r165"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 586.37,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "13596316183",
+      "1783167863"
+    ],
+    "chain": [
+      "32581298",
+      "13596316183",
+      "1783167863",
+      "26187150"
+    ],
+    "leg_times_s": [
+      26.95,
+      91.62,
+      467.79
+    ],
+    "leg_distances_m": [
+      444.94,
+      1356.05,
+      8403.21
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r166"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 894.67,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "123409307",
+      "304819953"
+    ],
+    "chain": [
+      "123233542",
+      "123409307",
+      "304819953",
+      "123033399"
+    ],
+    "leg_times_s": [
+      300.73,
+      256.75,
+      337.19
+    ],
+    "leg_distances_m": [
+      4740.22,
+      6544.5,
+      6073.2
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r167"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 882.22,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "123105179",
+      "122622756"
+    ],
+    "chain": [
+      "123781961",
+      "123105179",
+      "122622756",
+      "122508432"
+    ],
+    "leg_times_s": [
+      143.41,
+      242.53,
+      496.28
+    ],
+    "leg_distances_m": [
+      2390.04,
+      5430.3,
+      8193.57
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r168"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 746.98,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "123370704",
+      "123243355"
+    ],
+    "chain": [
+      "123179088",
+      "123370704",
+      "123243355",
+      "123125948"
+    ],
+    "leg_times_s": [
+      436.2,
+      216.82,
+      93.96
+    ],
+    "leg_distances_m": [
+      10329.29,
+      3649.96,
+      1426.55
+    ],
+    "leg_limits_m": [
+      16093.44,
+      16093.44,
+      16093.44
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r169"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1001.2,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "6792747772",
+      "122655896"
+    ],
+    "chain": [
+      "1897562505",
+      "6792747772",
+      "122655896",
+      "122892371"
+    ],
+    "leg_times_s": [
+      534.91,
+      156.13,
+      310.16
+    ],
+    "leg_distances_m": [
+      8826.38,
+      3412.08,
+      5708.32
+    ],
+    "leg_limits_m": [
+      20921.47,
+      20921.47,
+      20921.47
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r170"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 716.77,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "8584982268",
+      "9923266112"
+    ],
+    "chain": [
+      "122626659",
+      "8584982268",
+      "9923266112",
+      "1717202085"
+    ],
+    "leg_times_s": [
+      306.75,
+      309.12,
+      100.91
+    ],
+    "leg_distances_m": [
+      6171.09,
+      7507.12,
+      1433.46
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r171"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 463.68,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "6117310788",
+      "3176155721"
+    ],
+    "chain": [
+      "122798843",
+      "6117310788",
+      "3176155721",
+      "2420385091"
+    ],
+    "leg_times_s": [
+      291.2,
+      80.51,
+      91.98
+    ],
+    "leg_distances_m": [
+      4676.69,
+      1145.74,
+      1158.06
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r172"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 293.48,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "122932822",
+      "9650863756"
+    ],
+    "chain": [
+      "122590442",
+      "122932822",
+      "9650863756",
+      "9650863756"
+    ],
+    "leg_times_s": [
+      75.15,
+      218.33,
+      0.0
+    ],
+    "leg_distances_m": [
+      1138.9,
+      5341.9,
+      0.0
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r173"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 682.91,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "122757283",
+      "2243492724"
+    ],
+    "chain": [
+      "122728065",
+      "122757283",
+      "2243492724",
+      "1922014543"
+    ],
+    "leg_times_s": [
+      91.98,
+      248.31,
+      342.62
+    ],
+    "leg_distances_m": [
+      1601.4,
+      5142.49,
+      5600.77
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r174"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 459.62,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "1723480178",
+      "2297585906"
+    ],
+    "chain": [
+      "122868559",
+      "1723480178",
+      "2297585906",
+      "2297585884"
+    ],
+    "leg_times_s": [
+      175.81,
+      249.87,
+      33.94
+    ],
+    "leg_distances_m": [
+      2778.79,
+      4515.12,
+      669.5
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r175"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 545.35,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "3748624073",
+      "4046099933"
+    ],
+    "chain": [
+      "123142019",
+      "3748624073",
+      "4046099933",
+      "1921035362"
+    ],
+    "leg_times_s": [
+      140.03,
+      83.62,
+      321.7
+    ],
+    "leg_distances_m": [
+      2193.61,
+      1385.63,
+      5237.22
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r176"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 696.99,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "268900867",
+      "123648738"
+    ],
+    "chain": [
+      "123544413",
+      "268900867",
+      "123648738",
+      "122915203"
+    ],
+    "leg_times_s": [
+      403.19,
+      223.32,
+      70.47
+    ],
+    "leg_distances_m": [
+      7761.46,
+      4932.48,
+      1055.36
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r177"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 591.29,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "7112016265",
+      "13001350566"
+    ],
+    "chain": [
+      "2964762921",
+      "7112016265",
+      "13001350566",
+      "1921035364"
+    ],
+    "leg_times_s": [
+      148.9,
+      30.38,
+      412.01
+    ],
+    "leg_distances_m": [
+      2141.19,
+      380.96,
+      6381.06
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r178"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 698.81,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "123055759",
+      "1900578481"
+    ],
+    "chain": [
+      "122900973",
+      "123055759",
+      "1900578481",
+      "1614347880"
+    ],
+    "leg_times_s": [
+      88.49,
+      31.84,
+      578.48
+    ],
+    "leg_distances_m": [
+      1227.82,
+      520.4,
+      13948.61
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r179"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 397.35,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "123048303",
+      "123048303"
+    ],
+    "chain": [
+      "536421901",
+      "123048303",
+      "123048303",
+      "4036607122"
+    ],
+    "leg_times_s": [
+      295.55,
+      0.0,
+      101.8
+    ],
+    "leg_distances_m": [
+      5265.07,
+      0.0,
+      1687.98
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r180"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 647.25,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "123514095",
+      "268900867"
+    ],
+    "chain": [
+      "123526070",
+      "123514095",
+      "268900867",
+      "122900897"
+    ],
+    "leg_times_s": [
+      63.35,
+      534.27,
+      49.64
+    ],
+    "leg_distances_m": [
+      935.26,
+      9724.31,
+      594.92
+    ],
+    "leg_limits_m": [
+      12874.75,
+      12874.75,
+      12874.75
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r181"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1131.83,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "123435577",
+      "1918565453"
+    ],
+    "chain": [
+      "639683535",
+      "123435577",
+      "1918565453",
+      "4075422138"
+    ],
+    "leg_times_s": [
+      252.66,
+      497.72,
+      381.44
+    ],
+    "leg_distances_m": [
+      5079.22,
+      9005.25,
+      7356.11
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r182"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 619.47,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "3602567439",
+      "3602567432"
+    ],
+    "chain": [
+      "122933424",
+      "3602567439",
+      "3602567432",
+      "122816835"
+    ],
+    "leg_times_s": [
+      307.71,
+      10.62,
+      301.15
+    ],
+    "leg_distances_m": [
+      4876.23,
+      186.3,
+      4735.7
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r183"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 507.55,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "9913990509",
+      "122616753"
+    ],
+    "chain": [
+      "123091074",
+      "9913990509",
+      "122616753",
+      "123276183"
+    ],
+    "leg_times_s": [
+      172.09,
+      20.21,
+      315.24
+    ],
+    "leg_distances_m": [
+      2580.59,
+      340.33,
+      7521.19
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r184"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 657.07,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "13608235061",
+      "13608254881"
+    ],
+    "chain": [
+      "122978749",
+      "13608235061",
+      "13608254881",
+      "123356459"
+    ],
+    "leg_times_s": [
+      527.32,
+      52.03,
+      77.71
+    ],
+    "leg_distances_m": [
+      8469.02,
+      913.01,
+      1732.4
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r185"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 772.11,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "1708176664",
+      "3641154697"
+    ],
+    "chain": [
+      "1934720193",
+      "1708176664",
+      "3641154697",
+      "122718417"
+    ],
+    "leg_times_s": [
+      151.88,
+      488.93,
+      131.31
+    ],
+    "leg_distances_m": [
+      2545.12,
+      12907.66,
+      2118.35
+    ],
+    "leg_limits_m": [
+      16093.44,
+      16093.44,
+      16093.44
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r186"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 803.69,
+    "optimal_order": [
+      "bank",
+      "library"
+    ],
+    "stops": [
+      "4022522445",
+      "2195300849"
+    ],
+    "chain": [
+      "4619062113",
+      "4022522445",
+      "2195300849",
+      "123783794"
+    ],
+    "leg_times_s": [
+      102.16,
+      229.46,
+      472.06
+    ],
+    "leg_distances_m": [
+      1824.91,
+      3929.67,
+      9026.22
+    ],
+    "leg_limits_m": [
+      11265.41,
+      11265.41,
+      11265.41
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r187"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 400.75,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "1637749159",
+      "1614656331"
+    ],
+    "chain": [
+      "123556125",
+      "1637749159",
+      "1614656331",
+      "123135264"
+    ],
+    "leg_times_s": [
+      107.94,
+      139.83,
+      152.98
+    ],
+    "leg_distances_m": [
+      1539.32,
+      3519.46,
+      3919.01
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r188"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1388.21,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "3702004362",
+      "6792243372"
+    ],
+    "chain": [
+      "123068397",
+      "3702004362",
+      "6792243372",
+      "2003598593"
+    ],
+    "leg_times_s": [
+      625.9,
+      391.46,
+      370.85
+    ],
+    "leg_distances_m": [
+      9584.22,
+      7086.11,
+      6108.63
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r189"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 1094.29,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "2068414881",
+      "7891841140"
+    ],
+    "chain": [
+      "123168271",
+      "2068414881",
+      "7891841140",
+      "122722806"
+    ],
+    "leg_times_s": [
+      614.36,
+      86.24,
+      393.68
+    ],
+    "leg_distances_m": [
+      14768.39,
+      584.06,
+      7496.19
+    ],
+    "leg_limits_m": [
+      37014.91,
+      37014.91,
+      37014.91
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r190"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 442.01,
+    "optimal_order": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "stops": [
+      "2457137190",
+      "1969287973"
+    ],
+    "chain": [
+      "282784889",
+      "2457137190",
+      "1969287973",
+      "123507037"
+    ],
+    "leg_times_s": [
+      340.49,
+      43.25,
+      58.28
+    ],
+    "leg_distances_m": [
+      6519.55,
+      758.89,
+      876.04
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r191"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 589.19,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "4037270444",
+      "122854349"
+    ],
+    "chain": [
+      "122767611",
+      "4037270444",
+      "122854349",
+      "122903876"
+    ],
+    "leg_times_s": [
+      304.88,
+      49.03,
+      235.28
+    ],
+    "leg_distances_m": [
+      5709.05,
+      1305.63,
+      3449.29
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r192"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 636.17,
+    "optimal_order": [
+      "supermarket",
+      "library"
+    ],
+    "stops": [
+      "4614971233",
+      "481429491"
+    ],
+    "chain": [
+      "123757158",
+      "4614971233",
+      "481429491",
+      "122598941"
+    ],
+    "leg_times_s": [
+      132.55,
+      241.57,
+      262.05
+    ],
+    "leg_distances_m": [
+      2126.68,
+      4785.67,
+      4960.99
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r193"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 442.56,
+    "optimal_order": [
+      "pharmacy",
+      "bank"
+    ],
+    "stops": [
+      "122814446",
+      "122793962"
+    ],
+    "chain": [
+      "122950545",
+      "122814446",
+      "122793962",
+      "4039156577"
+    ],
+    "leg_times_s": [
+      210.65,
+      19.94,
+      211.97
+    ],
+    "leg_distances_m": [
+      3628.48,
+      351.38,
+      4027.16
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r194"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 655.54,
+    "optimal_order": [
+      "library",
+      "supermarket"
+    ],
+    "stops": [
+      "3484551980",
+      "123245985"
+    ],
+    "chain": [
+      "123285814",
+      "3484551980",
+      "123245985",
+      "123177236"
+    ],
+    "leg_times_s": [
+      160.46,
+      231.4,
+      263.68
+    ],
+    "leg_distances_m": [
+      2532.68,
+      4277.46,
+      4254.05
+    ],
+    "leg_limits_m": [
+      4828.03,
+      4828.03,
+      4828.03
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "library"
+    ],
+    "query_id": "unordered_poi_r195"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 926.93,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "1833765897",
+      "2053777949"
+    ],
+    "chain": [
+      "1834770391",
+      "1833765897",
+      "2053777949",
+      "7783570398"
+    ],
+    "leg_times_s": [
+      337.35,
+      377.04,
+      212.54
+    ],
+    "leg_distances_m": [
+      5542.33,
+      8323.99,
+      3424.33
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "bank",
+      "library"
+    ],
+    "query_id": "unordered_poi_r196"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 607.82,
+    "optimal_order": [
+      "library",
+      "bank"
+    ],
+    "stops": [
+      "123594160",
+      "789103008"
+    ],
+    "chain": [
+      "122810309",
+      "123594160",
+      "789103008",
+      "5787374058"
+    ],
+    "leg_times_s": [
+      323.95,
+      208.99,
+      74.89
+    ],
+    "leg_distances_m": [
+      6483.98,
+      3398.08,
+      1133.97
+    ],
+    "leg_limits_m": [
+      14484.1,
+      14484.1,
+      14484.1
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "library",
+      "bank"
+    ],
+    "query_id": "unordered_poi_r197"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 319.56,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "12912061257",
+      "122932822"
+    ],
+    "chain": [
+      "123324628",
+      "12912061257",
+      "122932822",
+      "9626376704"
+    ],
+    "leg_times_s": [
+      93.44,
+      118.51,
+      107.62
+    ],
+    "leg_distances_m": [
+      1345.36,
+      2112.57,
+      1933.07
+    ],
+    "leg_limits_m": [
+      8046.72,
+      8046.72,
+      8046.72
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "supermarket"
+    ],
+    "query_id": "unordered_poi_r198"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 591.8,
+    "optimal_order": [
+      "pharmacy",
+      "library"
+    ],
+    "stops": [
+      "26880601",
+      "15368846"
+    ],
+    "chain": [
+      "26959247",
+      "26880601",
+      "15368846",
+      "1790534576"
+    ],
+    "leg_times_s": [
+      248.81,
+      30.19,
+      312.8
+    ],
+    "leg_distances_m": [
+      4506.82,
+      429.99,
+      4324.09
+    ],
+    "leg_limits_m": [
+      9656.06,
+      9656.06,
+      9656.06
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "pharmacy",
+      "library"
+    ],
+    "query_id": "unordered_poi_r199"
+  },
+  {
+    "status": "optimal",
+    "optimal_time_s": 658.43,
+    "optimal_order": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "stops": [
+      "4808601658",
+      "2457137190"
+    ],
+    "chain": [
+      "2897997145",
+      "4808601658",
+      "2457137190",
+      "123253737"
+    ],
+    "leg_times_s": [
+      180.52,
+      246.43,
+      231.47
+    ],
+    "leg_distances_m": [
+      3143.21,
+      4324.14,
+      3940.3
+    ],
+    "leg_limits_m": [
+      6437.38,
+      6437.38,
+      6437.38
+    ],
+    "orders_tried": 2,
+    "poi_types": [
+      "supermarket",
+      "pharmacy"
+    ],
+    "query_id": "unordered_poi_r200"
+  }
+]

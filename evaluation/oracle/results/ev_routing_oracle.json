@@ -1,0 +1,3326 @@
+[
+  {
+    "query_id": "ev_routing_0_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122861288",
+      "123418231",
+      "1705264873"
+    ],
+    "charger_poi_ids": [
+      488862
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 7908.24,
+    "current_battery_m": 5986.76,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_0_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123269387",
+      "123233072"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 13810.23,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 64
+  },
+  {
+    "query_id": "ev_routing_0_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122902027",
+      "2401074455",
+      "123102509"
+    ],
+    "charger_poi_ids": [
+      100828
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8566.16,
+    "current_battery_m": 4988.97,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_0_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122937325",
+      "122667784"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 10766.31,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 7
+  },
+  {
+    "query_id": "ev_routing_0_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "11083560102",
+      "7863156534",
+      "122719785"
+    ],
+    "charger_poi_ids": [
+      109531
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 19953.65,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_0_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123029614",
+      "123053939"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11891.94,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_0_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122830401",
+      "12925642463",
+      "663145613"
+    ],
+    "charger_poi_ids": [
+      169569
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 9682.71,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_1_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "5787374058",
+      "123508018"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 9581.22,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_1_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123094216",
+      "122843383",
+      "1919685349"
+    ],
+    "charger_poi_ids": [
+      67186
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11365.38,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_1_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122994076",
+      "3872627382"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11226.59,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 24
+  },
+  {
+    "query_id": "ev_routing_1_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1842600155",
+      "11410864428",
+      "122640086"
+    ],
+    "charger_poi_ids": [
+      169553
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 21389.01,
+    "current_battery_m": 8046.72,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_1_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123210083",
+      "122814598"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11783.24,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_1_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122760150",
+      "122923441",
+      "725731175"
+    ],
+    "charger_poi_ids": [
+      169558
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 14083.88,
+    "current_battery_m": 9656.06,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 13
+  },
+  {
+    "query_id": "ev_routing_2_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "5947148120",
+      "123333532",
+      "652181550"
+    ],
+    "charger_poi_ids": [
+      204766
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 6650.3,
+    "current_battery_m": 4490.07,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_2_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1579623745",
+      "1790583626"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 23627.39,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 30
+  },
+  {
+    "query_id": "ev_routing_2_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122741081",
+      "122670688",
+      "122812343"
+    ],
+    "charger_poi_ids": [
+      58028
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 9309.3,
+    "current_battery_m": 4988.97,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_2_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123041171",
+      "122916900"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 10362.94,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_2_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123508018",
+      "1710237936",
+      "4023783587"
+    ],
+    "charger_poi_ids": [
+      169576
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 10066.1,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_2_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "2411363943",
+      "2133222655"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 22340.06,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_2_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1901872982",
+      "122660252",
+      "123155306"
+    ],
+    "charger_poi_ids": [
+      88365
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 6537.37,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_3_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122760150",
+      "122651050",
+      "122757732"
+    ],
+    "charger_poi_ids": [
+      169516
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12353.2,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 19
+  },
+  {
+    "query_id": "ev_routing_3_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123548037",
+      "122880383"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 10481.9,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 9
+  },
+  {
+    "query_id": "ev_routing_3_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123588334",
+      "13510598261",
+      "29322329"
+    ],
+    "charger_poi_ids": [
+      169524
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 7466.16,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_3_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122722839",
+      "4584387277"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 12868.89,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_3_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123740911",
+      "122513017",
+      "2327350493"
+    ],
+    "charger_poi_ids": [
+      169549
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 7522.15,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_3_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "646113157",
+      "122822822"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 9776.14,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_3_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123092891",
+      "452735142",
+      "122928419"
+    ],
+    "charger_poi_ids": [
+      473223
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 10751.16,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 43
+  },
+  {
+    "query_id": "ev_routing_4_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122797912",
+      "1620475446",
+      "122798020"
+    ],
+    "charger_poi_ids": [
+      142089
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 17927.27,
+    "current_battery_m": 10476.83,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 49
+  },
+  {
+    "query_id": "ev_routing_4_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "146480090",
+      "2713456764"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6167.77,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_4_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4075422138",
+      "373504112",
+      "122929356"
+    ],
+    "charger_poi_ids": [
+      169557
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11179.5,
+    "current_battery_m": 7483.45,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_4_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4561837505",
+      "122743252"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8671.73,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_4_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122808426",
+      "122628045",
+      "13003640204"
+    ],
+    "charger_poi_ids": [
+      54821
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 13029.94,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 13
+  },
+  {
+    "query_id": "ev_routing_4_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "7783570398",
+      "123004508"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 15195.65,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 23
+  },
+  {
+    "query_id": "ev_routing_4_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "13599887285",
+      "1710237936",
+      "123014693"
+    ],
+    "charger_poi_ids": [
+      169576
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12897.23,
+    "current_battery_m": 10525.11,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 9
+  },
+  {
+    "query_id": "ev_routing_5_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1834931349",
+      "6207254939",
+      "729689755"
+    ],
+    "charger_poi_ids": [
+      104479
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 17654.09,
+    "current_battery_m": 12874.75,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 39
+  },
+  {
+    "query_id": "ev_routing_5_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122733315",
+      "122617259"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7266.74,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 0
+  },
+  {
+    "query_id": "ev_routing_5_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123091074",
+      "123053939"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 12362.61,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_5_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123142419",
+      "122933424"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 4422.07,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 0
+  },
+  {
+    "query_id": "ev_routing_5_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "2856159795",
+      "123730420"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 16658.86,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_5_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123529878",
+      "123339300",
+      "122689179"
+    ],
+    "charger_poi_ids": [
+      169559
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 16249.05,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 9
+  },
+  {
+    "query_id": "ev_routing_6_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123180634",
+      "123613531"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 9090.51,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_6_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "8353810117",
+      "122660252",
+      "13568795975"
+    ],
+    "charger_poi_ids": [
+      88365
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 14642.59,
+    "current_battery_m": 7483.45,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 10
+  },
+  {
+    "query_id": "ev_routing_6_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122619807",
+      "269066365"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8239.87,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_6_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122719087",
+      "2401074455",
+      "122936355"
+    ],
+    "charger_poi_ids": [
+      100828
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8609.02,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_6_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122741625",
+      "123001639"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7928.13,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_6_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122920966",
+      "1709182364",
+      "123384106"
+    ],
+    "charger_poi_ids": [
+      125799
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 68859.02,
+    "current_battery_m": 50871.36,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 219
+  },
+  {
+    "query_id": "ev_routing_7_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122851646",
+      "122662302",
+      "122823398"
+    ],
+    "charger_poi_ids": [
+      169594
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11555.38,
+    "current_battery_m": 5986.76,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_7_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122693610",
+      "123195141"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8496.81,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_7_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123164135",
+      "1710237936",
+      "123508018"
+    ],
+    "charger_poi_ids": [
+      169576
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11713.19,
+    "current_battery_m": 7483.45,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_7_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123187151",
+      "123086380"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 26358.95,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_7_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "3932346787",
+      "8266165136",
+      "13596312409"
+    ],
+    "charger_poi_ids": [
+      169599
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12057.49,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 9
+  },
+  {
+    "query_id": "ev_routing_7_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122763715",
+      "122966787"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 12380.07,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 34
+  },
+  {
+    "query_id": "ev_routing_7_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "668264",
+      "122570122",
+      "123057650"
+    ],
+    "charger_poi_ids": [
+      332450
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 14112.07,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 53
+  },
+  {
+    "query_id": "ev_routing_8_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123173889",
+      "122860861"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 17502.6,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_8_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "297612863",
+      "122595441",
+      "122836369"
+    ],
+    "charger_poi_ids": [
+      169571
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 39068.38,
+    "current_battery_m": 19955.87,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 62
+  },
+  {
+    "query_id": "ev_routing_8_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122687669",
+      "122912650"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 5551.66,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_8_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122519433",
+      "122851345",
+      "11177879389"
+    ],
+    "charger_poi_ids": [
+      491031
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12482.08,
+    "current_battery_m": 10476.83,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 36
+  },
+  {
+    "query_id": "ev_routing_8_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122890720",
+      "7783570398"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 13212.75,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 24
+  },
+  {
+    "query_id": "ev_routing_8_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123430500",
+      "122732473",
+      "123045457"
+    ],
+    "charger_poi_ids": [
+      164136
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 10521.59,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_9_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4083903331",
+      "123139004",
+      "10701030687"
+    ],
+    "charger_poi_ids": [
+      169574
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 10657.05,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_9_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "2180460673",
+      "4561837505"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 12478.11,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_9_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1866845867",
+      "11009989571",
+      "122628087"
+    ],
+    "charger_poi_ids": [
+      169587
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 22390.84,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 408
+  },
+  {
+    "query_id": "ev_routing_9_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122950545",
+      "1345305456"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6404.01,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_9_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122616223",
+      "2898307900",
+      "123193978"
+    ],
+    "charger_poi_ids": [
+      169543
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 10778.28,
+    "current_battery_m": 8046.72,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 7
+  },
+  {
+    "query_id": "ev_routing_9_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122823804",
+      "1381313585"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6874.23,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_9_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122699630",
+      "2192130865",
+      "123696043"
+    ],
+    "charger_poi_ids": [
+      152029
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 16415.49,
+    "current_battery_m": 9656.06,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 9
+  },
+  {
+    "query_id": "ev_routing_10_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "299630245",
+      "12545602475",
+      "13329847322"
+    ],
+    "charger_poi_ids": [
+      169577
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 13684.93,
+    "current_battery_m": 4490.07,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_10_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "322895473",
+      "526588367"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 9545.42,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_10_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122896195",
+      "12925642463",
+      "4619062113"
+    ],
+    "charger_poi_ids": [
+      169569
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11621.71,
+    "current_battery_m": 4988.97,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 408
+  },
+  {
+    "query_id": "ev_routing_10_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123091761",
+      "122823457"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11295.58,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 7
+  },
+  {
+    "query_id": "ev_routing_10_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122933424",
+      "10996324060",
+      "4010113625"
+    ],
+    "charger_poi_ids": [
+      169598
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12097.91,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_10_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1921035364",
+      "122977216"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7549.93,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_10_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122959462",
+      "4029012068",
+      "123630427"
+    ],
+    "charger_poi_ids": [
+      205493
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 13261.81,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_11_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123577668",
+      "1790363957",
+      "122805829"
+    ],
+    "charger_poi_ids": [
+      169529
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 23269.32,
+    "current_battery_m": 16463.59,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_11_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122810309",
+      "123640563"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 5785.81,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 0
+  },
+  {
+    "query_id": "ev_routing_11_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122975238",
+      "2401074455",
+      "122761807"
+    ],
+    "charger_poi_ids": [
+      100828
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 9695.96,
+    "current_battery_m": 4988.97,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_11_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122808426",
+      "123042920"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7935.94,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_11_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122603279",
+      "9277622449"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8250.16,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_12_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4023783587",
+      "1710237936",
+      "122851276"
+    ],
+    "charger_poi_ids": [
+      169576
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11251.92,
+    "current_battery_m": 8046.72,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_12_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122942585",
+      "12695673578"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 10840.17,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 0
+  },
+  {
+    "query_id": "ev_routing_12_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "3932346787",
+      "1721329674",
+      "123274817"
+    ],
+    "charger_poi_ids": [
+      169583
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12931.59,
+    "current_battery_m": 9656.06,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 12
+  },
+  {
+    "query_id": "ev_routing_12_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123556125",
+      "122818468"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 9802.95,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 37
+  },
+  {
+    "query_id": "ev_routing_12_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123006777",
+      "3874616515",
+      "122567704"
+    ],
+    "charger_poi_ids": [
+      169548
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 10996.93,
+    "current_battery_m": 8046.72,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 47
+  },
+  {
+    "query_id": "ev_routing_12_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123033923",
+      "4048270125"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 15583.5,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 14
+  },
+  {
+    "query_id": "ev_routing_12_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123156008",
+      "9030353692",
+      "9280066156"
+    ],
+    "charger_poi_ids": [
+      160960
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 18156.0,
+    "current_battery_m": 12874.75,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_13_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122939949",
+      "3536716344",
+      "1711180828"
+    ],
+    "charger_poi_ids": [
+      90019
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 31760.86,
+    "current_battery_m": 13470.21,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 42
+  },
+  {
+    "query_id": "ev_routing_13_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123282181",
+      "122676261"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8359.98,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_13_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "3830416505",
+      "2489464616",
+      "123092891"
+    ],
+    "charger_poi_ids": [
+      142317
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8853.08,
+    "current_battery_m": 4988.97,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_13_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4084324657",
+      "122761217"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11005.95,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 18
+  },
+  {
+    "query_id": "ev_routing_13_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123422021",
+      "269572876",
+      "13021883512"
+    ],
+    "charger_poi_ids": [
+      65436
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8332.04,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_13_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "6903039104",
+      "122573498"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 9156.55,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_13_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "2437655751",
+      "122843383",
+      "123643292"
+    ],
+    "charger_poi_ids": [
+      67186
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8044.35,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_14_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122621636",
+      "2243492724",
+      "122725889"
+    ],
+    "charger_poi_ids": [
+      186182
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 13695.89,
+    "current_battery_m": 8980.14,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 10
+  },
+  {
+    "query_id": "ev_routing_14_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122820840",
+      "122817489"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11494.64,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 16
+  },
+  {
+    "query_id": "ev_routing_14_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4008246829",
+      "1710237936",
+      "123010950"
+    ],
+    "charger_poi_ids": [
+      169576
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 16391.32,
+    "current_battery_m": 9977.93,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 13
+  },
+  {
+    "query_id": "ev_routing_14_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "652181550",
+      "122442319"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6879.74,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_14_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1718691088",
+      "668259",
+      "122808473"
+    ],
+    "charger_poi_ids": [
+      167652
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8017.56,
+    "current_battery_m": 3492.28,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_14_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123063423",
+      "123373979"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6675.53,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_14_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122767632",
+      "4076912449",
+      "123033923"
+    ],
+    "charger_poi_ids": [
+      140289
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 16120.58,
+    "current_battery_m": 8770.92,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_15_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122703432",
+      "2546218351",
+      "122933424"
+    ],
+    "charger_poi_ids": [
+      186076
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 10159.33,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 408
+  },
+  {
+    "query_id": "ev_routing_15_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4688425949",
+      "122667881"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8622.07,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_15_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "269596308",
+      "73909258",
+      "123152132"
+    ],
+    "charger_poi_ids": [
+      169607
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 19379.67,
+    "current_battery_m": 14484.1,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 12
+  },
+  {
+    "query_id": "ev_routing_15_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123698665",
+      "122904536"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 10816.26,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_15_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123082956",
+      "123509181",
+      "123651758"
+    ],
+    "charger_poi_ids": [
+      140331
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8818.26,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_15_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123367701",
+      "1709140661"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 15849.39,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 16
+  },
+  {
+    "query_id": "ev_routing_15_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "337804540",
+      "122745105",
+      "3536926777"
+    ],
+    "charger_poi_ids": [
+      136251
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 20145.22,
+    "current_battery_m": 11265.41,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_16_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4855263275",
+      "122652915",
+      "122659778"
+    ],
+    "charger_poi_ids": [
+      142158
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 9184.95,
+    "current_battery_m": 5986.76,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_16_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122972250",
+      "122864328"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 13777.37,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 20
+  },
+  {
+    "query_id": "ev_routing_16_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123476549",
+      "123431247",
+      "663949759"
+    ],
+    "charger_poi_ids": [
+      188416
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8727.74,
+    "current_battery_m": 4988.97,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_16_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123028124",
+      "122787413"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7420.51,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_16_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "10583183714",
+      "122871494",
+      "13654422077"
+    ],
+    "charger_poi_ids": [
+      136253
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 6622.66,
+    "current_battery_m": 3492.28,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_16_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4022541007",
+      "123382135"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7848.57,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_16_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "324777670",
+      "4085684948",
+      "122974253"
+    ],
+    "charger_poi_ids": [
+      169565
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11941.91,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_17_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "379967316",
+      "11410864428",
+      "2208493929"
+    ],
+    "charger_poi_ids": [
+      169553
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 17400.45,
+    "current_battery_m": 11973.52,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_17_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122702515",
+      "8934193085"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 4882.32,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 7
+  },
+  {
+    "query_id": "ev_routing_17_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1719554006",
+      "1719854950",
+      "122920365"
+    ],
+    "charger_poi_ids": [
+      471430
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 10082.2,
+    "current_battery_m": 7483.45,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 18
+  },
+  {
+    "query_id": "ev_routing_17_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123329902",
+      "310938588"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 19232.95,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 15
+  },
+  {
+    "query_id": "ev_routing_17_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123554259",
+      "9030353692",
+      "2180460674"
+    ],
+    "charger_poi_ids": [
+      160960
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12767.25,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_17_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122899675",
+      "122983371"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 18407.97,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 29
+  },
+  {
+    "query_id": "ev_routing_17_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122714492",
+      "122723753",
+      "122966499"
+    ],
+    "charger_poi_ids": [
+      244157
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 6445.06,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_18_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1840733180",
+      "3832559645",
+      "585065130"
+    ],
+    "charger_poi_ids": [
+      486241
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12468.98,
+    "current_battery_m": 4490.07,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 59
+  },
+  {
+    "query_id": "ev_routing_18_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "5474353557",
+      "1834770355"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11895.49,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 18
+  },
+  {
+    "query_id": "ev_routing_18_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123093485",
+      "122732473",
+      "362820327"
+    ],
+    "charger_poi_ids": [
+      164136
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 9281.9,
+    "current_battery_m": 4988.97,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_18_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122860480",
+      "13608374881"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 16924.99,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_18_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123276183",
+      "122843383",
+      "122963004"
+    ],
+    "charger_poi_ids": [
+      67186
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 7632.67,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_18_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4616899181",
+      "123508018"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 13900.2,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_18_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1907903600",
+      "4085264135",
+      "123594472"
+    ],
+    "charger_poi_ids": [
+      439013
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12897.53,
+    "current_battery_m": 5262.55,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_19_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123139134",
+      "10996324060",
+      "4010113625"
+    ],
+    "charger_poi_ids": [
+      169598
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 14441.66,
+    "current_battery_m": 9656.06,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_19_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1832965691",
+      "122904536"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7482.47,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_19_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1719528022",
+      "1857478857",
+      "123007627"
+    ],
+    "charger_poi_ids": [
+      108149
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 16201.47,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 39
+  },
+  {
+    "query_id": "ev_routing_19_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "2260929779",
+      "123179175"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 12714.42,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_19_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122975713",
+      "123160613",
+      "123315089"
+    ],
+    "charger_poi_ids": [
+      99462
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11065.12,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_19_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122808284",
+      "122888396"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6057.59,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 0
+  },
+  {
+    "query_id": "ev_routing_19_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122847240",
+      "1559857340",
+      "122650013"
+    ],
+    "charger_poi_ids": [
+      68961
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 7651.41,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 12
+  },
+  {
+    "query_id": "ev_routing_20_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123280910",
+      "122647777",
+      "1751689275"
+    ],
+    "charger_poi_ids": [
+      169593
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 20024.32,
+    "current_battery_m": 13470.21,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 19
+  },
+  {
+    "query_id": "ev_routing_20_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "2523582947",
+      "3627434390"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11366.93,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_20_v03",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122916583",
+      "123406758",
+      "4022775159"
+    ],
+    "charger_poi_ids": [
+      205495
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8222.37,
+    "current_battery_m": 7483.45,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_20_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123382135",
+      "123508018"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8136.6,
+    "current_battery_m": 179602.79,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_20_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123487704",
+      "122745105",
+      "122423649"
+    ],
+    "charger_poi_ids": [
+      136251
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 21419.08,
+    "current_battery_m": 17461.38,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_20_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123461615",
+      "26959247"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 9067.2,
+    "current_battery_m": 160290.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_20_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123574636",
+      "123519191",
+      "123015506"
+    ],
+    "charger_poi_ids": [
+      451158
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 15596.69,
+    "current_battery_m": 8770.92,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 38
+  },
+  {
+    "query_id": "ev_routing_22_v01",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "3856579996",
+      "13603165521"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 4740.34,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_22_v02",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123101577",
+      "780580392"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6905.86,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_22_v04",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122906223",
+      "122808426"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11360.54,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_22_v05",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123303420",
+      "2546218351",
+      "123000906"
+    ],
+    "charger_poi_ids": [
+      186076
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8859.87,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_22_v06",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1832047321",
+      "122739313"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 17718.4,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 17
+  },
+  {
+    "query_id": "ev_routing_22_v07",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122612992",
+      "4048395078",
+      "122508432"
+    ],
+    "charger_poi_ids": [
+      157833
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 16239.09,
+    "current_battery_m": 12874.75,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 10
+  },
+  {
+    "query_id": "ev_routing_add_000",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "13034563118",
+      "122745105",
+      "123576003"
+    ],
+    "charger_poi_ids": [
+      136251
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 24671.79,
+    "current_battery_m": 14966.9,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_001",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122984133",
+      "122616223"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7757.52,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 0
+  },
+  {
+    "query_id": "ev_routing_add_002",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123179088",
+      "563313826",
+      "122847417"
+    ],
+    "charger_poi_ids": [
+      169536
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11576.66,
+    "current_battery_m": 4988.97,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 7
+  },
+  {
+    "query_id": "ev_routing_add_003",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "789102939",
+      "14689240"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7191.26,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_add_004",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "3695422221",
+      "123065323",
+      "123767314"
+    ],
+    "charger_poi_ids": [
+      167960
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 9046.03,
+    "current_battery_m": 6984.55,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_add_005",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122927851",
+      "122800517"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 17841.46,
+    "current_battery_m": 159325.06,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 12
+  },
+  {
+    "query_id": "ev_routing_add_006",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1832662354",
+      "2322596170",
+      "122758616"
+    ],
+    "charger_poi_ids": [
+      106958
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 19231.48,
+    "current_battery_m": 7016.74,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 22
+  },
+  {
+    "query_id": "ev_routing_add_007",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "3706607764",
+      "122912584"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7256.17,
+    "current_battery_m": 180246.53,
+    "max_battery_m": 225308.16,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_add_008",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123042483",
+      "4076912449",
+      "123546663"
+    ],
+    "charger_poi_ids": [
+      140289
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 14084.64,
+    "current_battery_m": 8255.93,
+    "max_battery_m": 275197.82,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_add_009",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123010687",
+      "123761203"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11045.1,
+    "current_battery_m": 98169.98,
+    "max_battery_m": 325087.49,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_010",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122929172",
+      "122662724",
+      "1710387225"
+    ],
+    "charger_poi_ids": [
+      21774
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 15712.98,
+    "current_battery_m": 7483.45,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 21
+  },
+  {
+    "query_id": "ev_routing_add_011",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "8417962813",
+      "122980064"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 16115.89,
+    "current_battery_m": 199558.66,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_012",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123035071",
+      "122730814",
+      "1790870534"
+    ],
+    "charger_poi_ids": [
+      117305
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12560.09,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 10
+  },
+  {
+    "query_id": "ev_routing_add_013",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1905139470",
+      "12444304803"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 11844.19,
+    "current_battery_m": 149668.99,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_014",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122716811",
+      "1776299100",
+      "123571255"
+    ],
+    "charger_poi_ids": [
+      483651
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 5317.39,
+    "current_battery_m": 3492.28,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_add_015",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123303020",
+      "9650863756"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7765.76,
+    "current_battery_m": 239792.26,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_016",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1831227553",
+      "3536716344",
+      "122556626"
+    ],
+    "charger_poi_ids": [
+      90019
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 41539.77,
+    "current_battery_m": 24558.59,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 60
+  },
+  {
+    "query_id": "ev_routing_add_017",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "9277622449",
+      "25904061"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6556.68,
+    "current_battery_m": 157715.71,
+    "max_battery_m": 225308.16,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_add_018",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123028746",
+      "123329261",
+      "122822543"
+    ],
+    "charger_poi_ids": [
+      126779
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 17547.32,
+    "current_battery_m": 8255.93,
+    "max_battery_m": 275197.82,
+    "n_candidates_final": 11
+  },
+  {
+    "query_id": "ev_routing_add_019",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122638081",
+      "122820840"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 9391.4,
+    "current_battery_m": 64373.76,
+    "max_battery_m": 325087.49,
+    "n_candidates_final": 12
+  },
+  {
+    "query_id": "ev_routing_add_020",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122635837",
+      "122961400",
+      "122880520"
+    ],
+    "charger_poi_ids": [
+      169546
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11955.65,
+    "current_battery_m": 4490.07,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_add_022",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123007186",
+      "668259",
+      "322992034"
+    ],
+    "charger_poi_ids": [
+      167652
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 18257.87,
+    "current_battery_m": 8046.72,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 35
+  },
+  {
+    "query_id": "ev_routing_add_023",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122900973",
+      "1669488447"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 15803.06,
+    "current_battery_m": 119735.19,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 13
+  },
+  {
+    "query_id": "ev_routing_add_024",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122567925",
+      "4085684935",
+      "324777670"
+    ],
+    "charger_poi_ids": [
+      169582
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 5091.23,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_025",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123014876",
+      "123353425"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 65596.3,
+    "current_battery_m": 320581.32,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 155
+  },
+  {
+    "query_id": "ev_routing_add_026",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "498728483",
+      "1204008691",
+      "667902"
+    ],
+    "charger_poi_ids": [
+      152180
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 15306.99,
+    "current_battery_m": 11265.41,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_add_027",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "3106097859",
+      "1458526286"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8290.22,
+    "current_battery_m": 135184.9,
+    "max_battery_m": 225308.16,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_add_028",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123342825",
+      "122738697",
+      "122569535"
+    ],
+    "charger_poi_ids": [
+      169857
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 9317.82,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 275197.82,
+    "n_candidates_final": 6
+  },
+  {
+    "query_id": "ev_routing_add_029",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "2964762921",
+      "323940780"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7071.22,
+    "current_battery_m": 227561.24,
+    "max_battery_m": 325087.49,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_030",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122928703",
+      "9030353692",
+      "122879528"
+    ],
+    "charger_poi_ids": [
+      160960
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11314.81,
+    "current_battery_m": 4490.07,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_031",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122814930",
+      "122860623"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 31589.58,
+    "current_battery_m": 99779.33,
+    "max_battery_m": 199558.66,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_add_032",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122927851",
+      "10996324060",
+      "123346124"
+    ],
+    "charger_poi_ids": [
+      169598
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12516.39,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 249448.32,
+    "n_candidates_final": 7
+  },
+  {
+    "query_id": "ev_routing_add_033",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "374170050",
+      "8204293337"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6877.14,
+    "current_battery_m": 89801.4,
+    "max_battery_m": 299337.98,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_add_034",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123158689",
+      "1711679507",
+      "789102939"
+    ],
+    "charger_poi_ids": [
+      107935
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11639.4,
+    "current_battery_m": 3492.28,
+    "max_battery_m": 349227.65,
+    "n_candidates_final": 7
+  },
+  {
+    "query_id": "ev_routing_add_035",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123202431",
+      "122679672"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 12972.84,
+    "current_battery_m": 400726.66,
+    "max_battery_m": 400726.66,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_add_036",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122830401",
+      "12925642463",
+      "306308095"
+    ],
+    "charger_poi_ids": [
+      169569
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 23475.95,
+    "current_battery_m": 10525.11,
+    "max_battery_m": 175418.5,
+    "n_candidates_final": 27
+  },
+  {
+    "query_id": "ev_routing_add_037",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122667712",
+      "1707977847"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 8664.87,
+    "current_battery_m": 45061.63,
+    "max_battery_m": 225308.16,
+    "n_candidates_final": 15
+  },
+  {
+    "query_id": "ev_routing_add_038",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123718673",
+      "122670688",
+      "2523582947"
+    ],
+    "charger_poi_ids": [
+      58028
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 5706.7,
+    "current_battery_m": 4828.03,
+    "max_battery_m": 275197.82,
+    "n_candidates_final": 4
+  },
+  {
+    "query_id": "ev_routing_re001",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122916900",
+      "4075671642",
+      "123640563"
+    ],
+    "charger_poi_ids": [
+      133170
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 15496.67,
+    "current_battery_m": 4490.07,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 5
+  },
+  {
+    "query_id": "ev_routing_re002",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "6006420651",
+      "9030353692",
+      "123156008"
+    ],
+    "charger_poi_ids": [
+      160960
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 8696.1,
+    "current_battery_m": 1609.34,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_re003",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "4085164939",
+      "122991611",
+      "122817489"
+    ],
+    "charger_poi_ids": [
+      169566
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 15253.0,
+    "current_battery_m": 1496.69,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 25
+  },
+  {
+    "query_id": "ev_routing_re004",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123472134",
+      "123160613",
+      "122679756"
+    ],
+    "charger_poi_ids": [
+      99462
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12915.97,
+    "current_battery_m": 6437.38,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_re005",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "7886352215",
+      "4075429734",
+      "123125948"
+    ],
+    "charger_poi_ids": [
+      184606
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 11103.54,
+    "current_battery_m": 5986.76,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_re006",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "282784889",
+      "588553461",
+      "585065130"
+    ],
+    "charger_poi_ids": [
+      101053
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 15250.16,
+    "current_battery_m": 11265.41,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 62
+  },
+  {
+    "query_id": "ev_routing_re007",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122933424",
+      "10996324060",
+      "616243508"
+    ],
+    "charger_poi_ids": [
+      169598
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 12835.63,
+    "current_battery_m": 10476.83,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 7
+  },
+  {
+    "query_id": "ev_routing_re008",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "7008286317",
+      "122670688",
+      "123414009"
+    ],
+    "charger_poi_ids": [
+      58028
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 6730.58,
+    "current_battery_m": 2993.38,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 408
+  },
+  {
+    "query_id": "ev_routing_re009",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "123640563",
+      "122994286",
+      "6461714990"
+    ],
+    "charger_poi_ids": [
+      170482
+    ],
+    "n_charging_stops": 1,
+    "optimal_distance_m": 15139.18,
+    "current_battery_m": 8980.14,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 2
+  },
+  {
+    "query_id": "ev_routing_re010",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122796706",
+      "123636880"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 7396.96,
+    "current_battery_m": 12874.75,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 3
+  },
+  {
+    "query_id": "ev_routing_re011",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "3816109627",
+      "122639823"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 6705.96,
+    "current_battery_m": 10476.83,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 8
+  },
+  {
+    "query_id": "ev_routing_re012",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "122593338",
+      "123276203"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 4363.77,
+    "current_battery_m": 7483.45,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 1
+  },
+  {
+    "query_id": "ev_routing_re013",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1458526286",
+      "122869314"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 10589.27,
+    "current_battery_m": 20921.47,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 13
+  },
+  {
+    "query_id": "ev_routing_re014",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1879753595",
+      "10610715080"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 10448.46,
+    "current_battery_m": 19456.97,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 10
+  },
+  {
+    "query_id": "ev_routing_re015",
+    "status": "optimal",
+    "infeasible_reason": null,
+    "chain": [
+      "1785589603",
+      "123197687"
+    ],
+    "charger_poi_ids": [],
+    "n_charging_stops": 0,
+    "optimal_distance_m": 5721.65,
+    "current_battery_m": 10476.83,
+    "max_battery_m": 149668.99,
+    "n_candidates_final": 1
+  }
+]

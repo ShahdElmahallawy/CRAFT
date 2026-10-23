@@ -1,0 +1,100 @@
+{
+  "template": "ev_routing",
+  "oracle_total": 200,
+  "oracle_optimal": 185,
+  "oracle_infeasible": 15,
+  "zero_optimum_excluded": [],
+  "definitions": {
+    "craft_objective": "compute_system_objective(route, G, 'length') = realized route cost",
+    "MAPE": "mean(|craft-opt|/opt) over oracle-optimal queries CRAFT also solved",
+    "headline_subset": "search-only (craft parse == gold parse)",
+    "at_optimum_tolerance_m": 0.5
+  },
+  "models": {
+    "gemini-3_1-flash-lite": {
+      "search_only": {
+        "n": 180,
+        "MAPE": 0.001775798747424366,
+        "median_APE": 0.0,
+        "p90_APE": 0.0,
+        "max_APE": 0.08927416808264285,
+        "exactly_optimal": 162
+      },
+      "parse_diverged": {
+        "n": 5,
+        "MAPE": 0.18118240758690507,
+        "median_APE": 0.0,
+        "p90_APE": 0.0,
+        "max_APE": 0.9059120379345253
+      },
+      "craft_no_route": 0,
+      "craft_missing": 0,
+      "craft_route_on_proven_infeasible": [],
+      "craft_below_optimum": [],
+      "craft_battery_violations": []
+    },
+    "gpt-4_1": {
+      "search_only": {
+        "n": 158,
+        "MAPE": 0.0017553858525835386,
+        "median_APE": 0.0,
+        "p90_APE": 0.00017157556384093277,
+        "max_APE": 0.08927416808264285,
+        "exactly_optimal": 141
+      },
+      "parse_diverged": {
+        "n": 22,
+        "MAPE": 0.00782227425795732,
+        "median_APE": 0.0,
+        "p90_APE": 0.0,
+        "max_APE": 0.09982566584033326
+      },
+      "craft_no_route": 2,
+      "craft_missing": 0,
+      "craft_route_on_proven_infeasible": [],
+      "craft_below_optimum": [],
+      "craft_battery_violations": [
+        {
+          "query_id": "ev_routing_10_v05",
+          "craft_m": 8091.54,
+          "opt_m": 12097.91,
+          "min_battery_m": -348.3970034882092
+        },
+        {
+          "query_id": "ev_routing_12_v05",
+          "craft_m": 10985.39,
+          "opt_m": 10996.93,
+          "min_battery_m": -494.0018359517886
+        },
+        {
+          "query_id": "ev_routing_add_002",
+          "craft_m": 9783.49,
+          "opt_m": 11576.66,
+          "min_battery_m": -121.06641113311917
+        }
+      ]
+    },
+    "openai_gpt-oss-20b": {
+      "search_only": {
+        "n": 119,
+        "MAPE": 0.0022603613025960543,
+        "median_APE": 0.0,
+        "p90_APE": 0.00024261349342831907,
+        "max_APE": 0.08927416808264285,
+        "exactly_optimal": 105
+      },
+      "parse_diverged": {
+        "n": 37,
+        "MAPE": 0.02718210010202321,
+        "median_APE": 0.0,
+        "p90_APE": 0.0,
+        "max_APE": 0.9059120379345253
+      },
+      "craft_no_route": 29,
+      "craft_missing": 0,
+      "craft_route_on_proven_infeasible": [],
+      "craft_below_optimum": [],
+      "craft_battery_violations": []
+    }
+  }
+}

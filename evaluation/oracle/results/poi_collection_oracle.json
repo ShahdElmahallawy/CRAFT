@@ -1,0 +1,5145 @@
+[
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15027623",
+      "18003879"
+    ],
+    "steps": 197833,
+    "n_candidates": 507,
+    "steps_by_target": {
+      "4": 197829,
+      "3": 4
+    },
+    "wall_s": 1.8,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_0_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 18534647,
+    "n_candidates": 1236,
+    "steps_by_target": {
+      "4": 18534643,
+      "3": 4
+    },
+    "wall_s": 526.1,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_0_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15243105",
+      "122623111",
+      "122600220",
+      "122627380"
+    ],
+    "steps": 5,
+    "n_candidates": 1217,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_0_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2154,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_0_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2206,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_0_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_0_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 12136489,
+    "n_candidates": 1284,
+    "steps_by_target": {
+      "4": 12136485,
+      "3": 4
+    },
+    "wall_s": 370.2,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_0_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15243105",
+      "122657027",
+      "122646457"
+    ],
+    "steps": 4206902,
+    "n_candidates": 514,
+    "steps_by_target": {
+      "4": 4206898,
+      "3": 4
+    },
+    "wall_s": 58.9,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_1_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122826566",
+      "8857211120",
+      "3897158133",
+      "5968243481"
+    ],
+    "steps": 959954,
+    "n_candidates": 1159,
+    "steps_by_target": {
+      "4": 959954
+    },
+    "wall_s": 34.2,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_1_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "14749818",
+      "18003879"
+    ],
+    "steps": 5,
+    "n_candidates": 1777,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_1_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2203,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_1_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_1_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15243105",
+      "28937935",
+      "122600220"
+    ],
+    "steps": 4723370,
+    "n_candidates": 521,
+    "steps_by_target": {
+      "4": 4723366,
+      "3": 4
+    },
+    "wall_s": 66.2,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_1_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122556854",
+      "123048303",
+      "123189452"
+    ],
+    "steps": 6,
+    "n_candidates": 237,
+    "steps_by_target": {
+      "3": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_2_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "18166169",
+      "26666269",
+      "67619212"
+    ],
+    "steps": 5,
+    "n_candidates": 477,
+    "steps_by_target": {
+      "3": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_2_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122556854",
+      "122616753",
+      "26792646",
+      "122794571"
+    ],
+    "steps": 183938,
+    "n_candidates": 745,
+    "steps_by_target": {
+      "4": 183938
+    },
+    "wall_s": 11.6,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_2_v03",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 952,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_2_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 957,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_2_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 951,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_2_v06",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "10537871",
+      "14749818"
+    ],
+    "steps": 3,
+    "n_candidates": 119,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_2_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 3600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122973936",
+      "2198612935",
+      "2198612936"
+    ],
+    "steps": 6,
+    "n_candidates": 24,
+    "steps_by_target": {
+      "3": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_3_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 3600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14749818",
+      "26666269"
+    ],
+    "steps": 4,
+    "n_candidates": 1046,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_3_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1700,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_3_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1403,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_3_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1824,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_3_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1824,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_3_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14749818",
+      "15029454"
+    ],
+    "steps": 4,
+    "n_candidates": 1040,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_3_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "60951821",
+      "653690"
+    ],
+    "steps": 3,
+    "n_candidates": 628,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_4_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "60951821",
+      "653690"
+    ],
+    "steps": 3,
+    "n_candidates": 753,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_4_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122556854",
+      "122663417",
+      "122622756"
+    ],
+    "steps": 3175,
+    "n_candidates": 1150,
+    "steps_by_target": {
+      "3": 3175
+    },
+    "wall_s": 0.2,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_4_v03",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "20930285",
+      "18210804"
+    ],
+    "steps": 4,
+    "n_candidates": 1142,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_4_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690"
+    ],
+    "steps": 4,
+    "n_candidates": 1594,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_4_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690"
+    ],
+    "steps": 4,
+    "n_candidates": 1603,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_4_v06",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "17737739",
+      "27062258"
+    ],
+    "steps": 3,
+    "n_candidates": 817,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_4_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "15243105",
+      "122656085"
+    ],
+    "steps": 1697,
+    "n_candidates": 406,
+    "steps_by_target": {
+      "3": 1694,
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_5_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "14854599",
+      "15368846"
+    ],
+    "steps": 1232,
+    "n_candidates": 1009,
+    "steps_by_target": {
+      "3": 1229,
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_5_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122813287",
+      "122610707",
+      "3054297623"
+    ],
+    "steps": 5284,
+    "n_candidates": 1037,
+    "steps_by_target": {
+      "3": 5284
+    },
+    "wall_s": 0.3,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_5_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15368846",
+      "17737739"
+    ],
+    "steps": 4,
+    "n_candidates": 1644,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_5_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15368846",
+      "17737739"
+    ],
+    "steps": 4,
+    "n_candidates": 1644,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_5_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "14854599",
+      "25843068"
+    ],
+    "steps": 1937,
+    "n_candidates": 1082,
+    "steps_by_target": {
+      "3": 1934,
+      "2": 3
+    },
+    "wall_s": 0.1,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_5_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "26792646",
+      "122794571"
+    ],
+    "steps": 56,
+    "n_candidates": 52,
+    "steps_by_target": {
+      "3": 53,
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_6_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 5,
+    "time_budget_s": 3600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 40389978,
+    "n_candidates": 1404,
+    "steps_by_target": {
+      "4": 40389974,
+      "3": 4
+    },
+    "wall_s": 1502.3,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_6_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 5,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 5,
+    "stops": [
+      "14854599",
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 6,
+    "n_candidates": 2192,
+    "steps_by_target": {
+      "5": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_6_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 5,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 5,
+    "stops": [
+      "14854599",
+      "15368846",
+      "17737739",
+      "14749818",
+      "15029454"
+    ],
+    "steps": 6,
+    "n_candidates": 2194,
+    "steps_by_target": {
+      "5": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_6_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 5,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 5,
+    "stops": [
+      "14854599",
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 6,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "5": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_6_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 5,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122755569",
+      "122567949",
+      "12927546578"
+    ],
+    "steps": 6,
+    "n_candidates": 49,
+    "steps_by_target": {
+      "3": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_6_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 5,
+    "time_budget_s": 3600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "122556854",
+      "122617894"
+    ],
+    "steps": 3,
+    "n_candidates": 481,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_7_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "122616753",
+      "9913990509"
+    ],
+    "steps": 3,
+    "n_candidates": 720,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_7_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "14854768",
+      "16218309"
+    ],
+    "steps": 366497,
+    "n_candidates": 1337,
+    "steps_by_target": {
+      "4": 366493,
+      "3": 4
+    },
+    "wall_s": 12.6,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_7_v03",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122561005",
+      "122655896",
+      "122619407",
+      "122860575"
+    ],
+    "steps": 5,
+    "n_candidates": 263,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_7_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690",
+      "14854768"
+    ],
+    "steps": 5,
+    "n_candidates": 1600,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_7_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690",
+      "14854768"
+    ],
+    "steps": 5,
+    "n_candidates": 1603,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_7_v06",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "18166169",
+      "72017798"
+    ],
+    "steps": 3,
+    "n_candidates": 754,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_7_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "82303663",
+      "15027623"
+    ],
+    "steps": 4,
+    "n_candidates": 1307,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_8_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122619407",
+      "122860623",
+      "122916889"
+    ],
+    "steps": 8774,
+    "n_candidates": 46,
+    "steps_by_target": {
+      "4": 8770,
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_8_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15243105",
+      "122623111",
+      "122600220",
+      "122836180"
+    ],
+    "steps": 256302,
+    "n_candidates": 2033,
+    "steps_by_target": {
+      "4": 256302
+    },
+    "wall_s": 29.1,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_8_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2167,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_8_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2212,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_8_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122993079",
+      "122703679",
+      "122993081",
+      "122993090"
+    ],
+    "steps": 2175170,
+    "n_candidates": 901,
+    "steps_by_target": {
+      "4": 2175170
+    },
+    "wall_s": 59.6,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_8_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122616753",
+      "26792646",
+      "122794571"
+    ],
+    "steps": 27863,
+    "n_candidates": 446,
+    "steps_by_target": {
+      "4": 27859,
+      "3": 4
+    },
+    "wall_s": 0.2,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_9_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122650068",
+      "123352456",
+      "122852816"
+    ],
+    "steps": 3456,
+    "n_candidates": 227,
+    "steps_by_target": {
+      "4": 3450,
+      "3": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_9_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122623111",
+      "122656085",
+      "28937935",
+      "122600220"
+    ],
+    "steps": 1112612,
+    "n_candidates": 910,
+    "steps_by_target": {
+      "4": 1112612
+    },
+    "wall_s": 107.3,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_9_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 958,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_9_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 958,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_9_v06",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "18166068",
+      "18166091"
+    ],
+    "steps": 3,
+    "n_candidates": 152,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_9_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 3600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "21490264",
+      "123069158",
+      "122732379"
+    ],
+    "steps": 395,
+    "n_candidates": 548,
+    "steps_by_target": {
+      "3": 395
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_10_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2306,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_10_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2421,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_10_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2469,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_10_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2469,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_10_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2382,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_10_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "78734182"
+    ],
+    "steps": 44051,
+    "n_candidates": 398,
+    "steps_by_target": {
+      "4": 44047,
+      "3": 4
+    },
+    "wall_s": 0.4,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_11_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "36635946",
+      "26792646",
+      "122689001"
+    ],
+    "steps": 30273,
+    "n_candidates": 444,
+    "steps_by_target": {
+      "4": 30269,
+      "3": 4
+    },
+    "wall_s": 0.3,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_11_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122656085",
+      "122729333",
+      "122814446",
+      "122952107"
+    ],
+    "steps": 10141,
+    "n_candidates": 482,
+    "steps_by_target": {
+      "4": 10141
+    },
+    "wall_s": 0.3,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_11_v03",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "18166169",
+      "789103061",
+      "123043302",
+      "1710390172"
+    ],
+    "steps": 189907,
+    "n_candidates": 919,
+    "steps_by_target": {
+      "4": 189907
+    },
+    "wall_s": 18.8,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_11_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 957,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_11_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 958,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_11_v06",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122655896",
+      "122860623",
+      "122931368"
+    ],
+    "steps": 4,
+    "n_candidates": 15,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_11_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4216085,
+    "n_candidates": 1361,
+    "steps_by_target": {
+      "4": 4216081,
+      "3": 4
+    },
+    "wall_s": 124.4,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_12_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122619407",
+      "738204065",
+      "122916889"
+    ],
+    "steps": 4,
+    "n_candidates": 58,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_12_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 1913,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_12_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2189,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_12_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_12_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_12_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "16747033",
+      "10537871",
+      "18210808"
+    ],
+    "steps": 102760,
+    "n_candidates": 418,
+    "steps_by_target": {
+      "4": 102756,
+      "3": 4
+    },
+    "wall_s": 0.5,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_12_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15243105",
+      "18312159",
+      "67543270"
+    ],
+    "steps": 4,
+    "n_candidates": 1010,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_13_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15027623",
+      "18003879"
+    ],
+    "steps": 384774,
+    "n_candidates": 628,
+    "steps_by_target": {
+      "4": 384769,
+      "3": 5
+    },
+    "wall_s": 4.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_13_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "16588311",
+      "17737739",
+      "18166068",
+      "20400154"
+    ],
+    "steps": 446531,
+    "n_candidates": 1666,
+    "steps_by_target": {
+      "4": 446531
+    },
+    "wall_s": 38.9,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_13_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "17737739",
+      "122646457",
+      "122900110"
+    ],
+    "steps": 5,
+    "n_candidates": 2069,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_13_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_13_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_13_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 3600513,
+    "n_candidates": 1040,
+    "steps_by_target": {
+      "4": 3600509,
+      "3": 4
+    },
+    "wall_s": 74.9,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_13_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15243105",
+      "25522165",
+      "122603347"
+    ],
+    "steps": 4,
+    "n_candidates": 584,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_14_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2353,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_14_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2450,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_14_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2469,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_14_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2469,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_14_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14854768",
+      "16218309"
+    ],
+    "steps": 4,
+    "n_candidates": 1153,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_14_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "26208836",
+      "122684046",
+      "2419142815"
+    ],
+    "steps": 48203,
+    "n_candidates": 463,
+    "steps_by_target": {
+      "4": 48197,
+      "3": 6
+    },
+    "wall_s": 0.5,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_15_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122556854",
+      "26792646",
+      "4037270444"
+    ],
+    "steps": 4412,
+    "n_candidates": 224,
+    "steps_by_target": {
+      "4": 4408,
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_15_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "17737739",
+      "18166169",
+      "18882281",
+      "26666269"
+    ],
+    "steps": 74495,
+    "n_candidates": 841,
+    "steps_by_target": {
+      "4": 74495
+    },
+    "wall_s": 6.1,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_15_v03",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 942,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_15_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 958,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_15_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 958,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_15_v06",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "738204065",
+      "122860623",
+      "123130135"
+    ],
+    "steps": 6,
+    "n_candidates": 16,
+    "steps_by_target": {
+      "3": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_15_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15243105",
+      "122623111",
+      "122600220",
+      "122657376"
+    ],
+    "steps": 5,
+    "n_candidates": 1046,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_16_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15243105",
+      "122656085",
+      "25522165",
+      "122660343"
+    ],
+    "steps": 8,
+    "n_candidates": 1775,
+    "steps_by_target": {
+      "4": 8
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_16_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "653690",
+      "18166113"
+    ],
+    "steps": 5,
+    "n_candidates": 2760,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_16_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "653690",
+      "14854768"
+    ],
+    "steps": 5,
+    "n_candidates": 2787,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_16_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "653690",
+      "122671316"
+    ],
+    "steps": 5,
+    "n_candidates": 2195,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_16_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "653690",
+      "14854768"
+    ],
+    "steps": 5,
+    "n_candidates": 2858,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_16_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "26792646",
+      "122556854",
+      "122622756",
+      "122706857"
+    ],
+    "steps": 1121126,
+    "n_candidates": 1553,
+    "steps_by_target": {
+      "4": 1121126
+    },
+    "wall_s": 68.6,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_16_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "10537871",
+      "14749818"
+    ],
+    "steps": 3,
+    "n_candidates": 112,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_17_v01",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 3600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "61719421",
+      "18166068",
+      "122767173"
+    ],
+    "steps": 6,
+    "n_candidates": 425,
+    "steps_by_target": {
+      "3": 6
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_17_v02",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 846,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_17_v03",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 951,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_17_v04",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 948,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_17_v05",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 958,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_17_v06",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122656085",
+      "28937935",
+      "122623613"
+    ],
+    "steps": 4,
+    "n_candidates": 176,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_17_v07",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15243105",
+      "28937935",
+      "122565045"
+    ],
+    "steps": 4113239,
+    "n_candidates": 472,
+    "steps_by_target": {
+      "4": 4113235,
+      "3": 4
+    },
+    "wall_s": 60.8,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_18_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 1703,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_18_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 1907,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_18_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_18_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_18_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14749818",
+      "18003879"
+    ],
+    "steps": 475127,
+    "n_candidates": 618,
+    "steps_by_target": {
+      "4": 475123,
+      "3": 4
+    },
+    "wall_s": 5.2,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_18_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "17737739",
+      "18882269"
+    ],
+    "steps": 3,
+    "n_candidates": 825,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_19_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "122556854",
+      "122622756"
+    ],
+    "steps": 3,
+    "n_candidates": 301,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_19_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "653690",
+      "18166113"
+    ],
+    "steps": 765082,
+    "n_candidates": 1196,
+    "steps_by_target": {
+      "4": 765078,
+      "3": 4
+    },
+    "wall_s": 32.2,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_19_v03",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690",
+      "14854768"
+    ],
+    "steps": 5,
+    "n_candidates": 1351,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_19_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690",
+      "14854768"
+    ],
+    "steps": 5,
+    "n_candidates": 1598,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_19_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690",
+      "14854768"
+    ],
+    "steps": 5,
+    "n_candidates": 1598,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_19_v06",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "122623111",
+      "122600220"
+    ],
+    "steps": 3,
+    "n_candidates": 364,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_19_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "16588311",
+      "17737739",
+      "14749818"
+    ],
+    "steps": 1446,
+    "n_candidates": 1441,
+    "steps_by_target": {
+      "3": 1446
+    },
+    "wall_s": 0.1,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_20_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "26792646",
+      "123275972",
+      "6117310788"
+    ],
+    "steps": 5504,
+    "n_candidates": 842,
+    "steps_by_target": {
+      "3": 5504
+    },
+    "wall_s": 0.1,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_20_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 2128,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_20_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 2207,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_20_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 2103,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_20_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_20_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "18166086",
+      "60951821",
+      "18166068"
+    ],
+    "steps": 2310,
+    "n_candidates": 1318,
+    "steps_by_target": {
+      "3": 2310
+    },
+    "wall_s": 0.1,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_20_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122821043",
+      "13599520566",
+      "13599505968",
+      "3844231300"
+    ],
+    "steps": 180614,
+    "n_candidates": 623,
+    "steps_by_target": {
+      "4": 180614
+    },
+    "wall_s": 3.7,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_21_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "15368846",
+      "14749818"
+    ],
+    "steps": 25842404,
+    "n_candidates": 1407,
+    "steps_by_target": {
+      "4": 25842400,
+      "3": 4
+    },
+    "wall_s": 850.3,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_21_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122619407",
+      "122561005",
+      "122860623",
+      "122931368"
+    ],
+    "steps": 382,
+    "n_candidates": 226,
+    "steps_by_target": {
+      "4": 382
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_21_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2195,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_21_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2211,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_21_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_21_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "1832669321",
+      "1568821606",
+      "6209056266",
+      "122977913"
+    ],
+    "steps": 665133,
+    "n_candidates": 436,
+    "steps_by_target": {
+      "4": 665133
+    },
+    "wall_s": 9.5,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_21_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2206,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_22_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2302,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_22_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "18166113"
+    ],
+    "steps": 4,
+    "n_candidates": 1512,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_22_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2407,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_22_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2469,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_22_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2469,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_22_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "653690",
+      "14854768"
+    ],
+    "steps": 4,
+    "n_candidates": 2193,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_22_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "supermarket": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "123292600",
+      "122993090",
+      "122993081",
+      "122703679"
+    ],
+    "steps": 3091383,
+    "n_candidates": 863,
+    "steps_by_target": {
+      "4": 3091383
+    },
+    "wall_s": 80.4,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_23_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "15027623"
+    ],
+    "steps": 4,
+    "n_candidates": 681,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_23_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 1791,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_23_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2212,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_23_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "14854599",
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 5,
+    "n_candidates": 2213,
+    "steps_by_target": {
+      "4": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_23_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "123044321",
+      "122670688",
+      "122663417",
+      "123231741"
+    ],
+    "steps": 1138701,
+    "n_candidates": 552,
+    "steps_by_target": {
+      "4": 1138701
+    },
+    "wall_s": 20.6,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_23_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 4,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "60951821",
+      "653690"
+    ],
+    "steps": 3,
+    "n_candidates": 767,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_24_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "15368846",
+      "14854768"
+    ],
+    "steps": 3,
+    "n_candidates": 738,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_24_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "17737739",
+      "2277214139",
+      "123608535"
+    ],
+    "steps": 308,
+    "n_candidates": 1180,
+    "steps_by_target": {
+      "3": 308
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_24_v03",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122568832",
+      "789103061",
+      "122708197"
+    ],
+    "steps": 7665,
+    "n_candidates": 1448,
+    "steps_by_target": {
+      "3": 7665
+    },
+    "wall_s": 0.8,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_24_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690"
+    ],
+    "steps": 4,
+    "n_candidates": 1582,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_24_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "17737739",
+      "653690"
+    ],
+    "steps": 4,
+    "n_candidates": 1603,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_24_v06",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "15368846",
+      "14854768"
+    ],
+    "steps": 3,
+    "n_candidates": 706,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_24_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "supermarket": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14854768",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 1336,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_25_v01",
+    "gold_category_limits": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14854768",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 1335,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_25_v02",
+    "gold_category_limits": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14854768",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 773,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_25_v03",
+    "gold_category_limits": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14854768",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 1824,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_25_v04",
+    "gold_category_limits": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14854768",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 1824,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_25_v05",
+    "gold_category_limits": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14854768",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 1824,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_25_v06",
+    "gold_category_limits": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "14854768",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 1764,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_25_v07",
+    "gold_category_limits": {
+      "bank": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "122860623",
+      "122931368"
+    ],
+    "steps": 3,
+    "n_candidates": 10,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_26_v01",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 3600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "122728319",
+      "12405214472"
+    ],
+    "steps": 3,
+    "n_candidates": 491,
+    "steps_by_target": {
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_26_v02",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 763,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_26_v03",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 942,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_26_v04",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 952,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_26_v05",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 958,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_26_v06",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122880105",
+      "123396889",
+      "326779203"
+    ],
+    "steps": 4,
+    "n_candidates": 264,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_26_v07",
+    "gold_category_limits": {
+      "library": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "122650068",
+      "122605217"
+    ],
+    "steps": 90,
+    "n_candidates": 222,
+    "steps_by_target": {
+      "3": 87,
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_27_v01",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "122623111",
+      "122600220"
+    ],
+    "steps": 1339,
+    "n_candidates": 406,
+    "steps_by_target": {
+      "3": 1336,
+      "2": 3
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_27_v02",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "122623111",
+      "122656085",
+      "2283358671"
+    ],
+    "steps": 4,
+    "n_candidates": 610,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_27_v03",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 953,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_27_v04",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "15368846",
+      "17737739",
+      "10537871"
+    ],
+    "steps": 4,
+    "n_candidates": 958,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_27_v05",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 2,
+    "stops": [
+      "15368846",
+      "10537871"
+    ],
+    "steps": 2909,
+    "n_candidates": 566,
+    "steps_by_target": {
+      "3": 2906,
+      "2": 3
+    },
+    "wall_s": 0.1,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_27_v07",
+    "gold_category_limits": {
+      "library": 2,
+      "pharmacy": 1
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 947,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_28_v01",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1295,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_28_v02",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1742,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_28_v03",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1824,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_28_v04",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1824,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_28_v05",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "14854599",
+      "10537871",
+      "14749818"
+    ],
+    "steps": 4,
+    "n_candidates": 1824,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_28_v06",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "2909944999",
+      "3409141022",
+      "67543270"
+    ],
+    "steps": 26,
+    "n_candidates": 36,
+    "steps_by_target": {
+      "3": 26
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_28_v07",
+    "gold_category_limits": {
+      "bank": 1,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 3600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "21025709",
+      "613939258",
+      "123137219"
+    ],
+    "steps": 5,
+    "n_candidates": 148,
+    "steps_by_target": {
+      "3": 5
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_29_v01",
+    "gold_category_limits": {
+      "supermarket": 3
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "25522165",
+      "122603347",
+      "122641970"
+    ],
+    "steps": 4,
+    "n_candidates": 193,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_29_v02",
+    "gold_category_limits": {
+      "supermarket": 3
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 7200.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "16201947",
+      "501381783",
+      "559933121"
+    ],
+    "steps": 4,
+    "n_candidates": 708,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_29_v03",
+    "gold_category_limits": {
+      "supermarket": 3
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "653690",
+      "14854768",
+      "16201947"
+    ],
+    "steps": 4,
+    "n_candidates": 1175,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_29_v04",
+    "gold_category_limits": {
+      "supermarket": 3
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 14400.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "653690",
+      "14854768",
+      "16201947"
+    ],
+    "steps": 4,
+    "n_candidates": 1214,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_29_v05",
+    "gold_category_limits": {
+      "supermarket": 3
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 18000.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 3,
+    "stops": [
+      "653690",
+      "14854768",
+      "16201947"
+    ],
+    "steps": 4,
+    "n_candidates": 1214,
+    "steps_by_target": {
+      "3": 4
+    },
+    "wall_s": 0.0,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_29_v06",
+    "gold_category_limits": {
+      "supermarket": 3
+    },
+    "gold_total_cap": 3,
+    "time_budget_s": 21600.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": true
+  },
+  {
+    "status": "solved",
+    "count": 4,
+    "stops": [
+      "122619407",
+      "122561005",
+      "122860623",
+      "122916889"
+    ],
+    "steps": 432519,
+    "n_candidates": 653,
+    "steps_by_target": {
+      "5": 368351,
+      "4": 64168
+    },
+    "wall_s": 5.9,
+    "max_steps": 100000000,
+    "query_id": "poi_collection_6_re01",
+    "gold_category_limits": {
+      "bank": 1,
+      "library": 2,
+      "pharmacy": 2
+    },
+    "gold_total_cap": 5,
+    "time_budget_s": 10800.0,
+    "objective": "maximize_poi",
+    "optimum_is_full_cap": false
+  }
+]
