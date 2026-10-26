@@ -9,6 +9,7 @@
 | `benchmark/` | Query sets, NL templates, ground truth |
 | `evaluation/` | The scoring pipeline shared across all three systems |
 | `examples/` | A runnable single-query demo — **start here** |
+| `results/` | Published result tables (xlsx) for all three systems, already scored |
 | `data/` | Datasets (gitignored — see "Downloading the datasets") |
 
 ## Setup
@@ -21,7 +22,7 @@
    OPENAI_BASE_URL=http://localhost:11434/v1
    OPENAI_API_KEY=ollama
    ```
-   For a cloud model: Set `GEMINI_API_KEY`/`GEMINI_BASE_URL` (or
+   Prefer a cloud model? Set `GEMINI_API_KEY`/`GEMINI_BASE_URL` (or
    `OPENAI_API_KEY`/`OPENAI_BASE_URL` for a real OpenAI key) instead — see
    `examples/README.md` for details.
 3. Get the dataset — see "Downloading the datasets" below.
@@ -32,7 +33,7 @@ query" section below.
 ## Downloading the datasets
 
 `data/` isn't checked into git (too large) — download and place the pieces
-you need from **[[Drive link](https://drive.google.com/drive/folders/1EHU_bB0UN9It6M3T0dTQRi080L15cZiE)]**.
+you need from **[Drive link — ask for access]**.
 
 **SoCal — required for everything in this repo.** Download the bundle and
 place it at `data/socal/`:
@@ -49,7 +50,7 @@ data/socal/set3_query_embeddings.json  # query-side embeddings for set3's descri
 This is everything needed to run the demo, regenerate any benchmark query set,
 and evaluate all three systems — the ground truth and oracle-optimal results
 needed for scoring already ship with the code (`benchmark/ground_truth/`,
-`evaluation/oracle/results/`, `outputs/evaluation/description_gt/`), no
+`evaluation/optimal/results/`, `outputs/evaluation/description_gt/`), no
 separate download needed for those.
 
 **Optional, large — skip unless you specifically need these:**
@@ -86,20 +87,6 @@ To run against your own dataset instead of SoCal: build its schema first —
 `python craft/build_schema.py --gpkg <your.gpkg>` — then pass
 `--gpkg <your.gpkg>` to `run_example.py`.
 
-## How it works
-
-1. **Parse** (`craft/parser/`) — NL query → structured JSON (src/dst, objective,
-   constraints). Grounded against the dataset's real POI categories and
-   attribute schema so the LLM can't invent a category or column that doesn't
-   exist.
-2. **Generate** (`craft/generator/`) — the LLM fills four method bodies into a
-   fixed Dijkstra template (`craft/generator/tools/template.py`); everything
-   else (the search core, the State interface) is fixed.
-3. **Execute** — the filled-in template runs the actual search and writes the
-   route (or `null` if infeasible).
-
-`evaluation/constraint_checker.py` scores all three systems (this one, the LLM
-baseline, LLMAP) through identical logic, so results are directly comparable.
 
 ## Baselines
 

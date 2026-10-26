@@ -140,14 +140,24 @@ TEMPLATES = [
 
 # Hard constraints active per template. Reported as bool when applicable,
 # None when not. Every system reports the SAME set for a given template.
+# Each comment states the pass condition in the same shorthand: cs=1 (constraints_satisfied)
+# when every listed check holds; cs=None if the route doesn't exist, so none can be evaluated.
 TEMPLATE_CHECKS: Dict[str, Set[str]] = {
+    # cs=1 when the EV never runs the battery negative anywhere along the route
     "ev_routing":     {"ev_battery_feasible"},
+    # cs=1 when the POI types/order match the query AND every leg is within its distance limit
     "ordered_poi":    {"poi_type_match", "poi_order", "distance_limits_met"},
+    # cs=1 when each category's visited count is <= its cap (>=0, up to the requested count) AND total trip time is <= the time budget
     "poi_collection": {"category_limits_met", "time_budget_met"},
+    # cs=1 when POI types/order match AND battery never goes negative AND every leg is within its distance limit
     "ev+ordered_poi":       {"poi_type_match", "poi_order", "ev_battery_feasible", "distance_limits_met"},
+    # cs=1 when the EV never runs the battery negative anywhere along the route
     "ev+time":              {"ev_battery_feasible"},
+    # cs=1 when POI types/order match AND every leg is within its distance limit AND total trip time is <= the time budget
     "ordered+time_budget":  {"poi_type_match", "poi_order", "distance_limits_met", "time_budget_met"},
+    # cs=1 when the required POI types are all visited (any order) AND every leg is within its distance limit
     "unordered_poi":        {"poi_type_match", "distance_limits_met"},  # unordered → no poi_order
+    # cs=1 when the required POI types are all visited AND the route uses no more highway than the preference-weighted shortest path through the same stops
     "poi_road_pref":        {"poi_type_match", "road_preference_met"},  # unordered, no distance/time/battery
 }
 
@@ -158,7 +168,9 @@ TEMPLATE_CHECKS: Dict[str, Set[str]] = {
 # (the default template list other scripts iterate) to avoid changing any
 # existing script's default behavior — HIPP runners pass HIPP_TEMPLATES explicitly.
 HIPP_TEMPLATES = ["hipp_ordered", "hipp_unordered"]
+# cs=1 when POI types/order match AND every stop meets the rating floor AND every stop is reached before its opening-hours/clock deadline
 TEMPLATE_CHECKS["hipp_ordered"]   = {"poi_type_match", "poi_order", "rating_ok", "clock_deadline_met"}
+# cs=1 when the required POI types are all visited (any order) AND every stop meets the rating floor AND every stop is reached before its deadline
 TEMPLATE_CHECKS["hipp_unordered"] = {"poi_type_match", "rating_ok", "clock_deadline_met"}
 
 # Fixed objective weight per template (uniform within each family; verified
@@ -1155,7 +1167,7 @@ def _system_checks(
     # not merely at the end. Checking only the final value (the behaviour up to
     # 2026-08-10) passes routes that run the battery flat and *then* reach a
     # charger, which resets it to max — physically the car is stranded before it
-    # ever gets there. Found via the optimal oracle (evaluation/oracle/): three
+    # ever gets there. Found via the optimal oracle (evaluation/optimal/): three
     # gpt-4.1 ev_routing routes scored feasible while dipping to −348 m,
     # −494 m and −121 m, and were *shorter than the proven optimum* precisely
     # because they skipped the charging detour that makes the trip legal.

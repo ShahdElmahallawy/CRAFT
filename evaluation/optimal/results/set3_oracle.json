@@ -1,0 +1,3353 @@
+[
+ {
+  "query_id": "set3_ordered+desc_001",
+  "n_candidates_per_slot": [
+   1695,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 20399.05,
+  "stops": [
+   "122850319",
+   "5237381975"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_002",
+  "n_candidates_per_slot": [
+   2218,
+   712
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 17445.54,
+  "stops": [
+   "3629631994",
+   "9753026945"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_003",
+  "n_candidates_per_slot": [
+   273,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_004",
+  "n_candidates_per_slot": [
+   359,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12850.54,
+  "stops": [
+   "72791992",
+   "122814858"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_005",
+  "n_candidates_per_slot": [
+   421,
+   194
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10419.49,
+  "stops": [
+   "1614388012",
+   "1718185213"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_006",
+  "n_candidates_per_slot": [
+   265,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 35176.61,
+  "stops": [
+   "16747033",
+   "1956040650"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_007",
+  "n_candidates_per_slot": [
+   1248,
+   160,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 16962.91,
+  "stops": [
+   "3629631994",
+   "5237381975",
+   "277328671"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_008",
+  "n_candidates_per_slot": [
+   421,
+   386
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13949.76,
+  "stops": [
+   "13414617377",
+   "13414617371"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_009",
+  "n_candidates_per_slot": [
+   2218,
+   286
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8068.84,
+  "stops": [
+   "122701209",
+   "122823321"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_010",
+  "n_candidates_per_slot": [
+   373,
+   554
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12660.0,
+  "stops": [
+   "13418491807",
+   "122965171"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_011",
+  "n_candidates_per_slot": [
+   678,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15353.94,
+  "stops": [
+   "122925025",
+   "122745419"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_012",
+  "n_candidates_per_slot": [
+   421,
+   751
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_013",
+  "n_candidates_per_slot": [
+   265,
+   5342
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_014",
+  "n_candidates_per_slot": [
+   386,
+   554,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8935.87,
+  "stops": [
+   "13418528924",
+   "122773790",
+   "123261696"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_015",
+  "n_candidates_per_slot": [
+   1695,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13991.34,
+  "stops": [
+   "31496712",
+   "54876546"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_016",
+  "n_candidates_per_slot": [
+   2218,
+   712
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11566.74,
+  "stops": [
+   "123110031",
+   "123110031"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_017",
+  "n_candidates_per_slot": [
+   554,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13205.29,
+  "stops": [
+   "280580329",
+   "279673376"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_018",
+  "n_candidates_per_slot": [
+   194,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6234.26,
+  "stops": [
+   "122615428",
+   "122615428"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_019",
+  "n_candidates_per_slot": [
+   421,
+   751
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10737.42,
+  "stops": [
+   "26850923",
+   "122859152"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_020",
+  "n_candidates_per_slot": [
+   468,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7914.73,
+  "stops": [
+   "13427894389",
+   "745916923"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_021",
+  "n_candidates_per_slot": [
+   273,
+   554,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12061.65,
+  "stops": [
+   "451121323",
+   "123707007",
+   "588079390"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_022",
+  "n_candidates_per_slot": [
+   751,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13813.23,
+  "stops": [
+   "25726901",
+   "1905096219"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_023",
+  "n_candidates_per_slot": [
+   2218,
+   1121
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15607.85,
+  "stops": [
+   "13421965050",
+   "1790768911"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_024",
+  "n_candidates_per_slot": [
+   1695,
+   29
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   222
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12143.17,
+  "stops": [
+   "16747027",
+   "1262556023"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_025",
+  "n_candidates_per_slot": [
+   286,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_026",
+  "n_candidates_per_slot": [
+   421,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14613.87,
+  "stops": [
+   "122863211",
+   "1831615683"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_027",
+  "n_candidates_per_slot": [
+   678,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 19293.12,
+  "stops": [
+   "13424055302",
+   "1792500056"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_028",
+  "n_candidates_per_slot": [
+   421,
+   160,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342,
+   3552
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_029",
+  "n_candidates_per_slot": [
+   712,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7282.09,
+  "stops": [
+   "299523723",
+   "4073554440"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_030",
+  "n_candidates_per_slot": [
+   2218,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11331.76,
+  "stops": [
+   "122825170",
+   "1614388012"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_031",
+  "n_candidates_per_slot": [
+   265,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14565.82,
+  "stops": [
+   "13424023055",
+   "1792500056"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_032",
+  "n_candidates_per_slot": [
+   359,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9917.28,
+  "stops": [
+   "13424023055",
+   "13424023055"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_033",
+  "n_candidates_per_slot": [
+   421,
+   468
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8239.38,
+  "stops": [
+   "13424055301",
+   "18199060"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_034",
+  "n_candidates_per_slot": [
+   554,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 19809.17,
+  "stops": [
+   "21651001",
+   "10552909"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_035",
+  "n_candidates_per_slot": [
+   386,
+   554,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11865.19,
+  "stops": [
+   "13423947392",
+   "54876535",
+   "18003877"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_036",
+  "n_candidates_per_slot": [
+   1121,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9190.04,
+  "stops": [
+   "123036299",
+   "122993075"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_037",
+  "n_candidates_per_slot": [
+   2218,
+   286
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10537.41,
+  "stops": [
+   "269584345",
+   "4075546757"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_038",
+  "n_candidates_per_slot": [
+   1248,
+   373
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6078.77,
+  "stops": [
+   "269571154",
+   "269585984"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_039",
+  "n_candidates_per_slot": [
+   678,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6237.24,
+  "stops": [
+   "123031567",
+   "123031567"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_040",
+  "n_candidates_per_slot": [
+   421,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12359.67,
+  "stops": [
+   "122993075",
+   "6793168810"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_041",
+  "n_candidates_per_slot": [
+   1695,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14115.32,
+  "stops": [
+   "123340682",
+   "123340682"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_042",
+  "n_candidates_per_slot": [
+   273,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7451.12,
+  "stops": [
+   "123248845",
+   "3121395368"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_043",
+  "n_candidates_per_slot": [
+   5342,
+   554
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11255.08,
+  "stops": [
+   "122925199",
+   "122697197"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_044",
+  "n_candidates_per_slot": [
+   751,
+   554
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9583.0,
+  "stops": [
+   "1718756096",
+   "1857478854"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_045",
+  "n_candidates_per_slot": [
+   678,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6289.08,
+  "stops": [
+   "1844361246",
+   "1844361246"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_046",
+  "n_candidates_per_slot": [
+   421,
+   373
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11262.91,
+  "stops": [
+   "1620498734",
+   "3875803340"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_047",
+  "n_candidates_per_slot": [
+   194,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 20421.71,
+  "stops": [
+   "1620498658",
+   "122934662"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_048",
+  "n_candidates_per_slot": [
+   160,
+   554,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 20764.5,
+  "stops": [
+   "1719854938",
+   "1857478854",
+   "122699305"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_049",
+  "n_candidates_per_slot": [
+   192,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8887.43,
+  "stops": [
+   "122960850",
+   "123512843"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_050",
+  "n_candidates_per_slot": [
+   2218,
+   359
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10730.97,
+  "stops": [
+   "2424504445",
+   "122906859"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_051",
+  "n_candidates_per_slot": [
+   265,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 18766.15,
+  "stops": [
+   "2416746118",
+   "122907740"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_052",
+  "n_candidates_per_slot": [
+   712,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15171.48,
+  "stops": [
+   "122906883",
+   "1718847236"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_053",
+  "n_candidates_per_slot": [
+   421,
+   160
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12920.7,
+  "stops": [
+   "122589881",
+   "3854352260"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_054",
+  "n_candidates_per_slot": [
+   373,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 5817.17,
+  "stops": [
+   "123616936",
+   "2491363256"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_055",
+  "n_candidates_per_slot": [
+   468,
+   554,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12611.61,
+  "stops": [
+   "122928384",
+   "122928381",
+   "6486228344"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_056",
+  "n_candidates_per_slot": [
+   678,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7657.22,
+  "stops": [
+   "1717039071",
+   "2429482538"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_057",
+  "n_candidates_per_slot": [
+   5342,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6120.81,
+  "stops": [
+   "3860437376",
+   "3860437387"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_058",
+  "n_candidates_per_slot": [
+   192,
+   554
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14149.42,
+  "stops": [
+   "1777729072",
+   "1836582892"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_059",
+  "n_candidates_per_slot": [
+   1121,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14044.79,
+  "stops": [
+   "1719854950",
+   "2457010594"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_060",
+  "n_candidates_per_slot": [
+   421,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6114.75,
+  "stops": [
+   "595653804",
+   "3138030218"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_061",
+  "n_candidates_per_slot": [
+   386,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6471.15,
+  "stops": [
+   "292450916",
+   "292450908"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_062",
+  "n_candidates_per_slot": [
+   286,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14266.41,
+  "stops": [
+   "122626321",
+   "317671515"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_063",
+  "n_candidates_per_slot": [
+   2218,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8500.46,
+  "stops": [
+   "123062187",
+   "13599873527"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_064",
+  "n_candidates_per_slot": [
+   468,
+   554
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 21092.23,
+  "stops": [
+   "123244157",
+   "10186085795"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_065",
+  "n_candidates_per_slot": [
+   192,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8492.86,
+  "stops": [
+   "1775756215",
+   "282784978"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_066",
+  "n_candidates_per_slot": [
+   421,
+   359
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14488.12,
+  "stops": [
+   "317671515",
+   "2489464620"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_067",
+  "n_candidates_per_slot": [
+   1695,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13496.55,
+  "stops": [
+   "1723166600",
+   "1723166600"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_068",
+  "n_candidates_per_slot": [
+   1121,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13137.46,
+  "stops": [
+   "3696447345",
+   "4011863826"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_069",
+  "n_candidates_per_slot": [
+   5342,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8233.72,
+  "stops": [
+   "123566715",
+   "4060441594"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_070",
+  "n_candidates_per_slot": [
+   678,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 17262.16,
+  "stops": [
+   "401299471",
+   "122752762"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_071",
+  "n_candidates_per_slot": [
+   1695,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6730.77,
+  "stops": [
+   "123016263",
+   "13599858577"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_072",
+  "n_candidates_per_slot": [
+   421,
+   386
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11437.14,
+  "stops": [
+   "122597784",
+   "13599874945"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_073",
+  "n_candidates_per_slot": [
+   192,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13842.25,
+  "stops": [
+   "123085625",
+   "122779701"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_074",
+  "n_candidates_per_slot": [
+   719,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9634.49,
+  "stops": [
+   "6121172673",
+   "122595538"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_075",
+  "n_candidates_per_slot": [
+   2218,
+   286
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13545.45,
+  "stops": [
+   "123043863",
+   "123043860"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_076",
+  "n_candidates_per_slot": [
+   468,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 21895.55,
+  "stops": [
+   "3636128877",
+   "122779701"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_077",
+  "n_candidates_per_slot": [
+   192,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_078",
+  "n_candidates_per_slot": [
+   421,
+   678
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14467.62,
+  "stops": [
+   "786384531",
+   "123115677"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_079",
+  "n_candidates_per_slot": [
+   712,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 19518.4,
+  "stops": [
+   "4028917810",
+   "1711153727"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_080",
+  "n_candidates_per_slot": [
+   273,
+   554,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218,
+   3552
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_081",
+  "n_candidates_per_slot": [
+   751,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10965.22,
+  "stops": [
+   "11269208155",
+   "123477066"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_082",
+  "n_candidates_per_slot": [
+   2218,
+   678
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10770.89,
+  "stops": [
+   "123477066",
+   "122603305"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_083",
+  "n_candidates_per_slot": [
+   359,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 26190.28,
+  "stops": [
+   "122925362",
+   "4033434287"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_084",
+  "n_candidates_per_slot": [
+   1248,
+   5342
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15217.98,
+  "stops": [
+   "4022775132",
+   "4028655583"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_085",
+  "n_candidates_per_slot": [
+   678,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 29005.99,
+  "stops": [
+   "123100194",
+   "122903445"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_086",
+  "n_candidates_per_slot": [
+   286,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 18716.6,
+  "stops": [
+   "122797890",
+   "559933121"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_087",
+  "n_candidates_per_slot": [
+   359,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10923.53,
+  "stops": [
+   "401422488",
+   "401422488"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_088",
+  "n_candidates_per_slot": [
+   2218,
+   1121
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6300.63,
+  "stops": [
+   "122463407",
+   "122699810"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_089",
+  "n_candidates_per_slot": [
+   1695,
+   554
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7106.27,
+  "stops": [
+   "122667424",
+   "123631182"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_090",
+  "n_candidates_per_slot": [
+   1248,
+   5342
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 32491.84,
+  "stops": [
+   "786384531",
+   "2910128508"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_091",
+  "n_candidates_per_slot": [
+   421,
+   194
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 36879.46,
+  "stops": [
+   "122595538",
+   "3564102141"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_092",
+  "n_candidates_per_slot": [
+   678,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 30704.62,
+  "stops": [
+   "123050645",
+   "1796552203"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_093",
+  "n_candidates_per_slot": [
+   1695,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 64247.49,
+  "stops": [
+   "1475048488",
+   "786384531"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_094",
+  "n_candidates_per_slot": [
+   2218,
+   1121
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 58592.87,
+  "stops": [
+   "6112368631",
+   "123050645"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_095",
+  "n_candidates_per_slot": [
+   273,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 22793.4,
+  "stops": [
+   "573261549",
+   "122730962"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_096",
+  "n_candidates_per_slot": [
+   468,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 18034.05,
+  "stops": [
+   "4616470322",
+   "4616470322"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_097",
+  "n_candidates_per_slot": [
+   421,
+   160
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15712.58,
+  "stops": [
+   "1829595098",
+   "671864831"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_098",
+  "n_candidates_per_slot": [
+   359,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_099",
+  "n_candidates_per_slot": [
+   265,
+   286,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342,
+   3552
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_100",
+  "n_candidates_per_slot": [
+   273,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 31028.05,
+  "stops": [
+   "123011762",
+   "122670688"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_101",
+  "n_candidates_per_slot": [
+   2218,
+   712
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13237.39,
+  "stops": [
+   "122581499",
+   "2457192077"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_102",
+  "n_candidates_per_slot": [
+   719,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15718.52,
+  "stops": [
+   "4023838000",
+   "4033434287"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_103",
+  "n_candidates_per_slot": [
+   194,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10514.21,
+  "stops": [
+   "317667423",
+   "7114359119"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_104",
+  "n_candidates_per_slot": [
+   421,
+   1695
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8809.05,
+  "stops": [
+   "461462655",
+   "461462655"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_105",
+  "n_candidates_per_slot": [
+   286,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12407.31,
+  "stops": [
+   "342336821",
+   "1923879138"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_106",
+  "n_candidates_per_slot": [
+   273,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_107",
+  "n_candidates_per_slot": [
+   2218,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12227.26,
+  "stops": [
+   "122556789",
+   "1884636847"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_108",
+  "n_candidates_per_slot": [
+   1248,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15251.4,
+  "stops": [
+   "565420851",
+   "123160613"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_109",
+  "n_candidates_per_slot": [
+   286,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10875.65,
+  "stops": [
+   "122859613",
+   "562648899"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_110",
+  "n_candidates_per_slot": [
+   421,
+   468
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9404.8,
+  "stops": [
+   "3759703351",
+   "123011762"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_111",
+  "n_candidates_per_slot": [
+   678,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8711.56,
+  "stops": [
+   "417998266",
+   "122797837"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_112",
+  "n_candidates_per_slot": [
+   273,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10326.18,
+  "stops": [
+   "123011762",
+   "4049191673"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_113",
+  "n_candidates_per_slot": [
+   2218,
+   678
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7991.45,
+  "stops": [
+   "122898786",
+   "11729988463"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_114",
+  "n_candidates_per_slot": [
+   1248,
+   273
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7563.84,
+  "stops": [
+   "122670688",
+   "123011762"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_115",
+  "n_candidates_per_slot": [
+   386,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_116",
+  "n_candidates_per_slot": [
+   554,
+   359
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10178.03,
+  "stops": [
+   "122670688",
+   "122670688"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_117",
+  "n_candidates_per_slot": [
+   194,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_118",
+  "n_candidates_per_slot": [
+   1695,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10231.36,
+  "stops": [
+   "4085598776",
+   "4085598776"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_119",
+  "n_candidates_per_slot": [
+   2218,
+   194
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15625.42,
+  "stops": [
+   "122829075",
+   "122805255"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_120",
+  "n_candidates_per_slot": [
+   554,
+   373
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 25779.0,
+  "stops": [
+   "122825518",
+   "12718348941"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_121",
+  "n_candidates_per_slot": [
+   468,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7906.75,
+  "stops": [
+   "123031966",
+   "122954626"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_122",
+  "n_candidates_per_slot": [
+   554,
+   751
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_123",
+  "n_candidates_per_slot": [
+   359,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6728.92,
+  "stops": [
+   "122758694",
+   "122829075"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_124",
+  "n_candidates_per_slot": [
+   1695,
+   554
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8659.29,
+  "stops": [
+   "4039210610",
+   "123352528"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_125",
+  "n_candidates_per_slot": [
+   2218,
+   1121
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8152.52,
+  "stops": [
+   "8932939356",
+   "8932939356"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_126",
+  "n_candidates_per_slot": [
+   554,
+   359
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14229.12,
+  "stops": [
+   "4083903355",
+   "122670688"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_127",
+  "n_candidates_per_slot": [
+   719,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14845.63,
+  "stops": [
+   "1687158689",
+   "1687158689"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_128",
+  "n_candidates_per_slot": [
+   554,
+   273
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8223.47,
+  "stops": [
+   "11226543291",
+   "122707604"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_129",
+  "n_candidates_per_slot": [
+   386,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13949.12,
+  "stops": [
+   "123636795",
+   "122922751"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_130",
+  "n_candidates_per_slot": [
+   751,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11269.49,
+  "stops": [
+   "3746486486",
+   "4046099947"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_131",
+  "n_candidates_per_slot": [
+   2218,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9570.47,
+  "stops": [
+   "2896388156",
+   "2896388156"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_132",
+  "n_candidates_per_slot": [
+   1695,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10750.56,
+  "stops": [
+   "123018948",
+   "123018948"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_133",
+  "n_candidates_per_slot": [
+   192,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 16457.75,
+  "stops": [
+   "122818723",
+   "122960031"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_134",
+  "n_candidates_per_slot": [
+   719,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6613.04,
+  "stops": [
+   "123018948",
+   "123018948"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_135",
+  "n_candidates_per_slot": [
+   678,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9400.66,
+  "stops": [
+   "122818723",
+   "2896388141"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_136",
+  "n_candidates_per_slot": [
+   192,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11277.81,
+  "stops": [
+   "2243492750",
+   "2325177846"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_137",
+  "n_candidates_per_slot": [
+   2218,
+   386
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9696.36,
+  "stops": [
+   "4761153817",
+   "123014030"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_138",
+  "n_candidates_per_slot": [
+   373,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10948.85,
+  "stops": [
+   "122804272",
+   "123050689"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_139",
+  "n_candidates_per_slot": [
+   712,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7139.71,
+  "stops": [
+   "122933364",
+   "122933364"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_140",
+  "n_candidates_per_slot": [
+   421,
+   1695
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6603.43,
+  "stops": [
+   "3583764518",
+   "122562951"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_141",
+  "n_candidates_per_slot": [
+   751,
+   29
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   222
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 16730.16,
+  "stops": [
+   "122650197",
+   "2167569788"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_142",
+  "n_candidates_per_slot": [
+   194,
+   554,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15519.99,
+  "stops": [
+   "4084029449",
+   "122709873",
+   "123046845"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_143",
+  "n_candidates_per_slot": [
+   192,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 27584.39,
+  "stops": [
+   "122857768",
+   "122933364"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_144",
+  "n_candidates_per_slot": [
+   2218,
+   1695
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 6936.2,
+  "stops": [
+   "769431840",
+   "769431840"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_145",
+  "n_candidates_per_slot": [
+   386,
+   29
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   222
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14890.88,
+  "stops": [
+   "5274519814",
+   "769419725"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_146",
+  "n_candidates_per_slot": [
+   751,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 8245.06,
+  "stops": [
+   "4035620040",
+   "34095236"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_147",
+  "n_candidates_per_slot": [
+   421,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11814.76,
+  "stops": [
+   "122634020",
+   "2167569788"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_148",
+  "n_candidates_per_slot": [
+   1121,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 18768.29,
+  "stops": [
+   "122888392",
+   "122804232"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_149",
+  "n_candidates_per_slot": [
+   468,
+   554,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10933.9,
+  "stops": [
+   "2243664467",
+   "2273123041",
+   "4085103797"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_150",
+  "n_candidates_per_slot": [
+   719,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 18466.14,
+  "stops": [
+   "2243144674",
+   "13009005486"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_151",
+  "n_candidates_per_slot": [
+   5342,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 26260.48,
+  "stops": [
+   "122814602",
+   "122757283"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_152",
+  "n_candidates_per_slot": [
+   373,
+   29
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   222
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12840.99,
+  "stops": [
+   "3784062003",
+   "123050645"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_153",
+  "n_candidates_per_slot": [
+   712,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 20830.4,
+  "stops": [
+   "2297586239",
+   "67543057"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_154",
+  "n_candidates_per_slot": [
+   421,
+   160
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12880.39,
+  "stops": [
+   "67543057",
+   "123082302"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_155",
+  "n_candidates_per_slot": [
+   751,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 30614.64,
+  "stops": [
+   "247140447",
+   "1869448319"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_156",
+  "n_candidates_per_slot": [
+   554,
+   160,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10579.58,
+  "stops": [
+   "1853024624",
+   "122757270",
+   "4037142276"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_157",
+  "n_candidates_per_slot": [
+   273,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12683.35,
+  "stops": [
+   "6566958970",
+   "4855206896"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_158",
+  "n_candidates_per_slot": [
+   2218,
+   160
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13412.3,
+  "stops": [
+   "122757374",
+   "4085085226"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_159",
+  "n_candidates_per_slot": [
+   1121,
+   49
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15030.01,
+  "stops": [
+   "2897708515",
+   "122736493"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_160",
+  "n_candidates_per_slot": [
+   712,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15770.77,
+  "stops": [
+   "122804252",
+   "122775505"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_161",
+  "n_candidates_per_slot": [
+   421,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12195.89,
+  "stops": [
+   "122779738",
+   "122779741"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_162",
+  "n_candidates_per_slot": [
+   359,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_163",
+  "n_candidates_per_slot": [
+   421,
+   160,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 16052.63,
+  "stops": [
+   "3264765716",
+   "4046627037",
+   "1464774945"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_164",
+  "n_candidates_per_slot": [
+   1695,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13426.61,
+  "stops": [
+   "122977916",
+   "122977916"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_165",
+  "n_candidates_per_slot": [
+   5342,
+   265
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11273.85,
+  "stops": [
+   "3590806086",
+   "122821088"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_166",
+  "n_candidates_per_slot": [
+   751,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 18352.22,
+  "stops": [
+   "1825662482",
+   "1832516680"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_167",
+  "n_candidates_per_slot": [
+   273,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 7273.37,
+  "stops": [
+   "6742872437",
+   "6742872437"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_168",
+  "n_candidates_per_slot": [
+   421,
+   468
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10514.32,
+  "stops": [
+   "3572972898",
+   "1834908947"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_169",
+  "n_candidates_per_slot": [
+   359,
+   29
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   222
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 23649.8,
+  "stops": [
+   "1172802172",
+   "5449528237"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_170",
+  "n_candidates_per_slot": [
+   554,
+   160,
+   3552
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342,
+   3552
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10079.89,
+  "stops": [
+   "2053778078",
+   "4046627037",
+   "2245129861"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_171",
+  "n_candidates_per_slot": [
+   421,
+   386
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12610.96,
+  "stops": [
+   "123355866",
+   "4614971233"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_172",
+  "n_candidates_per_slot": [
+   2218,
+   751
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15159.48,
+  "stops": [
+   "465825474",
+   "9030353692"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_173",
+  "n_candidates_per_slot": [
+   386,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 23496.89,
+  "stops": [
+   "4614971233",
+   "123355866"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_174",
+  "n_candidates_per_slot": [
+   1121,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_175",
+  "n_candidates_per_slot": [
+   421,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_176",
+  "n_candidates_per_slot": [
+   373,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_177",
+  "n_candidates_per_slot": [
+   194,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 11861.95,
+  "stops": [
+   "122479903",
+   "13607961298"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_178",
+  "n_candidates_per_slot": [
+   2218,
+   359
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14377.6,
+  "stops": [
+   "13607961298",
+   "3570394327"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_179",
+  "n_candidates_per_slot": [
+   286,
+   23
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   229
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_180",
+  "n_candidates_per_slot": [
+   192,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_181",
+  "n_candidates_per_slot": [
+   421,
+   719
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 21385.33,
+  "stops": [
+   "13607961298",
+   "3299573210"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_182",
+  "n_candidates_per_slot": [
+   373,
+   29
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   222
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_183",
+  "n_candidates_per_slot": [
+   1248,
+   386
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15053.53,
+  "stops": [
+   "13112700055",
+   "122571008"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_184",
+  "n_candidates_per_slot": [
+   2218,
+   712
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9038.6,
+  "stops": [
+   "7129248198",
+   "7115381938"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_185",
+  "n_candidates_per_slot": [
+   751,
+   554
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12039.01,
+  "stops": [
+   "122860623",
+   "1845325680"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_186",
+  "n_candidates_per_slot": [
+   468,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 18631.91,
+  "stops": [
+   "7891841137",
+   "123427976"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_187",
+  "n_candidates_per_slot": [
+   421,
+   386
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 20444.61,
+  "stops": [
+   "11208487499",
+   "123428964"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_188",
+  "n_candidates_per_slot": [
+   1695,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 13451.65,
+  "stops": [
+   "122860650",
+   "7891841143"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_189",
+  "n_candidates_per_slot": [
+   1121,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 24675.67,
+  "stops": [
+   "6792747759",
+   "6792747759"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_190",
+  "n_candidates_per_slot": [
+   2218,
+   678
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9497.27,
+  "stops": [
+   "10819409310",
+   "12487252664"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_191",
+  "n_candidates_per_slot": [
+   373,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 31478.38,
+  "stops": [
+   "122967050",
+   "738203502"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_192",
+  "n_candidates_per_slot": [
+   751,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 23512.97,
+  "stops": [
+   "10819383186",
+   "10819409310"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_193",
+  "n_candidates_per_slot": [
+   1248,
+   286
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 34536.52,
+  "stops": [
+   "122745060",
+   "11208487499"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_194",
+  "n_candidates_per_slot": [
+   468,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ },
+ {
+  "query_id": "set3_ordered+desc_195",
+  "n_candidates_per_slot": [
+   678,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 14872.71,
+  "stops": [
+   "122829075",
+   "4687673590"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_196",
+  "n_candidates_per_slot": [
+   5342,
+   1248
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 10632.59,
+  "stops": [
+   "122841018",
+   "122961889"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_197",
+  "n_candidates_per_slot": [
+   1121,
+   421
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 9430.31,
+  "stops": [
+   "122805255",
+   "122829075"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_198",
+  "n_candidates_per_slot": [
+   386,
+   2218
+  ],
+  "n_base_candidates_per_slot": [
+   5342,
+   2218
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 12690.84,
+  "stops": [
+   "7617300469",
+   "122915278"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_199",
+  "n_candidates_per_slot": [
+   554,
+   273
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "optimal",
+  "optimal_distance_m": 15328.68,
+  "stops": [
+   "123577637",
+   "123476793"
+  ]
+ },
+ {
+  "query_id": "set3_ordered+desc_200",
+  "n_candidates_per_slot": [
+   554,
+   5342
+  ],
+  "n_base_candidates_per_slot": [
+   2218,
+   5342
+  ],
+  "status": "infeasible",
+  "dead_at_leg": 0
+ }
+]
