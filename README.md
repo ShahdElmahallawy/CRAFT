@@ -4,12 +4,11 @@
 
 | Folder | What's in it |
 |---|---|
-| `craft/` | The core system: parser, generator, the Dijkstra template/core |
+| `craft/` | The core system: parser, generator, the search template/core |
 | `baselines/` | An LLM-only baseline, and LLMAP (vendored, MIT licensed) |
 | `benchmark/` | Query sets, NL templates, ground truth |
 | `evaluation/` | The scoring pipeline shared across all three systems |
 | `examples/` | A runnable single-query demo — **start here** |
-| `results/` | Published result tables (xlsx) for all three systems, already scored |
 | `data/` | Datasets (gitignored — see "Downloading the datasets") |
 
 ## Setup
@@ -53,16 +52,6 @@ needed for scoring already ship with the code (`benchmark/ground_truth/`,
 `evaluation/optimal/results/`, `outputs/evaluation/description_gt/`), no
 separate download needed for those.
 
-**Optional, large — skip unless you specifically need these:**
-- `data/socal/poi_embeddings.json` (~3.5GB) — only used as a live fallback for
-  set3's description filter when the frozen ground-truth labels are missing
-  (which they aren't; they're already included). Only needed if you're
-  rebuilding those labels from scratch via `evaluation/description_gt/`.
-- `data/california/` (~2.7GB, dominated by `california_road_network.gpkg`) —
-  only needed to regenerate or re-run Set 2's long-trip EV queries
-  (`benchmark/california_queries/set2/`). Set 2's query text and ground truth
-  are already included; you only need this to execute CRAFT/the baselines
-  against those queries yourself.
 
 ## Running a query
 
