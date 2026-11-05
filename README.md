@@ -33,7 +33,7 @@ query" section below.
 ## Downloading the datasets
 
 `data/` isn't checked into git (too large) — download and place the pieces
-you need from **[Drive link — ask for access]**.
+you need from **https://drive.google.com/drive/u/0/folders/1i7Ku5QhfrSrxAGIoQWsQ9LkATmeaz2vd**.
 
 **SoCal — required for everything in this repo.** Download the bundle and
 place it at `data/socal/`:
