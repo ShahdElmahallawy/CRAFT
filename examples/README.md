@@ -39,7 +39,7 @@ and `pois` layers, plus its schema:
 CRAFT/data/socal/road_network.gpkg
 CRAFT/data/socal/schema.json
 ```
-Download both from **[Drive link — ask for access]** and place them in
+Download both from **https://drive.google.com/drive/u/0/folders/1i7Ku5QhfrSrxAGIoQWsQ9LkATmeaz2vd** and place them in
 `data/socal/` — see the top-level `README.md`'s "Downloading the datasets"
 section for the full dataset (needed if you want to regenerate benchmark
 query sets or run the full evaluation, not just this single-query demo).
@@ -86,18 +86,5 @@ copied to `examples/output/<query_id>/`:
 | `output.gpkg` | The route + stops, viewable in QGIS or similar |
 
 ## 4. Writing your own query
+A query is just natural language — no special syntax.
 
-A query is just natural language — no special syntax. The parser understands:
-- **Source/destination** as coordinates: `"from (lat, lon) to (lat, lon)"`
-- **EV battery**: current charge (% or range) + max range
-- **Ordered POI stops**: `"stop at a pharmacy, then a library, in that order"`,
-  optionally with a per-leg distance limit (`"within 7 miles"`)
-- **Unordered POI collection**: `"visit as many pharmacies and banks as possible"`,
-  optionally with a time budget and per-category caps (`"up to 2 banks"`)
-- **POI attribute filters**: `"a restaurant that serves Italian food"`,
-  `"a wheelchair-accessible pharmacy"`
-- **Road preference**: `"avoid highways"` / `"prefer highways"`
-
-See `benchmark/templates/*.txt` for the exact phrasings this project's benchmark
-uses, and `benchmark/socal_queries/set1/*.json` for hundreds of real example
-queries across all of the above.
