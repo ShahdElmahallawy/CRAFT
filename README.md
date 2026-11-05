@@ -85,8 +85,3 @@ To run against your own dataset instead of SoCal: build its schema first —
   (arXiv:2509.12273), MIT License (see `baselines/LLMAP/LICENSE`). Not
   modified — treat as read-only.
 
-## License
-
-This project's own license is not yet finalized — add one before any public
-release. `baselines/LLMAP/` keeps its original MIT license regardless; see
-`baselines/LLMAP/LICENSE` for the terms governing that subfolder.
