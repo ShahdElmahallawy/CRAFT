@@ -22,7 +22,7 @@ ROOT = Path(__file__).resolve().parents[3]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import (
+from craft.orcstrator.tools.common_handlers import (
     build_graph_from_gpkg,
     coerce_node_id,
     compute_shortest_path_length,
@@ -165,6 +165,7 @@ def smart_pick_pair(candidates_src, candidates_dst, rng,
 
 def generate(templates, poi_catalog, node_catalog, G, rng, cities, n_variations):
     queries: List[Dict[str, Any]] = []
+    gold: List[Dict[str, Any]] = []
 
     total_slots = len(templates) * n_variations
     city_list = list(cities)
@@ -220,11 +221,37 @@ def generate(templates, poi_catalog, node_catalog, G, rng, cities, n_variations)
                     continue
 
                 global_counter += 1
+                query_id = f"pref{global_counter}"
                 record = {
-                    "query_id": f"pref{global_counter}",
+                    "query_id": query_id,
                     "nl_query": nl_query,
                 }
                 queries.append(record)
+                # Ground truth, emitted here from the values that produced the
+                # text rather than recovered from the text afterwards. Every
+                # field this template never varies is pinned null/constant:
+                # the set is deliberately one axis only — unordered plain stops
+                # plus an always-on highway-avoidance preference.
+                gold.append({
+                    "query_id":               query_id,
+                    "template":               "poi+road_pref",
+                    "template_variant":       t_idx,
+                    "src_latlon":             [src_lat, src_lon],
+                    "dst_latlon":             [dst_lat, dst_lon],
+                    "poi_types":              list(required_poi_types),
+                    "ordered":                False,
+                    "objective":              "minimize_travel_time",
+                    "road_preference":        "avoid_highways",
+                    "poi_filters":            None,
+                    "category_limits":        None,
+                    "leg_distance_limits_mi": None,
+                    "shared_leg_limit":       None,
+                    "time_budget_min":        None,
+                    "visit_min":              None,
+                    "max_battery_mi":         None,
+                    "current_battery_pct":    None,
+                    "current_battery_mi":     None,
+                })
                 used_cities_this_tmpl.add(city["name"])
                 generated += 1
                 slot_idx += 1
@@ -232,7 +259,7 @@ def generate(templates, poi_catalog, node_catalog, G, rng, cities, n_variations)
             except Exception:
                 continue
 
-    return queries
+    return queries, gold
 
 
 # Main
@@ -241,9 +268,28 @@ def main():
     parser = argparse.ArgumentParser(description="Generate poi+road_pref SoCal benchmark queries.")
     parser.add_argument("--seed", type=int, default=SEED)
     parser.add_argument("--n-variations", type=int, default=N_VARIATIONS)
+    parser.add_argument("--out-dir", default=None,
+                        help="Where to write the queries (default: the live published path)")
+    parser.add_argument("--gold-dir", default=None,
+                        help="Where to write the ground truth (default: benchmark/ground_truth)")
+    parser.add_argument("--force", action="store_true",
+                        help="Overwrite the published query set instead of refusing")
     args = parser.parse_args()
 
-    QUERIES_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir  = Path(args.out_dir) if args.out_dir else QUERIES_DIR
+    gold_dir = Path(args.gold_dir) if args.gold_dir else ROOT / "benchmark" / "ground_truth"
+
+    # The published queries are what the paper reports on. Regenerating is
+    # deterministic and reproduces them, but an accidental overwrite is still
+    # not something to risk silently.
+    if not args.force and out_dir == QUERIES_DIR and (QUERIES_DIR / "poi_road_pref.json").exists():
+        parser.error(
+            "Refusing to overwrite the published benchmark. Either\n"
+            "  --out-dir /tmp/regen      write somewhere else, or\n"
+            "  --force                   overwrite on purpose."
+        )
+
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     gpkg = ROOT / "data" / DATASET / "road_network.gpkg"
     rng = np.random.default_rng(args.seed)
@@ -270,13 +316,17 @@ def main():
     print()
 
     t0 = time.time()
-    queries = generate(templates, poi_catalog, node_catalog, G, rng, cities,
-                        n_variations=args.n_variations)
+    queries, gold = generate(templates, poi_catalog, node_catalog, G, rng, cities,
+                             n_variations=args.n_variations)
     elapsed = time.time() - t0
     print(f"  -> {len(queries)} queries in {elapsed:.1f}s")
 
-    out_path = QUERIES_DIR / "poi_road_pref.json"
+    out_path = out_dir / "poi_road_pref.json"
     out_path.write_text(json.dumps(queries, indent=2, ensure_ascii=False))
+
+    gold_dir.mkdir(parents=True, exist_ok=True)
+    gold_path = gold_dir / "poi_road_pref_gold.json"
+    gold_path.write_text(json.dumps(gold, indent=2, ensure_ascii=False))
 
     summary = {
         "total_queries": len(queries),
@@ -296,10 +346,11 @@ def main():
             "code yet."
         ),
     }
-    (QUERIES_DIR / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False))
+    (out_dir / "summary.json").write_text(json.dumps(summary, indent=2, ensure_ascii=False))
 
     print(f"\nTotal queries : {len(queries)}")
-    print(f"Saved to {QUERIES_DIR}")
+    print(f"Queries     -> {out_path}")
+    print(f"Ground truth-> {gold_path}")
 
 
 if __name__ == "__main__":

@@ -19,7 +19,7 @@ Step-1 output. If generate crashes (bad codegen, LLM hiccup, etc.) that copy
 never gets written, so the saved record shows parser_output=null even when
 the parser itself succeeded. This collector therefore falls back to the
 Step-1 staging file (outputs/eval_staging_craft_socal/{model}__{query_id}.json
-— written directly by craft/orchestrator.py::run_parser(), before generate
+— written directly by craft/pipeline.py::run_parser(), before generate
 ever runs) whenever the record's own field is null, recovering the true
 parse result. This IS a real fallback, not a full fix — that staging dir is a
 shared, mutable scratch space keyed only by (model, query_id), so a later

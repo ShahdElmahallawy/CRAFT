@@ -54,7 +54,7 @@ import numpy as np
 import networkx as nx
 import pandas as pd
 
-from craft.generator.tools.common_handlers import (
+from craft.orcstrator.tools.common_handlers import (
     build_graph_from_gpkg,
     build_poi_type_nodes,
     coerce_node_id,

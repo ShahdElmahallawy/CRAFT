@@ -52,7 +52,7 @@ TEMPLATES = [cc.SET3_TEMPLATE]
 
 
 def _read_env(key: str) -> str:
-    """Minimal .env reader (same convention as craft/generator/agent.py::read_env).
+    """Minimal .env reader (same convention as craft/orcstrator/agent.py::read_env).
     Only needed the FIRST time this script runs, to embed the 13 distinct gold
     description phrases; afterwards the vectors come from the on-disk cache."""
     env_path = ROOT / ".env"
@@ -113,7 +113,7 @@ def main() -> None:
     if not args.no_sp:
         print("Loading graph + POIs for constraint/objective computation ...")
         import geopandas as gpd
-        from craft.generator.tools.common_handlers import build_graph_from_gpkg
+        from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
         G = build_graph_from_gpkg(args.gpkg)
         pois_gdf = gpd.read_file(args.gpkg, layer="pois")
         snapper = cc.NodeSnapper.from_gpkg(args.gpkg, G)

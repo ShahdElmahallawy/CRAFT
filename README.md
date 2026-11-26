@@ -1,103 +1,235 @@
 # CRAFT
 
-## Structure
+**Constrained Route planning with Adaptive Framework and Template-based code generation**
 
-| Folder | What's in it |
+Shahd Elmahallawy, Ahmed Eldawy — University of California, Riverside
+*PVLDB 20(X), 2027* · [paper (PDF)](CRAFT__Constrained_Route_planning_with_Adaptive_Framework_and_Template_based_code_generation.pdf)
+
+Everyday routing requests are rarely a point-to-point shortest path. A driver
+may need to visit stops, sometimes in a fixed order, under a time budget or
+distance limits, and perhaps recharge an EV along the way. Each combination is
+a distinct routing problem that classically needs its own algorithm, so no
+fixed solver covers the space of queries users actually ask.
+
+CRAFT takes a constrained routing query **as free text** and returns a route
+that satisfies it on a real road network. An LLM parses the query and writes
+four search functions; one generic graph-search engine executes them.
+
+<p align="center">
+  <img src="docs/fig1-query-example.png" alt="A query asking for an EV route that visits a park with a playground and then a Thai restaurant, with the selected route highlighted on a small road graph" width="680"><br>
+  <sub><b>Figure 1.</b> A user query and the route that answers it.</sub>
+</p>
+
+The query above needs a battery constraint, two stops, and an order, all at
+once: the route detours to a charger at *v4*, then takes the park at *v7* and
+the restaurant at *v9* in that sequence.
+
+We formalize the underlying problem as **State-Expanded RCSP (SE-RCSP)**, which
+extends resource-constrained shortest paths with non-additive state — things
+like node-dependent resets (a charger refills the battery) and discrete
+progress tracking (how many ordered stops are done). One search engine solves
+every instance.
+
+<p align="center">
+  <img src="docs/fig2-system-overview.png" alt="CRAFT system overview: the Spec Builder turns the natural-language query into a parsed spec, the ORCStrator turns that into an SE-RCSP instance, and the SE-RCSP Solver runs it against the POIs and road network" width="620"><br>
+  <sub><b>Figure 2.</b> CRAFT system overview.</sub>
+</p>
+
+| Component | Paper | Code | What it does |
+|---|---|---|---|
+| **Spec Builder** | §5 | `craft/spec_builder/` | Free text → a structured spec: origin, destination, objective, constraints — grounded in the dataset's own categories and units, so the LLM only names things that exist |
+| **ORCStrator** | §7 | `craft/orcstrator/` | Spec → an SE-RCSP instance. Assembles the prompt, has the LLM write four function bodies into a fixed template, and matches free-text stop descriptions against POIs |
+| **SE-RCSP Solver** | §6 | `craft/se_rcsp_solver/` | Runs the instance on the road network. Query-agnostic — never rewritten per query type |
+
+## Repository guide
+
+```
+craft/              the system
+craft_hipp/         the same system configured for the LLMAP benchmark
+baselines/          the two systems we compare against
+benchmark/          query sets, NL templates, ground truth
+evaluation/         scoring
+scripts/            runners and pipelines
+examples/           single-query demo
+docs/               figures
+data/               datasets (not in git — see Data)
+results/            where the exporters write their tables
+outputs/            raw per-query JSON from a run
+```
+
+### `craft/` — the system
+
+| File | What it is |
 |---|---|
-| `craft/` | The core system: parser, generator, the Dijkstra template/core |
-| `baselines/` | An LLM-only baseline, and LLMAP (vendored, MIT licensed) |
-| `benchmark/` | Query sets, NL templates, ground truth |
-| `evaluation/` | The scoring pipeline shared across all three systems |
-| `examples/` | A runnable single-query demo — **start here** |
-| `results/` | Published result tables (xlsx) for all three systems, already scored |
-| `data/` | Datasets (gitignored — see "Downloading the datasets") |
+| `pipeline.py` | The three stages end to end: parse → generate → execute |
+| `build_schema.py` | Builds the POI/road attribute schema for a dataset |
+| `spec_builder/prompt.md` | Prompt that turns free text into the structured spec |
+| `spec_builder/agent.py` | Runs that prompt, resolves endpoints, normalizes units |
+| `orcstrator/prompt.md` | Prompt that writes the four search functions |
+| `orcstrator/agent.py` | Runs it, validates the generated bodies, fills the template |
+| `orcstrator/tools/filtration.py` | Narrows candidate POIs per stop by category and attributes |
+| `orcstrator/tools/poi_embeddings.py` | Matches free-text stop descriptions to POIs |
+| `orcstrator/tools/common_handlers.py` | Graph loading, edge weights, node-id handling |
+| `se_rcsp_solver/se_rcsp_search.py` | The search engine |
+| `se_rcsp_solver/template.py` | The scaffold the generated functions are written into |
+
+### `evaluation/` — scoring
+
+| File | What it is |
+|---|---|
+| `constraint_checker.py` | The single scorer used for all three systems. Replays a route on the graph and checks every constraint the query stated |
+| `metrics.py` | The same checks, run live during a CRAFT run |
+| `evaluate_craft.py`, `evaluate_llm.py`, `evaluate_llmap.py` | Export scored results to `results/*.xlsx` |
+| `optimal/` | Provably optimal reference solvers, for measuring how far a route is from optimal |
+
+### `benchmark/` — queries and ground truth
+
+| Path | What it is |
+|---|---|
+| `socal_queries/set1/` | The core query sets |
+| `socal_queries/poi_road_pref/` | Highway avoidance |
+| `socal_queries/set3_descriptions/` | POI attribute and free-text description filters |
+| `socal_queries/llmap_queries/` | The LLMAP benchmark |
+| `california_queries/set2/` | Long-distance EV trips on the statewide network |
+| `templates/` | The natural-language phrasings each query set is built from |
+| `ground_truth/` | Gold answers, written by the generators alongside the queries |
+
+Each query folder holds its queries plus the `generate_*.py` that produced
+them. The generators are deterministic and emit their own ground truth; they
+refuse to overwrite the published queries unless given `--force`.
+
+### `scripts/` — running things
+
+| File | What it is |
+|---|---|
+| `run_craft.py`, `run_llm.py`, `run_llmap.py` | Run one system over a query set |
+| `run_crafthipp.py` | Same, for the LLMAP benchmark |
+| `run_set1.sh`, `run_set2.sh`, `run_set3.sh`, `run_poi_road_pref.sh`, `run_hipp.sh` | Run every system and model over one query set, then score it |
+| `run_all.sh` | All of the above except Set 2 |
+| `_common.sh` | Models and worker count — edit here to change which LLMs run |
 
 ## Setup
 
 1. `pip install -r requirements.txt` (Python 3.12)
-2. Get an LLM. By default the demo runs fully locally with no API key:
-   [install Ollama](https://ollama.com), `ollama pull qwen2.5:7b`, then
-   point a `.env` at this folder's root to it:
+
+2. Point a `.env` at the repo root to an LLM. Fully local, no API key —
+   [install Ollama](https://ollama.com), `ollama pull qwen2.5:7b`, then:
    ```
    OPENAI_BASE_URL=http://localhost:11434/v1
    OPENAI_API_KEY=ollama
    ```
-   Prefer a cloud model? Set `GEMINI_API_KEY`/`GEMINI_BASE_URL` (or
-   `OPENAI_API_KEY`/`OPENAI_BASE_URL` for a real OpenAI key) instead — see
-   `examples/README.md` for details.
-3. Get the dataset — see "Downloading the datasets" below.
+   For a cloud model set `GEMINI_API_KEY` / `GEMINI_BASE_URL`, or
+   `OPENAI_API_KEY` / `OPENAI_BASE_URL` for a real OpenAI key.
 
-Using your own road network instead of SoCal? See the "Running your own
-query" section below.
+3. Get the data — below.
 
-## Downloading the datasets
+## Data
 
-`data/` isn't checked into git (too large) — download and place the pieces
-you need from **[Drive link — ask for access]**.
+`data/` is not in git. Download it and place it at `data/socal/`.
 
-**SoCal — required for everything in this repo.** Download the bundle and
-place it at `data/socal/`:
-```
-data/socal/road_network.gpkg      # the road graph + POIs (~460MB)
-data/socal/schema.json            # POI attribute schema
-data/socal/catalog_pois.json      # POI catalog (benchmark query generation)
-data/socal/catalog_nodes.json     # candidate node catalog (benchmark query generation)
-data/socal/catalog_charging.json  # charging-station catalog (EV query generation)
-data/socal/catalog_count.json     # per-category POI counts
-data/socal/cities.json            # the 31 benchmark cities (name/lat/lon/radius)
-data/socal/set3_query_embeddings.json  # query-side embeddings for set3's description filter
-```
-This is everything needed to run the demo, regenerate any benchmark query set,
-and evaluate all three systems — the ground truth and oracle-optimal results
-needed for scoring already ship with the code (`benchmark/ground_truth/`,
-`evaluation/optimal/results/`, `outputs/evaluation/description_gt/`), no
-separate download needed for those.
+**Required** — nothing runs without these three:
 
-**Optional, large — skip unless you specifically need these:**
-- `data/socal/poi_embeddings.json` (~3.5GB) — only used as a live fallback for
-  set3's description filter when the frozen ground-truth labels are missing
-  (which they aren't; they're already included). Only needed if you're
-  rebuilding those labels from scratch via `evaluation/description_gt/`.
-- `data/california/` (~2.7GB, dominated by `california_road_network.gpkg`) —
-  only needed to regenerate or re-run Set 2's long-trip EV queries
-  (`benchmark/california_queries/set2/`). Set 2's query text and ground truth
-  are already included; you only need this to execute CRAFT/the baselines
-  against those queries yourself.
+| File | Why |
+|---|---|
+| `road_network.gpkg` | The road graph and the POIs on it (~460MB) |
+| `schema.json` | Tells the LLM which POI attributes and road classes exist |
+| `catalog_pois.json` | The category list the Spec Builder grounds against |
 
-## Running a query
+**Optional**, each needed only for one thing:
 
-The fastest way to see the system work is `examples/run_example.py` — it runs
-one query through parse → generate → execute and saves everything it
-produced:
-```
-cd CRAFT
+| File | Needed for |
+|---|---|
+| `cities.json`, `catalog_nodes.json`, `catalog_charging.json` | Regenerating query sets. Not read at run time |
+| `set3_query_embeddings.json` | Scoring the description-filter queries |
+| `poi_embeddings_text-embedding-3-small.json` (~2.6GB) | *Running* the description filter |
+| `catalog_count.json` | One diagnostic script |
+| `schema_hipp.json` | The LLMAP benchmark. Not a download — build it with `python craft_hipp/build_schema.py` |
+| `data/california/` (~2.7GB) | The statewide long-trip queries |
+
+Ground truth and the optimal-reference results already ship with the code, so
+scoring an existing run needs no extra download.
+
+## Running
+
+One query, end to end — parse, generate, execute — saving everything it
+produced, including the generated code:
+
+```bash
 python examples/run_example.py
 ```
-That uses a bundled example query. To run your own:
-```
+
+Your own query:
+
+```bash
 python examples/run_example.py --query "I'm at (33.83, -117.95) and need to get to (33.85, -117.86). Stop at a pharmacy, then a library, in that order."
 ```
-or `--query-file your_query.json` with `{"query_id": ..., "nl_query": ...}`.
-No special syntax needed — just describe the trip; see `examples/README.md`
-for what kinds of constraints the parser understands (EV battery, ordered
-stops, POI attribute filters, time budgets, road preference, ...) and
-`benchmark/templates/*.txt` for real phrasing examples.
 
-To run against your own dataset instead of SoCal: build its schema first —
-`python craft/build_schema.py --gpkg <your.gpkg>` — then pass
-`--gpkg <your.gpkg>` to `run_example.py`.
+No special syntax — just describe the trip. `benchmark/templates/*.txt` shows
+the kinds of constraints that work: EV battery, ordered and unordered stops,
+per-leg distance limits, time budgets, highway avoidance, POI attribute and
+description filters.
 
+For your own road network, build its schema first, then pass it through:
+
+```bash
+python craft/build_schema.py --gpkg <your.gpkg>
+python examples/run_example.py --gpkg <your.gpkg>
+```
+
+### A whole query set
+
+Each pipeline runs every system and model over one set and scores the result —
+raw per-query JSON into `outputs/`, the table into `results/`:
+
+```bash
+./scripts/run_set1.sh          # one set
+./scripts/run_all.sh           # everything except Set 2
+```
+
+Expect hours: each query executes its generated code in its own subprocess,
+and every one loads the road graph. While trying things out:
+
+```bash
+DRY_RUN=1 ./scripts/run_all.sh     # print the commands, run nothing
+./scripts/run_set1.sh --limit 2    # two queries per template
+WORKERS=2 ./scripts/run_set1.sh    # fewer parallel workers (each holds a graph)
+```
+
+Running one system by hand — the runners share the same flags:
+
+```bash
+python scripts/run_craft.py --model gemini-3.1-flash-lite \
+    --queries-dir benchmark/socal_queries/set1 --templates ordered_poi --limit 3
+```
+
+Which LLMs the pipelines use is set in `scripts/_common.sh`. Note `run_llm.py`
+needs `--openai` for a GPT model and `--local` for a locally served one; the
+others route by model name.
 
 ## Baselines
 
-- `baselines/llm/` — a bare LLM baseline (no search, just asks the model to
-  name stops and matches them to the dataset).
-- `baselines/LLMAP/` — vendored from Yuan et al., EMNLP Findings 2025
-  (arXiv:2509.12273), MIT License (see `baselines/LLMAP/LICENSE`). Not
-  modified — treat as read-only.
+- `baselines/llm/` — prompts an LLM for a sequence of stops with name, address
+  and type, then resolves them against real map data. No search.
+- `baselines/LLMAP/` — LLMAP (Yuan et al., EMNLP Findings 2025,
+  arXiv:2509.12273), vendored unmodified under its original MIT license. Treat
+  as read-only.
+
+## Citation
+
+```bibtex
+@article{elmahallawy2027craft,
+  author  = {Elmahallawy, Shahd and Eldawy, Ahmed},
+  title   = {{CRAFT}: Constrained Route Planning with Adaptive Framework
+             and Template-based Code Generation},
+  journal = {Proceedings of the VLDB Endowment},
+  volume  = {20},
+  number  = {X},
+  pages   = {XXX--XXX},
+  year    = {2027}
+}
+```
 
 ## License
 
-This project's own license is not yet finalized — add one before any public
-release. `baselines/LLMAP/` keeps its original MIT license regardless; see
-`baselines/LLMAP/LICENSE` for the terms governing that subfolder.
+Not yet chosen — add a LICENSE file before making this public. `baselines/LLMAP/`
+keeps its original MIT license either way; see `baselines/LLMAP/LICENSE`.

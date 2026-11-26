@@ -57,7 +57,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
-TOOLS_DIR = ROOT / "craft" / "generator" / "tools"
+TOOLS_DIR = ROOT / "craft" / "orcstrator" / "tools"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 if str(TOOLS_DIR) not in sys.path:

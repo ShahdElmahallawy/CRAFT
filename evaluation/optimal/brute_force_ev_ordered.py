@@ -43,12 +43,12 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import build_graph_from_gpkg
+from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
 from evaluation.constraint_checker import NodeSnapper
 from evaluation.optimal.algo2_oracle import leg_limits_m
 from evaluation.optimal.ev_oracle import GPKG, LEG_MATRIX_DIR, battery_to_meters
 
-GOLD = ROOT / "benchmark" / "ground_truth" / "set1_ev+ordered_poi_regen_gold.json"
+GOLD = ROOT / "benchmark" / "ground_truth" / "set1_ev+ordered_poi_gold.json"
 TOL = 1.0
 INF = float("inf")
 

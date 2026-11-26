@@ -73,6 +73,7 @@ def main() -> None:
     ws_d = wb.create_sheet("Column Descriptions")
     _write_table(ws_d, ["Column", "Description"],
                  [[h, desc[h]] for h in kept_headers], title="Column Descriptions")
+    Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     wb.save(args.out)
     print(f"saved {args.out}: rows={len(rows)} cols={len(kept_headers)}")
 

@@ -21,7 +21,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-sys.path.append(str(ROOT / "craft" / "generator" / "tools"))
+sys.path.append(str(ROOT / "craft" / "orcstrator" / "tools"))
 
 LABELS = ROOT / "outputs" / "evaluation" / "description_gt" / "description_labels.json"
 GPKG = ROOT / "data" / "socal" / "road_network.gpkg"

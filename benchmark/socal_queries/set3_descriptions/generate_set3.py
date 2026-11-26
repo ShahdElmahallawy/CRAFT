@@ -32,7 +32,7 @@ if str(ROOT) not in sys.path:
 # set1-style connectivity gate: verify a src->dst path exists on the real road
 # graph, same check generate_set1.py applies. Loaded lazily in main() so importing
 # this module (e.g. for its filter vocab) doesn't force a 248k-node graph build.
-from craft.generator.tools.common_handlers import (  # noqa: E402
+from craft.orcstrator.tools.common_handlers import (  # noqa: E402
     build_graph_from_gpkg,
     coerce_node_id,
     compute_shortest_path_length,
@@ -47,7 +47,7 @@ TOTAL_QUERIES = 200
 MIN_CANDIDATES = 2  # min real in-city POIs matching a filter to use it there
 RNG = random.Random(42)
 
-# Mirrors craft/generator/tools/common_handlers.py::CATEGORY_COLS
+# Mirrors craft/orcstrator/tools/common_handlers.py::CATEGORY_COLS
 CATEGORY_COLS = [
     "amenity", "tourism", "leisure", "shop", "historic", "natural", "man_made",
     "aeroway", "railway", "public_transport", "highway", "healthcare",
@@ -118,7 +118,7 @@ def coord_str(node):
 # Filter vocabulary — grounded in real gpkg column coverage. Structured filters
 # are exact substring matches on real columns; description filters are
 # keyword-in-description checks (a proxy for the embedding match
-# craft/generator/tools/filtration.py performs).
+# craft/orcstrator/tools/filtration.py performs).
 
 def _article(word):
     return "an" if word[0].lower() in "aeiou" else "a"

@@ -41,7 +41,7 @@ from typing import Any, Dict, List, Tuple
 ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-sys.path.append(str(ROOT / "craft" / "generator" / "tools"))
+sys.path.append(str(ROOT / "craft" / "orcstrator" / "tools"))
 
 OUT_DIR = ROOT / "outputs" / "evaluation" / "description_gt"
 LABELS = OUT_DIR / "description_labels.json"
@@ -129,7 +129,7 @@ def main() -> None:
     ap.add_argument("--out", default=str(LABELS))
     args = ap.parse_args()
 
-    from craft.generator.agent import LocalLLM
+    from craft.orcstrator.agent import LocalLLM
 
     p = load_pois()
     hasd = real_description(p)

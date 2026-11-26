@@ -5,7 +5,7 @@ filter fix set3's low description-filter precision, and what does it cost?
 
 Two-stage cascade under test
   stage 1 — embedding narrows the category rows to a candidate set, using the
-            same selection rule production uses (craft/generator/tools/
+            same selection rule production uses (craft/orcstrator/tools/
             poi_embeddings.py::filter_nodes_by_description). The scoring math
             is imported from that module (cosine_sim) and the neutral phrase
             from filtration.py (_neutral_phrase), so the arms below cannot
@@ -54,7 +54,7 @@ from typing import Any, Dict, List, Optional, Tuple
 ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-sys.path.append(str(ROOT / "craft" / "generator" / "tools"))
+sys.path.append(str(ROOT / "craft" / "orcstrator" / "tools"))
 sys.path.append(str(Path(__file__).resolve().parent))
 
 from build_description_labels import label_batch, cat_mask, load_pois  # noqa: E402
@@ -86,7 +86,7 @@ VERDICT_CACHE = GT_DIR / "llm_rerank_verdicts.json"
 DEFAULT_OUT = ROOT / "results" / "craft_description_filter_llm_rerank.xlsx"
 DEFAULT_SUMMARY = ROOT / "results" / "craft_description_filter_llm_rerank_summary.json"
 
-# production defaults, craft/generator/tools/filtration.py
+# production defaults, craft/orcstrator/tools/filtration.py
 PROD_THRESHOLD = 0.50            # overridden by --threshold
 PROD_CONTRAST_CUTOFF = 0.01      # filtration.py sim_contrast_cutoff
 
@@ -138,7 +138,7 @@ def main() -> None:
     ap.add_argument("--summary-out", default=str(DEFAULT_SUMMARY))
     args = ap.parse_args()
 
-    from craft.generator.agent import LocalLLM
+    from craft.orcstrator.agent import LocalLLM
 
     labels_blob = json.loads(LABELS.read_text())
     rows_lab: Dict[str, Dict[str, Any]] = labels_blob["rows"]

@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-evaluate_parser.py — score craft/parser output against the deterministic gold
+evaluate_parser.py — score craft/spec_builder output against the deterministic gold
 records in benchmark/ground_truth/.
 
 Why this is not a simple dict diff
 ----------------------------------
-The parser's output schema is deliberately open: craft/parser/prompt.md uses generic
+The parser's output schema is deliberately open: craft/spec_builder/prompt.md uses generic
 placeholders ("some_resource", "some_time_limit"), so the parser names constraints
 freely and the generator LLM interprets them downstream. Measured on real records,
 the EV battery alone arrives under 11 different key names (battery_level,
@@ -161,7 +161,7 @@ def prf(pred: Set, gold: Set) -> Tuple[Optional[float], Optional[float], Optiona
 def build_node_table(gpkg: Path):
     import numpy as np
     import pyogrio
-    sys.path.append(str(ROOT / "craft" / "generator" / "tools"))
+    sys.path.append(str(ROOT / "craft" / "orcstrator" / "tools"))
     from common_handlers import _normalize_node_ids
 
     df = pyogrio.read_dataframe(gpkg, layer="nodes",

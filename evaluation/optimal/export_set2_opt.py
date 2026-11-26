@@ -108,6 +108,7 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=str(DEFAULT_OUT))
     args = ap.parse_args()
+    Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     wb.save(args.out)
     print("saved", args.out)
 for model, mdisp in MODELS:

@@ -52,7 +52,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import build_graph_from_gpkg
+from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
 from evaluation.constraint_checker import MILES_TO_M, NodeSnapper
 from evaluation.optimal.ev_oracle import GPKG, LEG_MATRIX_DIR
 

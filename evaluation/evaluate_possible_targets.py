@@ -3,8 +3,8 @@
 evaluate_possible_targets.py — evaluate CRAFT's POI candidate-set component.
 
 CRAFT builds `possible_targets[stop_index] -> set(graph node IDs)` ONCE per query,
-before the Dijkstra search starts (craft/generator/tools/template.py:195 →
-craft/generator/tools/filtration.py::build_possible_targets). That candidate set
+before the Dijkstra search starts (craft/se_rcsp_solver/template.py:195 →
+craft/orcstrator/tools/filtration.py::build_possible_targets). That candidate set
 bounds everything the search can ever find, yet it is never persisted and has never
 been evaluated — so today a bad candidate set is indistinguishable from a codegen
 failure in the results.
@@ -58,7 +58,7 @@ from pathlib import Path
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 ROOT = Path(__file__).resolve().parents[1]
-TOOLS_DIR = ROOT / "craft" / "generator" / "tools"
+TOOLS_DIR = ROOT / "craft" / "orcstrator" / "tools"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 # APPEND (never insert): filtration.py does a bare `from common_handlers import ...`

@@ -153,11 +153,9 @@ Also include it as part of the stops list with type "charging_station" so it can
 
 If the user mentions a total time limit for the trip, the whole trip (driving \
 time plus time spent at each stop) must fit within that limit.
-If time spent at stop (POI) is not mentioned by the user, assume a default of 30 minutes. Otherwise use the user's specified time at stop.\
+Time spent at each stop depends on its type: pharmacy 15 minutes, bank 20 minutes, supermarket 30 minutes, library 60 minutes, shopping mall 120 minutes. If a stop's type isn't one of these, use the user's input if not given assume 30 minutes.\
 
-When deciding how many stops to include: if the user wants to visit as many \
-places as possible, include as many valid stops as you can while following \
-the rules above. If the user wants a quick or efficient route, prefer stops \
+When deciding how many stops to include: if the user asks to visit as many places as possible (optionally with a per-type cap like 'up to 2 pharmacies'), your primary goal is to maximize the number of stops you include, up to those caps — not to keep the route short. If the user wants a quick or efficient route, prefer stops \
 that do not add much extra driving. Respect any time or distance limits the user has given.\
 
 So, to sum up: Always consider the practical constraints of the trip, and try to find a good balance between visiting interesting stops and keeping the trip feasible and efficient. The stops you suggest should make sense given the user's preferences and constraints.\

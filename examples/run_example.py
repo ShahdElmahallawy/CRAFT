@@ -28,15 +28,15 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.agent import LocalLLM
-from craft.parser.tools import CatalogResolver
-from craft.generator.tools.common_handlers import build_graph_from_gpkg
-from craft.generator.tools.result import enrich_output, load_output
-from craft.orchestrator import run_parser, run_generator, run_execute, GENERATOR_OUTPUTS
+from craft.orcstrator.agent import LocalLLM
+from craft.spec_builder.tools import CatalogResolver
+from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
+from craft.orcstrator.tools.result import enrich_output, load_output
+from craft.pipeline import run_parser, run_generator, run_execute, ORCSTRATOR_OUTPUTS
 
 DEFAULT_GPKG = ROOT / "data" / "socal" / "road_network.gpkg"
 DEFAULT_QUERY_FILE = Path(__file__).resolve().parent / "example_query.json"
-PARSER_PROMPT = ROOT / "craft" / "parser" / "prompt.md"
+SPEC_BUILDER_PROMPT = ROOT / "craft" / "spec_builder" / "prompt.md"
 OUT_DIR = Path(__file__).resolve().parent / "output"
 
 
@@ -105,7 +105,7 @@ def main() -> None:
         staged_path = run_parser(
             query, work_dir=Path(staging), gpkg=gpkg_path,
             llm=llm, resolver=resolver,
-            problem_text=PARSER_PROMPT.read_text(encoding="utf-8"),
+            problem_text=SPEC_BUILDER_PROMPT.read_text(encoding="utf-8"),
             G=G,
         )
         flat = json.loads(staged_path.read_text(encoding="utf-8"))
@@ -128,7 +128,7 @@ def main() -> None:
         sys.exit(f"Execution failed: {exec_result['error']}")
     print(f"  done in {exec_result['elapsed_s']:.1f}s\n")
 
-    raw_dir = GENERATOR_OUTPUTS / f"{query_id}_output"
+    raw_dir = ORCSTRATOR_OUTPUTS / f"{query_id}_output"
     enrich_output(raw_dir, G, pois_gdf, _weight_key_for(flat))
     result = load_output(str(raw_dir / "output.json"))
 

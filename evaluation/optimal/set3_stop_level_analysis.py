@@ -7,7 +7,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 import geopandas as gpd
 from evaluation import constraint_checker as cc
-from craft.generator.tools.common_handlers import build_graph_from_gpkg
+from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
 
 GPKG = str(ROOT/"data/socal/road_network.gpkg")
 MODELS = ["gemini-3_1-flash-lite", "gpt-4_1", "openai_gpt-oss-20b"]

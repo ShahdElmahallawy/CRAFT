@@ -51,7 +51,7 @@ from typing import Any, Dict, List, Optional, Set, Tuple
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
-sys.path.append(str(ROOT / "craft" / "generator" / "tools"))
+sys.path.append(str(ROOT / "craft" / "orcstrator" / "tools"))
 
 GT_DIR = ROOT / "outputs" / "evaluation" / "description_gt"
 LABELS = GT_DIR / "description_labels.json"
@@ -71,7 +71,7 @@ DEFAULT_SUMMARY = ROOT / "results" / "craft_description_filter_summary.json"
 # which this script does not model — see
 # results/craft_description_filter_llm_rerank.xlsx and results/desc.xlsx for
 # the end-to-end cascade numbers.
-FILTRATION_THRESHOLD = 0.50      # craft/generator/tools/filtration.py sim_threshold
+FILTRATION_THRESHOLD = 0.50      # craft/orcstrator/tools/filtration.py sim_threshold
 CHECKER_THRESHOLD = 0.75         # historical: the pre-2026-08-17 absolute cutoff
 SWEEP = [round(0.40 + 0.025 * i, 3) for i in range(23)]   # 0.400 .. 0.950
 

@@ -183,7 +183,7 @@ def main() -> None:
     args = ap.parse_args()
 
     import geopandas as gpd
-    from craft.generator.tools.common_handlers import build_graph_from_gpkg
+    from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
 
     t0 = time.time()
     gold_by_qid = cc.load_set3_gold()

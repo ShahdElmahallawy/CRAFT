@@ -51,7 +51,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import build_graph_from_gpkg
+from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
 from evaluation.constraint_checker import NodeSnapper, compute_system_objective
 from evaluation.constraint_checker import coerce as coerce_node
 from evaluation.optimal.ev_oracle import GOLD_PATH, GPKG
@@ -84,7 +84,7 @@ def route_battery_feasible(route: List[Any], G: nx.MultiDiGraph, chargers: set,
     matching the baseline path (_ev_feasible) -- all systems now agree. This
     stays as a redundant check; agreement between the two is the useful signal.
     """
-    from craft.generator.tools.common_handlers import edge_weight
+    from craft.orcstrator.tools.common_handlers import edge_weight
 
     battery = cur_m
     min_batt = battery
@@ -125,7 +125,7 @@ def main() -> None:
 
     print("loading graph + gold + oracle ...", flush=True)
     import geopandas as gpd
-    from craft.generator.tools.common_handlers import resolve_graph_node_id
+    from craft.orcstrator.tools.common_handlers import resolve_graph_node_id
     from evaluation.optimal.ev_oracle import battery_to_meters
 
     G = build_graph_from_gpkg(str(GPKG))

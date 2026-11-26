@@ -33,13 +33,12 @@ from evaluation.evaluate_llm import _write_table
 CRAFT_DIR    = ROOT / "outputs" / "craft"
 QUERIES_DIR  = ROOT / "benchmark" / "socal_queries" / "set1"
 DEFAULT_GPKG = ROOT / "data" / "socal" / "road_network.gpkg"
-DEFAULT_OUT  = ROOT / "outputs" / "craft_results.xlsx"
+DEFAULT_OUT  = ROOT / "results" / "craft_set1.xlsx"
 
 MODELS = [
     "gemini-3_1-flash-lite",
-    "gemini-3_5-flash",
-    "gemini-3_1-pro-preview",
-    "Qwen_Qwen3-32B-AWQ",
+    "gpt-4_1",
+    "openai_gpt-oss-20b",
 ]
 # set1 active templates only (200 each = 1000 total)
 TEMPLATES = ["ev_routing", "ordered_poi", "poi_collection", "ev+ordered_poi", "unordered_poi"]
@@ -84,7 +83,7 @@ def main() -> None:
     if not args.no_sp:
         print("Loading graph + POIs for constraint/objective computation ...")
         import geopandas as gpd
-        from craft.generator.tools.common_handlers import build_graph_from_gpkg
+        from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
         G = build_graph_from_gpkg(args.gpkg)
         pois_gdf = gpd.read_file(args.gpkg, layer="pois")
         snapper = cc.NodeSnapper.from_gpkg(args.gpkg, G)
@@ -140,7 +139,7 @@ def main() -> None:
                 route    = result.get("route") if (isinstance(result, dict) and ran_ok) else None
 
                 core = cc.evaluate_system(nl_query, tmpl, route or [], G, pois_gdf, snapper, caches=caches,
-                                          collected_pois=result.get("collected_pois"))
+                                          stops=result.get("stops"))
                 # Mask out constraint results for runs that never executed
                 if not ran_ok:
                     core = {k: None for k in core}
@@ -148,6 +147,13 @@ def main() -> None:
                 tok = llm_meta.get("tokens") or {}
                 error_stage, error = _craft_error(gen_info, exe_info)
                 solved_correctly = bool(feasible and core.get("constraints_satisfied") is True)
+                # Filters that matched nothing and were abandoned by filtration,
+                # so the stop meets its category but NOT that filter. Diagnostic
+                # only: it must not excuse a failed poi_filters_respected, which
+                # is scored against gold. It separates "no such POI exists" from
+                # "the search picked the wrong POI".
+                _dropped = sorted({f for s in (result.get("stops") or [])
+                                   for f in (s.get("filters_dropped") or [])})
                 row = {
                     "query_id":     qid,
                     "template":     tmpl,
@@ -155,6 +161,8 @@ def main() -> None:
                     "feasible":     feasible,
                     "ran":          ran_ok,
                     "solved_correctly": solved_correctly,
+                    "n_filters_dropped": len(_dropped),
+                    "filters_dropped":   ", ".join(_dropped) if _dropped else None,
                     "generate_ok":  bool(gen_info.get("ok")) if gen_info else False,
                     "execute_ok":   bool(exe_info.get("ok")) if exe_info else False,
                     "error_stage":  error_stage,
@@ -214,6 +222,10 @@ def main() -> None:
         ("execute_ok",  "True if generated.py ran without errors"),
         ("error_stage", "Stage that threw an exception: 'generate', 'execute', or 'none'. Reported separately from feasibility — error_stage='none' with feasible=False means the search ran cleanly but found no route (a genuine infeasible, not an error)."),
         ("error",       "Exception message (last traceback line) from the failing stage; None if no exception occurred"),
+        ("n_filters_dropped", "How many POI filters matched nothing and were abandoned, so the stop meets its "
+                              "category but not that filter. Diagnostic: separates 'no such POI exists' from "
+                              "'the search picked the wrong POI'. Does NOT excuse a failed poi_filters_respected."),
+        ("filters_dropped", "Which filters were abandoned (e.g. 'cuisine=thai', 'description=...'), or blank"),
         ("search_time_ms", "Dijkstra search time in milliseconds (search only — EXCLUDES graph loading)"),
         ("states_expanded", "States popped from the open list and expanded (standard search-effort measure). "
                             "Counts states, not graph nodes — one node recurs with different battery levels. "

@@ -31,7 +31,7 @@ Method (meta-graph over {src, dst, candidate chargers}):
      skip straight to solving with the full charger set (only ~400 nodes,
      cheap) before declaring infeasible.
 
-Does NOT touch dijkstra_core.py / template.py / prompt files / State class.
+Does NOT touch se_rcsp_search.py / template.py / prompt files / State class.
 
 Output: evaluation/optimal/results/ev_routing_oracle.json
 """
@@ -51,7 +51,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import build_graph_from_gpkg
+from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
 from evaluation.constraint_checker import MILES_TO_M, NodeSnapper
 
 GPKG = ROOT / "data" / "socal" / "road_network.gpkg"

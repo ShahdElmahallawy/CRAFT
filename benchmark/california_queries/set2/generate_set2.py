@@ -12,7 +12,6 @@ Usage:
   python benchmark/california_queries/set2/generate_set2.py
 """
 
-import importlib.util
 import json
 import math
 import random
@@ -44,27 +43,65 @@ TARGET_NC_TRUE_FRAC = 0.6
 MAX_ATTEMPTS = 500_000
 
 
-def _load_base_module():
-    """Reuse the dataset-agnostic helpers from the original hand-authored
-    California set2 generator (read-only sibling import, same pattern as
-    scripts/run_llmap.py loading LLMAP's HIPP.py)."""
-    spec = importlib.util.spec_from_file_location(
-        "generate_set2_california",
-        ROOT / "benchmark" / "california_queries" / "set2_long_trips" / "generate_set2_california.py",
-    )
-    mod = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(mod)
-    return mod
+# Geometry and template helpers. These used to be imported from a sibling
+# generator that was later deleted as stale, which left this file unable to run
+# at all; they are small and dataset-agnostic, so they live here now and the
+# generator is self-contained. Copied verbatim — the published queries must
+# reproduce exactly.
+
+KM_TO_MI    = 0.621371
+MI_TO_M     = 1609.344
+ROAD_FACTOR = 1.3  # haversine → road distance multiplier
 
 
-base = _load_base_module()
-haversine_km         = base.haversine_km
-chargers_in_corridor = base.chargers_in_corridor
-parse_templates      = base.parse_templates
-fill                 = base.fill
-KM_TO_MI             = base.KM_TO_MI
-MI_TO_M              = base.MI_TO_M
-ROAD_FACTOR          = base.ROAD_FACTOR
+def haversine_km(lat1, lon1, lat2, lon2):
+    R = 6371.0
+    dlat = math.radians(lat2 - lat1)
+    dlon = math.radians(lon2 - lon1)
+    a = (math.sin(dlat / 2) ** 2
+         + math.cos(math.radians(lat1)) * math.cos(math.radians(lat2))
+         * math.sin(dlon / 2) ** 2)
+    return 2 * R * math.asin(math.sqrt(min(1.0, a)))
+
+
+def point_to_segment_dist_km(px, py, x1, y1, x2, y2):
+    """Approximate perpendicular distance (km) from point to line segment."""
+    dx = x2 - x1; dy = y2 - y1
+    if dx == 0 and dy == 0:
+        return haversine_km(py, px, y1, x1)
+    t = max(0.0, min(1.0, ((px - x1) * dx + (py - y1) * dy) / (dx * dx + dy * dy)))
+    proj_x = x1 + t * dx
+    proj_y = y1 + t * dy
+    return haversine_km(py, px, proj_y, proj_x)
+
+
+def chargers_in_corridor(charging, src_lat, src_lon, dst_lat, dst_lon, radius_km=10.0):
+    return [c for c in charging
+            if c.get("lat") and
+            point_to_segment_dist_km(c["lon"], c["lat"],
+                                     src_lon, src_lat,
+                                     dst_lon, dst_lat) <= radius_km]
+
+
+def parse_templates(path):
+    tmpl = {}
+    for line in path.read_text().splitlines():
+        s = line.strip()
+        if not s or s.startswith("#"):
+            continue
+        if ":" in s:
+            idx_str, text = s.split(":", 1)
+            try:
+                tmpl[int(idx_str.strip())] = text.strip()
+            except ValueError:
+                pass
+    return tmpl
+
+
+def fill(text, **kw):
+    for k, v in kw.items():
+        text = text.replace("{" + k + "}", str(v))
+    return text
 
 
 def load_nodes():

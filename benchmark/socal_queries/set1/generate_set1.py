@@ -13,6 +13,7 @@ Output (one file per template):
   benchmark/socal_queries/set1/ordered_poi.json
   ... (7 files total)
   benchmark/socal_queries/set1/summary.json
+  benchmark/ground_truth/set1_<template>_gold.json   (gold, same run)
 """
 
 import argparse
@@ -30,7 +31,7 @@ ROOT = Path(__file__).resolve().parents[3]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import (
+from craft.orcstrator.tools.common_handlers import (
     build_graph_from_gpkg,
     coerce_node_id,
     compute_shortest_path_length,
@@ -39,13 +40,17 @@ from craft.generator.tools.common_handlers import (
 DATASET       = "socal"
 TEMPLATES_DIR = ROOT / "benchmark" / "templates"
 QUERIES_DIR   = ROOT / "benchmark" / "socal_queries" / "set1"
+GOLD_DIR      = ROOT / "benchmark" / "ground_truth"
 
 KM_TO_MI    = 0.621371
 ROAD_FACTOR = 1.3
 SEED        = 42
 
-# 7 variations per template → 1001 queries total (within [950, 1050] target)
-N_VARIATIONS = 7
+# Target queries PER TEMPLATE FILE (5 files x 200 = 1000 for set1). The
+# template files hold different numbers of variant phrasings (15-30), so a
+# fixed per-variant count gives uneven file totals; the generator cycles the
+# variants until the file hits this number instead.
+QUERIES_PER_TEMPLATE = 200
 
 SRC_DST_MIN_KM = 4.0
 SRC_DST_MAX_KM = 28.0
@@ -72,7 +77,7 @@ TIME_BUDGET_TIERS = [60, 120, 180, 240, 300, 360]
 # Minimum assumed travel time for budget calc (prevents collapse on short trips)
 MIN_TRAVEL_MIN = 20.0
 
-# Difficulty sequence for N_VARIATIONS=7: 2 easy, 3 medium, 2 hard
+# Difficulty sequence, cycled across each file: 2 easy, 3 medium, 2 hard
 DIFFICULTY_CYCLE = ["easy", "medium", "hard", "medium", "easy", "hard", "medium"]
 
 LLMAP_POI_TYPES = {"pharmacy", "bank", "supermarket", "library"}
@@ -375,6 +380,72 @@ def _is_time_budget_template(stem: str) -> bool:
     return stem in _TIME_BUDGET_STEMS
 
 
+# Family constants. These are properties of the template family, not of any one
+# rendered query, so they go straight into gold — there is nothing to recover.
+FAMILY_ORDERED: Dict[str, Optional[bool]] = {
+    "ordered_poi": True, "ev+ordered_poi": True, "ordered+time_budget": True,
+    "unordered_poi": False, "poi_collection": False, "poi_road_pref": False,
+    "ev_routing": None,        # no POI stops at all
+    "ev+time": None,
+}
+FAMILY_OBJECTIVE: Dict[str, str] = {
+    "ev_routing": "minimize_distance",
+    "ordered_poi": "minimize_distance",
+    "ev+ordered_poi": "minimize_distance",
+    "ordered+time_budget": "minimize_distance",
+    "unordered_poi": "minimize_travel_time",
+    "poi_road_pref": "minimize_travel_time",
+    "ev+time": "minimize_travel_time",
+    # variants state both goals; the collection goal is the primary one
+    "poi_collection": "maximize_poi",
+}
+FAMILY_ROAD_PREF: Dict[str, Optional[str]] = {"poi_road_pref": "avoid_highways"}
+
+
+def build_gold(query_id, stem, template, v, needed,
+               src_entry, dst_entry, poi_types, dlims, cat_limits,
+               budget_min, visit_min, max_mi, cur_mi, pct, variant_idx):
+    """The gold record for one query, written in the SAME pass that renders it.
+
+    Every value here is the one that was just substituted into the template, so
+    gold cannot drift from the query text. The previous builder recovered these
+    by regex-inverting the rendered NL — see notes.md.
+
+    A field is null when its placeholder is not in this variant: `needed` is the
+    set of placeholders the template actually uses, so e.g. ev_routing records
+    no time budget even though one was computed.
+    """
+    def used(*names):
+        return any(n in needed for n in names)
+
+    has_legs = used("DISTANCE_LIMIT_MI", "DISTANCE_LIMIT_1_MI",
+                    "DISTANCE_LIMIT_2_MI", "DISTANCE_LIMIT_3_MI")
+    # One stated limit reused for every leg, vs three separately stated ones.
+    shared = has_legs and not used("DISTANCE_LIMIT_2_MI", "DISTANCE_LIMIT_3_MI")
+    n_legs = 1 if shared else min(3, max(1, len(poi_types) + 1))
+
+    return {
+        "query_id": query_id,
+        "template": stem,
+        "template_variant": variant_idx,
+        "src_latlon": [src_entry.get("lat"), src_entry.get("lon")] if used("SRC_NODE") else None,
+        "dst_latlon": [dst_entry.get("lat"), dst_entry.get("lon")] if used("DST_NODE") else None,
+        "poi_types": list(poi_types) or None,
+        "ordered": FAMILY_ORDERED.get(stem),
+        "objective": FAMILY_OBJECTIVE.get(stem),
+        "road_preference": FAMILY_ROAD_PREF.get(stem),
+        "category_limits": (dict(cat_limits) or None) if _is_collection_template(stem) else None,
+        "leg_distance_limits_mi": [float(_mi(d)) for d in dlims[:n_legs]] if has_legs else None,
+        "shared_leg_limit": shared if has_legs else None,
+        "max_battery_mi": float(max_mi) if used("MAX_BATTERY_MI") else None,
+        "current_battery_pct": float(pct) if used("CURRENT_BATTERY_PCT") else None,
+        "current_battery_mi": float(cur_mi) if used("CURRENT_BATTERY_MI") else None,
+        "time_budget_min": int(budget_min) if used("TIME_BUDGET_MIN", "TIME_BUDGET_HOURS") else None,
+        "visit_min": int(visit_min) if used("VISIT_MIN") else None,
+        "poi_filters": None,          # set1 has no attribute/description filters
+    }
+
+
 # Value builder
 
 def build_values(template, poi_catalog, node_catalog, rng,
@@ -447,21 +518,27 @@ def build_values(template, poi_catalog, node_catalog, rng,
     v["TIME_BUDGET_HOURS"] = int(budget_min / 60)
     v["VISIT_MIN"]         = visit_min
 
+    # Everything gold needs, captured here rather than regex-recovered later.
+    gold_inputs = {
+        "needed": needed, "dlims": dlims,
+        "max_mi": max_mi, "cur_mi": cur_mi, "pct": pct,
+    }
+
     return (v, poi_types, dlims_m, cat_limits,
             budget_min, visit_min,
-            max_battery_m, cur_battery_m, pct, difficulty)
+            max_battery_m, cur_battery_m, pct, difficulty, gold_inputs)
 
 
 # Per-file generator
 
 FILE_CONFIG: Dict[str, int] = {
-    "ev_routing":     N_VARIATIONS,
-    "ordered_poi":    N_VARIATIONS,
-    "poi_collection": N_VARIATIONS,
-    "ev+ordered_poi":       N_VARIATIONS,
-    "ev+time":              N_VARIATIONS,
-    "ordered+time_budget":  N_VARIATIONS,
-    "unordered_poi":        N_VARIATIONS,
+    "ev_routing":     QUERIES_PER_TEMPLATE,
+    "ordered_poi":    QUERIES_PER_TEMPLATE,
+    "poi_collection": QUERIES_PER_TEMPLATE,
+    "ev+ordered_poi":       QUERIES_PER_TEMPLATE,
+    "ev+time":              QUERIES_PER_TEMPLATE,
+    "ordered+time_budget":  QUERIES_PER_TEMPLATE,
+    "unordered_poi":        QUERIES_PER_TEMPLATE,
 }
 
 # fail fast at import time if a new FILE_CONFIG stem isn't in any classification set above
@@ -479,6 +556,7 @@ def generate_for_file(file_stem, templates, poi_catalog, node_catalog,
     - Time budget cycles through TIME_BUDGET_TIERS → 60-360 min spread
     """
     queries  = []
+    gold     = []          # written in the same pass, never recovered from text
     is_ev    = _is_ev_template(file_stem)
     is_ord   = _is_ordered_template(file_stem)
     has_dist = _has_distance_limits_template(file_stem)
@@ -488,25 +566,31 @@ def generate_for_file(file_stem, templates, poi_catalog, node_catalog,
 
     # Build a round-robin city sequence for the whole file so each template
     # text gets a different city for each of its n_variations slots.
-    total_slots = len(templates) * n_variations
+    total_slots = n_variations
     city_list   = list(cities)
     rng.shuffle(city_list)
     # Tile the city list to cover all slots
     city_seq = [city_list[i % len(city_list)] for i in range(total_slots)]
     slot_idx = 0  # advances once per successfully generated query
 
-    for t_idx, (tmpl_id, tmpl_text) in enumerate(templates):
-        print(f"  [{t_idx+1}/{len(templates)}] {tmpl_id}", flush=True)
+    # Cycle the variant phrasings until the FILE reaches its target, rather
+    # than giving each variant a fixed quota. Variants that cannot produce a
+    # query for the current city are simply skipped and come round again, so a
+    # hard variant never leaves the file short.
+    target       = n_variations
+    generated    = 0
+    attempts     = 0
+    max_attempts = target * 40
+    used_cities_per_tmpl: Dict[int, set] = {}
+    per_tmpl_count: Dict[int, int] = {}
 
+    while generated < target and attempts < max_attempts:
+        t_idx = attempts % len(templates)
+        tmpl_id, tmpl_text = templates[t_idx]
         required_poi_types = _extract_poi_types(tmpl_text)
+        used_cities_this_tmpl = used_cities_per_tmpl.setdefault(t_idx, set())
 
-        generated = 0
-        attempts  = 0
-        max_attempts = n_variations * 30
-        # Track which cities we've already used for this template to avoid repeats
-        used_cities_this_tmpl: set = set()
-
-        while generated < n_variations and attempts < max_attempts:
+        if True:
             attempts += 1
             try:
                 # Round-robin city assignment
@@ -550,7 +634,7 @@ def generate_for_file(file_stem, templates, poi_catalog, node_catalog,
                 (v, poi_types, dlims_m, cat_limits,
                  budget_min, visit_min,
                  max_battery_m, cur_battery_m, pct,
-                 difficulty) = build_values(
+                 difficulty, gi) = build_values(
                     tmpl_text, city_pois, city_nodes, rng,
                     src_entry, dst_entry,
                     path_m=path_m, path_s=path_s, difficulty=difficulty,
@@ -561,10 +645,21 @@ def generate_for_file(file_stem, templates, poi_catalog, node_catalog,
                 if re.search(r'\{[A-Z0-9_]+\}', nl_query):
                     continue
 
+                per_tmpl_count[t_idx] = per_tmpl_count.get(t_idx, 0) + 1
+                query_id = f"{tmpl_id}_v{per_tmpl_count[t_idx]:02d}"
                 record: Dict[str, Any] = {
-                    "query_id": f"{tmpl_id}_v{generated+1:02d}",
+                    "query_id": query_id,
                     "nl_query": nl_query,
                 }
+
+                # Gold is written here, from the values just substituted in, so
+                # it cannot disagree with the text.
+                gold.append(build_gold(
+                    query_id, file_stem, tmpl_text, v, gi["needed"],
+                    src_entry, dst_entry, poi_types, gi["dlims"], cat_limits,
+                    budget_min, visit_min, gi["max_mi"], gi["cur_mi"], gi["pct"],
+                    t_idx,
+                ))
 
                 queries.append(record)
                 used_cities_this_tmpl.add(city["name"])
@@ -574,7 +669,11 @@ def generate_for_file(file_stem, templates, poi_catalog, node_catalog,
             except Exception:
                 continue
 
-    return queries
+    if len(queries) < target:
+        print(f"  [warn] {file_stem}: only {len(queries)}/{target} queries after "
+              f"{attempts} attempts — the city/POI constraints may be too tight.")
+
+    return queries, gold
 
 
 # Main
@@ -586,7 +685,36 @@ def main():
     parser.add_argument("--seed",      type=int, default=SEED)
     parser.add_argument("--templates", nargs="+", default=None,
                         help="Only regenerate specific template stems.")
+    parser.add_argument("--out-dir", default=None,
+                        help="Where to write queries (default: a dry-run dir; pass "
+                             "the live set1 path plus --force to publish).")
+    parser.add_argument("--gold-dir", default=None,
+                        help="Where to write gold (default: alongside --out-dir).")
+    parser.add_argument("--force", action="store_true",
+                        help="Allow overwriting existing query/gold files.")
     args = parser.parse_args()
+
+    global QUERIES_DIR, GOLD_DIR
+    if args.out_dir:
+        QUERIES_DIR = Path(args.out_dir)
+    GOLD_DIR = Path(args.gold_dir) if args.gold_dir else QUERIES_DIR / "ground_truth"
+
+    # The published benchmark is the thing every result in results/ was measured
+    # against. Regenerating is NOT reproducible onto it — set1 was composed from
+    # set1_city_focused + set1_additions and then partly regenerated, so a fresh
+    # run produces a DIFFERENT, smaller set and would silently invalidate every
+    # published number. Refuse unless the overwrite is explicitly asked for.
+    if not args.force:
+        existing = sorted(p.name for p in QUERIES_DIR.glob("*.json")
+                          if p.stem in FILE_CONFIG)
+        if existing:
+            parser.error(
+                f"{QUERIES_DIR} already holds {len(existing)} query file(s): "
+                f"{', '.join(existing[:3])}{'...' if len(existing) > 3 else ''}\n"
+                "Refusing to overwrite the published benchmark. Either\n"
+                "  --out-dir /tmp/regen      write somewhere else, or\n"
+                "  --force                   overwrite on purpose."
+            )
 
     QUERIES_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -597,7 +725,7 @@ def main():
     print(f"GPKG       : {gpkg}")
     print(f"Templates  : {TEMPLATES_DIR}")
     print(f"Output     : {QUERIES_DIR}")
-    print(f"Variations : {N_VARIATIONS} per template")
+    print(f"Variations : {QUERIES_PER_TEMPLATE} per template")
     print()
 
     # Count planned queries
@@ -640,7 +768,7 @@ def main():
         print(f"\n{file_stem}: {len(templates)} templates × {n_var} variations")
 
         t0 = time.time()
-        queries = generate_for_file(
+        queries, gold = generate_for_file(
             file_stem, templates, poi_catalog, node_catalog,
             G, rng, cities, n_variations=n_var,
         )
@@ -649,6 +777,15 @@ def main():
 
         out_path = QUERIES_DIR / f"{file_stem}.json"
         out_path.write_text(json.dumps(queries, indent=2, ensure_ascii=False))
+
+        # Gold goes out with the queries, from the same values, in the same run.
+        GOLD_DIR.mkdir(parents=True, exist_ok=True)
+        gold_path = GOLD_DIR / f"set1_{file_stem}_gold.json"
+        gold_path.write_text(json.dumps(gold, indent=2, ensure_ascii=False))
+        try:
+            print(f"  → gold: {gold_path.relative_to(ROOT)}")
+        except ValueError:
+            print(f"  → gold: {gold_path}")
 
         summary[file_stem] = {"templates": len(templates), "queries": len(queries)}
         total += len(queries)

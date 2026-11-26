@@ -18,7 +18,7 @@ COLLECTED_DIR = OUTPUTS_DIR / "parser_outputs"
 MODELS = ["gemini-3_1-flash-lite", "gpt-4_1", "openai_gpt-oss-20b"]
 
 # Step-1 (parse) stages its result here, BEFORE the generate subprocess runs:
-# craft/orchestrator.py::run_parser() writes {scratch_id}.json directly. The
+# craft/pipeline.py::run_parser() writes {scratch_id}.json directly. The
 # final craft record's own `parser_output` field is instead re-read from a
 # SEPARATE copy that the generate subprocess writes — so whenever generate
 # crashes before writing that copy, the record's parser_output is null even

@@ -1,0 +1,3 @@
+Published tables land here (the exporters' default --out). Raw per-query JSON
+goes to outputs/ instead. Kept in the repo so a fresh clone has somewhere to
+write before anything has run.

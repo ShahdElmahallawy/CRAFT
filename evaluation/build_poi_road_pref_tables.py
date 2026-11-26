@@ -204,6 +204,7 @@ def main() -> None:
     ws_p.append(["- Correct (<=ref) uses no more highway than the preference-weighted shortest path through the same stops (within 0.1mi) — the strict bar. road_preference_met (OLD weak bar) only requires beating the no-preference baseline, which nearly always succeeds."])
 
     wb.move_sheet("Paper Tables", offset=-2)
+    Path(args.out).parent.mkdir(parents=True, exist_ok=True)
     wb.save(args.out)
     print("saved", args.out)
 

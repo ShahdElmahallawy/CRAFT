@@ -45,7 +45,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import build_graph_from_gpkg, coerce_node_id, edge_weight
+from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg, coerce_node_id, edge_weight
 from evaluation.constraint_checker import NodeSnapper, coerce, compute_system_objective
 from evaluation.optimal.ev_oracle import (
     GOLD_PATH, GPKG, battery_to_meters, load_leg_matrix, solve_query,

@@ -64,7 +64,7 @@ ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import (
+from craft.orcstrator.tools.common_handlers import (
     build_poi_type_nodes,
     resolve_graph_node_id,
 )
@@ -526,7 +526,7 @@ def parse_road_preference(nl: str) -> Optional[str]:
 
 
 # Major-road classes, matching the generator's road_attribute_schema note
-# (craft/generator/agent.py) — kept in sync manually since there is no
+# (craft/orcstrator/agent.py) — kept in sync manually since there is no
 # single shared source of truth for this set yet.
 _HIGHWAY_TYPES = {"motorway", "motorway_link", "trunk", "trunk_link", "primary", "primary_link"}
 
@@ -1071,7 +1071,7 @@ def score_collection(
     route: List[Any],
     category_limits: Dict[str, int],
     type_nodes: Dict[str, Set[Any]],
-    collected_pois: Optional[List[Dict[str, Any]]] = None,
+    stops: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
     """
     Score a maximize_poi / poi_collection route's category collection.
@@ -1094,13 +1094,13 @@ def score_collection(
     MULTIPLE requested categories is genuine, harmless ambiguity — it IS a
     real collected POI, just not attributable to one category, so it counts
     toward num_collection_visits but not any specific category's count, and
-    does NOT fail this check. The two are distinguished by collected_pois'
+    does NOT fail this check. The two are distinguished by stops'
     own `ambiguous_candidates` list: empty => no match (invalid); non-empty
-    => real ambiguity between candidates. (craft/generator/tools/
-    template.py::_derive_collected_pois already encodes this distinction —
+    => real ambiguity between candidates. (craft/orcstrator/tools/
+    template.py::_derive_stops already encodes this distinction —
     the bug was only that no consumer checked the list length.)
 
-    When collected_pois is given (craft's own recorded collection
+    When stops is given (craft's own recorded collection
     decisions) it is authoritative. Otherwise falls back to geometric
     route/POI-location overlap, capping each category's count at its limit
     during the scan so an incidental pass-by of an already-full category
@@ -1108,15 +1108,15 @@ def score_collection(
     search deliberately stopped here" from "the route happens to drive past
     another same-category POI it never intended to collect" — it is a guess,
     not ground truth, and never fails category_membership_valid (only a
-    recorded collected_pois entry can).
+    recorded stops entry can).
     """
     counts: Dict[str, int] = {c: 0 for c in category_limits}
     visited: Set[Any] = set()
     n_ambiguous = 0
     n_invalid = 0
 
-    if collected_pois is not None:
-        for entry in collected_pois:
+    if stops is not None:
+        for entry in stops:
             node = entry.get("node_id")
             if node in visited:
                 continue
@@ -1150,11 +1150,11 @@ def score_collection(
 def _system_checks(
     route: List[Any], params: Dict[str, Any], G: nx.MultiDiGraph,
     type_nodes: Dict[str, Set[Any]], charger_nodes: Set[Any],
-    template: str = "", collected_pois: Optional[List[Dict[str, Any]]] = None,
+    template: str = "", stops: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
     """Cache-based reimplementation of evaluation.metrics.check_constraints
     (identical logic, no per-query POI-table scan). Returns the same raw keys.
-    collected_pois (maximize_poi only): the search's own recorded collection
+    stops (maximize_poi only): the search's own recorded collection
     decisions — see score_collection() above for why this makes the
     collection checks authoritative instead of a geometric guess."""
     out: Dict[str, Any] = {}
@@ -1209,6 +1209,11 @@ def _system_checks(
             # Any-order scan: at each route position, check if node matches any
             # remaining unvisited type. Necessary for unordered_poi where the
             # Dijkstra may visit POIs in a different order than poi_types lists them.
+            # Bijective, same as the ordered branch below: each route node can
+            # satisfy at most one type-slot (it's removed from `remaining` once
+            # matched), so a single node that happens to carry TWO required
+            # types (two distinct real POIs that resolved to the same nearest
+            # graph node) can't be double-counted as satisfying both.
             remaining = list(range(len(poi_types)))
             for pos, node in enumerate(route):
                 for ri in range(len(remaining)):
@@ -1217,12 +1222,28 @@ def _system_checks(
                         remaining.pop(ri)
                         poi_idx += 1
                         break
+            # Deliberately NOT "ordered_*" — this scan is order-agnostic (any
+            # type may match at any position). Keep it a separate key from
+            # ordered_all_pois_visited below, which IS order-sensitive, so a
+            # future reader can't mistake one check for the other.
+            out["unordered_all_types_matched"] = poi_idx == len(poi_types)
         else:
             for pos, node in enumerate(route):
                 if poi_idx < len(poi_types) and node in type_nodes.get(poi_types[poi_idx], set()):
                     poi_stop_positions.append(pos)
                     poi_idx += 1
-        out["ordered_all_pois_visited"] = poi_idx == len(poi_types)
+            out["ordered_all_pois_visited"] = poi_idx == len(poi_types)
+
+        # Per-type presence anywhere on the route (not bijective — a single
+        # node that is the nearest-graph-node for two distinct required
+        # categories credits BOTH, matching what the generated search code
+        # itself does in its own visited-types bookkeeping: it checks every
+        # remaining type against the current node with no early break, so
+        # one shared node can satisfy two type-slots in a single step. Used
+        # for unordered_poi/poi_road_pref's poi_type_match (see below) —
+        # deliberately NOT unordered_all_types_matched's bijective count,
+        # which only answers "how many DISTINCT stop nodes", a different
+        # question from "were all required types satisfied".
         found = sum(1 for t in poi_types if type_nodes.get(t, set()) & route_set)
         out["ordered_type_coverage"] = round(found / len(poi_types), 4)
 
@@ -1250,7 +1271,7 @@ def _system_checks(
     cat_limits: Dict[str, int] = params.get("category_limits", {}) or {}
     collection_counts: Dict[str, int] = {}
     if cat_limits:
-        sc = score_collection(route, cat_limits, type_nodes, collected_pois=collected_pois)
+        sc = score_collection(route, cat_limits, type_nodes, stops=stops)
         collection_counts = sc["counts"]
         total_req = sum(int(v) for v in cat_limits.values())
         total_col = sum(collection_counts.values())
@@ -1266,7 +1287,7 @@ def _system_checks(
             # charge each category's own LLMAP dwell time directly, instead of
             # _category_visit_total_s's geometric re-derivation, which could
             # assign a node to a different category than what was actually
-            # counted (or than what collected_pois itself recorded).
+            # counted (or than what stops itself recorded).
             visit_total_s = sum(
                 collection_counts[c] * LLMAP_VISIT_SEC.get(c, LLMAP_VISIT_DEFAULT_SEC)
                 for c in collection_counts
@@ -1616,7 +1637,7 @@ def evaluate_system(
     pois_gdf,
     snapper: Optional[NodeSnapper],
     caches: Optional[Tuple[Dict[str, Set[Any]], Set[Any]]] = None,
-    collected_pois: Optional[List[Dict[str, Any]]] = None,
+    stops: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
     """
     Score one Craft route (full ordered node list) against the template's
@@ -1627,8 +1648,8 @@ def evaluate_system(
     doesn't rescan the 600k-row POI table per query. Pass caches from
     build_poi_caches(G, pois_gdf); if None it is built once here from pois_gdf.
 
-    collected_pois (maximize_poi / poi_collection only, optional): the
-    record's own result.collected_pois — see score_collection() for why this
+    stops (maximize_poi / poi_collection only, optional): the
+    record's own result.stops — see score_collection() for why this
     makes the collection checks authoritative instead of a geometric guess.
     """
     active = TEMPLATE_CHECKS.get(template, set())
@@ -1681,7 +1702,7 @@ def evaluate_system(
 
         try:
             raw = _system_checks(route, params, G, type_nodes, charger_nodes, template=template,
-                                 collected_pois=collected_pois)
+                                 stops=stops)
         except Exception:
             raw = {}
 
@@ -1697,7 +1718,18 @@ def evaluate_system(
 
         if "poi_type_match" in active:
             # Ordered templates: sequence check (match baseline behaviour where
-            # poi_type_match == poi_order). Unordered: set check (all types anywhere).
+            # poi_type_match == poi_order). Unordered: per-type coverage check
+            # (each required type present anywhere on the route — NOT
+            # bijective). Deliberately matches the generated search code's own
+            # semantics: its visited-types bookkeeping checks every remaining
+            # type against the current node with no early break, so one node
+            # that is the nearest-graph-node for two distinct required
+            # categories (e.g. a bank and a library resolving to the same
+            # intersection) satisfies both from a single stop — confirmed by
+            # reading a generated expand() body. A stricter bijective version
+            # was tried 2026-11-08 and reverted 2026-11-10: it disagreed with
+            # what the generated code itself does, not just with a looser
+            # evaluator check. See CLAUDE.md.
             if template in _ORDERED_TEMPLATES:
                 checks["poi_type_match"] = _b(raw.get("ordered_all_pois_visited"))
             else:
@@ -2129,7 +2161,26 @@ def evaluate_hipp_baseline(
 
 SET3_META_PATH        = ROOT / "benchmark" / "socal_queries" / "set3_descriptions" / "set3_meta.json"
 SET3_QUERY_EMBED_PATH = ROOT / "data" / "socal" / "set3_query_embeddings.json"
-SET3_POI_EMBED_PATH   = ROOT / "data" / "socal" / "poi_embeddings.json"
+
+
+def _set3_poi_embed_path() -> Path:
+    """The POI embedding cache the live filter is using.
+
+    Derived from the filter's own DEFAULT_EMBED_MODEL rather than named here, so
+    the scorer cannot drift onto a retired cache. It did: the filter moved to
+    text-embedding-3-small (poi_embeddings_text-embedding-3-small.json) while
+    this constant still pointed at the gemini-embedding-001 file, which would
+    have scored stop descriptions against vectors from a different model than
+    selected them.
+    """
+    try:
+        from craft.orcstrator.tools.poi_embeddings import embedding_cache_path
+        return embedding_cache_path(ROOT / "data" / "socal")
+    except Exception:
+        return ROOT / "data" / "socal" / "poi_embeddings.json"
+
+
+SET3_POI_EMBED_PATH   = _set3_poi_embed_path()
 
 SET3_TEMPLATE = "ordered+desc"
 
@@ -2139,7 +2190,7 @@ SET3_TEMPLATE = "ordered+desc"
 # every set3 stop silently fails to match — same trap as HIPP_POI_TYPES.
 SET3_POI_TYPES = ["restaurant", "cafe", "park", "museum", "attraction"]
 
-# Both MUST match craft/generator/tools/filtration.py exactly (its sim_threshold
+# Both MUST match craft/orcstrator/tools/filtration.py exactly (its sim_threshold
 # default and the model the runtime poi_embeddings cache was built with). If
 # filtration's threshold moves, this moves with it or the check stops describing
 # what the search actually did.
@@ -2178,15 +2229,15 @@ def load_set3_gold(meta_path: Path = SET3_META_PATH) -> Dict[str, Dict[str, Any]
     return {r["query_id"]: r for r in json.loads(meta_path.read_text(encoding="utf-8"))}
 
 
-def _set3_gold_filter_pairs(gold_records: Sequence[Dict[str, Any]]) -> Set[Tuple[str, str]]:
-    """Distinct (column, value) structured filter pairs across all gold records —
-    ~20 of them, vs 414 stops, so the node sets are built once per pair."""
-    pairs: Set[Tuple[str, str]] = set()
+def _set3_gold_filter_triples(gold_records: Sequence[Dict[str, Any]]) -> Set[Tuple[str, str, str]]:
+    """Distinct (category, column, value) structured filters across all gold records —
+    ~20 of them, vs 414 stops, so the node sets are built once per filter."""
+    out: Set[Tuple[str, str, str]] = set()
     for rec in gold_records:
         for stop in rec.get("stops") or []:
             if stop.get("filter_kind") == "structured" and stop.get("column"):
-                pairs.add((str(stop["column"]), str(stop.get("value"))))
-    return pairs
+                out.add((normalize_type(stop.get("poi_type")), str(stop["column"]), str(stop.get("value"))))
+    return out
 
 
 def build_set3_filter_cache(
@@ -2196,13 +2247,17 @@ def build_set3_filter_cache(
 ) -> Dict[str, Any]:
     """Build ONCE per export (like build_hipp_rating_cache). Returns:
 
-      {"structured": {(column, value): set(node_id)},
+      {"structured": {(category, column, value): set(node_id)},
        "node_rows":  {node_id: [pois_gdf index, ...]},   # embedded rows only
        "poi_embeddings": {df_index: vector}}
 
-    `structured` uses the EXACT rule filtration.py:111-117 applies at run time
+    `structured` uses the EXACT rule filtration.py applies at run time
     (case-insensitive substring, regex off) so a stop is scored by the same
-    predicate that selected it.
+    predicate that selected it — including the per-POI conjunction: a node
+    qualifies only through a POI row that is BOTH of the stop's category AND
+    carries the value. Keying by (column, value) alone let a plain restaurant
+    and a separate takeaway=yes POI that happen to share a graph node pass as
+    "a restaurant that offers takeout".
 
     `node_rows` is restricted to rows present in the POI embedding cache (~1.5k
     of 627k), which is all the description check can ever look at.
@@ -2212,23 +2267,35 @@ def build_set3_filter_cache(
     The HIPP version of this mistake cost >20 minutes across ~100 queries
     (see _hipp_type_nodes_for_gold).
     """
-    from craft.generator.tools.poi_embeddings import load_embedding_cache
+    from craft.orcstrator.tools.poi_embeddings import load_embedding_cache
 
-    structured: Dict[Tuple[str, str], Set[Any]] = {}
-    for col, val in _set3_gold_filter_pairs(gold_records):
+    import sys as _sys
+    _tools = str(ROOT / "craft" / "orcstrator" / "tools")
+    if _tools not in _sys.path:  # filtration does a flat `from poi_embeddings import ...`
+        _sys.path.append(_tools)
+    from craft.orcstrator.tools.filtration import _category_rows
+
+    structured: Dict[Tuple[str, str, str], Set[Any]] = {}
+    cat_rows_cache: Dict[str, Set[Any]] = {}
+    for cat, col, val in _set3_gold_filter_triples(gold_records):
         nodes: Set[Any] = set()
         if col in pois_gdf.columns and node_col in pois_gdf.columns:
+            if cat not in cat_rows_cache:
+                cat_rows_cache[cat] = _category_rows(pois_gdf, cat)
             mask = (
                 pois_gdf[col]
                 .astype(str)
                 .str.lower()
                 .str.contains(str(val).lower(), na=False, regex=False)
             )
-            for raw in pois_gdf[mask][node_col].dropna():
+            # Intersect on the ROW, not the node: the same POI row must carry
+            # both the category and the value.
+            rows = set(pois_gdf.index[mask]) & cat_rows_cache[cat]
+            for raw in pois_gdf.loc[sorted(rows), node_col].dropna():
                 nid = resolve_graph_node_id(G, raw)
                 if nid is not None:
                     nodes.add(nid)
-        structured[(col, val)] = nodes
+        structured[(cat, col, val)] = nodes
 
     poi_embeddings = load_embedding_cache(str(poi_embed_path))
     node_rows: Dict[Any, List[int]] = {}
@@ -2282,7 +2349,7 @@ def build_set3_query_embeddings(
     wanted = _set3_gold_query_texts(gold_records)
     missing = [t for t in wanted if t not in cache]
     if missing and api_key:
-        from craft.generator.tools.poi_embeddings import embed_text
+        from craft.orcstrator.tools.poi_embeddings import embed_text
         for text in missing:
             try:
                 cache[text] = embed_text(text, api_key, model=model, base_url=base_url)
@@ -2322,7 +2389,7 @@ def _set3_narrow_by_filter(
     fallback (filtration.py:124-131 / 158-161): a filter that narrows to nothing
     is dropped and the broader set kept, so the reconstruction lands on the same
     candidate set the search actually had."""
-    from craft.generator.tools.poi_embeddings import cosine_sim
+    from craft.orcstrator.tools.poi_embeddings import cosine_sim
 
     structured = filter_cache.get("structured") or {}
     node_rows = filter_cache.get("node_rows") or {}
@@ -2333,7 +2400,7 @@ def _set3_narrow_by_filter(
         if col == "description":
             desc_filter = val
             continue
-        key = (str(col), str(val))
+        key = (normalize_type(category), str(col), str(val))
         col_nodes = structured.get(key)
         if col_nodes is None:
             # Not a gold pair — compute nothing rather than scan the POI table
@@ -2439,7 +2506,7 @@ def _set3_stop_filter_ok(
     qualifies — the same "max over the node's rows" rule the cosine used."""
     kind = stop.get("filter_kind")
     if kind == "structured":
-        key = (str(stop.get("column")), str(stop.get("value")))
+        key = (normalize_type(stop.get("poi_type")), str(stop.get("column")), str(stop.get("value")))
         nodes = (filter_cache.get("structured") or {}).get(key)
         if nodes is None:
             return None
@@ -2473,7 +2540,7 @@ def _set3_stop_filter_ok(
                   f"filters fall back to cosine>={SET3_SIM_THRESHOLD}, which is self-confirming "
                   f"against a 0.50+LLM filter. Build the labels for a real measurement.")
             _SET3_DESC_LABELS_WARNED = True
-        from craft.generator.tools.poi_embeddings import cosine_sim
+        from craft.orcstrator.tools.poi_embeddings import cosine_sim
         qvec = query_embeddings.get(f"{stop.get('poi_type')}: {phrase}")
         if not qvec:
             return None

@@ -32,7 +32,7 @@ from evaluation.evaluate_llm import _write_table
 
 CRAFTHIPP_DIR = ROOT / "outputs" / "crafthipp"
 DEFAULT_GPKG  = ROOT / "data" / "socal" / "road_network.gpkg"
-DEFAULT_OUT   = ROOT / "outputs" / "craft_hipp_results.xlsx"
+DEFAULT_OUT   = ROOT / "results" / "craft_hipp.xlsx"
 
 MODELS = [
     "gemini-3_1-flash-lite",
@@ -86,7 +86,7 @@ def main() -> None:
     if not args.no_sp:
         print("Loading graph + POIs for constraint/objective computation ...")
         import geopandas as gpd
-        from craft.generator.tools.common_handlers import build_graph_from_gpkg
+        from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
         G = build_graph_from_gpkg(args.gpkg)
         pois_gdf = gpd.read_file(args.gpkg, layer="pois")
         snapper = cc.NodeSnapper.from_gpkg(args.gpkg, G)

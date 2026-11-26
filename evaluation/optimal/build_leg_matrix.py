@@ -5,7 +5,7 @@ time in seconds) between every POI/charger candidate node the oracle solvers
 need, computed via full single-source Dijkstra from each candidate node on
 the real SoCal road network.
 
-Does NOT touch craft/generator/tools/dijkstra_core.py, template.py, any
+Does NOT touch craft/se_rcsp_solver/se_rcsp_search.py, template.py, any
 prompt file, or the State class — this is a standalone precompute script
 unrelated to CRAFT's own search engine.
 
@@ -54,7 +54,7 @@ ROOT = Path(__file__).resolve().parents[2]
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
 
-from craft.generator.tools.common_handlers import (
+from craft.orcstrator.tools.common_handlers import (
     CATEGORY_COLS,
     build_graph_from_gpkg,
     poi_categories,

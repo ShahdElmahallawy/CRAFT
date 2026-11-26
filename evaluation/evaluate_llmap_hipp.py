@@ -29,7 +29,7 @@ import evaluation.constraint_checker as cc
 from evaluation.evaluate_llm import _write_table
 
 BASELINE_DIR = ROOT / "outputs" / "llmap"
-DEFAULT_OUT  = ROOT / "outputs" / "llmap_hipp_results.xlsx"
+DEFAULT_OUT  = ROOT / "results" / "llmap_hipp.xlsx"
 DEFAULT_GPKG = ROOT / "data" / "socal" / "road_network.gpkg"
 
 MODELS = [
@@ -61,7 +61,7 @@ def main() -> None:
     if not args.no_sp:
         print("Loading graph and POIs ...")
         import geopandas as gpd
-        from craft.generator.tools.common_handlers import build_graph_from_gpkg
+        from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
         G = build_graph_from_gpkg(args.gpkg)
         pois_gdf = gpd.read_file(args.gpkg, layer="pois")
         snapper = cc.NodeSnapper.from_gpkg(args.gpkg, G)

@@ -27,14 +27,13 @@ from evaluation.evaluate_llm import _write_table
 
 BASELINE_DIR = ROOT / "outputs" / "llmap"
 QUERIES_DIR  = ROOT / "benchmark" / "socal_queries" / "set1"
-DEFAULT_OUT  = ROOT / "outputs" / "llmap_results.xlsx"
+DEFAULT_OUT  = ROOT / "results" / "llmap_set1.xlsx"
 DEFAULT_GPKG = ROOT / "data" / "socal" / "road_network.gpkg"
 
 MODELS = [
     "gemini-3_1-flash-lite",
-    "gemini-3_5-flash",
-    "gemini-3_1-pro-preview",
-    "Qwen_Qwen3-32B-AWQ",
+    "gpt-4_1",
+    "openai_gpt-oss-20b",
 ]
 TEMPLATES = list(cc.TEMPLATES)
 
@@ -64,7 +63,7 @@ def main() -> None:
     snapper = None
     if not args.no_sp:
         print("Loading graph and node index ...")
-        from craft.generator.tools.common_handlers import build_graph_from_gpkg
+        from craft.orcstrator.tools.common_handlers import build_graph_from_gpkg
         G = build_graph_from_gpkg(args.gpkg)
         snapper = cc.NodeSnapper.from_gpkg(args.gpkg, G)
         print(f"  {G.number_of_nodes()} nodes, {G.number_of_edges()} edges")

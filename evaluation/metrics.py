@@ -26,7 +26,7 @@ if str(ROOT) not in sys.path:
 import networkx as nx
 import geopandas as gpd
 
-from craft.generator.tools.common_handlers import (
+from craft.orcstrator.tools.common_handlers import (
     build_poi_type_nodes,
     edge_weight,
     resolve_graph_node_id,
@@ -68,7 +68,7 @@ def check_constraints(
     input_params: Dict[str, Any],
     G: nx.MultiDiGraph,
     pois_gdf: gpd.GeoDataFrame,
-    collected_pois: Optional[List[Dict[str, Any]]] = None,
+    stops: Optional[List[Dict[str, Any]]] = None,
 ) -> Dict[str, Any]:
     """
     Evaluate all applicable constraints for a route given the query input.
@@ -76,19 +76,19 @@ def check_constraints(
     Returns a dict of {check_name: bool | float}.
     Which checks are included depends on what fields are in input_params.
 
-    collected_pois (maximize_poi only, optional): the search's own (node,
+    stops (maximize_poi only, optional): the search's own (node,
     category) collection decisions along its winning path -- see
-    craft/generator/tools/template.py::_derive_collected_pois. When present,
+    craft/se_rcsp_solver/template.py::_derive_stops. When present,
     the Collection section below uses THIS directly instead of re-deriving
     counts from route/POI-location overlap. That re-derivation can't tell "the
     search deliberately stopped here" from "the route happens to drive past
-    another same-category POI it never intended to collect" -- collected_pois
+    another same-category POI it never intended to collect" -- stops
     is the search's actual decision, not a geometric guess.
     """
     checks: Dict[str, Any] = {}
     # Coerce all route node IDs to the canonical graph type so set membership
     # works regardless of whether nodes are stored as str or int.
-    from craft.generator.tools.common_handlers import coerce_node_id as _coerce
+    from craft.orcstrator.tools.common_handlers import coerce_node_id as _coerce
     route = [_coerce(G, str(n)) or n for n in route]
     route_set = set(route)
 
@@ -198,11 +198,11 @@ def check_constraints(
     num_collection_visits = 0
     if category_limits:
         type_nodes_for_collection = (
-            {} if collected_pois is not None else
+            {} if stops is not None else
             build_poi_type_nodes(G, pois_gdf, list(category_limits.keys()), "nearest_node_osmid")
         )
         sc = score_collection(route, category_limits, type_nodes_for_collection,
-                              collected_pois=collected_pois)
+                              stops=stops)
         counts = sc["counts"]
         visited = sc["visited"]
         num_collection_visits = sc["num_collection_visits"]
@@ -296,7 +296,7 @@ def compute_metrics(
         }
 
     checks = check_constraints(route, input_params, G, pois_gdf,
-                                collected_pois=output.get("collected_pois"))
+                                stops=output.get("stops"))
 
     if checks:
         cs = sum(float(v) for v in checks.values()) / len(checks)
