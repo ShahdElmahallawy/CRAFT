@@ -2,7 +2,7 @@
 
 **Constrained Route planning with Adaptive Framework and Template-based code generation**
 
-Shahd Elmahallawy, Ahmed Eldawy — University of California, Riverside. Under-review [paper (pre-print)](https://arxiv.org/pdf/2611.25128)
+Shahd Elmahallawy, Ahmed Eldawy — University of California, Riverside. Under-review [arXiv](https://arxiv.org/pdf/2611.25128)
 
 Everyday routing requests are rarely a point-to-point shortest path. A driver
 may need to visit stops, sometimes in a fixed order, under a time budget or
@@ -125,28 +125,7 @@ refuse to overwrite the published queries unless given `--force`.
 ## Data
 
 `data/` is not in git. Download it and place it at `data/socal/`.
-
-**Required** — nothing runs without these three:
-
-| File | Why |
-|---|---|
-| `road_network.gpkg` | The road graph and the POIs on it (~460MB) |
-| `schema.json` | Tells the LLM which POI attributes and road classes exist |
-| `catalog_pois.json` | The category list the Spec Builder grounds against |
-
-**Optional**, each needed only for one thing:
-
-| File | Needed for |
-|---|---|
-| `cities.json`, `catalog_nodes.json`, `catalog_charging.json` | Regenerating query sets. Not read at run time |
-| `set3_query_embeddings.json` | Scoring the description-filter queries |
-| `poi_embeddings_text-embedding-3-small.json` (~2.6GB) | *Running* the description filter |
-| `catalog_count.json` | One diagnostic script |
-| `schema_hipp.json` | The LLMAP benchmark. Not a download — build it with `python craft_hipp/build_schema.py` |
-| `data/california/` (~2.7GB) | The statewide long-trip queries |
-
-Ground truth and the optimal-reference results already ship with the code, so
-scoring an existing run needs no extra download.
+[Download from here.]([https://arxiv.org/pdf/2611.25128](https://drive.google.com/drive/u/0/folders/1EHU_bB0UN9It6M3T0dTQRi080L15cZiE)) 
 
 ## Running
 
