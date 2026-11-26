@@ -2,8 +2,7 @@
 
 **Constrained Route planning with Adaptive Framework and Template-based code generation**
 
-Shahd Elmahallawy, Ahmed Eldawy — University of California, Riverside
-*PVLDB 20(X), 2027* · [paper (pre-print)](https://arxiv.org/pdf/2611.25128)
+Shahd Elmahallawy, Ahmed Eldawy — University of California, Riverside. Under-review [paper (pre-print)](https://arxiv.org/pdf/2611.25128)
 
 Everyday routing requests are rarely a point-to-point shortest path. A driver
 may need to visit stops, sometimes in a fixed order, under a time budget or
