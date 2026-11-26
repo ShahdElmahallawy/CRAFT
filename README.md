@@ -213,23 +213,3 @@ others route by model name.
 - `baselines/LLMAP/` — LLMAP (Yuan et al., EMNLP Findings 2025,
   arXiv:2509.12273), vendored unmodified under its original MIT license. Treat
   as read-only.
-
-## Citation
-
-```bibtex
-@article{elmahallawy2027craft,
-  author  = {Elmahallawy, Shahd and Eldawy, Ahmed},
-  title   = {{CRAFT}: Constrained Route Planning with Adaptive Framework
-             and Template-based Code Generation},
-  journal = {Proceedings of the VLDB Endowment},
-  volume  = {20},
-  number  = {X},
-  pages   = {XXX--XXX},
-  year    = {2027}
-}
-```
-
-## License
-
-Not yet chosen — add a LICENSE file before making this public. `baselines/LLMAP/`
-keeps its original MIT license either way; see `baselines/LLMAP/LICENSE`.
